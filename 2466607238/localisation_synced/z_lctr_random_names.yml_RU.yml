@@ -1,0 +1,5 @@
+﻿l_russian:
+
+#_矩阵争夺战
+ z_lctr_wn_war_for_relic_1: "Война на истощение (или с) $z_lctr_r_adv_sensor$"
+ z_lctr_wn_war_for_relic_2: "Война с целью захвата (Спор о собственности) $z_lctr_r_adv_sensor$"

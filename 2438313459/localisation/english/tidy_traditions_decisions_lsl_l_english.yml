@@ -1,0 +1,44 @@
+﻿l_english:
+
+ decision_defense_overload:0 "Start defense overload"
+ decision_defense_overload_desc:0 "Deploy global energy, focus on fortifications, and fully defend against foreign enemies!"
+
+ decision_remove_defense_overload:0 "Turn off defense overload"
+ decision_remove_defense_overload_desc:0 "Turn off defense overload and restore global energy production."
+
+ defense_overload:0 "defense overload"
+ defense_overload_desc:0 "The power system of this planet has been concentrated on the defense system to defend against foreign enemies."
+
+ d_natural_reserve:0 "Natural Reserve"
+ d_natural_reserve_desc:0"A nature reserve with a complete and independent ecosystem has been established here. The scenery is beautiful and the scenery is pleasant. It can not only bring people infinite comfort, but also provide a certain amount of "food", and it can also be used by scientific researchers to study ecology. ."
+
+ decision_natural_reserve:0 "Establish a natural reserve"
+ decision_natural_reserve_desc:0 "It is necessary to establish an ecological zone that is not disturbed by the outside world and can operate independently. I believe it can bring a lot of benefits."
+
+ decision_remove_natural_reserve:0 "Remove Natural Reserve"
+ decision_remove_natural_reserve_desc:0 "This planet no longer needs a nature reserve. It turns out that it will hinder industrial development."
+
+ decision_guide_gently:0 "Teaching in a good way"
+ decision_guide_gently_desc:0 "Only we can ensure the sustainable development of indigenous civilizations and distribute large amounts of materials and special personnel to teach them."
+
+ decision_ideological_education:0 "ideological teaching"
+ decision_ideological_education_desc:0 "We can make these people who have lost their motherland play more value, but first we have to distribute materials and special personnel to teach them ideas and other tasks."
+
+ decision_tt_revival_cohesion:0 "Concentrate Heart and Strength"
+ decision_tt_revival_cohesion_desc:0 "Water can carry and overturn the boat. Caring for what the people really need is the most basic function of a good country."
+ decision_tt_revival_cohesion_machine:0 "Concentrate Heart and Strength"
+ decision_tt_revival_cohesion_machine_desc:0 "Giving more care to the sub-individuals in many ways can greatly improve the stability of their connection with the main brain and indirectly increase the overall productivity."
+ decision_tt_revival_cohesion_hive:0 "Concentrate Heart and Strength"
+ decision_tt_revival_cohesion_hive_desc:0 "Giving more care to sub-individuals in many ways can greatly improve the stability of their link with the main nest and indirectly increase overall productivity."
+
+ decision_cancel_tt_revival_cohesion:0 "Remove Concentration Heart and Strength"
+ decision_cancel_tt_revival_cohesion:0 "Maintaining high output is very difficult, and it will be buffered after a short pause."
+ decision_cancel_tt_revival_cohesion_machine:0 "Remove Concentration Heart and Strength"
+ decision_cancel_tt_revival_cohesion_machine_desc:0 "It is already difficult for us to give more care to our children, and we have to stop this mode."
+ decision_cancel_tt_revival_cohesion_hive:0 "Remove Concentration Heart and Strength"
+ decision_cancel_tt_revival_cohesion_hive_desc:0 "It is already difficult for us to give more care to our children, and we have to stop this mode."
+
+ focus_on_what_the_people_want:0 "Concentrate Heart and Strength"
+ focus_on_what_the_people_want_desc:0 "Water can carry and overturn a boat. Caring for what the people really need is the most basic function of a good country."
+ focus_on_humanistic_concern:0 "Concentrate Heart and Strength"
+ focus_on_humanistic_concern_desc:0 "Giving child individuals more care in many ways can greatly improve the stability of their connection with the main brain and indirectly increase overall productivity."

@@ -1,0 +1,206 @@
+﻿l_simp_chinese:
+#_[面板]
+#_[第一次产业革命]
+#_[扩大化]
+#_[集成化]
+#_[科技树]
+
+
+
+
+###_[面板]
+ z_pr_title_ap: "飞升科技树"
+ z_pr_title_setting: "设置菜单"
+
+
+
+
+###_[第一次产业革命]   区划地块/AP1/AP1建筑/AP1区划/AP1区划_多样化  #############################################
+##_[区划地块]
+ z_pr_d_dstr_exp_1:0 "$z_pr$：地缘优势"
+ z_pr_d_dstr_exp_1_desc:0 "有些时候星系环境的优势让我们不得不重新审视殖民地的规划，随着科技的进步，我们能够开发一些全新的区划以更好地利用这些优势。\n这些新区划只会在§B$z_pr_evt_ap_1$§!完成后才能启用。"
+ z_pr_d_dstr_exp_2:0 "$z_pr_d_dstr_exp_1$"
+ z_pr_d_dstr_exp_2_desc:0 "$z_pr_d_dstr_exp_1_desc$"
+ z_pr_d_dstr_exp_3:0 "$z_pr_d_dstr_exp_1$"
+ z_pr_d_dstr_exp_3_desc:0 "$z_pr_d_dstr_exp_1_desc$"
+ z_pr_d_dstr_exp_4:0 "$z_pr_d_dstr_exp_1$"
+ z_pr_d_dstr_exp_4_desc:0 "$z_pr_d_dstr_exp_1_desc$"
+ z_pr_d_dstr_exp_5:0 "$z_pr_d_dstr_exp_1$"
+ z_pr_d_dstr_exp_5_desc:0 "$z_pr_d_dstr_exp_1_desc$"
+ 
+ z_pr_d_dstr_div_1:0 "$z_pr$：地方产业"
+ z_pr_d_dstr_div_1_desc:0 "不同类型的星球拥有不同的地质特征，我们也可以因地制宜地开发多种多样的产业。\n这些新区划只会在§B$z_pr_evt_ap_1$§!完成后才能启用，每次环境改造都将刷新地方产业区划的容量，有一定几率刷出更高的区划支持数量。"
+ z_pr_d_dstr_div_2:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_2_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_3:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_3_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_4:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_4_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_5:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_5_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_6:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_6_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_7:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_7_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_8:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_8_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_10:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_10_desc:0 "$z_pr_d_dstr_div_1_desc$"
+ z_pr_d_dstr_div_12:0 "$z_pr_d_dstr_div_1$"
+ z_pr_d_dstr_div_12_desc:0 "$z_pr_d_dstr_div_1_desc$\n当前已到达地方产业区划最高容量。"
+
+##_[AP1]
+#_[evt]
+ z_pr_evt_ap_1: "第一次产业革命"
+ z_pr_evt_ap_1_take: "§G完成§!$z_pr_evt_ap_1$"
+ z_pr_evt_ap_1_non: "§H暂缓§!$z_pr_evt_ap_1$"
+ z_pr_tips_ap1_non: "稍后，你可以打开§B无尽群星设置面板§!，点击$z_pr_evt_setting$，在里面找得到产业飞升以§G完成§!$z_pr_evt_ap_1$"
+#_[btn]
+ z_pr_tips_btn_ap1_locked: "暂时无法使用，你必须拥有§B$tech_self_aware_logic$§!，并完成§B$tech_mining_2$/$tech_mineral_purification_2$/$tech_alloys_2$/$tech_luxuries_2$/$tech_power_plant_3$/$tech_power_hub_2$/$tech_volatile_motes$/$tech_exotic_gases$/$tech_rare_crystals$§!中的任意6个。"
+ z_pr_tips_btn_ap1: "$z_pr_tips_btn_ap1_simp$\n\n随着科技和社会的进步，旧有的生产模式已经无法适应新时代的发展，我们必须找到新的方法来管理帝国的经济。\n\n一些全新的区划和建筑将会解锁，不同的星球将获得独特的地方产业，不同的星系将更有效地开发恒星资源。另一方面，人口结构和星球社会结构等诸多问题将可能成为制定政策时新的考虑因素。\n\n迎接新世代的到来吧！"
+ z_pr_tips_btn_ap1_simp: "开启§B人力经济§!系统，无业人口将被转化为人力，而人口不足的时候人力将转化为人口。同时全新的经济模式将意味着更简约的管理方式与更高效的产出。"
+ z_pr_tips_btn_ap1_take: "完成$z_pr_evt_ap_1$\n\n注意：经济结构可能会大幅度改变，并且在此后的一段时间内出现大规模卡顿，另外一年以后也可能出现一次大规模卡顿。当然，这些卡顿是必要的初始化运算，不会再次出现，除非发生大规模人口变动。"
+ 
+##_[AP1建筑]
+ z_pr_bldn_foundry_basic: "旧式冶金厂"
+ z_pr_bldn_foundry_basic_desc: "一种古老的巨型合金工业中心，可以补充殖民地£alloys£§M$alloys$§!产业的缺失，但是生产效率较低，且没有进一步升级的可能。"
+ z_pr_bldn_factory_basic: "旧式民用工厂"
+ z_pr_bldn_factory_basic_desc: "一种古老的巨型民用工厂，可以补充殖民地£consumer_goods£§P$consumer_goods$§!产业的缺失，但是生产效率较低，且没有进一步升级的可能。"
+
+##_[AP1区划]
+ PR_DST_exp_solar:0 "太阳能发电区"
+ PR_DST_exp_solar_plural:0 "$PR_DST_exp_solar$"
+ PR_DST_exp_solar_desc:0 "这个区划拥有最先进的光能发电设备，能够以最少的人力以最大限度利用恒星产生的能量。\n能够围绕着这样一颗明亮的太阳，我们必然是受到了无尽之主的祝福。"
+ mod_PR_DST_exp_solar_max:0 "$PR_DST_exp_solar$"
+ PR_DST_exp_solar_adv:0 "§B增强型§!太阳能发电区"
+ PR_DST_exp_solar_adv_plural:0 "$PR_DST_exp_solar_adv$"
+ PR_DST_exp_solar_adv_desc:0 "$PR_DST_exp_solar_desc$"
+ mod_PR_DST_exp_solar_adv_max:0 "$PR_DST_exp_solar_adv$"
+ PR_DST_exp_astronomy:0 "天体科研区"
+ PR_DST_exp_astronomy_plural:0 "$PR_DST_exp_astronomy$"
+ PR_DST_exp_astronomy_desc:0 "这个区划拥有最先进的观测和实验设备，让我们能够更好地了解那些特殊天体。\n拥有§Y$tech_mine_dark_matter$§!(科技)以后，我们可以提取£sr_dark_matter£§E$sr_dark_matter$§!。"
+ mod_PR_DST_exp_astronomy_max:0 "$PR_DST_exp_astronomy$"
+
+#_[AP1区划_多样化]
+ z_pr_trgr_plnt_bldn_tech_1:0 "拥有§Y$building_institute$§!或§Y$building_supercomputer$§!将提升此区划的科研产出。"
+ z_pr_trgr_plnt_bldn_1e_v:0 "拥有§Y$building_energy_grid$§!系列建筑将提升此区划的£energy£§Y$energy$§!产出。"
+ z_pr_trgr_plnt_bldn_1m_v:0 "拥有§Y$building_mineral_purification_plant$§!系列建筑将提升此区划的£minerals£§R$minerals$§!产出。"
+ z_pr_trgr_plnt_bldn_2a_v:0 "拥有§Y$building_foundry_1$§!系列建筑将提升此区划的£alloys£§M$alloys$§!产出。"
+ z_pr_trgr_plnt_bldn_2c_v:0 "拥有§Y$building_factory_1$§!系列建筑将提升此区划的£consumer_goods£§P$consumer_goods$§!产出。"
+
+ PR_DST_div_savannah:0 "草原生态区"
+ PR_DST_div_savannah_plural:0 "$PR_DST_div_savannah$"
+ PR_DST_div_savannah_desc:0 "此类热带星球拥有广袤的草原，极其适合进行生态研究和发展农业。\n拥有§Y$tech_tomb_world_adaption$§!(科技)会提升人口克隆和组装速度，并提升宜居性。"
+ mod_PR_DST_div_savannah_max:0 "$PR_DST_div_savannah$"
+ PR_DST_div_arid:0 "荒野能源区"
+ PR_DST_div_arid_plural:0 "$PR_DST_div_arid$"
+ PR_DST_div_arid_desc:0 "此类星球拥有干燥炎热的荒野，适合建造巨大的矿场以产出优质的矿物。\n拥有§Y$tech_mine_volatile_motes$§!(科技)能够解锁£volatile_motes£§L$volatile_motes$§!产业。"
+ mod_PR_DST_div_arid_max:0 "$PR_DST_div_arid$"
+ PR_DST_div_desert:0 "绿洲工业区"
+ PR_DST_div_desert_plural:0 "$PR_DST_div_desert$"
+ PR_DST_div_desert_desc:0 "此类星球拥有广袤的沙漠，在沙海边缘的绿洲建立巨大的工业区，能让我们更充分地利用这里的环境。同时，临近水源的绿洲也适合建造军事要塞和航空港。\n另外，生活在沙漠这种严酷环境，社会的稳定尤为重要。"
+ mod_PR_DST_div_desert_max:0 "$PR_DST_div_desert$"
+ 
+ PR_DST_div_tropical:0 "浅滩生态区"
+ PR_DST_div_tropical_plural:0 "$PR_DST_div_tropical$"
+ PR_DST_div_tropical_desc:0 "此类温带星球拥有大量浅滩，极其适合进行生态研究和发展渔业。\n拥有§Y$tech_tomb_world_adaption$§!(科技)会提升人口克隆和组装速度，并提升宜居性"
+ mod_PR_DST_div_tropical_max:0 "$PR_DST_div_tropical$"
+ PR_DST_div_ocean:0 "水下能源区"
+ PR_DST_div_ocean_plural:0 "$PR_DST_div_ocean$"
+ PR_DST_div_ocean_desc:0 "此类星球拥有广袤的大洋，适合建造巨大的水利发电设施。\n拥有§Y$tech_mine_exotic_gases$§!(科技)能够解锁£exotic_gases£§L$exotic_gases$§!产业。"
+ mod_PR_DST_div_ocean_max:0 "$PR_DST_div_ocean$"
+ PR_DST_div_continent:0 "大陆工业区"
+ PR_DST_div_continent_plural:0 "$PR_DST_div_continent$"
+ PR_DST_div_continent_desc:0 "此类星球拥有巨大岩石构成的平坦大陆，适合建造巨大的发电站和工业区。同时，坚实平坦的大陆也适合建造军事要塞和航空港。\n另外，广袤的大陆适合建造巨大的工业城镇，治安成了一个首要问题。"
+ mod_PR_DST_div_continent_max:0 "$PR_DST_div_continent$"
+ 
+ PR_DST_div_tundra:0 "冻原生态区"
+ PR_DST_div_tundra_plural:0 "$PR_DST_div_tundra$"
+ PR_DST_div_tundra_desc:0 "此类寒带星球拥有富含野生动物的巨大冻原，极其适合进行生态研究和发展农业。\n拥有§Y$tech_tomb_world_adaption$§!(科技)会提升人口克隆和组装速度，并提升宜居性"
+ mod_PR_DST_div_tundra_max:0 "$PR_DST_div_tundra$"
+ PR_DST_div_alpine:0 "高地能源区"
+ PR_DST_div_alpine_plural:0 "$PR_DST_div_alpine$"
+ PR_DST_div_alpine_desc:0 "此类寒带星球拥有巨大的高原与山区，强烈的山风适合建立巨大的风力发电设施，同时山岩中富含优质的矿物。\n拥有§Y$tech_mine_rare_crystals$§!(科技)能够解锁£rare_crystals£§L$rare_crystals$§!产业。"
+ mod_PR_DST_div_alpine_max:0 "$PR_DST_div_alpine$"
+ PR_DST_div_arctic:0 "极寒工业区"
+ PR_DST_div_arctic_plural:0 "$PR_DST_div_arctic$"
+ PR_DST_div_arctic_desc:0 "此类寒带星球被巨大的冰川覆盖，严寒的环境是天然的冶炼冷却系统，而灼热的地下熔岩流使我们能够利用地热能源发展工业。同时，高地与山脉也适合建造军事要塞和航空港。"
+ mod_PR_DST_div_arctic_max:0 "$PR_DST_div_arctic$"
+
+ PR_DST_div_nuked:0 "深渊工业区"
+ PR_DST_div_nuked_plural:0 "$PR_DST_div_nuked$"
+ PR_DST_div_nuked_desc:0 "废土世界的生存是很艰难的，但是在这里可以更加肆无忌惮地发展工业，建造深入星球内部的巨大工业区，成为抵御轨道轰炸的天然屏障。\n研发全部三项高级资源科技§Y$tech_mine_rare_crystals$§!/§Y$tech_mine_exotic_gases$§!/§Y$tech_mine_volatile_motes$§!后，将解锁深渊矿工岗位。"
+ mod_PR_DST_div_nuked_max:0 "$PR_DST_div_nuked$"
+ PR_DST_div_gaia:0 "乐土生态区"
+ PR_DST_div_gaia_plural:0 "$PR_DST_div_gaia$"
+ PR_DST_div_gaia_desc:0 "这颗星球拥有适宜的环境，几乎适合所有的物种生存，是发展科研的绝佳场所。\n$z_pr_trgr_plnt_bldn_tech_1$\n拥有§Y$tech_tomb_world_adaption$§!(科技)则会提升人口增长率和组装速度，并提升宜居性。\n如果正好处于$pc_relic$，解锁£minor_artifacts£§P$minor_artifacts$§!产出。"
+ mod_PR_DST_div_gaia_max:0 "$PR_DST_div_gaia$"
+ PR_DST_div_sp:0 "密集工业区"
+ PR_DST_div_sp_plural:0 "$PR_DST_div_sp$"
+ PR_DST_div_sp_desc:0 "这类特殊的星球适合建造密集的工业设施，同时在条件适宜的时候可以建造巨大的空港支持我们的海军建设。"
+ mod_PR_DST_div_sp_max:0 "$PR_DST_div_sp$"
+ #_[resort]
+ PR_DST_div_resort:0 "观光区"
+ PR_DST_div_resort_plural:0 "$PR_DST_div_resort$"
+ PR_DST_div_resort_desc:0 "布满人造景观和娱乐设施的人工区划，覆盖一整片大陆的巨型度假胜地。\n拥有§Y$tech_colonization_3$§!(科技)能够解锁£influence£§P$influence$§!产出\n拥有§Y$tech_tomb_world_adaption$§!(科技)则会提升人口增长率和组装速度，并提升宜居性。\n如果正好处于$pc_relic$，解锁£minor_artifacts£§P$minor_artifacts$§!产出。"
+ mod_PR_DST_div_resort_max:0 "$PR_DST_div_resort$"
+ #_[ringworld]
+ PR_DST_div_ring_mining:0 "轨道采矿区段"
+ PR_DST_div_ring_mining_plural:0 "$PR_DST_div_ring_mining$"
+ PR_DST_div_ring_mining_desc:0 "覆盖在环世界外层的巨大采矿空港，借助环世界旋转的离心力可以方便地抛射采矿船以采集外层空间的优质矿石，然后再通过磁牵引光束回收，是一种极其廉价而高效的采矿模式。"
+ mod_PR_DST_div_ring_mining_max:0 "$PR_DST_div_ring_mining$"
+
+
+
+
+###_[第二次产业革命]   AP2/AP2_区划 #############################################
+##_[AP2]
+#_[evt]
+ z_pr_evt_ap_2: "第二次产业革命"
+ z_pr_tips_btn_ap2: "一切条件都已经满足，是时候更进一步开发生产力的极限了。\n\n完成$z_pr_evt_ap_2$会将你的建筑与区划提升一个档次，经济产出效率将提升至少50%，同时你会获得许多全新的生产设施并开启产业研发系统，通过一套全自动化科研系统在产业革命的新科技树进行探索以解锁更强的科技。\n\n你需要在两条路线中二选一。"
+ z_pr_tips_btn_ap2: "一切条件都已经满足，是时候更进一步开发生产力的极限了。\n完成$z_pr_evt_ap_2$会将你的建筑与区划提升一个档次，经济产出效率将提升至少50%，同时你会获得许多全新的生产设施并开启产业研发系统，通过一套全自动化科研系统在产业革命的新科技树进行探索以解锁更强的科技。\n你需要在两条路线中二选一。"
+ z_pr_evt_ap_2_integration: "选择§H集成化§!"
+ z_pr_evt_ap_2_expansion: "选择§B扩大化§!"
+ z_pr_evt_ap_2_non: "§H暂缓§!$z_pr_evt_ap_2$"
+ z_pr_tips_ap2_non: "稍后，你可以打开§B无尽群星设置面板§!，点击$z_pr_evt_setting$，在里面找得到产业飞升以§G完成§!$z_pr_evt_ap_2$"
+
+#_[btn]
+ z_pr_tips_btn_ap2_locked: "暂时无法使用，你必须完成§B$tech_physics_3$/$tech_zero_point_power$/$tech_society_3$/$tech_colonization_5$/$tech_manifest_destiny$/$tech_sapient_ai$/$tech_battleship_build_speed$/$tech_starbase_5$/$tech_ship_armor_5$/$tech_advanced_metallurgy_2$/$tech_engineering_3$/$tech_synthetic_workers$§!中的任意7个。"
+ z_pr_tips_btn_ap2_another_way: "你已经选择了另一条飞升路线。"
+ z_pr_tips_btn_ap2_expansion: "$z_pr_evt_ap_2$分支\n\n$z_pr_tips_btn_ap2_expansion_simp$\n\n一切条件都已经满足，是时候更进一步开发生产力的极限了。\n\n完成$z_pr_evt_ap_2$会将你的建筑与区划提升一个档次，经济产出效率将提升至少50%，同时你会获得许多全新的生产设施并开启产业研发系统，通过一套全自动化科研系统在产业革命的新科技树进行探索以解锁更强的科技。\n\n§Y扩大化§!允许我们发掘殖民地全部的开发潜力，所有殖民地的可用区划数量都将增加，同时允许建造更多§B地方产业§!与§B地缘优势§!区划。"
+ z_pr_tips_btn_ap2_expansion_simp: "§Y扩大化§!允许我们发掘殖民地全部的开发潜力，所有殖民地的总区划上限与基础建筑槽解锁程度都将增加，同时允许建造更多§B基础资源§!区划，§B地方产业§!区划与§B地缘优势§!区划。"
+ z_pr_tips_btn_ap2_integration: "$z_pr_evt_ap_2$分支\n\n$z_pr_tips_btn_ap2_integration_simp$\n\n一切条件都已经满足，是时候更进一步开发生产力的极限了。\n\n完成$z_pr_evt_ap_2$会将你的建筑与区划提升一个档次，经济产出效率将提升至少50%，同时你会获得许多全新的生产设施并开启产业研发系统，通过一套全自动化科研系统在产业革命的新科技树进行探索以解锁更强的科技。" 
+ z_pr_tips_btn_ap2_integration_simp: "§Y集成化§!允许我们提升现有生产设施的潜力，更好地运用空间和生产资料。这意味着，生产基数将缩减为原来的75%，相同人力下的产出将提升33%。"
+ z_pr_tips_btn_ap2_take: "选择一条路线并完成$z_pr_evt_ap_2$。"
+ 
+###_[AP2_区划]
+#_[common]
+ PR_DST_ap2_city:0 "高级城市区"
+ PR_DST_ap2_city_plural:0 "$PR_DST_ap2_city$"
+ PR_DST_ap2_city_desc:0 "巨大而先进的巨型城市，社会学与工程学进步的结晶。\n拥有全自动的维护和管理系统，提供大量住宅和舒适度"
+ mod_PR_DST_ap2_city_max:0 "$PR_DST_ap2_city$"
+ #_[二产]
+ PR_DST_ap2_industrial:0 "高级工业区"
+ PR_DST_ap2_industrial_plural:0 "$PR_DST_ap2_industrial$"
+ PR_DST_ap2_industrial_desc:0 "巨大而先进的巨型工业区，物理学与工程学进步的结晶。\n拥有高自动化的生产系统，消耗£minerals£§R$minerals$§!产出£consumer_goods£§P$consumer_goods$§!。"
+ mod_PR_DST_ap2_industrial_max:0 "$PR_DST_ap2_industrial$"
+ PR_DST_ap2_forge:0 "高级锻造区"
+ PR_DST_ap2_forge_plural:0 "$PR_DST_ap2_forge$"
+ PR_DST_ap2_forge_desc:0 "巨大而先进的巨型锻造区，物理学与工程学进步的结晶。\n拥有高自动化的生产系统，消耗£minerals£§R$minerals$§!产出£alloys£§M$alloys$§!。"
+ mod_PR_DST_ap2_forge_max:0 "$PR_DST_ap2_forge$"
+#_[环世界]
+ PR_DST_ap2_rw_city:0 "高级城市区段"
+ PR_DST_ap2_rw_city_plural:0 "$PR_DST_ap2_rw_city$"
+ PR_DST_ap2_rw_city_desc:0 "巨大而先进的巨型城市，社会学与工程学进步的结晶。\n拥有全自动的维护和管理系统，提供大量住宅和舒适度"
+ mod_PR_DST_ap2_rw_city_max:0 "$PR_DST_ap2_rw_city$"
+ #_[二产]
+ PR_DST_ap2_rw_industrial:0 "高级工业区段"
+ PR_DST_ap2_rw_industrial_plural:0 "$PR_DST_ap2_rw_industrial$"
+ PR_DST_ap2_rw_industrial_desc:0 "巨大而先进的巨型工业区，物理学与工程学进步的结晶。\n拥有高自动化的生产系统，消耗£minerals£§R$minerals$§!产出£consumer_goods£§P$consumer_goods$§!与高级资源。"
+ mod_PR_DST_ap2_rw_industrial_max:0 "$PR_DST_ap2_rw_industrial$"
+ PR_DST_ap2_rw_forge:0 "高级锻造区段"
+ PR_DST_ap2_rw_forge_plural:0 "$PR_DST_ap2_rw_forge$"
+ PR_DST_ap2_rw_forge_desc:0 "巨大而先进的巨型锻造区，物理学与工程学进步的结晶。\n拥有高自动化的生产系统，消耗£minerals£§R$minerals$§!产出£alloys£§M$alloys$§!与高级资源。"
+ mod_PR_DST_ap2_rw_forge_max:0 "$PR_DST_ap2_rw_forge$"
+ 
+ 

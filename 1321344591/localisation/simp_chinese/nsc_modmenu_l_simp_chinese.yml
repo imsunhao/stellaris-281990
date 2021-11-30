@@ -1,0 +1,25 @@
+﻿l_simp_chinese:
+
+### 1. Empire Modifiers ###
+nsc_ai_bonus_1:0 "§RAI无加成§!"
+nsc_ai_bonus_2:0 "§HAI加成15%§!"
+nsc_ai_bonus_3:0 "§YAI加成30%§!"
+nsc_ai_bonus_4:0 "§BAI加成50%§!"
+nsc_ai_bonus_5:0 "§GAI加成70%§!"
+
+### 2. Edcits ###
+edict_nsc_modmenu:0 "§YNSC2设定菜单§!"
+edict_nsc_modmenu_desc:0 "这会打开NSC2设定菜单"
+edict_nsc_modmenu_tooltip:0 "§Y点击打开NSC2设定菜单。§!"
+
+### 3. Events ###
+nsc_modmenu_events.1.name:0 "NSC2设定菜单"
+nsc_modmenu_events.1.desc:0 "此菜单将允许您设置或更改当前提供给所有AI帝国的生产加成。您在此处所做的更改将立即生效。这将使您能够稳定地增加或完全消除AI生产加成。 NSC2的最新版本自动包含70％的AI生产加成。如果您喜欢它，请在下面的菜单中选择最后一个选项。您还可以选择一个较低的设置，但是在执行此操作之前，请先阅读以下警告。 \n\n§R警告：如果这是在2021年4月4日更新之前创建的游戏，我们建议选择一个较高的设置，否则您游戏中的AI帝国可能会遇到重大问题或完全崩溃。这个问题也会再在有高加成的新游戏中把加成改低后发生。一旦获得AI加成，我们不建议完全去除。谨慎使用这些设置-NSC2团队对更改这些设置对您的保存游戏造成的任何损害不承担任何责任。 §!"
+
+nsc_modmenu_events.1.1:0 "设定AI加成为:: §R无§!"
+nsc_modmenu_events.1.2:0 "设定AI加成为: §H15%§!"
+nsc_modmenu_events.1.3:0 "设定AI加成为: §Y30%§!"
+nsc_modmenu_events.1.4:0 "设定AI加成为: §B50%§!"
+nsc_modmenu_events.1.5:0 "设定AI加成为: §G70%§!"
+nsc_modmenu_events.1.fail:0 "§R这是当前游戏中的AI加成。§!"
+nsc_modmenu_events.close:0 "离开菜单"

@@ -1,0 +1,234 @@
+﻿l_simp_chinese:
+#_[面板按钮]
+#_[伞の优化]
+#_[产业革命]   碧蓝航线dlc/舰R/swg/灰烬/涅托/约战/苍蓝    /ACOT/巨构
+
+
+###_[面板按钮]
+ z_fw_btn_plnt_ui_tb_job_check:0 "在当前星球执行一次工作检测，并花费£energy£§Y$energy$§!将失业高阶层人口进行降级。"
+ z_fw_tips_pf2_needed:0 "人口/人力迁移 \n需要§B伞の优化§!"
+ 
+ z_fw_btn_plnt_ui_tb_setting:0 "开启星球细节设置面板\n当前支持§B伞の优化/产业革命§!"
+ z_fw_tips_empty:0 ""
+ z_fw_plnt_ui_setting.name:0 "星球细节设置"
+ z_fw_plnt_ui_setting.desc:0 "所有§B伞の优化/产业革命§!中有关星球的独立细节设置都将显示在这里。"
+ 
+ z_fw_btn_plnt_ui_tb_checking:0 "开启星球数据检视面板\n当前支持§B伞の优化/产业革命§!"
+ z_fw_plnt_ui_setting.check.name:0 "星球数据检视"
+ z_fw_plnt_ui_setting.check.desc:0 "查看§B伞の优化/产业革命§!的数据细节"
+ 
+#_决策
+ z_fw_dec_plnt_setting:0 "开启星球细节设置面板"
+ z_fw_dec_plnt_setting_desc:0 "$z_fw_plnt_ui_setting.desc$"
+ z_fw_dec_plnt_checking:0 "开启星球参数检视面板"
+ z_fw_dec_plnt_checking_desc:0 "$z_fw_plnt_ui_setting.check.desc$"
+
+
+
+
+###_[伞の优化]  ############
+ z_pf2_var_cntr_pop_cap_final:0 "国家人口上限 §T---§! [root.owner.z_pf2_var_cntr_pop_cap_final]"
+ z_pf2_var_cntr_pop_increase_bonus:0 "人口增长效率§Y(1为正常状态)§! §T---§! [root.owner.z_pf2_var_cntr_pop_increase_bonus]"
+ z_pf2_var_plnt_pop_growth:0 "星球人口增长基础加成 §T---§! [root.z_pf2_var_plnt_pop_growth]"
+ z_pf2_var_plnt_pop_clone:0 "星球人口克隆基础增加 §T---§! [root.z_pf2_var_plnt_pop_clone]"
+ z_pf2_var_plnt_pop_assembly:0 "星球人口组装基础增加 §T---§! [root.z_pf2_var_plnt_pop_assembly]"
+
+
+###_[产业革命]  ############    兼容/desc/checking/opt
+ z_pr_tips_spcs_cd:0 "当前国家§H正在执行物种调控§!或§H未完成产业革命§!。"
+ 
+#_[兼容]
+ z_pr_tips_comp_azl:0 "§Y碧蓝航线DLC§!---已兼容"
+ z_pr_tips_comp_wsg:0 "§Y战舰少女R§!---已兼容"
+
+#_[desc]
+ z_pr_title:0 "§B产业革命 $z_pr_version$：§!设置"
+ z_pr_var:0 "§B产业革命 $z_pr_version$：§!参数"
+
+ z_pr_tips_var_plnt_guide:0 "§E在MOD面板开启§B产业革命设置§!查看指南和兼容信息。§!"
+ z_pr_tips_var_plnt_pop_man:0 "星球人数§B[root.PR_var_plnt_HC]§!=星球人力§G[root.PR_var_plnt_MAN]§!+星球人口§G[root.z_pr_var_plnt_pops]§!"
+ z_pr_tips_var_cntr_man:0 "帝国总人力§B[root.owner.PR_var_cntr_MAN]§!/帝国总人数§H[root.owner.PR_var_cntr_HC]§!"
+ z_pr_tips_var_plnt_man:0 "人力§G[root.PR_var_plnt_MAN]§!/工房§G[root.PR_var_plnt_WORKSHOP]§!≈§B生产效率§!§Y[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_var_plnt_man_desc:0 "§E越多人力或越少的工房都意味着越高的生产效率。§!"
+ z_pr_tips_var_plnt_man_cap:0 "人力§G[root.PR_var_plnt_MAN]§!/人力上限§B[root.z_pr_var_plnt_man_beta_max]§!"
+ z_pr_tips_var_plnt_man_cap_desc:0 "§E人力值越接近人力上限，增长效率越低。§!"
+ z_pr_tips_var_plnt_man_growth:0 "人力月增长§G[root.PR_var_plnt_GROWTH_rate]§!"
+ z_pr_tips_var_plnt_man_growth_desc:0 "=（出生§G[root.PR_var_plnt_GROWTH_natural]§!+克隆§G[root.PR_var_plnt_GROWTH_clone]§!+组装§G[root.PR_var_plnt_GROWTH_assembly]§!）×增长效率§G[root.PR_var_plnt_GROWTH_mult]§!"
+
+#_[checking]
+ z_pr_tips_plnt_man_economy:0 "§E所有§Y经济修正§!将被统一运算，并计入§B经济修正§!值。§!"
+ z_pr_tips_mod_plnt_trade:0 "$MOD_TRADE_VALUE_ADD$=§G[root.z_pr_var_job_trade_value_add]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_amenities:0 "$MOD_PLANET_AMENITIES_ADD$=§G[root.z_pr_var_job_planet_amenities_add]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_maintain:0 "$MOD_PLANET_AMENITIES_NO_HAPPINESS_ADD$=§G[root.z_pr_var_job_planet_amenities_no_happiness_add]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_stability:0 "$MOD_PLANET_STABILITY_ADD$=§G[root.z_pr_var_job_planet_stability_add]§!"
+ z_pr_tips_mod_plnt_crime:0 "$MOD_PLANET_CRIME_ADD$=§G[root.z_pr_var_job_planet_crime_add]§!"
+ z_pr_tips_mod_plnt_deviant:0 "$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$=§G[root.z_pr_var_job_planet_crime_no_happiness_add]§!"
+ z_pr_tips_mod_plnt_tolerance:0 "$MOD_POP_ENVIRONMENT_TOLERANCE$=§G[root.z_pr_var_job_pop_environment_tolerance]§!"
+ z_pr_tips_var_plnt_job_cntr_navy_add:0 "$MOD_COUNTRY_NAVAL_CAP_ADD$=§G[root.z_pr_var_job_country_naval_cap_add]§!"
+ z_pr_tips_var_plnt_job_cntr_admin_add:0 "$MOD_COUNTRY_ADMIN_CAP_ADD$=§G[root.z_pr_var_job_country_admin_cap_add]§!"
+ z_pr_tips_mod_pop_plnt_pdf:0 "$MOD_POP_DEFENSE_ARMIES_ADD$=§G[root.z_pr_var_job_pop_defense_armies_add]§!"
+
+ z_pr_tips_var_plnt_res_all_mult:0 "总产出修正=§G[root.z_pr_var_plnt_job_produces_mult]§!/总维护修正=§G[root.z_pr_var_plnt_job_upkeep_mult]§!"
+ z_pr_tips_mod_pop_job_p_v_1e:0 "£energy£§Y$energy$§!产出=岗位§G[root.z_pr_var_energy_produces_base]§!*经济修正§G[root.z_pr_var_energy_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1e:0 "£energy£§Y$energy$§!消耗=岗位§G[root.z_pr_var_energy_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1e_add:0 "人力：£energy£§Y$energy$§!消耗=§G[root.z_pr_var_man_energy_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1m:0 "£minerals£§R$minerals$§!产出=岗位§G[root.z_pr_var_minerals_produces_base]§!*经济修正§G[root.z_pr_var_minerals_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1m:0 "£minerals£§R$minerals$§!消耗=岗位§G[root.z_pr_var_minerals_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1m_add:0 "人力：£minerals£§R$minerals$§!消耗=§G[root.z_pr_var_man_minerals_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1f:0 "£food£§G$food$§!产出=岗位§G[root.z_pr_var_food_produces_base]§!*经济修正§G[root.z_pr_var_food_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1f:0 "£food£§G$food$§!消耗=岗位§G[root.z_pr_var_food_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1f_add:0 "人力：£food£§G$food$§!消耗=§G[root.z_pr_var_man_food_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_2a:0 "£alloys£§P$alloys$§!产出=岗位§G[root.z_pr_var_alloys_produces_base]§!*经济修正§G[root.z_pr_var_alloys_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2a:0 "£alloys£§P$alloys$§!消耗=岗位§G[root.z_pr_var_alloys_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_alloys_man:0 "人力：£alloys£§P$alloys$§!消耗=§G[root.z_pr_var_man_alloys_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_2c:0 "£consumer_goods£§H$consumer_goods$§!产出=岗位§G[root.z_pr_var_consumer_goods_produces_base]§!*经济修正§G[root.z_pr_var_consumer_goods_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2c:0 "£consumer_goods£§H$consumer_goods$§!消耗=岗位§G[root.z_pr_var_consumer_goods_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_2c_add:0 "人力：£consumer_goods£§H$consumer_goods$§!消耗=§G[root.z_pr_var_man_consumer_goods_upkeep_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§!产出=岗位§G[root.z_pr_var_rare_crystals_produces_base]§!*经济修正§G[root.z_pr_var_rare_crystals_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3rc_add:0 "人力£rare_crystals£§Y$rare_crystals$§!产出(物种特性)=§G[root.z_pr_var_man_rare_crystals_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§!消耗=岗位§G[root.z_pr_var_rare_crystals_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3eg:0 "£exotic_gases£§G$exotic_gases$§!产出=岗位§G[root.z_pr_var_exotic_gases_produces_base]§!*经济修正§G[root.z_pr_var_exotic_gases_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3eg_add:0 "人力£exotic_gases£§G$exotic_gases$§!产出(物种特性)=§G[root.z_pr_var_man_exotic_gases_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3eg:0 "£exotic_gases£§G$exotic_gases$§!消耗=岗位§G[root.z_pr_var_exotic_gases_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3vm:0 "£volatile_motes£§B$volatile_motes$§!产出=岗位§G[root.z_pr_var_volatile_motes_produces_base]§!*经济修正§G[root.z_pr_var_volatile_motes_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3vm_add:0 "人力£volatile_motes£§B$volatile_motes$§!产出(物种特性)=§G[root.z_pr_var_man_volatile_motes_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3vm:0 "£volatile_motes£§B$volatile_motes$§!消耗=岗位§G[root.z_pr_var_volatile_motes_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+ z_pr_tips_pop_job_p_v_rp:0 "£physics_research£§B$physics_research$§!产出=岗位§G[root.z_pr_var_physics_research_produces_base]§!*经济修正§G[root.z_pr_var_physics_research_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_physics_research_man:0 "人力：£physics_research£§B$physics_research$§!产出=§G[root.z_pr_var_man_physics_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_re:0 "£engineering_research£§H$engineering_research$§!产出=岗位§G[root.z_pr_var_engineering_research_produces_base]§!*经济修正§G[root.z_pr_var_engineering_research_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_engineering_research_man:0 "人力：£engineering_research£§H$engineering_research$§!产出=§G[root.z_pr_var_man_engineering_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_rs:0 "£society_research£§G$society_research$§!产出=岗位§G[root.z_pr_var_society_research_produces_base]§!*经济修正§G[root.z_pr_var_society_research_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_society_research_man:0 "人力：£society_research£§G$society_research$§!产出=§G[root.z_pr_var_man_society_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_ru:0 "£unity£§E$unity$§!产出=岗位§G[root.z_pr_var_unity_produces_base]§!*经济修正§G[root.z_pr_var_unity_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_pop_job_u_v_ru:0 "£unity£§E$unity$§!消耗=岗位§G[root.z_pr_var_unity_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_unity_man:0 "人力：£unity£§E$unity$§!产出=§G[root.z_pr_var_man_unity_produces_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§!产出=岗位§G[root.z_pr_var_sr_living_metal_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§!消耗=岗位§G[root.z_pr_var_sr_living_metal_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_zro:0 "£sr_zro£§B$sr_zro$§!产出=岗位§G[root.z_pr_var_sr_zro_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_zro:0 "£sr_zro£§B$sr_zro$§!消耗=岗位§G[root.z_pr_var_sr_zro_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§!产出=岗位§G[root.z_pr_var_sr_dark_matter_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§!消耗=岗位§G[root.z_pr_var_sr_dark_matter_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_nnt:0 "£nanites£§T$nanites$§!产出=岗位§G[root.z_pr_var_nanites_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_nnt:0 "£nanites£§T$nanites$§!消耗=岗位§G[root.z_pr_var_nanites_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_ma:0 "£minor_artifacts£§M$minor_artifacts$§!产出=岗位§G[root.z_pr_var_minor_artifacts_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_influence_produces_base:0 "£influence£§M$influence$§!产出=岗位§G[root.z_pr_var_influence_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+
+#_[碧蓝航线DLC]
+ z_pr_tips_mind_club_produces_base:0 "£mind_club£§B$mind_club$§!产出=岗位§G[root.z_pr_var_mind_club_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mind_club_upkeep_base:0 "£mind_club£§B$mind_club$§!消耗=岗位§G[root.z_pr_var_mind_club_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_azur_shippartbox_produces_base:0 "£azur_shippartbox£§P$azur_shippartbox$§!产出=岗位§G[root.z_pr_var_azur_shippartbox_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[舰R]
+ z_pr_tips_sr_pantsu_produces_base:0 "£sr_pantsu£§G$sr_pantsu$§!产出=岗位§G[root.z_pr_var_sr_pantsu_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_pantsu_upkeep_base:0 "£sr_pantsu£§G$sr_pantsu$§!消耗=岗位§G[root.z_pr_var_sr_pantsu_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_produces_base:0 "£sr_neo£§G$sr_neo$§!产出=岗位§G[root.z_pr_var_sr_neo_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_upkeep_base:0 "£sr_neo£§G$sr_neo$§!消耗=岗位§G[root.z_pr_var_sr_neo_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_produces_base:0 "£sr_alpha£§H$sr_alpha$§!产出=岗位§G[root.z_pr_var_sr_alpha_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_upkeep_base:0 "£sr_alpha£§H$sr_alpha$§!消耗=岗位§G[root.z_pr_var_sr_alpha_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_produces_base:0 "£sr_se£§Y$sr_se$§!产出=岗位§G[root.z_pr_var_sr_se_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_upkeep_base:0 "£sr_se£§Y$sr_se$§!消耗=岗位§G[root.z_pr_var_sr_se_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[swg]
+ z_pr_tips_sr_kyber_swgs_produces_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§!产出=岗位§G[root.z_pr_var_sr_kyber_swgs_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_kyber_swgs_upkeep_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§!消耗=岗位§G[root.z_pr_var_sr_kyber_swgs_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_produces_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§!产出=岗位§G[root.z_pr_var_sr_tibanna_swgs_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_upkeep_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§!消耗=岗位§G[root.z_pr_var_sr_tibanna_swgs_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[灰烬]
+ z_pr_tips_sr_crystal_adf_produces_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§!产出=岗位§G[root.z_pr_var_sr_crystal_adf_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_crystal_adf_upkeep_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§!消耗=岗位§G[root.z_pr_var_sr_crystal_adf_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_produces_base:0 "£sr_parts_adf£§G$sr_parts_adf$§!产出=岗位§G[root.z_pr_var_sr_parts_adf_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_upkeep_base:0 "£sr_parts_adf£§G$sr_parts_adf$§!消耗=岗位§G[root.z_pr_var_sr_parts_adf_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_|涅托|  GF_nyto_collapse_liquid/GF_nyto_dark_star_core
+ z_pr_tips_GF_nyto_collapse_liquid_produces_base:0 "£GF_nyto_collapse_liquid£§G$GF_nyto_collapse_liquid$§!产出=岗位§G[root.z_pr_var_GF_nyto_collapse_liquid_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_GF_nyto_collapse_liquid_man:0 "人力：£GF_nyto_collapse_liquid£§Y$GF_nyto_collapse_liquid$§!消耗=§G[root.z_pr_var_man_GF_nyto_collapse_liquid_upkeep_add]§!"
+ z_pr_tips_GF_nyto_dark_star_core_man:0 "人力：£GF_nyto_dark_star_core£§Y$GF_nyto_dark_star_core$§!产出=§G[root.z_pr_var_man_GF_nyto_dark_star_core_upkeep_add]§!"
+#_[约战]
+ z_pr_tips_datealive_crystals_produces_base:0 "£datealive_crystals£§G$datealive_crystals$§!产出=岗位§G[root.z_pr_var_datealive_crystals_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_datealive_crystals_upkeep_base:0 "£datealive_crystals£§G$datealive_crystals$§!消耗=岗位§G[root.z_pr_var_datealive_crystals_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[苍蓝]  nanomaterial/union_core
+ z_pr_tips_nanomaterial_produces_base:0 "£nanomaterial£§G$nanomaterial$§!产出=岗位§G[root.z_pr_var_nanomaterial_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_nanomaterial_upkeep_base:0 "£nanomaterial£§G$nanomaterial$§!消耗=岗位§G[root.z_pr_var_nanomaterial_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_union_core_produces_base:0 "£union_core£§G$union_core$§!产出=岗位§G[root.z_pr_var_union_core_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+#_[ACOT]
+ z_pr_tips_acot_sr_stellarite_produces_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§!产出=岗位§G[root.z_pr_var_acot_sr_stellarite_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_stellarite_upkeep_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§!消耗=岗位§G[root.z_pr_var_acot_sr_stellarite_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_produces_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§!产出=岗位§G[root.z_pr_var_acot_sr_dark_energy_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_upkeep_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§!消耗=岗位§G[root.z_pr_var_acot_sr_dark_energy_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[巨构]
+ z_pr_tips_sr_iodizium_produces_base:0 "£sr_iodizium£§G$sr_iodizium$§!产出=岗位§G[root.z_pr_var_sr_iodizium_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_iodizium_upkeep_base:0 "£sr_iodizium£§G$sr_iodizium$§!消耗=岗位§G[root.z_pr_var_sr_iodizium_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_produces_base:0 "£sr_solar_energy£§G$sr_solar_energy$§!产出=岗位§G[root.z_pr_var_sr_solar_energy_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_upkeep_base:0 "£sr_solar_energy£§G$sr_solar_energy$§!消耗=岗位§G[root.z_pr_var_sr_solar_energy_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_produces_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§!产出=岗位§G[root.z_pr_var_sr_magical_neutronium_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_upkeep_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§!消耗=岗位§G[root.z_pr_var_sr_magical_neutronium_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_produces_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§!产出=岗位§G[root.z_pr_var_sr_psionic_sublimate_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_upkeep_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§!消耗=岗位§G[root.z_pr_var_sr_psionic_sublimate_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_produces_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§!产出=岗位§G[root.z_pr_var_ehof_sr_negative_mass_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_upkeep_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§!消耗=岗位§G[root.z_pr_var_ehof_sr_negative_mass_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_produces_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§!产出=岗位§G[root.z_pr_var_ehof_sr_sentient_metal_produces_base]§!*经济修正§G[root.z_pr_var_plnt_job_produces_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_upkeep_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§!消耗=岗位§G[root.z_pr_var_ehof_sr_sentient_metal_upkeep_base]§!*经济修正§G[root.z_pr_var_plnt_job_upkeep_mult]§!*生产效率§G[root.PR_var_plnt_EFFICIENCY]§!"
+
+
+
+
+#_[opt]
+ z_pr_opt_test:0 "测试数据"
+
+ z_pr_option_plnt_ignore_on:0 "星球已设为§H忽略产业革命§!"
+ z_pr_option_plnt_ignore_off:0 "星球已设为§B接受产业革命§!"
+ z_pr_option_plnt_ignore:0 "当一颗星球被设置为§H忽略产业革命§!时，产业革命的新功能将不会影响这颗星球，人口不会转化为人力，且经济和岗位系统将遵循原版。"
+
+ z_pr_option_plnt_pop_cnvt_5:0 "失业人口转化§G*5§!"
+ z_pr_option_plnt_pop_cnvt_25:0 "失业人口转化§G*25§!"
+ z_pr_tips_plnt_pop_cnvt:0 "将失业人口转化为人力。"
+ z_pr_tips_plnt_ignore:0 "无法执行\n$z_pr_option_plnt_ignore_on$"
+
+ z_pr_option_plnt_man_cnvt_full:0 "人力转化§G公民物种§!"
+ z_pr_option_plnt_man_cnvt_limited:0 "人力转化§Y居留物种§!"
+ z_pr_option_plnt_man_cnvt_slavery:0 "人力转化§H奴隶物种§!"
+ z_pr_option_plnt_man_cnvt_servitude:0 "人力转化§B机械仆从§!"
+ z_pr_option_plnt_man_cnvt_trophy:0 "人力转化§B活体陈设§!"
+ 
+ z_pr_tips_plnt_man_cnvt:0 "将星球人力转化为指定类型的人口。"
+ z_pr_tips_plnt_has_man:0 "当前星球必须存在人力。"
+ z_pr_tips_plnt_apmc:0 "自动人力转化进行中。"
+ 
+ z_pr_opt_reserved_job_non:0 "当前后补岗位数量 §B无§!"
+ z_pr_opt_reserved_job_10:0 "当前后补岗位数量 §G10§!"
+ z_pr_opt_reserved_job_25:0 "当前后补岗位数量 §G25§!"
+ z_pr_opt_reserved_job_50:0 "当前后补岗位数量 §G50§!"
+ z_pr_opt_reserved_job_100:0 "当前后补岗位数量 §G100§!"
+ z_pr_tips_reserved_job:0 "按照设置为当前星球添加后补岗位，普通国家为$z_pr_freelancer$，格式塔国家为$z_pr_free_drone$。\n当你遭遇一些mod功能需求大量人口时，可以通过这个功能手动为星球增加后部岗位，然后将人力转化为人口以快速填补这些岗位。"
+
+ z_pr_option_plnt_spcs:0 "为当前星球设置物种控制倾向。请注意，你的调整只能控制星球以后的物种倾向，不会立刻改变物种构成。\n§B默认§!：当前星球将保持默认倾向，允许较多的非公民物种存在。\n§H排外§!：当前星球允许非公民物种存在，但会控制他们的数量。\n§R纯血§!：当前星球不允许非公民物种存在。"
+ z_pr_option_plnt_spcs_normal:0 "星球物种倾向已设为§B默认§!"
+ z_pr_option_plnt_spcs_cliquy:0 "星球物种倾向已设为§H排外§!"
+ z_pr_option_plnt_spcs_pure:0 "星球物种倾向已设为§R纯血§!"
+ 
+ z_pr_opt_plnt_abandon:0 "放弃当前殖民地"
+ z_pr_tips_plnt_abandon:0 "放弃这颗星球，并且将人力转移到其他星球。注意：所有人口都将转化为人力。"
+ 
+ z_pr_opt_setting_cntr_mig:0 "国家人力迁移"
+ z_pr_tips_setting_cntr_mig:0 "在整个帝国执行一次人力迁移，将人力过剩星球上的人力迁移到<生产效率>不满§G100%§!的星球上。"
+ z_pr_opt_plnt_man_mig_show:0 "人力迁移细节 §H当前显示§!"
+ z_pr_opt_plnt_man_mig_hide:0 "人力迁移细节 §G当前隐藏§!"
+ z_pr_opt_plnt_man_mig_show_hide:0 "显示或隐藏精细的人力迁移功能，可以强制迁入或迁出人力，或者瞬间填满当前星球，使生产效率达到100%。"
+ z_pr_opt_plnt_man_mig_5:0 "人力迁出§G5§!"
+ z_pr_opt_plnt_man_mig_25:0 "人力迁出§G25§!"
+ z_pr_tips_plnt_man_mig:0 "将当前星球的人力迁出，并填满<生产效率>不满§G100%§!的星球。"
+ z_pr_opt_plnt_man_immig_5:0 "人力迁入§G5§!"
+ z_pr_opt_plnt_man_immig_25:0 "人力迁入§G25§!"
+ z_pr_tips_plnt_man_immig:0 "从人力过剩的星球向这里迁移人力。"
+ z_pr_opt_plnt_man_immig_full:0 "人力迁入§B填满§!"
+ z_pr_tips_plnt_man_immig_full:0 "从人力过剩的星球向当前星球迁移人力，使这里的<生产效率>到达§G100%§!。"
+ 
+ mod_pr_linkage:0 "MOD功能联动"
+ azl_pr_opt_assimilation_materialist:0 "碧蓝航线同化：§B唯物主义§!"
+ azl_pr_opt_assimilation_materialist_desc:0 "将一个$job_z_pr_freeman_worker$转化为心智机器人，即1/10的人力转化为心智机器人，每人力花费£energy£§Y$energy$§!40，£alloys£§P$alloys$§!10。\n必须完成了产业革命且星球存在人力。"
+ azl_pr_opt_assimilation_spiritualist:0 "碧蓝航线同化：§P唯心主义§!"
+ azl_pr_opt_assimilation_spiritualist_desc:0 "将5人力吸收到心智矩阵中。\n星球人力必须>=5。"
+ 
+ 

@@ -1,0 +1,77 @@
+﻿l_simp_chinese:
+
+#################
+### MODIFIERS ###
+#################
+
+mod_shipsize_StrikeCruiser_upkeep_mult: "打击巡洋舰维护"
+mod_shipsize_StrikeCruiser_construction_speed_mult: "打击巡洋舰建造速度"
+mod_shipsize_StrikeCruiser_hull_add: "打击巡洋舰船体值"
+mod_shipsize_StrikeCruiser_build_speed_mult: "打击巡洋舰建造速度"
+mod_ship_StrikeCruiser_cost_mult: "打击巡洋舰建造消耗"
+
+mod_shipsize_escortcarrier_upkeep_mult: "护卫航母维护"
+mod_shipsize_escortcarrier_construction_speed_mult: "护卫航母建造速度"
+mod_shipsize_escortcarrier_hull_add: "护卫航母船体值"
+mod_shipsize_escortcarrier_build_speed_mult: "护卫航母建造速度"
+mod_ship_escortcarrier_cost_mult: "护卫航母建造消耗"
+
+mod_shipsize_Battlecruiser_upkeep_mult: "战列巡洋舰维护"
+mod_shipsize_Battlecruiser_construction_speed_mult: "战列巡洋舰建造速度"
+mod_shipsize_Battlecruiser_hull_add: "战列巡洋舰船体值"
+mod_shipsize_Battlecruiser_build_speed_mult: "战列巡洋舰建造速度"
+mod_ship_Battlecruiser_cost_mult: "战列巡洋舰建造消耗"
+
+mod_shipsize_Carrier_upkeep_mult: "航空母舰维护"
+mod_shipsize_Carrier_construction_speed_mult: "航空母舰建造速度"
+mod_shipsize_Carrier_hull_add: "航空母舰船体值"
+mod_shipsize_Carrier_build_speed_mult: "航空母舰建造速度"
+mod_ship_Carrier_cost_mult: "航空母舰建造消耗"
+
+mod_shipsize_Dreadnought_upkeep_mult: "无畏舰维护"
+mod_shipsize_Dreadnought_construction_speed_mult: "无畏舰建造速度"
+mod_shipsize_Dreadnought_hull_add: "无畏舰船体值"
+mod_shipsize_Dreadnought_build_speed_mult: "无畏舰建造速度"
+mod_ship_Dreadnought_cost_mult: "无畏舰建造消耗"
+
+mod_shipsize_titan_upkeep_mult: "泰坦维护"
+mod_shipsize_titan_construction_speed_mult: "泰坦建造速度"
+mod_shipsize_titan_hull_add: "泰坦船体值"
+mod_shipsize_titan_build_speed_mult: "泰坦建造速度"
+mod_ship_titan_cost_mult: "泰坦消耗"
+
+mod_shipsize_Flagship_upkeep_mult: "旗舰维护"
+mod_shipsize_Flagship_construction_speed_mult: "旗舰建造速度"
+mod_shipsize_Flagship_hull_add: "旗舰船体值"
+mod_shipsize_Flagship_build_speed_mult: "旗舰建造速度"
+mod_ship_Flagship_cost_mult: "旗舰建造消耗"
+
+mod_country_resource_max_minerals_add: "最大矿物"
+mod_country_resource_max_energy_add: "最大能量"
+
+mod_leader_admirals_upkeep_mult: "海军上将维护"
+
+country_command_limit_mult: "舰队指挥限制"
+
+mod_weapon_type_point_defense_weapon_damage_mult: "点防御武器伤害"
+
+mod_planet_livestock_produces_mult: "家畜输出"
+
+mod_pop_category_purge_produces_mult: "排除人口输出"
+
+mod_deposit_blockers_time_cost_mult:0 "瓷砖阻隔物去除时间"
+
+mod_shipsize_military_station_medium_build_speed_mult:0 "防御站建设速度"
+
+mod_shipsize_military_station_large_build_speed_mult:0 "防御要塞建设速度"
+
+mod_light_ship_focus: "重视轻型船舰"
+mod_light_ship_focus_desc: "此政策着重于充满机动性的轻型舰队。为护卫舰、驱逐舰和巡洋舰提升20％的建造速度和降低20％的建造成本，但是由于我们的造船厂将针对轻型船舰进行最佳化，因此大型舰种建造速度会降低20％ ，而造价则会增加20％。"
+mod_versatility_focus: "重视巡洋舰"
+mod_versatility_focus_desc: "此政策着重于中型舰队。为巡洋舰、打击巡洋舰和战列巡洋舰提升20％的建造速度和降低20％的建造成本，但是由于我们的造船厂将针对中型船舰进行最佳化，因此其他级别的造船速度将降低20％，而造价将增加20％。"
+mod_capital_focus: "重视主力舰"
+mod_capital_focus_desc: "此政策着重于重型舰队。为战舰、航母、无畏舰和泰坦提升20％的建造速度和降低20％的建造成本，但是由于我们的造船厂将针对重型船舰进行最佳化，因此其他级别的造船速度将降低20％，而造价将增加20％。"
+mod_carrier_focus: "重视航空母舰"
+mod_carrier_focus_desc: "此政策着重于装备有大量攻击机的运输舰队。为航母和护卫航母提升35％的建造速度和降低35％的建造成本，但是由于我们的造船厂将针对航母进行最佳化，因此其他级别的造船速度将降低20％，而造价将增加20％ 。"
+
+nsc_ship_in_mothball:0 "后备船舰"

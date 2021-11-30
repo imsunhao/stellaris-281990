@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+
+ tech_lingxiutisheng:0"智能领袖"
+ tech_lingxiutisheng_desc:0"为每位领袖配备专属的智能便携型设备（包含外部设备、神经植入、硬件强化...），可以显著强化领袖们处理事务和储存信息的能力。\n\n§E最多循环§Y25§!次。§!"
+
+ tech_tt_new_section_template:0"战舰区段设计蓝图"
+ tech_tt_new_section_template_desc:0"美妙的灵感，给予舰船更多的区段。"
+ tech_tt_new_section_template_1_title:0"§H解锁更多的舰船区段§!"
+ tech_tt_new_section_template_1_desc:0"§H工整传统：工业传统完成§!\n\n当前科技提供的新区段包含：\n§Y护卫舰§!§L(一个多§GA§!槽的辅助型区段)§!、\n§Y驱逐舰§!§L(一个多§GA§!槽的辅助型区段)§!、\n§Y巡洋舰§!§L(一个多§GA§!槽的辅助型区段)§!、\n§Y战列舰§!§L(一个包含§PX§!槽和§EL§!槽的中间区段、一个多§GA§!槽的辅助型区段等等...)§!、\n§Y泰坦§!§L(多个包含§PX§!槽的新区段、一个多§GA§!槽的辅助型区段等等...)§!、\n§Y主宰§!§L(一个包含§HT§!槽的新区段)§!、\n§Y巨像§!§L(一个包含§PX§!槽的区段、一个包含§HT§!槽的区段)§!。"
+
+ tech_tt_crisis_section_template:0"天灾战舰区段设计图"
+ tech_tt_crisis_section_template_desc:0"危险的灵感，给予我们的天灾舰船更多的区段。"
+ tech_tt_crisis_section_template_1_title:0"§H解锁更多的天灾舰船区段§!"
+ tech_tt_crisis_section_template_1_desc:0"§H工整传统：工业传统完成§!\n\n当前科技提供的新区段包含：\n§R战列舰§!§L(一个包含§HT§!槽的区段）§!、\n§R天灾护卫舰§!、\n§R天灾驱逐舰§!、\n§R天灾巡洋舰§!§L(一个包含§PX§!槽的区段)§!。"

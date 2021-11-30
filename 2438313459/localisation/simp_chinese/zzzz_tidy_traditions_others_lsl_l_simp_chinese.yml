@@ -1,0 +1,115 @@
+﻿l_simp_chinese:
+
+ leader_trait_admiral_ard:0 "全面发展"
+ leader_trait_admiral_ard_desc:0 "随着针对领袖的全面深化改革的完成，我们的领袖在大多数方面都有了独特的见解。"
+
+ leader_trait_general_ard:0 "全面发展"
+ leader_trait_general_ard_desc:0 "随着针对领袖的全面深化改革的完成，我们的领袖在大多数方面都有了独特的见解。"
+
+ leader_trait_ruler_ard:0 "全面发展"
+ leader_trait_ruler_ard_desc:0 "随着针对领袖的全面深化改革的完成，我们的领袖在大多数方面都有了独特的见解。"
+
+ leader_trait_scientist_ard:0 "全面发展"
+ leader_trait_scientist_ard_desc:0 "随着针对领袖的全面深化改革的完成，我们的领袖在大多数方面都有了独特的见解。"
+
+ leader_trait_governor_ard:0 "全面发展"
+ leader_trait_governor_ard_desc:0 "随着针对领袖的全面深化改革的完成，我们的领袖在大多数方面都有了独特的见解。"
+ #############
+ tt_our_unity:0"£unity£§E凝聚力储量§!"
+
+ mod_megastructures_produces_mult:0"巨构生产的资源"
+
+ mod_country_consumer_goods_produces_mult:0"每月£consumer_goods£消费品"
+
+ emperor.2.a.tooltip:1 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign$§!国民理念\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.gestalt:0 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign$§!国民理念\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.megacorp:0 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign_megacorp$§!国民理念\n$emperor.2.a.tooltip.end$"
+
+ PERDITION_BEAM_TITAN_TT:0"威慑之下"
+
+#巨像
+ colossus_tidy_traditions_t4_l6:0"工业传统·巨炮区段"
+ colossus_tidy_traditions_x8_l6:0"工业传统·重炮区段"
+
+#主宰
+ juggernaut_core_tidy_traditions_t1x2l5_l21a4:0"工业传统·湮灭区段"
+ juggernaut_core_tidy_traditions_t1x2h5_l21a4:0"工业传统·风暴区段"
+
+#离子加农炮
+ ion_cannon_tidy_traditions_x2_l6:0"工业传统·齐射核心"
+
+#泰坦
+ titan_bow_tidy_traditions_x2_l6:0"工业传统·重炮舰艏"
+ titan_mid_tidy_traditions_x4_l6:0"工业传统·重炮核心"
+ titan_mid_tidy_traditions_m4h4_l6:0"工业传统·航母核心"
+ titan_mid_tidy_traditions_g4h4_l6:0"工业传统·指挥核心"
+ titan_stern_tidy_traditions_x1_a3:0"工业传统·重炮舰尾"
+ titan_stern_tidy_traditions_p2_a9:0"工业传统·辅助舰尾"
+
+#战列舰
+ battleship_bow_tidy_traditions_t1_nothing:0"工业传统·无畏舰艏"
+ battleship_mid_tidy_traditions_x1l1_a3:0"工业传统·重炮核心"
+ battleship_mid_tidy_traditions_x1h1_a3:0"工业传统·风暴核心"
+ battleship_mid_tidy_traditions_nothing:0"工业传统·虚空核心"
+ battleship_stern_tidy_traditions_nothing:0"工业传统·虚空舰尾"
+ battleship_stern_tidy_traditions_nothing_a6:0"工业传统·辅助舰尾"
+
+#巡洋舰
+ cruiser_stern_tidy_traditions_nothing_a4:0"工业传统·辅助舰尾"
+
+#驱逐舰
+ destroyer_stern_tidy_traditions_nothing_a3:0"工业传统·辅助舰尾"
+
+#护卫舰
+ corvette_mid_tidy_traditions_p1_s3a3:0"工业传统·辅助核心"
+
+
+#天灾护卫舰
+ crisis_corvette_mid_tidy_traditions_p3_s3a2:0"工业传统·反制核心"
+ crisis_corvette_mid_tidy_traditions_g1s1_s3a2:0"工业传统·导弹核心"
+
+#天灾驱逐舰
+ crisis_destroyer_mid_tidy_traditions_h1p2_m3a3:0"工业传统·航母核心"
+
+#天灾巡洋舰
+ crisis_cruiser_mid_tidy_traditions_x1s2_m6a2:0"工业传统·重炮核心"
+
+# 焚天神兵
+ star_eater_mid_tidy_traditions_w1t1x2l5p5_l20a4:0"工业传统·湮灭核心"
+
+ open_the_wg_crisis_here:0"§R可以在此处打开焚飞界面§!"
+ the_wg_crisis_is_cooling:0"§R焚飞界面冷却中§!"
+ the_reform_plane_is_cooling:0"$TRIGGER_FAIL$已经查看改革界面了"
+
+ mission_record_civilization:0"记录文明"
+ mission_record_civilization_desc:0"事实证明，所有的智慧生物都或多或少拥有着奇特的想象力，我们认为，静静地着重观察他们因想象力的不同而导致的科技、文化、历史等方面的不同将会给我们带来较高价值的收益。"
+ mission_record_civilization_1:0"记录文明"
+ mission_record_civilization_1_desc:0"事实证明，所有的智慧生物都或多或少拥有着奇特的想象力，我们认为，静静地着重观察他们因想象力的不同而导致的科技、文化、历史等方面的不同将会给我们带来较高价值的收益。"
+
+ tidy_tradition_need_500_sr_dark_matter:0"$TRIGGER_FAIL$需要500£sr_dark_matter£暗物质"
+ tidy_tradition_need_100_minor_artifacts:0"$TRIGGER_FAIL$需要100£minor_artifacts£稀有文物"
+
+ artifact_crack_tech_dark_matter_deflector:0"发起破解暗物质护盾项目"
+ artifact_crack_tech_dark_matter_deflector_desc:0"我们的科研、考古人员在一些古代稀有文物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于护盾类科技，其完全形态将远比我们现在的“超级护盾”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的护盾将会比其他普通文明更加强大。当然，他们需要更多的资料和资源以发起专门的研究项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR:0"破解暗物质护盾"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_DESC:0"各种资源已经准备完毕，随时可以开始破解研发这项暗物质护盾科技。"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_no_ancrel:0"破解暗物质护盾"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_no_ancrel_DESC:0"我们的科研、考古人员在一些古代遗物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于护盾类科技，其完全形态将远比我们现在的“超级护盾”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的护盾将会比其他普通文明更加强大。当然，他们需要更多的时间精力以研究此项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+
+ artifact_crack_tech_dark_matter_power_core:0"发起破解暗物质能源项目"
+ artifact_crack_tech_dark_matter_power_core_desc:0"我们的科研、考古人员在一些古代稀有文物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于能源类科技，其完全形态将远比我们现在的“零点能源”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的舰船将能够承载更多强力武器，大大提升战斗力。当然，他们需要更多的资料和资源以发起专门的研究项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+ CRACK_TECH_DARK_MATTER_POWER_CORE:0"破解暗物质能源"
+ CRACK_TECH_DARK_MATTER_POWER_CORE_DESC:0"各种资源已经准备完毕，随时可以开始破解研发这项暗物质能源科技。"
+ CRACK_TECH_DARK_MATTER_POWER_CORE_no_ancrel:0"破解暗物质能源"
+ CRACK_TECH_DARK_MATTER_POWER_CORE_no_ancrel_DESC:0"我们的科研、考古人员在一些古代遗物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于能源类科技，其完全形态将远比我们现在的“零点能源”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的舰船将能够承载更多强力武器，大大提升战斗力。当然，他们需要更多的时间精力以研究此项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+
+ artifact_crack_tech_dark_matter_propulsion:0"发起破解暗物质推进器项目"
+ artifact_crack_tech_dark_matter_propulsion_desc:0"我们的科研、考古人员在一些古代稀有文物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于推进器类科技，其完全形态将远比我们现在的“脉冲推进器”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的舰队将拥有更快的速度，能更快地到达战场投入战斗。当然，他们需要更多的资料和资源以发起专门的研究项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+ CRACK_TECH_DARK_MATTER_PROPULSION:0"破解暗物质推进器"
+ CRACK_TECH_DARK_MATTER_PROPULSION_DESC:0"各种资源已经准备完毕，随时可以开始破解研发这项暗物质推进器科技。"
+ CRACK_TECH_DARK_MATTER_PROPULSION_no_ancrel:0"破解暗物质推进器"
+ CRACK_TECH_DARK_MATTER_PROPULSION_no_ancrel_DESC:0"我们的科研、考古人员在一些古代遗物中发现了一项与暗物质有着紧密联系的神秘科技，经初步考察，该科技可能属于推进器类科技，其完全形态将远比我们现在的“脉冲推进器”科技强大，他们强烈建议应尽快着手研究破解此科技，如若成功，我们的舰队将拥有更快的速度，能更快地到达战场投入战斗。当然，他们需要更多的时间精力以研究此项目。\n若我们没有其他途径获取这项科技，那么这个方法将会是最保险的选择。"
+
+
+
+ tidy_traditions_tip_desc:0"§R低分辨率的同志请注意！§!\n\n如果UI超出屏幕，请进行以下步骤，以此将UI调整为适合低分辨率的屏幕：\n\n1.请在创意工坊搜索“§Y工整传统：低分辨率补丁§!”模组\n\n2.排序方法：\nN：§Y工整传统§!\nN+1：§Y工整传统：低分辨率补丁§!"

@@ -1,0 +1,234 @@
+﻿l_russian:
+#_[面板按钮]
+#_[伞の优化]
+#_[产业革命]   碧蓝航线dlc/舰R/swg/灰烬/涅托/约战/苍蓝    /ACOT/巨构
+
+
+###_[面板按钮]
+ z_fw_btn_plnt_ui_tb_job_check:0 "Выполните проверку задания на текущей планете и проведите £energy£§Y$energy$§! разжаловать безработное население высшего класса."
+ z_fw_tips_pf2_needed:0 "Миграция населения/рабочей силы\nНужен §BBetter Performance§!"
+ 
+ z_fw_btn_plnt_ui_tb_setting:0 "Откройте панель Детальная настройка планеты\nТеперь поддерживают §BBetter Performance/ Production Revolution§!"
+ z_fw_tips_empty:0 ""
+ z_fw_plnt_ui_setting.name:0 "Детальная настройка планеты"
+ z_fw_plnt_ui_setting.desc:0 "Все детали о планете будет отображаться в §BBetter Performance/ Production Revolution§!."
+ 
+ z_fw_btn_plnt_ui_tb_checking:0 "Открыть подробную статистику по планетам\nТеперь поддерживают §BBetter Performance/ Production Revolution§!"
+ z_fw_plnt_ui_setting.check.name:0 "Подробная статистика планеты"
+ z_fw_plnt_ui_setting.check.desc:0 "Посмотреть подробную статистику планеты §BBetter Performance/ Production Revolution§!"
+ 
+#_决策
+ z_fw_dec_plnt_setting:0 "Открыть подробную настройку планеты"
+ z_fw_dec_plnt_setting_desc:0 "$z_fw_plnt_ui_setting.desc$"
+ z_fw_dec_plnt_checking:0 "Открыть подробную статистику по планетам"
+ z_fw_dec_plnt_checking_desc:0 "$z_fw_plnt_ui_setting.check.desc$"
+
+
+
+
+###_[伞の优化]  ############
+ z_pf2_var_cntr_pop_cap_final:0 "Предельная численность населения империи §T---§! [root.owner.z_pf2_var_cntr_pop_cap_final]"
+ z_pf2_var_cntr_pop_increase_bonus:0 "Эффективность роста населения §Y(1 - стандартное значение)§! §T---§! [root.owner.z_pf2_var_cntr_pop_increase_bonus]"
+ z_pf2_var_plnt_pop_growth:0 "Базовый множитель роста населения планеты §T---§! [root.z_pf2_var_plnt_pop_growth]"
+ z_pf2_var_plnt_pop_clone:0 "Увеличение базовой скорости Клонирования населения планеты §T---§! [root.z_pf2_var_plnt_pop_clone]"
+ z_pf2_var_plnt_pop_assembly:0 "Увеличение базовой Сборки населения планеты §T---§! [root.z_pf2_var_plnt_pop_assembly]"
+
+
+###_[产业革命]  ############    兼容/desc/checking/opt
+ z_pr_tips_spcs_cd:0 "Текущая страна §HОсуществляется видовое регулирование§! или §HНезавершенная промышленная революция§!."
+ 
+#_[兼容]
+ z_pr_tips_comp_azl:0 "§YAzur Lane Stellaris DLC§! §T---§! Совместимо"
+ z_pr_tips_comp_wsg:0 "§YWarship Girls R And MIST Species§! §T---§! Совместимо"
+
+#_[desc]
+ z_pr_title:0 "§BProduction Revolution $z_pr_version$:§! Настройки"
+ z_pr_var:0 "§BProduction Revolution $z_pr_version$:§! Параметры"
+
+ z_pr_tips_var_plnt_guide:0 "§EСм. руководство и совместимость §MPR§! в панели настройки.§!"
+ z_pr_tips_var_plnt_pop_man:0 "Headcount §B[root.PR_var_plnt_HC]§! = §YРабочая сила§! (§G[root.PR_var_plnt_MAN]§!) + Население (§G[root.z_pr_var_plnt_pops]§!)"
+ z_pr_tips_var_cntr_man:0 "Общая численность рабочей силы Империи §B[root.owner.PR_var_cntr_MAN]§!/帝国总人数§H[root.owner.PR_var_cntr_HC]§!"
+ z_pr_tips_var_plnt_man:0 "Рабочая сила (§G[root.PR_var_plnt_MAN]§!) / Рабочие места (§G[root.PR_var_plnt_WORKSHOP]§!) ≈ §BЭффективность производства§! (§Y[root.PR_var_plnt_EFFICIENCY]§!)"
+ z_pr_tips_var_plnt_man_desc:0 "§EБольшее количество рабочей силы или меньшее количество рабочих мест, означает большую производительность.§!"
+ z_pr_tips_var_plnt_man_cap:0 "Рабочая сила (§G[root.PR_var_plnt_MAN]§!) / Лимит §YРабочей силы§! (§B[root.z_pr_var_plnt_man_beta_max]§!)"
+ z_pr_tips_var_plnt_man_cap_desc:0 "§EЧем ближе рабочие силы к лимиту, тем меньше рост населения§!"
+ z_pr_tips_var_plnt_man_growth:0 "Рост численности §YРабочей силы§! (§G[root.PR_var_plnt_GROWTH_rate]§!)"
+ z_pr_tips_var_plnt_man_growth_desc:0 "= (Рост численности (§G[root.PR_var_plnt_GROWTH_natural]§!) + Скорость клонирования (§G[root.PR_var_plnt_GROWTH_clone]§!) + Скорость Сборки (§G[root.PR_var_plnt_GROWTH_assembly]§!) * Эффективность роста §YРабочей силы§! (§G[root.PR_var_plnt_GROWTH_mult]§!)"
+
+#_[checking]
+ z_pr_tips_plnt_man_economy:0 "§EAll §YEconomic Multipliers§! are condensed into one single §BEconomic Modifier§! Value.§!"
+ z_pr_tips_mod_plnt_trade:0 "$MOD_TRADE_VALUE_ADD$ = §G[root.z_pr_var_job_trade_value_add]§! * Бонусный модификатор §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_amenities:0 "$MOD_PLANET_AMENITIES_ADD$ = §G[root.z_pr_var_job_planet_amenities_add]§! * Бонусный модификатор §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_maintain:0 "$MOD_PLANET_AMENITIES_NO_HAPPINESS_ADD$ = §G[root.z_pr_var_job_planet_amenities_no_happiness_add]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_stability:0 "$MOD_PLANET_STABILITY_ADD$ = §G[root.z_pr_var_job_planet_stability_add]§!"
+ z_pr_tips_mod_plnt_crime:0 "$MOD_PLANET_CRIME_ADD$ = §G[root.z_pr_var_job_planet_crime_add]§!"
+ z_pr_tips_mod_plnt_deviant:0 "$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ = §G[root.z_pr_var_job_planet_crime_no_happiness_add]§!"
+ z_pr_tips_mod_plnt_tolerance:0 "$MOD_POP_ENVIRONMENT_TOLERANCE$ = §G[root.z_pr_var_job_pop_environment_tolerance]§!"
+ z_pr_tips_var_plnt_job_cntr_navy_add:0 "$MOD_COUNTRY_NAVAL_CAP_ADD$ = §G[root.z_pr_var_job_country_naval_cap_add]§!"
+ z_pr_tips_var_plnt_job_cntr_admin_add:0 "$MOD_COUNTRY_ADMIN_CAP_ADD$ = §G[root.z_pr_var_job_country_admin_cap_add]§!"
+ z_pr_tips_mod_pop_plnt_pdf:0 "$MOD_POP_DEFENSE_ARMIES_ADD$ = §G[root.z_pr_var_job_pop_defense_armies_add]§!"
+
+ z_pr_tips_var_plnt_res_all_mult:0 "Все производят бонус §B=§! §G[root.z_pr_var_plnt_job_produces_mult]§! /Все Содержание Бонус §B=§! §G[root.z_pr_var_plnt_job_upkeep_mult]§!"
+ z_pr_tips_mod_pop_job_p_v_1e:0 "£energy£§Y$energy$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_energy_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_energy_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1e:0 "£energy£§Y$energy$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_energy_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1e_add:0 "Рабочая сила: £energy£§Y$energy$§! Содержание §B=§! §G[root.z_pr_var_man_energy_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1m:0 "£minerals£§R$minerals$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_minerals_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_minerals_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1m:0 "£minerals£§R$minerals$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_minerals_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1m_add:0 "Рабочая сила: £minerals£§R$minerals$§! Содержание §B=§! §G[root.z_pr_var_man_minerals_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1f:0 "£food£§G$food$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_food_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_food_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1f:0 "£food£§G$food$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_food_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1f_add:0 "Рабочая сила: £food£§G$food$§! Содержание §B=§! §G[root.z_pr_var_man_food_upkeep_add]§!"
+
+ z_pr_tips_mod_pop_job_p_v_2a:0 "£alloys£§P$alloys$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_alloys_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_alloys_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2a:0 "£alloys£§P$alloys$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_alloys_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_alloys_man:0 "Рабочая сила: £alloys£§P$alloys$§! Содержание §B=§! §G[root.z_pr_var_man_alloys_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_2c:0 "£consumer_goods£§H$consumer_goods$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_consumer_goods_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_consumer_goods_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2c:0 "£consumer_goods£§H$consumer_goods$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_consumer_goods_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_2c_add:0 "Рабочая сила: £consumer_goods£§H$consumer_goods$§! Содержание §B=§! §G[root.z_pr_var_man_consumer_goods_upkeep_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_rare_crystals_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_rare_crystals_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3rc_add:0 "Рабочая сила: £rare_crystals£§Y$rare_crystals$§! Производит (по признакам) §B=§! §G[root.z_pr_var_man_rare_crystals_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_rare_crystals_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3eg:0 "£exotic_gases£§G$exotic_gases$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_exotic_gases_produces_base]§! * Бонусный модификато р§G[root.z_pr_var_exotic_gases_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3eg_add:0 "Рабочая сила: £exotic_gases£§G$exotic_gases$§! Производит (по признакам) §B=§! §G[root.z_pr_var_man_exotic_gases_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3eg:0 "£exotic_gases£§G$exotic_gases$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_exotic_gases_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3vm:0 "£volatile_motes£§B$volatile_motes$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_volatile_motes_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_volatile_motes_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3vm_add:0 "Рабочая сила: £volatile_motes£§B$volatile_motes$§! Производит (по признакам) §B=§! §G[root.z_pr_var_man_volatile_motes_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3vm:0 "£volatile_motes£§B$volatile_motes$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_volatile_motes_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+ z_pr_tips_pop_job_p_v_rp:0 "£physics_research£§B$physics_research$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_physics_research_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_physics_research_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_physics_research_man:0 "Рабочая сила: £physics_research£§B$physics_research$§! Производит §B=§! §G[root.z_pr_var_man_physics_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_re:0 "£engineering_research£§H$engineering_research$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_engineering_research_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_engineering_research_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_engineering_research_man:0 "Рабочая сила: £engineering_research£§H$engineering_research$§! Производит §B=§! §G[root.z_pr_var_man_engineering_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_rs:0 "£society_research£§G$society_research$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_society_research_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_society_research_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_society_research_man:0 "Рабочая сила: £society_research£§G$society_research$§! Производит §B=§! §G[root.z_pr_var_man_society_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_ru:0 "£unity£§E$unity$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_unity_produces_base]§! * Бонусный модификатор§G[root.z_pr_var_unity_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_pop_job_u_v_ru:0 "£unity£§E$unity$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_unity_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_unity_man:0 "Рабочая сила: £unity£§E$unity$§! Производит §B=§! §G[root.z_pr_var_man_unity_produces_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§! Производит §B=§! Работа §G[root.z_pr_var_sr_living_metal_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§! Содержание §B=§! Работа §G[root.z_pr_var_sr_living_metal_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_zro:0 "£sr_zro£§B$sr_zro$§! Производит §B=§! Работа §G[root.z_pr_var_sr_zro_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_zro:0 "£sr_zro£§B$sr_zro$§! Содержание §B=§! Работа §G[root.z_pr_var_sr_zro_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§! Производит §B=§! Работа §G[root.z_pr_var_sr_dark_matter_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_res_p_v_dm_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§! Содержание §B=§! Работа §G[root.z_pr_var_sr_dark_matter_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_nnt:0 "£nanites£§T$nanites$§! Производит §B=§! Работа §G[root.z_pr_var_nanites_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_res_p_v_nnt_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_nnt:0 "£nanites£§T$nanites$§! Содержание §B=§! Работа §G[root.z_pr_var_nanites_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_ma:0 "£minor_artifacts£§M$minor_artifacts$§! Производит §B=§! Работа §G[root.z_pr_var_minor_artifacts_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_influence_produces_base:0 "£influence£§M$influence$§! Производит §B=§! §G[root.z_pr_var_influence_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+#_[碧蓝航线DLC]
+ z_pr_tips_mind_club_produces_base:0 "£mind_club£§B$mind_club$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_mind_club_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mind_club_upkeep_base:0 "£mind_club£§B$mind_club$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_mind_club_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_azur_shippartbox_produces_base:0 "£azur_shippartbox£§P$azur_shippartbox$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_azur_shippartbox_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[舰R]
+ z_pr_tips_sr_pantsu_produces_base:0 "£sr_pantsu£§G$sr_pantsu$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_pantsu_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_pantsu_upkeep_base:0 "£sr_pantsu£§G$sr_pantsu$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_pantsu_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_produces_base:0 "£sr_neo£§G$sr_neo$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_neo_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_upkeep_base:0 "£sr_neo£§G$sr_neo$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_neo_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_produces_base:0 "£sr_alpha£§H$sr_alpha$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_alpha_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_upkeep_base:0 "£sr_alpha£§H$sr_alpha$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_alpha_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_produces_base:0 "£sr_se£§Y$sr_se$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_se_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_upkeep_base:0 "£sr_se£§Y$sr_se$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_se_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[swg]
+ z_pr_tips_sr_kyber_swgs_produces_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_kyber_swgs_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_kyber_swgs_upkeep_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_kyber_swgs_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_produces_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_tibanna_swgs_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_upkeep_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_tibanna_swgs_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[灰烬]
+ z_pr_tips_sr_crystal_adf_produces_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_crystal_adf_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_crystal_adf_upkeep_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_crystal_adf_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_produces_base:0 "£sr_parts_adf£§G$sr_parts_adf$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_parts_adf_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_upkeep_base:0 "£sr_parts_adf£§G$sr_parts_adf$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_parts_adf_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[涅托]  GF_nyto_collapse_liquid
+ z_pr_tips_GF_nyto_collapse_liquid_produces_base:0 "£GF_nyto_collapse_liquid£§G$GF_nyto_collapse_liquid$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_GF_nyto_collapse_liquid_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_GF_nyto_collapse_liquid_man:0 "Рабочая сила: £GF_nyto_collapse_liquid£§Y$GF_nyto_collapse_liquid$§! Содержание §B=§! §G[root.z_pr_var_man_GF_nyto_collapse_liquid_upkeep_add]§!"
+ z_pr_tips_GF_nyto_dark_star_core_man:0 "Рабочая сила: £GF_nyto_dark_star_core£§Y$GF_nyto_dark_star_core$§! Производит §B=§! §G[root.z_pr_var_man_GF_nyto_dark_star_core_upkeep_add]§!"
+#_|约战|
+ z_pr_tips_datealive_crystals_produces_base:0 "£datealive_crystals£§G$datealive_crystals$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_datealive_crystals_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_datealive_crystals_upkeep_base:0 "£datealive_crystals£§G$datealive_crystals$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_datealive_crystals_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_|苍蓝|  nanomaterial/union_core
+ z_pr_tips_nanomaterial_produces_base:0 "£nanomaterial£§G$nanomaterial$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_nanomaterial_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_nanomaterial_upkeep_base:0 "£nanomaterial£§G$nanomaterial$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_nanomaterial_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_union_core_produces_base:0 "£union_core£§G$union_core$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_union_core_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+#_[ACOT]
+ z_pr_tips_acot_sr_stellarite_produces_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_acot_sr_stellarite_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_stellarite_upkeep_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_acot_sr_stellarite_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_produces_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_acot_sr_dark_energy_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_upkeep_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_acot_sr_dark_energy_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[巨构]
+ z_pr_tips_sr_iodizium_produces_base:0 "£sr_iodizium£§G$sr_iodizium$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_iodizium_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_iodizium_upkeep_base:0 "£sr_iodizium£§G$sr_iodizium$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_iodizium_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_produces_base:0 "£sr_solar_energy£§G$sr_solar_energy$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_solar_energy_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_upkeep_base:0 "£sr_solar_energy£§G$sr_solar_energy$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_solar_energy_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_produces_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_magical_neutronium_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_upkeep_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_magical_neutronium_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_produces_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_sr_psionic_sublimate_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_upkeep_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_sr_psionic_sublimate_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_produces_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_ehof_sr_negative_mass_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_upkeep_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_ehof_sr_negative_mass_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_produces_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§! Производит §B=§! От рабочих мест §G[root.z_pr_var_ehof_sr_sentient_metal_produces_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_produces_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_upkeep_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§! Содержание §B=§! От рабочих мест §G[root.z_pr_var_ehof_sr_sentient_metal_upkeep_base]§! * Бонусный модификатор §G[root.z_pr_var_plnt_job_upkeep_mult]§! * Эффективность §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+
+
+
+#_[opt]
+ z_pr_opt_test:0 "Тестовые данные"
+
+ z_pr_option_plnt_ignore_on:0 "На текущей планете §BProduction Revolution§! §GВключена§!"
+ z_pr_option_plnt_ignore_off:0 "На текущей планете §BProduction Revolution§! §RОтключена§!"
+ z_pr_option_plnt_ignore:0 "Если на планете установлено §BProduction Revolution§! §RОтключена§!, больше не будет работать. Население не будут конвертироваться в §Yрабочую силу§!, а работа и экономика будут работать по Ванильной системе."
+
+ z_pr_option_plnt_pop_cnvt_5:0 "Безработные обращаются в §Yрабочую силу§! §G*5§!"
+ z_pr_option_plnt_pop_cnvt_25:0 "Безработные обращаются в §Yрабочую силу§! §G*25§!"
+ z_pr_tips_plnt_pop_cnvt:0 "Преобразование населения в §Yрабочую силу§!."
+ z_pr_tips_plnt_ignore:0 "Не разрешается\n$z_pr_option_plnt_ignore_on$"
+
+ z_pr_option_plnt_man_cnvt_full:0 "§YРабочая сила§! для §GПолноправных граждан§!"
+ z_pr_option_plnt_man_cnvt_limited:0 "§YРабочая сила§! для §YОграниченных в гражданстве§!"
+ z_pr_option_plnt_man_cnvt_slavery:0 "§YРабочая сила§! для §HРабство§!"
+ z_pr_option_plnt_man_cnvt_servitude:0 "§YРабочая сила§! для §BРобот-слуга§!"
+ z_pr_option_plnt_man_cnvt_trophy:0 "§YРабочая сила для§! §BБиотрофей§!"
+ 
+ z_pr_tips_plnt_man_cnvt:0 "Преобразование §Yрабочей силы§! планеты в определенный тип населения."
+ z_pr_tips_plnt_has_man:0 "На нынешней планете должна быть §Yрабочая сила§!."
+ z_pr_tips_plnt_apmc:0 "Выполняется автоматическое преобразование рабочей силы."
+ 
+ z_pr_opt_reserved_job_non:0 "Текущее количество  замещающих должностей §BНет§!"
+ z_pr_opt_reserved_job_10:0 "Текущее количество  замещающих должностей §G10§!"
+ z_pr_opt_reserved_job_25:0 "Текущее количество  замещающих должностей §G25§!"
+ z_pr_opt_reserved_job_50:0 "Текущее количество  замещающих должностей §G50§!"
+ z_pr_opt_reserved_job_100:0 "Текущее количество  замещающих должностей §G100§!"
+ z_pr_tips_reserved_job:0 "Согласно настройкам добавить пост для текущей планеты, обычная империя $z_pr_freelancer$, Гештальт империя являются $z_pr_free_drone$.\nКогда вы сталкиваетесь с некоторыми функциями мода, требующими большого населения, эта функция позволяет вам вручную добавить обратно позиции на планету, а затем конвертировать рабочую силу в население, чтобы быстро заполнить эти позиции."
+
+ z_pr_option_plnt_spcs:0 "Установите для текущей планеты зависимость управления видами. Обратите внимание, что ваши корректировки будут только контролировать видовые тенденции планеты в будущем и не будут сразу менять видовой состав.\n§BПо умолчанию§!: Нынешняя планета по умолчанию будет поддерживать стремление к тому, чтобы позволить существовать большему числу негражданских видов.\n§HКсенофобия§!: Нынешняя планета позволяет существовать негражданским видам, но будет контролировать их численность.\n§RТолько чистокровные§!: Нынешняя планета не позволяет существовать негражданским видам."
+ z_pr_option_plnt_spcs_normal:0 "Регулирование расс на планете §BПо умолчанию§!"
+ z_pr_option_plnt_spcs_cliquy:0 "Регулирование расс на планете: §HКсенофобия§!"
+ z_pr_option_plnt_spcs_pure:0 "Регулирование расс на планете §RТолько чистокровные§!"
+ 
+ z_pr_opt_plnt_abandon:0 "§RЗаброшенные колонии§!"
+ z_pr_tips_plnt_abandon:0 "Покинуть эту планету и перевести §Yрабочую силу§! на другую планету. §HПримечание:§! вся численность населения будет пересчитана в §Yрабочую силу§!. §RНеобратимая функция§!"
+ 
+ z_pr_opt_setting_cntr_mig:0 "Национальная миграция §Yрабочей силы§!"
+ z_pr_tips_setting_cntr_mig:0 "Выполнить общеимперское перемещение §Yрабочей силы§! с планет с избытком §Yрабочей силы§! на планеты с <производительностью> менее §G100%§! планеты."
+ z_pr_opt_plnt_man_mig_show:0 "Инормация о Миграции рабочей силы §HПоказана§!"
+ z_pr_opt_plnt_man_mig_hide:0 "Инормация о Миграции рабочей силы §GСкрыта§!"
+ z_pr_opt_plnt_man_mig_show_hide:0 "Отображение или скрытие подробной функции миграции рабочей силы, которая может заставить миграцию в или из рабочей силы, или мгновенно заполнить текущую планету рабочей силой, чтобы эффективность производства достигла 100%."
+ z_pr_opt_plnt_man_mig_5:0 "Перемещение §Yрабочей силы§! §G5§!"
+ z_pr_opt_plnt_man_mig_25:0 "Перемещение §Yрабочей силы§! §G25§!"
+ z_pr_tips_plnt_man_mig:0 "Переместить §Yрабочую силу§! текущей планеты и заполнить её <производительностью> менее §G100%§! Планеты."
+ z_pr_opt_plnt_man_immig_5:0 "Переезд §Yрабочей силы§! §G5§!"
+ z_pr_opt_plnt_man_immig_25:0 "Переезд §Yрабочей силы§! §G25§!"
+ z_pr_tips_plnt_man_immig:0 "Миграция людей с планеты с избытком §Yрабочей силы§!."
+ z_pr_opt_plnt_man_immig_full:0 "Переезд §Yрабочей силы§! §BЗаполнить рабочей силы§!"
+ z_pr_tips_plnt_man_immig_full:0 "Перемещение §Yрабочей силы§! с планеты с избытком §Yрабочей силы§! на текущую планету так, чтобы <производительность> здесь достигла §G100%§!."
+ 
+ mod_pr_linkage:0 "Встроенная функция мода"
+ azl_pr_opt_assimilation_materialist:0 "Ассимиляция Азур Лэйн: §BМатериализм§!"
+ azl_pr_opt_assimilation_materialist_desc:0 "Преобразование $job_z_pr_freeman_worker$ в разумный робот, то есть 1/10 часть рабочей силы преобразуется в разумный робот. Каждая рабочая сила стоит £energy£§Y$energy$§! 40 и £alloys£§P$alloys$§! 10. \nПроизводственная революция должна быть завершена, а планета иметь рабочую силу."
+ azl_pr_opt_assimilation_spiritualist:0 "Ассимиляция Азур Лэйн: §PСпиритуалист§!"
+ azl_pr_opt_assimilation_spiritualist_desc:0 "Ассимилировать 5 человек в Матрицу Разума.\nПроизводственная революция должна быть завершена, а количество людей на планете должно быть >=5."
+

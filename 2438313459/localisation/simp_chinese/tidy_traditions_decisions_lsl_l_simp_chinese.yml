@@ -1,0 +1,44 @@
+﻿l_simp_chinese:
+
+ decision_defense_overload:0"启动防御过载"
+ decision_defense_overload_desc:0"调配全球能源，集中于防御工事，全力抵御外敌！"
+
+ decision_remove_defense_overload:0"关闭防御过载"
+ decision_remove_defense_overload_desc:0"关闭防御过载，恢复全球能源生产。"
+
+ defense_overload:0"防御过载"
+ defense_overload_desc:0"这颗星球的电力系统已经集中于防御系统，用于抵御外敌。"
+
+ d_natural_reserve:0"自然保护区"
+ d_natural_reserve_desc:0"这里设立了一个拥有完整独立生态系统的自然保护区，风景绝美，景色宜人，既能够给人们带来无限舒适，也能够提供一定的“食物”，还能供科研人员研究生态。"
+
+ decision_natural_reserve:0"设立自然保护区"
+ decision_natural_reserve_desc:0"有必要设立一个不受外界打扰，能够独立自主运行的生态区划，相信它能够带来大量好处的。"
+
+ decision_remove_natural_reserve:0"移除自然保护区"
+ decision_remove_natural_reserve_desc:0"这颗星球不再需要自然保护区了，事实证明它会阻碍工业发展。"
+
+ decision_guide_gently:0"循循善诱"
+ decision_guide_gently_desc:0"只有我们能确保土著文明的持续发展，派发大量物资和特别人员，对它们进行教导。"
+
+ decision_ideological_education:0"思想教导"
+ decision_ideological_education_desc:0"我们能让这些失去祖国的人发挥更大价值，但首先得派发物资和特别人员，对它们进行思想教导等工作。"
+
+ decision_tt_revival_cohesion:0 "凝心聚力"
+ decision_tt_revival_cohesion_desc:0 "水能载舟，亦能覆舟。关心人民所真正需要的，才是一个优秀国家的最基本功能。"
+ decision_tt_revival_cohesion_machine:0"凝心聚力"
+ decision_tt_revival_cohesion_machine_desc:0"在多方面给予子个体更多的照料，能很好地改善他们与主脑链接的稳定性，以提高整体生产力。"
+ decision_tt_revival_cohesion_hive:0"凝心聚力"
+ decision_tt_revival_cohesion_hive_desc:0"在多方面给予子个体更多的照料，能很好地改善他们与蜂巢链接的稳定性，以提高整体生产力。"
+
+ decision_cancel_tt_revival_cohesion:0 "移除凝心聚力"
+ decision_cancel_tt_revival_cohesion:0 "维持高产出非常不易，暂停一会予以缓冲。"
+ decision_cancel_tt_revival_cohesion_machine:0"移除凝心聚力"
+ decision_cancel_tt_revival_cohesion_machine_desc:0"我们已经很难再给予子个体更多的照料了，不得不停止这种模式。"
+ decision_cancel_tt_revival_cohesion_hive:0"移除凝心聚力"
+ decision_cancel_tt_revival_cohesion_hive_desc:0"我们已经很难再给予子个体更多的照料了，不得不停止这种模式。"
+
+ focus_on_what_the_people_want:0"凝心聚力"
+ focus_on_what_the_people_want_desc:0"水能载舟，亦能覆舟。关心人民所真正需要的，才是一个优秀国家的最基本功能。"
+ focus_on_humanistic_concern:0"凝心聚力"
+ focus_on_humanistic_concern_desc:0"在多方面给予子个体更多的照料，能很好地改善他们与主脑链接的稳定性，以间接提高整体生产力。"

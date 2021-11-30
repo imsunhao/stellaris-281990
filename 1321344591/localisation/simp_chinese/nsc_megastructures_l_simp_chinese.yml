@@ -1,0 +1,131 @@
+﻿l_simp_chinese:
+
+######################
+### MEGASTRUCTURES ###
+######################
+
+hyperlane_creator_emisor_0:0 "超空间航线产生器(发射端)施工现场"
+hyperlane_creator_emisor_0_DESC:0 "创建新的超空间航线-步骤1：在新超空间航线的起点星系中建造此结构。"
+hyperlane_creator_emisor_0_MEGASTRUCTURE_DETAILS:0 "创建新的超空间航线-步骤1：在新超空间航线的起点星系中建造此建筑。"
+                                  
+hyperlane_creator_receptor_0:0 "超空间航线产生器(接收端)施工现场"
+hyperlane_creator_receptor_0_DESC:0 "创建新的超空间航线-步骤2：在新超空间航线的终点星系中建造此结构。"
+hyperlane_creator_receptor_0_MEGASTRUCTURE_DETAILS:0 "创建新的超空间航线-步骤2：在新超空间航线的终点星系中建造此建筑。"
+
+hyperlane_creator_emisor_1:0 "超空间航线产生器(发射端)"
+hyperlane_creator_emisor_1_DESC:0 "创建新的超空间航线-步骤3：升级此结构以完成超空间航线产生器发射端的构建。"
+
+hyperlane_creator_receptor_1:0 "超空间航线产生器(接收端)"
+hyperlane_creator_receptor_1_DESC:0 "创建新的超空间航线-步骤4：升级此结构以完成超空间航线产生器接收端的构建。"
+
+hyperlane_creator_emisor_2:0 "超空间航线产生器(发射端) - 激活"
+hyperlane_creator_emisor_2_DESC:0 "创建新的超空间航线-步骤5：升级此结构以激活超空间航线产生器发射端并产生超空间航线。"
+
+
+
+hyperlane_remover_emisor_0:0 "超空间航线移除器(发射端)施工现场"
+hyperlane_remover_emisor_0_DESC:0 "移除超空间航线-步骤1：在要移除的超空间航线的其中一端星系建造此建筑。"
+hyperlane_remover_emisor_0_MEGASTRUCTURE_DETAILS:0 "移除超空间航线-步骤1：在要移除的超空间航线的其中一端星系建造此建筑。"
+
+hyperlane_remover_receptor_0:0 "超空间航线移除器(接收端)施工现场"
+hyperlane_remover_receptor_0_DESC:0 "移除超空间航线-步骤2：在要移除的超空间航线的另一端星系建造此建筑。"
+hyperlane_remover_receptor_0_MEGASTRUCTURE_DETAILS:0 "移除超空间航线-步骤2：在要移除的超空间航线的另一端星系建造此建筑。"
+
+hyperlane_remover_emisor_1:0 "超空间航线移除器(发射端)"
+hyperlane_remover_emisor_1_DESC:0 "移除超空间航线-步骤3：升级此结构以完成超空间航线移除器发射端的构建。"
+
+hyperlane_remover_receptor_1:0 "超空间航线移除器(接收端)"
+hyperlane_remover_receptor_1_DESC:0 "移除超空间航线-步骤4：升级此结构以完成超空间航线移除器接收端的构建。"
+
+hyperlane_remover_emisor_2:0 "超空间航线移除器(发射端) - 激活"
+hyperlane_remover_emisor_2_DESC:0 "创建新的超空间航线-步骤5：升级此结构以激活超空间航线移除器发射端并消除两个星系间的超空间航线。"
+
+
+
+nsc_strategic_resource_factory_0_MEGASTRUCTURE_DETAILS: "一个庞大的工业综合体，能够以高昂的矿物和能源成本生产大部分星系的战略资源。"
+nsc_strategic_resource_factory_0: "战略资源工厂预定地"
+nsc_strategic_resource_factory_0_DESC: "一个庞大的工业综合体，能以高昂的矿物和能源成本生产大部分星系的战略资源。"
+nsc_strategic_resource_factory_0_CONSTRUCTION_INFO_DELAYED: "一个庞大的工业综合体，能以高昂的矿物和能源成本生产大部分星系的战略资源。"
+
+nsc_strategic_resource_factory_1: "战略资源工厂"
+nsc_strategic_resource_factory_1_DESC: "一个庞大的工业综合体，能以高昂的矿物和能源成本生产大部分星系的战略资源。"
+nsc_strategic_resource_factory_1_CONSTRUCTION_INFO_DELAYED: "一个庞大的工业综合体，能以高昂的矿物和能源成本生产大部分星系的战略资源。"
+nsc_strategic_resource_factory_1_MEGASTRUCTURE_DETAILS: "一个庞大的工业综合体，能以高昂的矿物和能源成本生产大部分星系的战略资源。"
+
+
+
+nsc_galactic_mall_0_MEGASTRUCTURE_DETAILS: "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+
+nsc_galactic_mall_0: "银河购物中心预定地"
+nsc_galactic_mall_0_DESC:0 "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+nsc_galactic_mall_0_CONSTRUCTION_INFO_DELAYED:0 "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+nsc_galactic_mall_1:0 "银河购物中心"
+nsc_galactic_mall_1_DESC:0 "全银河系最大的购物中心，能够生产大量§G500§! £consumer_goods£ §Y消费品§!与§G50§! £unity£ §Y凝聚力§!"
+nsc_galactic_mall_1_CONSTRUCTION_INFO_DELAYED:0 "全银河系最大的购物中心，能透过消耗够生产大量的£energy£与£minerals£来生产£consumer_goods£。"
+nsc_galactic_mall_1_MEGASTRUCTURE_DETAILS:0 "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+
+
+
+nsc_hospital_0_MEGASTRUCTURE_DETAILS: "这是一所致力于研究银河系中的各种异星生物并分析、治疗影响这些物种的各种疾病的大型医院。"
+				       
+nsc_hospital_0:0 "银河综合医院预定地"
+nsc_hospital_0_DESC:0 "这是一所致力于研究银河系中的各种异星生物并分析和治疗影响这些物种的各种疾病与症状的大型医院。"
+nsc_hospital_0_CONSTRUCTION_INFO_DELAYED:0 "这是一所致力于研究银河系中的各种异星生物并分析、治疗影响这些物种的各种疾病的大型医院。"
+
+nsc_hospital_1:0 "银河诊所"
+nsc_hospital_1_DESC:0 "大型太空医学诊所，致力于研究银河系中的各种异星生物，以及分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_1_CONSTRUCTION_INFO_DELAYED:0 "大型的太空医学诊所，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_1_MEGASTRUCTURE_DETAILS:0 "大型的太空医学诊所，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+
+nsc_hospital_2:0 "银河医疗中心"
+nsc_hospital_2_DESC:0 "巨型太空医学中心，致力于研究银河系中的各种异种，并分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_2_CONSTRUCTION_INFO_DELAYED:0 "巨型太空医学中心，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_2_MEGASTRUCTURE_DETAILS:0 "巨型太空医学中心，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+
+nsc_hospital_3:0 "银河综合医院"
+nsc_hospital_3_DESC:0 "这是一家庞大而先进的太空医院，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_3_CONSTRUCTION_INFO_DELAYED:0 "这是一家庞大而先进的太空医院，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+nsc_hospital_3_MEGASTRUCTURE_DETAILS:0 "这是一家庞大而先进的太空医院，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。
+
+triggered_opinion_of_nsc_hopsital_1:0 "银河医院"
+triggered_opinion_of_nsc_hopsital_2:0 "$triggered_opinion_of_nsc_hopsital_1$"
+triggered_opinion_of_nsc_hopsital_3:0 "$triggered_opinion_of_nsc_hopsital_1$"
+
+
+
+
+
+##################################
+### HYPERLANE CREATION/REMOVAL ###
+##################################
+
+hyperlane_generation.1.name:0 "超空间航线生成"
+hyperlane_generation.1.desc:0 "我们成功的在§Y[hyperlane_creator_emisor.GetName]§!和§Y[hyperlane_creator_receptor.GetName]§!之间产生了一个超空间航线。"
+hyperlane_generation.a:0 "非常好"
+
+hyperlane_generation.3.name:0 "超空间航线移除"
+hyperlane_generation.3.desc:0 "我们成功的移除§Y[hyperlane_remover_emisor.GetName]§!和§Y[hyperlane_remover_receptor.GetName]§!之间的超空间航线。"
+
+hyperlane_generation.5.name:0 "超空间航线产生器(发射端)施工"
+hyperlane_generation.5.desc:0 "我们在§Y[hyperlane_generator_1.GetName]§!完成了超空间航线产生器(发射端)的初步架构。"
+
+hyperlane_generation.7.name:0 "超空间航线产生器(接收端)施工"
+hyperlane_generation.7.desc:0 "我们在§Y[hyperlane_generator_2.GetName]§!完成了超空间航线产生器(接收端)的初步架构。"
+
+hyperlane_generation.9.name:0 "超空间航线移除器(发射端)施工"
+hyperlane_generation.9.desc:0 "我们在§Y[hyperlane_generator_3.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
+
+hyperlane_generation.11.name:0 "超空间航线移除器(接收端)施工"
+hyperlane_generation.11.desc:0 "我们在§Y[hyperlane_generator_4.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
+
+hyperlane_generation.6.name:0 "超空间航线产生器(发射端)完工"
+hyperlane_generation.6.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+
+hyperlane_generation.8.name:0 "超空间航线产生器(接收端)完工"
+hyperlane_generation.8.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+
+hyperlane_generation.10.name:0 "超空间航线移除器(发射端)完工"
+hyperlane_generation.10.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+
+hyperlane_generation.12.name:0 "超空间航线移除器(接收端)完工"
+hyperlane_generation.12.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(接收端)的最终阶段。"

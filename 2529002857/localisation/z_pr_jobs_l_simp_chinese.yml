@@ -1,0 +1,164 @@
+﻿l_simp_chinese:
+#_[修正检测]
+       
+#_[exp]     exp太阳能/exp黑洞研究
+#_[div]     div原料收集/div生态学家/div能源管理/div深渊矿工/div军工
+
+
+
+
+###_[修正检测]
+ job_PR_check_vanilla:0 "岗位激活"
+ job_PR_check_vanilla_plural:0 "$job_PR_check_vanilla$"
+ job_PR_check_vanilla_desc:0 ""
+ mod_job_PR_check_vanilla_add:0 "$job_PR_check_vanilla$"
+
+ job_PR_check_azl:0 "§B碧蓝航线DLC§!激活"
+ job_PR_check_azl_plural:0 "$job_PR_check_azl$"
+ job_PR_check_azl_desc:0 ""
+ mod_job_PR_check_azl_add:0 "$job_PR_check_azl$"
+ job_PR_check_wsg:0 "§B战舰少女R§!激活"
+ job_PR_check_wsg_plural:0 "$job_PR_check_wsg$"
+ job_PR_check_wsg_desc:0 ""
+ mod_job_PR_check_wsg_add:0 "$job_PR_check_wsg$"
+ job_PR_check_CG:0 "§B多彩R§!激活"
+ job_PR_check_CG_plural:0 "$job_PR_check_CG$"
+ job_PR_check_CG_desc:0 ""
+ mod_job_PR_check_CG_add:0 "$job_PR_check_CG$"
+
+ job_PR_check_SWGS:0 "§B星舰少女§!激活"
+ job_PR_check_SWGS_plural:0 "$job_PR_check_SWGS$"
+ job_PR_check_SWGS_desc:0 ""
+ mod_job_PR_check_SWGS_add:0 "$job_PR_check_SWGS$"
+ job_PR_check_ADF:0 "§B灰烬战线§!激活"
+ job_PR_check_ADF_plural:0 "$job_PR_check_ADF$"
+ job_PR_check_ADF_desc:0 ""
+ mod_job_PR_check_ADF_add:0 "$job_PR_check_ADF$"
+ job_PR_check_AG:0 "§B古代帝国§!激活"
+ job_PR_check_AG_plural:0 "$job_PR_check_AG$"
+ job_PR_check_AG_desc:0 ""
+ mod_job_PR_check_AG_add:0 "$job_PR_check_AG$"
+ job_PR_check_Nirvana:0 "§B涅槃圣权§!激活"
+ job_PR_check_Nirvana_plural:0 "$job_PR_check_Nirvana$"
+ job_PR_check_Nirvana_desc:0 ""
+ mod_job_PR_check_Nirvana_add:0 "$job_PR_check_Nirvana$"
+ job_PR_check_ULT:0 "§B终极科技§!激活"
+ job_PR_check_ULT_plural:0 "$job_PR_check_ULT$"
+ job_PR_check_ULT_desc:0 ""
+ mod_job_PR_check_ULT_add:0 "$job_PR_check_ULT$"
+ job_PR_check_NYTO:0 "§B涅托物种§!激活"
+ job_PR_check_NYTO_plural:0 "$job_PR_check_NYTO$"
+ job_PR_check_NYTO_desc:0 ""
+ mod_job_PR_check_NYTO_add:0 "$job_PR_check_NYTO$"
+ job_PR_check_DAL:0 "§B约战物种§!激活"
+ job_PR_check_DAL_plural:0 "$job_PR_check_DAL$"
+ job_PR_check_DAL_desc:0 ""
+ mod_job_PR_check_DAL_add:0 "$job_PR_check_DAL$"
+ job_PR_check_ARP:0 "§B苍蓝物种§!激活"
+ job_PR_check_ARP_plural:0 "$job_PR_check_ARP$"
+ job_PR_check_ARP_desc:0 ""
+ mod_job_PR_check_ARP_add:0 "$job_PR_check_ARP$"
+
+ job_PR_check_ACOT:0 "§BACOT§!激活"
+ job_PR_check_ACOT_plural:0 "$job_PR_check_ACOT$"
+ job_PR_check_ACOT_desc:0 ""
+ mod_job_PR_check_ACOT_add:0 "$job_PR_check_ACOT$"
+ job_PR_check_Giga:0 "§B更多巨构§!激活"
+ job_PR_check_Giga_plural:0 "$job_PR_check_Giga$"
+ job_PR_check_Giga_desc:0 ""
+ mod_job_PR_check_Giga_add:0 "$job_PR_check_Giga$"
+
+
+
+
+###_[exp]   exp太阳能/exp黑洞研究   ######################################
+#_[exp太阳能]
+ job_PR_exp_solar_technician:0 "太阳能电工岗位"
+ job_PR_exp_solar_technician_plural:0 "$job_PR_exp_solar_technician$"
+ job_PR_exp_solar_technician_desc:0 "可以熟练地掌握太阳能发电设备的使用与维护，拥有多年普通电工的工作经验。\n因为设备先进，来源清洁无污染，导致工资极高。这就保证了其工作热情，使他们不至于在工作时候摸鱼，将更大的热情投入太阳能发电事业。"
+ mod_job_PR_exp_solar_technician_add:0 "$job_PR_exp_solar_technician$"
+ job_PR_exp_solar_drone:0 "太阳能工蜂岗位"
+ job_PR_exp_solar_drone_plural:0 "$job_PR_exp_solar_drone$"
+ job_PR_exp_solar_drone_desc:0 "运营和维护太阳能发电设备的专业工蜂。"
+ mod_job_PR_exp_solar_drone_add:0 "$job_PR_exp_solar_drone$"
+
+#_[exp黑洞研究]
+ job_PR_exp_bh_researcher:0 "天文爱好者岗位"
+ job_PR_exp_bh_researcher_plural:0 "$job_PR_exp_bh_researcher$"
+ job_PR_exp_bh_researcher_desc:0 "即便在科技如此发达的大航天时代，仍然有许多未解之谜仍然等待着人们去发掘。这群怀着梦想的人，以最大的热情投入了天文事业，成为构筑帝国辉煌未来的一块砖，一片瓦。\n拥有§Y$tech_mine_dark_matter$§!后，可以产出£sr_dark_matter£§E$sr_dark_matter$§!。"
+ mod_job_PR_exp_bh_researcher_add:0 "$job_PR_exp_bh_researcher$"
+ job_PR_exp_bh_drone:0 "天文工蜂岗位"
+ job_PR_exp_bh_drone_plural:0 "$job_PR_exp_bh_drone$"
+ job_PR_exp_bh_drone_desc:0 "专门用于研究天文学的工蜂。\n拥有§Y$tech_mine_dark_matter$§!后，可以产出£sr_dark_matter£§E$sr_dark_matter$§!。"
+ mod_job_PR_exp_bh_drone_add:0 "$job_PR_exp_bh_drone$"
+
+
+
+
+###_[div]   div原料收集/div生态学家/div能源管理/div深渊矿工/div军工   ######################################
+
+##_[div原料收集]
+ job_PR_raw_collector:0 "原料收集者岗位"
+ job_PR_raw_collector_plural:0 "$job_PR_raw_collector$"
+ job_PR_raw_collector_desc:0 "$job_PR_div_ecologist_savannah$的助手，他们存在的意义是收集各种本地生物质和原材料，并筛选处理其中有研究价值的部分提供给$job_PR_div_ecologist_savannah$。而剩下的部分，则可以向星球提供必要的基础资源。"
+ mod_job_PR_raw_collector_add:0 "$job_PR_raw_collector$"
+ job_PR_raw_drone:0 "原料工蜂岗位"
+ job_PR_raw_drone_plural:0 "$job_PR_raw_drone$"
+ job_PR_raw_drone_desc:0 "采集矿物并管理发电，以维持工业区基本的运行。"
+ mod_job_PR_raw_drone_add:0 "$job_PR_raw_drone$"
+ 
+##_[div生态学家]
+ job_PR_div_ecologist_savannah:0 "生态研究者岗位"
+ job_PR_div_ecologist_savannah_plural:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_savannah_desc:0 "生态研究专家，对所在星球的生物质和地质进行各方面研究，获得大量科研产出与凝聚力。\n根据所在星球气候的不同，将获得不同的科研产出。"
+ mod_job_PR_div_ecologist_tropical_add:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tropical:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tropical_plural:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tropical_desc:0 "$job_PR_div_ecologist_savannah_desc$"
+ mod_job_PR_div_ecologist_tropical_add:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tundra:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tundra_plural:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_tundra_desc:0 "$job_PR_div_ecologist_savannah_desc$"
+ mod_job_PR_div_ecologist_tundra_add:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_gaia:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_gaia_plural:0 "$job_PR_div_ecologist_savannah$"
+ job_PR_div_ecologist_gaia_desc:0 "$job_PR_div_ecologist_savannah_desc$"
+ mod_job_PR_div_ecologist_gaia_add:0 "$job_PR_div_ecologist_savannah$"
+
+##_[div能源管理]
+ job_PR_div_res_admin_arid:0 "新能源研究者岗位"
+ job_PR_div_res_admin_arid_plural:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_arid_desc:0 "能够有效地管理高级能源的采集和加工，并根据所在星球的气候不同，解锁不同的高级资源产出(需要科技)。"
+ mod_job_PR_div_res_admin_arid_add:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_ocean:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_ocean_plural:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_ocean_desc:0 "$job_PR_div_res_admin_arid_desc$"
+ mod_job_PR_div_res_admin_ocean_add:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_alpine:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_alpine_plural:0 "$job_PR_div_res_admin_arid$"
+ job_PR_div_res_admin_alpine_desc:0 "$job_PR_div_res_admin_arid_desc$"
+ mod_job_PR_div_res_admin_alpine_add:0 "$job_PR_div_res_admin_arid$"
+
+##_[div深渊矿工]
+ job_PR_div_abyss_miner:0 "深渊采矿者岗位"
+ job_PR_div_abyss_miner_plural:0 "$job_PR_div_abyss_miner$"
+ job_PR_div_abyss_miner_desc:0 "适应了深渊工业区严酷的环境，并以极高的热情(并不)投入高级资源的生产，最终的要是实现了自给自足。\n完成$tech_mineral_purification_2$将使其获得额外产出。"
+ mod_job_PR_div_abyss_miner_add:0 "$job_PR_div_abyss_miner$"
+ job_PR_div_abyss_drone:0 "深渊矿蜂岗位"
+ job_PR_div_abyss_drone_plural:0 "$job_PR_div_abyss_drone$"
+ job_PR_div_abyss_drone_desc:0 "专业工蜂，以自给自足的方式产出高级资源。"
+ mod_job_PR_div_abyss_drone_add:0 "$job_PR_div_abyss_drone$"
+
+##_[div军工]
+ job_PR_div_militia:0 "航天军工岗位"
+ job_PR_div_militia_plural:0 "$job_PR_div_militia$"
+ job_PR_div_militia_desc:0 "指导合金生产，提升星球凝聚力的军火商。\n能够训练军队与航天员，强化殖民地与帝国的军事力量。\n在某些星球的环境下，还会参与维护当地治安。"
+ mod_job_PR_div_militia_add:0 "$job_PR_div_militia$"
+ job_PR_div_milit_drone:0 "军工节点岗位"
+ job_PR_div_milit_drone_plural:0 "$job_PR_div_milit_drone$"
+ job_PR_div_milit_drone_desc:0 "高级节点工蜂，指导合金生产，提升星球凝聚力。\n能够训练军队与航天员，强化殖民地与帝国的军事力量。\n在某些星球的环境下，还会清除殖民地的异常个体。"
+ mod_job_PR_div_milit_drone_add:0 "$job_PR_div_milit_drone$"
+
+
+
+

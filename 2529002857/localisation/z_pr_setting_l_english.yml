@@ -1,0 +1,218 @@
+﻿l_english:
+
+#_[星球面板]
+#_[开始通知]
+#_[全局设置_spcs]
+#_[兼容补丁检视]
+#_[星球设置_spcs]
+#_[星球参数检测]
+#_[指南]
+#_[移民失败]
+
+
+
+
+###_[星球面板]  ############################################################
+ z_pr_tips_btn_pr_reg_no:0 "We have yet to initiate the Production Revolution in our empire. We should research the necessary technologies first."
+ z_pr_tips_btn_pr_plnt_ignore:0 "Currrent planet §Rignore Production Revolution§!。"
+ z_pr_tips_btn_pr_mig_no:0 "Cannot migrate Manpower. Amount of Manpower must be more than §G5§!."
+ z_pr_tips_btn_plnt_man_immig:0 "§BExpress Manpower Immigration§!\nWhen §GUltilization < 1.0§!, §YManpower§! will be pulled from planets where §GUltilization >1.19§! to this planet until §GUltilization >= 1.0§! on this planet.\nWhen §GUltilization > 1.0§!, Manpower will be pulled from planets where §GProduction Efficienc > 1.19§!."
+ z_pr_tips_btn_plnt_man_mig:0 "§BExpress Manpower Emigration§!\nIf any owned planets have Manpower Capacity and have §GUltilization < 1.0§!, transfer 5 §YManpower§! from this planet to that planet. If you need to move an entire planet, please open the §M$z_fw_plnt_ui_setting.name$§! panel and use the §R$z_pr_opt_plnt_abandon$§! function."
+ z_pr_tips_btn_plnt_reserved_job_switch:0 "§BSwitch Reserved Job Amount§!\n$z_pr_tips_reserved_job$\nYou can set it to §G10/25/50/100§!."
+ z_pr_tips_btn_plnt_debug_check:0 "§BPlanet Manpower Economic Statistics§!\nThe current planet will perform a manpower economic check next month to update and correct data."
+ z_pr_tips_btn_plnt_debug_check_cntr:0 "§BEmpire Manpower Economic Statistics§!\nAll colonies will perform a manpower economic check next month to update and correct data."
+ z_pr_tips_btn_job_ERROR:0 "§RManpower Error Warning§!\nThere is currently a §BProduction Revolution§! job compatibility bug. It is likely that there are non-existent job statistics. \nOpen §YC:/Users/User Ming/Documents/Paradox Interactive/Stellaris/logs/error.log§!, search for §BPR_JOB_ERROR§!, you can see the bugged job id right after it, please reports this to the author."
+ 
+ z_pr_btn_plnt_man_cnvt_completion:0 "§GManpower Converting:§! Complete Vacant Jobs"
+ z_pr_tips_plnt_man_cnvt_completion:0 "If there are vacant jobs on the planet, convert §Bfull Citizenship Pops§! to these vacant jobs, and once 19 pops by max.\nThere must be manpower available on this planet."
+
+
+
+
+
+###_[开始通知]  ############################################################
+ z_pr_core.102_title:0 "$z_pr$ MOD Activated"
+ z_pr_core.102_desc:0 "When you see this pop-up window means that the §B$z_pr$§! has been successfully installed.\nDue to the new building slot unlock methods from 2.9 plan has been adopted in this MOD, the pops will no longer unlock building slots. Building slots will be unlocked with the construction of districts, see $z_pr_d_36_building$ in deposits list for more information. What's more, §BCapital Buildings/ $district_city$/ $district_hive$/ $district_nexus$"§! can offer extra buildings slots.\n§HNote: If this MOD is added to an old save, you will encounter large-scaled building devastation, which cannot be avoided.§!\nIf you have any other questions, please open the setting panel of this MOD in the Infinite Framework setting Panel, and click on the player guide on the upper right corner."
+ z_pr_core.102_opt_false:0 "I'm not quite understand."
+ z_pr_core.102_opt_read:0 "I got it."
+
+
+
+
+###_[全局设置_spcs]    ############################################################
+ z_pr_evt_setting:0 "§B$z_pr$ $z_pr_version$:§! Config Panel"
+ z_pr_evt_setting_desc:0 "Empire Total Manpower---§B[root.PR_var_cntr_MAN]§!\nPlayable Countries---§B[root.z_playable_country_var]§!\nColonized Planets in the Galaxy---§B[root.z_colony_var]§!\nGalaxy Population---§B[root.z_total_pop_var]§!\nUnemployed Pops in the Galaxy---§B[root.z_total_pop_unemployed_var]§!\n"
+ z_pr_tips_setting:0 "Set the global checking frequency, and it is recommended not to change it.\nEach time global checking executed will update basic production parameters as preparation for follow-up calculating. The higher the frequency, the more timely production changes will take effect."
+
+ z_pr_option_setting_rate_standard:0 "Checking Frequency(now) §BStandard§!/ once every 4 months"
+ z_pr_option_setting_rate_high:0 "Checking Frequency(now) §HHigh§!/ once every 2 months"
+ z_pr_option_setting_rate_low:0 "Checking Frequency(now) §GLow§!/ once every 6 months"
+ 
+ z_pr_option_setting_apmc_on:0 "Automatic manpower conversion §GOpen§!"
+ z_pr_option_setting_apmc_off:0 "Automatic manpower conversion §HOFF§!"
+ z_pr_tips_setting_apmc:0 "If it is not in a test state, please don't move! If this feature is turned off, AI and players will not perform automatic manpower conversion, which will destroy the core function of this mod, but at the same time, because the conversion is disabled, the calculation cost will be Dropped significantly."
+
+ z_pr_option_setting_spcs:0 "Set species control tendencies for all colonies of your empire. Please note that your adjustments can only control the species tendency in the future, and will not immediately change the species composition. \n§BDefault§!: Your empire will maintain the default tendency, allowing more non-citizen species to exist. \n§HCliquy§!: Your empire allows non-citizen species to exist, but will control their number. \n§RPureblood§!: Your empire does not allow non-citizen species to exist."
+ z_pr_option_setting_spcs_normal:0 "The empire species tendency adjust to §BDefault§!"
+ z_pr_option_setting_spcs_cliquy:0 "The empire species tendency adjust to §HCliquy§!"
+ z_pr_option_setting_spcs_pure:0 "The empire species tendency adjust to §RPureblood§!"
+
+ z_pr_tips_setting_ai_construction:0 "A standalone system that assists AI in planet construction, it is recommended to keep the default setting. Turning it off may cause the AI to be unable to construct the planet in time, thereby reducing the strength of the AI."
+ z_pr_option_setting_ai_construction_on:0 "AI Construction Assistance §BEnabled§!"
+ z_pr_option_setting_ai_construction_off:0 "AI Construction Assistance §HDisabled§!"
+ 
+ z_pr_opt_setting_cntr_auto_mig:0 "When §GAutomatic Manpower§! Migration is active, §BProduction Revolution§! will, at specified intervals, check all owned planets' §YManpower§! and automatically migrate §YManpower§! between planets to try and achieve 100% production capacity while fulfilling the §YManpower§! needs of each planet."
+ z_pr_opt_setting_cntr_auto_mig_on:0 "§RDisable§! Automatic Manpower Migration"
+ z_pr_opt_setting_cntr_auto_mig_off:0 "§GEnable§! Automatic Manpower Migration"
+ 
+ z_pr_tips_cntr_man_mig:0 "Migrates §YManpower§!on all owned planets where §YUltilization§! > §G1.19§! to planets where §YUltilization§! < §G1.0§!. Ignores Housing."
+ z_pr_opt_cntr_man_mig:0 "§BMigrate all Manpower§!"
+ 
+ z_pr_tips_cntr_pop_cnvt:0 "Converts all unemployed pops on all owned planets into §YManpower§!"
+ z_pr_opt_cntr_pop_cnvt:0 "§BConvert all Unemployed Pops§!"
+ 
+ z_pr_opt_test_stop:0 "The developer's own debugging function, please don't touch it if you don't know what you are doing. \nSelecting §RDisabled§! will stop all mod functions and clean up all planetary modifiers, which will cause various unexpected consequences."
+ z_pr_opt_test_ongo:0 "MOD test: §GNormal§!"
+ z_pr_opt_test_stop:0 "MOD test: §GDisabled§!"
+
+ z_pr_option_setting_manpower_growth:0 "Replace pops growth/assembly with manpower growth. If there is no obvious growth rate difference (mostly due to mod incompatibility), it is recommended to keep it on. \nAlthough pops can be easily converted with manpower, each conversion is an effect that consumes a lot of CPU calculation. When this function is on, pops growth will be turned off intelligently and manpower growth will be turned on when there are no vacant jobs on the planet. \n\n§YNote: Changes only taking effect in your own empire.§!"
+ z_pr_option_setting_manpower_growth_on:0 "Empire Manpower Growth §BEnabled§!"
+ z_pr_option_setting_manpower_growth_off:0 "Empire Manpower Growth §HDisabled§!"
+ z_pr_tips_setting_manpower_growth_default:0 "Restore the §BManpower Growth§! function of all colonies to the default setting, which is §BAllow§! Manpower growth. \n\nAlthough pops can be easily transformed with manpower, each transformation taking effect with extremely increase CPU pressure. After §BManpower Growth§! function turned on, the system will intelligently turn off §GPops Growth/Assembly§! and turn on §BManpower Growth§! instead if vacant jobs on this planet are §Y<5§!."
+ z_pr_option_setting_manpower_growth_default:0 "All Colonies Manpower Growth §BReset§!"
+ 
+ z_pr_option_setting_manpower_buffer_standard:0 "Manpower Cache §GIncreased§! /Amount §G+5§!"
+ z_pr_option_setting_manpower_buffer_more:0 "Manpower Cache §GIncreased§! /Amount §G10§!"
+ z_pr_option_setting_manpower_buffer_off:0 "Manpower Cache §HDefault§!"
+ z_pr_option_setting_manpower_buffer:0 "Add $job_z_pr_uep$ to each colony to increase the upper limit of manpower cache, and you can temporarily store part of the unemployed as $job_z_pr_uep$. When other available jobs appear, they will be filled by $job_z_pr_uep$, which can reduce the computational consumption of manpower conversion. \nNote that some jobs have problems with the weights, which will cause no pop taking it forever. So, do not blame this mod."
+
+ z_pr_option_setting_ignore_all_on:0 "§RDisable§! Production Revolution on all owned planets"
+ z_pr_option_setting_ignore_all_off:0 "§GEnable§! Production Revolution on all owned planets"
+ z_pr_tips_setting_ignore_all:0 "When Production Revolution is §Rdisabled§! on a planet, any new changes made to §BProduction Revolution§! will not take effect on that planet. Furthermore, population stops being converted into §YManpower§! and the economy and jobs of that planet will revert to original vanilla settings."
+
+
+###_[兼容补丁检视]    ############################################################z_pr_comp:0 "§YCompatibility Detection§!"
+ z_pr_comp_desc:0 "§BProduction Revolution§! The system requires a large number of compatibility patches. This menu allows you to view and manually activate or disable a MOD compatibility.\nNote that some MODs such as Ultimate Technology cannot automatically detect and activate the compatibility patch. Must be activated manually, click any button to manually activate or deactivate a Compatibility."
+ z_pr_mod_installed_automatic_on:0 "Compatibility self-check §GActivated§!"
+ z_pr_mod_installed_automatic_off:0 "Compatibility self-check §HDisabled§!"
+ z_pr_mod_installed_automatic_switch:0 "MODs with new resources can be automatically detected and install Compatibilityes through this function. Turning off this function allows you to manually disable the compatibility of this type of MOD for some DEBUG testing."
+ 
+ z_pr_mod_installed_switch:0 "Click this option to manually activate or deactivate the Compatibility for the current MOD."
+ z_pr_mod_installed_switch_no:0 "The current compatibility patch is a comprehensive compatibility framework. It cannot be manually turned off or activated. It will only be automatically detected.\nIf you want to turn off a MOD compatibility patch, please look down for the corresponding item."
+ z_pr_mod_installed_switch_manual:0 "$z_pr_mod_installed_switch$\n§YNote: The current MOD does not have any automatic compatibility patch detection function. If you install this MOD, please manually turn on the compatibility patch.§!"
+ 
+ z_pr_mod_installed_SAI_on:0 "§YPR Compatibility - SAI§! §GActivated§!"
+ z_pr_mod_installed_SAI_off:0 "§YPR Compatibility - SAI§! §HDisabled§!"
+ z_pr_patch_on:0 "§YProduction Revolution Patch§! §GActivated§!"
+ z_pr_patch_off:0 "§YProduction Revolution Patch§! §HDisabled§!"
+ 
+ z_pr_mod_installed_azl_on:0 "§BAzur Lane DLC§! Compatibility §GActivated§!"
+ z_pr_mod_installed_azl_off:0 "§BAzur Lane DLC§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_wsg_on:0 "§BWarship Girl R§! Compatibility §GActivated§!"
+ z_pr_mod_installed_wsg_off:0 "§BWarship Girl R§! Compatibility §HDisabled§!"
+ 
+ z_pr_mod_installed_swg_on:0 "§BUnknownWorld Shipgirls Story§! Compatibility §GActivated§!"
+ z_pr_mod_installed_swg_off:0 "§BUnknownWorld Shipgirls Story§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_adf_on:0 "§BAshArms Distant Future 2200§! Compatibility §GActivated§!"
+ z_pr_mod_installed_adf_off:0 "§BAshArms Distant Future 2200§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_AG_on:0 "§BAncient Empire§! Compatibility §GActivated§!"
+ z_pr_mod_installed_AG_off:0 "§BAncient Empire§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_NE_on:0 "§BNirvana Empire Project§! Compatibility §GActivated§!"
+ z_pr_mod_installed_NE_off:0 "§BNirvana Empire Project§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_ULT_on:0 "§BUltimate Technology§! Compatibility §GActivated§!"
+ z_pr_mod_installed_ULT_off:0 "§BUltimate Technology§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_NYTO_on:0 "§BNytoSpeciesEventsPack§! Compatibility §GActivated§!"
+ z_pr_mod_installed_NYTO_off:0 "§BNytoSpeciesEventsPack§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_DAL_on:0 "§BThe DAL Species Mod§! Compatibility §GActivated§!"
+ z_pr_mod_installed_DAL_off:0 "§BThe DAL Species Mod§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_ARP_on:0 "§BArpeggio of Blue Steel DLC§! Compatibility §GActivated§!"
+ z_pr_mod_installed_ARP_off:0 "§BArpeggio of Blue Steel DLC§! Compatibility §HDisabled§!"
+ 
+ z_pr_mod_installed_ACOT_on:0 "§BACOT§! Compatibility §GActivated§!"
+ z_pr_mod_installed_ACOT_off:0 "§BACOT§! Compatibility §HDisabled§!"
+ z_pr_mod_installed_GIGA_on:0 "§BGigastructual§! Compatibility §GActivated§!"
+ z_pr_mod_installed_GIGA_off:0 "§BGigastructual§! Compatibility §HDisabled§!"
+
+
+
+
+###_[星球设置_spcs]    ############################################################
+ z_pr_dec_spcs_desc:0 "Show the current manpower policy, the manpower composition of this planet will slowly change in accordance with the policy."
+ z_pr_dec_spcs_standard:0 "$z_pr$: Planetary Manpower Composition §BStandard§!"
+ z_pr_dec_spcs_standard_desc:0 "$z_pr_dec_spcs_desc$\nBalanced composition, the most common composition mode with species with full citizenship as the core."
+ z_pr_dec_spcs_full:0 "$z_pr$: Planetary Manpower Composition §RPure Blood§!"
+ z_pr_dec_spcs_full_desc:0 "$z_pr_dec_spcs_desc$\nOnly allow species with full citizenship to exist, the composition mode of the Xenophobic."
+ z_pr_dec_spcs_limited:0 "$z_pr$: Planetary Manpower Composition §GCo-prosperity§!"
+ z_pr_dec_spcs_limited_desc:0 "$z_pr_dec_spcs_desc$\nIncrease the proportion of species with limited citizenship, and the composition mode of the Pro-foreignism."
+ z_pr_dec_spcs_slaved:0 "$z_pr$: Planetary Manpower Composition §YSlavery§!"
+ z_pr_dec_spcs_slaved_desc:0 "$z_pr_dec_spcs_desc$\nIncrease the proportion of slave species, the composition mode of the Authoritarian camp"
+ z_pr_tips_dec_spcs:0 "Change the planetary Manpower Composition"
+
+
+
+
+###_[星球参数检测]    ############################################################
+ z_pr_dec_plnt_var_check:0 "$z_pr$: §BPlanetary Parameter Statistic§!"
+ z_pr_dec_plnt_var_check_desc:0 "Show details of planet production parameters"
+ z_pr_tips_dec_plnt_var_check:0 "A new window pops up and displays §Ball related parameter§! to the production of this planet."
+ z_pr_plnt_check.name:0 "$z_pr_dec_plnt_var_check$"
+
+
+
+
+###_[星球设置]    ############################################################
+ z_pr_dec_plnt_setting:0 "$z_pr$: §BPlanetary Details Setting§!"
+ z_pr_dec_plnt_setting_desc:0 "Set various production details of this planet."
+ z_pr_tips_dec_plnt_setting:0 "A new window pops up and displays all §BProduction Settings§ related to this planet!"
+ #_evts
+ z_pr_plnt_setting.name:0 "$z_pr_dec_plnt_setting$"
+ z_pr_tips_selected: "Current setting"
+ 
+ z_pr_plnt_setting.manpower_growth_on:0 "Planet Manpower Growth §BEnabled§!"
+ z_pr_plnt_setting.manpower_growth_off:0 "Planet Manpower Growth §HDisabled§!"
+ z_pr_plnt_setting.manpower_growth.tips:0 "Replace §GPops Growth/Assemblyd§! with §BManpower Growthd§!. If there is no obvious growth rate difference (mostly due to mod incompatibility), it is recommended to keep it on. \nAlthough pops can be easily converted with manpower, each conversion is an effect that consumes a lot of CPU calculation. When this function is on, §GPops Growth/Assemblyd§! will be turned off intelligently and §BManpower Growthd§! will be turned on when there are less than 5 vacant jobs on this planet."
+ 
+ z_pr_plnt_setting.add_pop:0 "Manpower Transfer to Pops§B×5§!"
+ z_pr_plnt_setting.add_pop_full_5:0 "Complement Population §B×5§!: Full-Citizenship Species"
+ z_pr_plnt_setting.add_pop_full_25:0 "Complement Population §B×25§!: Full-Citizenship Species"
+ z_pr_plnt_setting.add_pop_main_5:0 "Complement Population §B×5§!: Main Species"
+ z_pr_plnt_setting.add_pop_main_25:0 "Complement Population §B×25§!: Main Species"
+ z_pr_plnt_setting.add_pop_limited_5:0 "Complement Population §B×5§!: Limited Species"
+ z_pr_plnt_setting.add_pop_limited_25:0 "Complement Population §B×25§!: Limited Species"
+ z_pr_plnt_setting.add_pop_slavery_5:0 "Complement Population §B×5§!: Organic slave"
+ z_pr_plnt_setting.add_pop_slavery_25:0 "Complement Population §B×25§!: Organic slave"
+ z_pr_plnt_setting.add_pop_servitude_5:0 "Complement Population §B×5§!: Mechanical servitude"
+ z_pr_plnt_setting.add_pop_servitude_25:0 "Complement Population §B×25§!: Mechanical servitude"
+ 
+ z_pr_plnt_setting.add_pop.tips:0 "Select a species that randomly meets the specified citizenship rights as a template, and convert the specified amount of manpower into the population of the current template. Note: If the eligible species has the characteristics of $PR_trait_core_species$, it will be given priority as a template."
+ z_pr_tips_apmc_dec_locked:0 "Automatic Manpower conversion is being executed..."
+ z_pr_tips_insufficient_manpower:0 "Insufficient Manpower"
+ z_pr_tips_no_available_spcs_model:0 "No species in the current category"
+ 
+ z_pr_plnt_setting.clean_uep:0 "Convert manpower"
+ z_pr_plnt_setting.clean_uep.tips:0 "Convert all eligible population on the planet (mainly unemployed population) into manpower"
+ z_pr_plnt_setting.job_check:0 "Perform Planetary Job Check"
+ z_pr_plnt_setting.job_check.tips:0 "Perform a job check on all the population on the current planet. If there are available jobs, the unemployed can be reemployed immediately."
+
+ z_pr_plnt_setting.abandon_colony:0 "Abandon Colony"
+ z_pr_plnt_setting.abandon_colony.desc:0 "Destroying this colony, manpower and pops will be randomly redistributed to other planets."
+ z_pr_mod_plnt_colony:0 "$z_pr$: §YProsperity§!"
+ z_pr_mod_plnt_colony_desc:0 "Ah, a new world for the empire, a new legend to be written!"
+
+
+
+
+###_[指南]    ############################################################
+ z_pr_tips_btn_guide_misc: "§Y<Overview>§!\n\n§BVersion:§!\n1.Pay attention to the version of mod. Except for the case of large game update, use the new one instead of the old one.\n2.If you don't have <! Dark Blue UI - Planet Interface> and <! Dark Blue UI Remake>, you will not have the new planet interface for PR inspection and setting.\n\n\n\n\n£MOD_mui£+£MOD_mui_plnt£\n\n\n\n\n\n§BSetting Panel:§!\n1.In the Kasako's setting panel, you can open the special interface of the PR, which is used to activate the PR technology tree, check compatibility or change settings.\n2.Use the planet decision or custom button to open the PR planet setting panel, where you can fine-tune the planet and manpower system.\n\n§BStart Setting§!\n1.In the <Starting Settings> of the Core Framework, you can select <History Mode>, which allows you to use the vanilla pop mode at the early stage of a game.\n2.After completing some technology, there will be a pop-up every year. At this time, you can choose to start the <PR Mode>."
+ z_pr_tips_btn_guide_manpower: "§Y<新增功能>§!\n\n§B特殊地块:§!\n1.核心地块---产业革命核心功能。\n2.区划地块---添加产业革命特殊区划。\n3.岗位地块---用来统计转化到人力系统中的岗位产出。\n\n§B特殊区划:§!\n1.地方产业---不同类型的星球环境将提供不同の新区划。\n2.地缘优势---不同的中心天体将提供不同の新区划。\n\n§B额外建筑槽:§!\n1.每2个区划解锁1个额外建筑槽，注意:这个解锁功能的统计有延后性。\n2.每25人力解锁1个企业建筑槽，注意:这个解锁功能的统计有延后性。\n\n§B人力迁移:§!\n1.人力也如同人口一样可以手动和自动迁移，自动迁移默认开启。\n2.人力迁移条件由<占用率>决定，人力只会从<占用率>1>的星球迁往<占用率<1>的星球。\n3.星球人力/工房=占用率。\n\n§B人数条件:§!\n1.需要到达一定人口数才能开启の功能，如首府升级，现在将统计人口+人力的总数，也就是<人数>。\n2.拥有<伞の星球界面>你就可以很方便地查看一个星球上的人口/人力/人数。\n3.如果一个MOD并没有兼容<人数条件>，那么你只能用候补岗位功能给一个星球增加额外的岗位来暂时实现这些功能。"
+ z_pr_tips_btn_guide_jobs: "§Y<人力系统>§!\n大部分游戏原版岗位和mod岗位可以导入人力系统，以新的方式进行经济生产。\n注意:人力如同原版一样使用舒适度，住房。\n\n§B人口转人力:§!\n1.失业人口会转化为人力，而人口岗位的产出也会转入人力系统进行计算。\n2.每隔一段时间星球都会自动进行人力转化，你也可以通过UI按钮进行快速手动转化。\n3.原版人口组装和自然生长完成后会立刻进行检测，如果新增人口未能就业则会在一天后转化，转化时人口增长面板会有UI提示。\n\n§B人力岗与岗位地块:§!\n1.建筑与区划依然会提供岗位，但是转入人力的岗位不会在岗位界面显示，自然你也没必要对其进行手动调控。\n2.人力系统和人口岗位是可以并存的，当前的新版本也不会影响速度优化。\n3.人力岗是一种特殊岗位，所有基础的$energy$/$minerals$/$food$/$alloys$/$consumer_goods$和科研岗位都将融入这些岗位进行统计。\n4.其他非基础岗位则融入岗位地块进行统计。\n\n§BEfficiency§!\n1.每一个导入人力系统的岗位都会让<工房+1>，用于效率计算。\n2.星球人力/工房=占用率。\n3.当占用率<1的时候，占用率=生产效率。当占用率>1的时候，占用率正相关于生产效率。\n4.人力系统产出=基础产出×生产效率×各种修正。"
+ z_pr_tips_btn_guide_growth: "§Y<玩法提示>§!\n1.确保人力岗有人，除非你要改变其物种，否则不要手动降低其优先度。因为每个人力岗，都代表一大堆原版基础岗位。\n2.通过建筑变动改变产业结构，建筑变动会触发生产效率和人力经济的统计，但是有时候会有几个月的延时。\n3.关注人口和工房の数值，以及生产效率，确保生产效率>0.5。\n4.生产效率越高越好，不过人力不增加的时候建造越多建筑会让生产效率越低，不过随着基础产出提升，总产量并不会有太多下降。\n5.生产效率的提升有边际效应，超过1以后边际效应越来越大。(未来可以通过特殊科技抵消边际效应。)\n6.一个刚刚增长的人口如果没有岗位就职，会立刻转化为人力。"
+
+
+
+
+###_[移民失败]    ############################################################
+ z_pr_evt_cntr_mig_failed: "§BManpower Migration/Immgration Failed§!"
+ z_pr_evt_cntr_mig_failed.desc: "Currently, there is no planet that meet the §BMigration/Immgration conditions§!, you can view and modify the planet setting through §GPop Manager Planetary Decisions§! or keep the default setting, such as setting it to §HForced Move-in or Move-out§!."
+
+

@@ -1,0 +1,167 @@
+﻿l_simp_chinese:
+
+##################################################################################################################################################################################################################
+### POLICIES ###
+################
+
+policy_tech_options_policy:0 "研究多样性提议"
+policy_tech_options_policy_desc:0 "这项政策将使我们的帝国能够在选择下一个研究项目时牺牲部分研究结果来让我们的科学家提供更多选择。"
+
+defaulttech_option_name: "标准研究"
+defaulttech_option:0 "标准研究"
+defaulttech_option_desc:0 "此选项将使研究替代方案保持正常水平，不会发生任何变化。"
+
+tech5_option_name: "研究计划 5"
+tech5_option:0 "研究计划 5"
+tech5_option_desc:0 "此选项将会我们每个月10%的研究点数来把研究替代方案的数量增加到5。"
+
+tech10_option_name: "研究计划 10"
+tech10_option:0 "研究计划 10"
+tech10_option_desc:0 "此选项将会我们每个月15%的研究点数来把研究替代方案的数量增加到10。"
+
+tech15_option_name: "研究计划 15"
+tech15_option:0 "研究计划 15"
+tech15_option_desc:0 "此选项将会我们每个月20%的研究点数来把研究替代方案的数量增加到15。"
+
+tech20_option_name: "研究计划 20"
+tech20_option:0 "研究计划 20"
+tech20_option_desc:0 "此选项将会我们每个月30%的研究点数来把研究替代方案的数量增加到20。"
+
+
+
+##################################################################################################################################################################################################################
+### DOCTRINES ###
+#################
+
+policy_armament_doctrine:0 "军备学说"
+policy_armament_doctrine_desc:0 "此舰队学说决定了我们舰队需要强化的武装类型，相对的其他武装的性能会有所牺牲。"
+
+balanced_focus_name:0 "标准武装"
+balanced_focus:0 "标准武装"
+balanced_focus_desc:0 "我们将把注意力分摊在所有武器类型上， 没有必要为了特定一种武器而牺牲其他武器的性能。"
+
+kinetic_focus_name:0 "动能武器強化"
+kinetic_focus:0 "动能武器強化"
+kinetic_focus_desc:0 "动能武器有着悠久的历史。我们的动能武器将撕破敌人的盾牌和船体，为我们的帝国带来荣耀。"
+
+energy_focus_name:0 "能量武器強化"
+energy_focus:0 "能量武器強化"
+energy_focus_desc:0 "直接操作能量以消灭敌人是非常壮观的景，我们的能源武器会燃烧并融化敌方舰队。"
+
+guided_munitions_focus_name:0 "飞弹强化"
+guided_munitions_focus:0 "飞弹强化"
+guided_munitions_focus_desc:0 "我们强大的导弹将为我们的人民取得胜利。"
+
+strike_craft_focus_name:0 "舰载机強化"
+strike_craft_focus:0 "舰载机強化"
+strike_craft_focus_desc:0 "我们英勇的飞行员将为我们的人民取得胜利。"
+
+policy_defense_doctrine:0 "防御学说"
+policy_defense_doctrine_desc:0 "舰队学说决定了我们舰队需要强化的防御类型，相对的其他防御的性能会有所牺牲。"
+
+uniform_focus_name:0 "标准防御"
+uniform_focus:0 "标准防御"
+uniform_focus_desc:0 "我们将同等集中于装甲和盾牌，两者搭配在一起才是最强的防御。"
+
+armor_focus_name:0 "装甲強化"
+armor_focus:0 "装甲強化"
+armor_focus_desc:0 "相信我们的装甲力量。厚实而坚不可摧的装甲将围绕在我们的船舰上，任何导弹或鱼雷都不能突破它。"
+
+shield_focus_name:0 "护盾強化"
+shield_focus:0 "护盾強化"
+shield_focus_desc:0 "闪闪发光的护盾是高端的防御选择。与装甲不同，它们无需进行维修即可回复，使我们可以在不延展补给线的状况下拉长战线。"
+
+policy_composition_doctrine:0 "舰队组成学说"
+policy_composition_doctrine_desc:0 "此舰队学说确定了哪种类型的舰船应构成我们海军的主要力量，从而使我们能够以较低的成本更快地建造自己偏爱的船舰，但花费更长的时间和更多的成本建造其他种类的的船舰。"
+
+standard_composition_name:0 "标准组成"
+standard_composition:0 "标准组成"
+standard_composition_desc:0 "每艘船都有自己的位置；我们应该让造船厂可以广泛的建造所有类型的船舰。多样化的舰队有更好的应对能力。"
+
+light_ship_focus_name:0 "重视轻型船舰"
+light_ship_focus:0 "重视轻型船舰"
+light_ship_focus_desc:0 "轻型船舰在建造速度以及空间利用上既便宜又迅速。它们非常适合用来镇压海盗，保护贸易，捍卫广阔的太空，掩护更大的船舰以及在预算内捍卫我们的国家。我们需要优先考虑建造这些有价值的船舰。"
+
+versatility_focus_name:0 "重视巡洋舰"
+versatility_focus:0 "重视巡洋舰"
+versatility_focus_desc:0 "巡洋舰、打击巡洋舰和战斗巡洋舰是我们可以建造的用途最广泛的战舰。它们在各种射程上都出类拔萃，武器种类繁多，足以抵挡强力攻击，但建造所需的时间不像主力舰那么长，生产和维护成本也不高。对于一支多功能的舰队，我们应该专注于巡洋舰以充实我们的海军。"
+
+capital_focus_name:0 "重视主力舰"
+capital_focus:0 "重视主力舰"
+capital_focus_desc:0 "主力船是我们舰队的骄傲。这些强大的军舰配备重型武器来消灭敌人，并配备重型防御系统以抵挡任何进攻，是我们军火库中最强大的武器。它们就是银河战争的未来，我们应该以他们为中心建立舰队，并集中精力建设它们。"
+
+carrier_focus_name:0 "重视航空母舰"
+carrier_focus:0 "重视航空母舰"
+carrier_focus_desc:0 "我们的舰载机是我们最强力的武器。我们的飞行员是我们人民中最优秀，最聪明的人，而我们的航空母舰是将我们英勇的战士部署到战斗中的船舰。而且当入侵敌人的时候到了，我们的航母甚至可以携带地面部队来占领整个星球。我们必须集中精力尽可能的多生产这种强大的船舰。"
+
+policy_operations_doctrine:0 "舰队运营学说"
+policy_operations_doctrine_desc:0 "海军有许多职责：力量投射，防御核心领土和保护内部贸易。我们的舰队学说确定了这些任务中的重点。"
+
+standard_operations_name:0 "标准"
+standard_operations:0 "标准"
+standard_operations_desc:0 "我们不应该过度专业化我们的舰队运营。我们必须时刻准备好承担所有职责，并且永远不要忽略海军计划的任何一个方面。"
+
+blue_sky:0 "蓝天"
+blue_sky_name:0 "蓝天"
+blue_sky_desc:0 "没有什么比捍卫我们的星球和我们的人民更重要的了。我们的海军纯粹是为了捍卫我们的国家而存在，我们应该计划将战役限制在我们控制的领土内，并利用强大的星际基地支持我们的舰队作战。"
+
+black_sky:0 "黑天"
+black_sky_name:0 "黑天"
+black_sky_desc:0 "我们的海军必须能够在远离家乡的地方投射力量-保护我们的盟友，惩罚我们的敌人并应对可能发生的危机。我们不能依靠恒星基地支持我们的舰队。我们必须能够在任何地方战斗，甚至跨越银河系。就像其他任何一支舰队一样，“黑天”舰队是一种外交工具。"
+
+privateer_operation:0 "反海盗"
+privateer_operation_name:0 "反海盗"
+privateer_operation_desc:0 "我们的船队足以捍卫我们和我们的生活方式，但它们也有助于保护我们的内部贸易。贸易是帝国的命脉，我们必须尽一切努力保护它。"
+
+policy_crew_doctrine:0 "船员培训学说"
+policy_crew_doctrine_desc:0 "对海军船员和军官的培训是海军最重要的工作之一。我们应认真制定适合自己情况的培训计划； 过时或不适应的训练计划比没用的要糟，并且会削弱我们的海军。我们必须决定如何训练我们的船员和军官。"
+
+standard_crew:0 "标准训练"
+standard_crew_name:0 "标准训练"
+standard_crew_desc:0 "标准且不偏颇的训练规范可以让我们的舰队最平稳的运转。"
+
+excellent_crew:0 "海军学院培训"
+excellent_crew_name:0 "海军学院培训"
+excellent_crew_desc:0 "我们必须执行完整的海军学院训练计划。船员将接受多年的培训，潜在的士官将接受额外的专业培训。但是许多人将无法达到我们订定的高标准，从而减少了我们船上可运用的船员人数。"
+
+militia_crew:0 "快速训练"
+militia_crew_name:0 "快速训练"
+militia_crew_desc:0 "我们必须执行快速培训计划，重点是在没有任何高级培训的情况下尽快使船员做好准备。这将使我们能够招募很多新兵来充实自己的舰艇，但会导致战斗力下降。"
+
+ai_crew:0 "人工智能船员"
+ai_crew_name:0 "人工智能船员"
+ai_crew_desc:0 "我们船舰上的成员将以AI为主，这样会获得超快速培养船员的优势。但是针对船员角色进行了优化的AI装置很难适应迅速变化的情况，这将增加我们在战斗中的伤亡人数。"
+
+edict_nsc_doctrine_ai:0 "AI替代学说"
+edict_nsc_doctrine_ai_desc:0 "只要AI。"
+
+policy_crew_doctrine_gestalt:0 "无人机船员学说"
+policy_crew_doctrine_gestalt_desc:0 "海军无人机的培训是海军最重要的工作之一。我们应认真制定适合自己情况的培训计划； 过时或不适应的训练计划比没用的要糟，并且会削弱我们的海军。我们必须决定如何训练我们的无人机。"
+
+standard_drones:0 "标准无人机"
+standard_drones_name:0 "标准无人机"
+standard_drones_desc:0 "目前我们的无人机足够了。我们不需要高级无人机，独立的无人机或成群的海军无人机。"
+
+quality_protocol:0 "高性能协议"
+quality_protocol_name:0 "高性能协议"
+quality_protocol_desc:0 "我们的无人机必须是最高质量的，以使我们的船只以最高效率作战。我们将无法用更多宽松的标准来填补尽可能多的船舰，但这是我们为追求卓越而付出的代价。"
+
+adaptive_protocol:0 "自适应协议"
+adaptive_protocol_name:0 "自适应协议"
+adaptive_protocol_desc:0 "我们的军官无人机在设计时考虑了更多独立思想，以适应不同情况。这意味着我们可以部署更多的船舰，而我们的高级无人机能够以更大的自主权来管理其船员，但是由于缺乏统一行动，总体作战性能将受到轻微影响。
+
+swarm_protocol:0 "虫群协议"
+swarm_protocol_name:0 "虫群协议"
+swarm_protocol_desc:0 "我们的无人机只需要很少的培训。我们的船必须快，并用数量掩盖新城。不需要太多的培训。每艘船的损失可忽略不计，每少了一艘船就会有两艘船顶替它。虫群舰队会用无尽的数量淹没一切。"
+
+
+
+##############
+### EDICTS ###
+##############
+
+edict_nsc_flagship_repair:0 "旗舰重建"
+edict_nsc_flagship_repair_desc:0 "我们光荣的旗舰是我们帝国的骄傲，但却在在战斗中被摧毁了。虽然我们无法一次负担一艘以上的旗舰的维护费用，但既然我们的旗舰已经被摧毁，我们就有空余预算来制造一艘新的旗舰。"
+
+edict_nsc_emergency_defenses:0 "紧急防卫协议"
+edict_nsc_emergency_defenses_desc:0 "我们现有的防御面对即将来临的猛攻不值一提，但是我们仍然有时间来准备。 \n\n我们能用比平常快好几倍的速度来强化我们的防御，虽然也要为此付出代价，但总好过输给敌人。"

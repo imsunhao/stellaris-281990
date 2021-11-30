@@ -1,0 +1,461 @@
+﻿l_simp_chinese:
+#_[指南/状态检视/换页]
+#_[人口管理/ai建设限制/贸易优化]
+#_[ai物种合并/国内物种合并/国内机械合并/ai舰队合并/ai栖息地摧毁]
+#_[手动迁出/手动迁入]
+#_[贸易优化/pmod/工整传统]
+#_[mod_opt]
+
+
+
+
+#_[指南]
+ z_mm_tips_pf2_btn_misc_guide: "§G伞の优化§!\n注意：所有优化功能都是可以随时调整的，仔细阅读使用说明并选择适合你的优化方式。\n\n§B帝国人口上限：§!你的人口增长速率将会按照一个特殊的数学模型进行变化。\n这个模型将会参考当前的§Y帝国人口总上限§!。当你的总人口低于总上限的50%，人口增长获得正向加成，越靠近总上限的25%，增长率越高。当你的总人口高于总上限的50%，人口增长将会受到负加成，越靠近总上限的100%，增长率越低。\n§Y帝国人口总上限§!=殖民地数量x限制基数x衰减模式(取决于你的设定)。默认基数=240，超出25星人口上限不再提升，最高上限3000人口。\n\n自动降级/迁移：可以为每颗星球单独设置，花费一定的维护费，使失业人口自动迁出或降低社会阶层。\n\n贸易运算优化：贸易路线是卡顿原因之一，此功能可关闭贸易路线并以低能耗的方式统计你的贸易产出。\n\nAI巨构限制：轨道栖息地和环世界过多将会使AI拥有恐怖的人口数量，而星门过多则会大幅度增加寻路计算量。这个功能将限制AI对这三种巨构的建造，不过不影响他们修复损坏的巨构。\n\n物种优化：过多的物种也是卡顿的元凶。这里通过限制自我进化，杂交飞升与AI物种改造来限制整个银河系的物种数量。\n\n手动功能：橙色按钮皆为手动功能，你可以合并物种，优化舰队，并进行其他一些快捷操作。\n注意：你可以为某个物种添加标签特性，将他们作为合并物种的模板或者使他们无视物种合并。"
+
+#_main
+ z_modmenu_performance2: "§G伞の优化§!"
+ z_performance2_title: "§G伞の优化：§!设置"
+ z_performance2_var: "§G伞の优化：§!参数"
+ z_performance2_title_desc: "设置§G伞の优化§!提供的各种功能。\n§Y注意：§!此类优化都会对游戏性有微小的影响。如果您不知道您在做什么，建议保持默认状态，不要调整。"
+ z_mm_performance2_desc: "$z_performance2_title_desc$"
+#_[状态检视]
+ z_performance2_title_desc.a1: "\n贸易优化 §H已关闭§!"
+ z_performance2_title_desc.a2: "\n贸易优化 §G已开启§!"
+ z_performance2_title_desc.i1: "动态人口限制 §H已禁用§!"
+ z_performance2_title_desc.i2: "动态人口限制 §G低§!"
+ z_performance2_title_desc.i3: "动态人口限制 §G高§!"
+ z_performance2_title_desc.h1: "星球人口上限 §G已启用§!"
+ z_performance2_title_desc.h2: "星球人口上限 §H已禁用§!"
+ z_performance2_title_desc.b1: "AI轨道栖息地 §H无改动§!"
+ z_performance2_title_desc.b2: "AI轨道栖息地 §R已禁止§!"
+ z_performance2_title_desc.b3: "AI轨道栖息地 §G已优化§!"
+ z_performance2_title_desc.c1: "自我进化 §H已开启§!"
+ z_performance2_title_desc.c2: "自我进化 §G已关闭§!"
+ z_performance2_title_desc.d1: "AI杂交飞升 §H已允许§!"
+ z_performance2_title_desc.d2: "AI杂交飞升 §G已禁止§!"
+ z_performance2_title_desc.e1: "AI基因飞升 §H无改动§!"
+ z_performance2_title_desc.e2: "AI基因飞升 §G已优化§!"
+ z_performance2_title_desc.e3: "AI物种改造 §G已禁止§!"
+ z_performance2_title_desc.e4: "AI物种改造 §H已允许§!"
+ 
+ z_performance2_title_desc.x1: "当前全星系舰船数量 §G[root.z_global_ships_var]§!"
+ z_performance2_title_desc.x1b: "当前全星系舰船数量 §R0§!"
+ z_performance2_title_desc.x2: "当前全星系总人口 §G[root.z_galaxy_pop_var]§!"
+ z_performance2_title_desc.x2b: "当前全星系总人口 §R0§!"
+ z_performance2_title_desc.x3: "当前全星系失业人口 §G[root.z_galaxy_pop_unemployed_var]§!"
+
+
+###_[换页]
+ z_pf2.pop_species: "第1页：人口与物种优化"
+ z_pf2.other: "第2页：其他优化。"
+ z_pf2.utility: "第3页：手动功能"
+ z_pf2.page: "点击以切换设置页面。"
+
+
+
+ 
+###_[人口管理]  vam/宜居条件/自动移民/自动降级/人口上限
+ z_pf2.pop_management_auto_immig_on: "所有殖民地§G开启§!自动迁入"
+ z_pf2.pop_management_auto_immig_off: "所有殖民地§H关闭§!自动迁入"
+ z_pf2.pop_management_auto_immig_tips: "所有殖民地自动迁入无业人口，只有当星球存在空岗位时才会生效，开启时添加每月£energy£§Y$energy$§!维护费 §G3§!。"
+ z_pf2.pop_management_auto_demote: "所有殖民地开启§B自动人口降级§!"
+ z_pf2.pop_management_auto_demote_tips: "失业的高阶层人口会快速降级为低阶层，生效时添加每月£energy£§Y$energy$§!维护费 §G2§! 。"
+ z_pf2.pop_management_mig_ignore: "所有殖民地迁出设置改为§H禁止§!"
+ z_pf2.pop_management_mig_default: "所有殖民地迁出设置改为§G默认§!"
+ z_pf2.pop_management_mig_cntr: "将对所有殖民地生效，禁止其迁出人口，对自动迁入和手动迁移都会生效。"
+ z_pf2_d_core: "§G伞の优化：§!核心模块"
+ z_pf2_d_core_desc: "实现伞の优化的各种核心功能，包括§G自动人口迁移§!/§B自动人口降级§!/§H贸易补偿§!"
+#_vam
+ z_pf2.pop_management_vam_on: "原版自动迁移§G已激活§!"
+ z_pf2.pop_management_vam_off: "原版自动迁移§H已禁用§!"
+ z_pf2.pop_management_vam_tips: "如果后期人口数量高于总岗位数量，大量失业人口会进行无意义的迁移以消耗额外计算，这个功能将关闭原版的自动人口迁移功能。\n注意：这是对游戏机制的改变，失业人口将不会受到原版自动迁移影响。你可以开启本mod自带的新自动迁移机制，它比原版机制更为优化，但是这个机制只作用于玩家。"
+#_宜居条件
+ z_pf_tips_heup_habit_set:0 "设置人口迁移功能执行时参考的人口宜居度条件。\n若设置为最低，则只会迁移宜居度>15%的人口。\n若设为事宜，则只会迁移宜居度>35%的人口。\n若设为无视，则无视人口宜居度，迁移所有可用人口。注意无视宜居度对国家人口迁移和自动人口迁入无效，这两种情况下按照最低15%宜居度进行迁移。"
+ z_pf.heup_habit_default:0 "人口迁移宜居条件设置：§G已设为最低§!"
+ z_pf.heup_habit_ignore:0 "人口迁移宜居条件设置：§H已设为无视§!"
+ z_pf.heup_habit_high:0 "人口迁移宜居条件设置：§Y已设为适宜§!"
+#_自动移民
+ z_pf2_dec_plnt_auto_mig_on:0 "自动迁入§G已开启§!"
+ z_pf2_dec_plnt_auto_mig_on_desc:0 "如果存在空岗位，国内失业人口将自动迁入这颗星球，此功能维护费£energy£§Y$energy$§!维护费 §G3§!。"
+ z_pf2_dec_plnt_auto_mig_off:0 "自动迁入§H已禁用§!"
+ z_pf2_dec_plnt_auto_mig_off_desc:0 "功能关闭，但不会阻止游戏本身的了自动移民。"
+ z_pf2_tips_auto_mig_toggle:0 "开启或关闭自动迁入功能。"
+#_自动降级
+ z_pf2_dec_plnt_auto_demote_on:0 "自动降级§G已开启§!"
+ z_pf2_dec_plnt_auto_demote_on_desc:0 "失业高阶层人口在存在可用岗位时会以极短的时间降级并重新就业，此功能维护费£energy£§Y$energy$§!维护费 §G2§!。"
+ z_pf2_dec_plnt_auto_demote_off:0 "自动降级§H已禁用§!"
+ z_pf2_dec_plnt_auto_demote_off_desc:0 "功能关闭，失业人口降级将会十分缓慢。"
+ z_pf2_tips_auto_demote_toggle:0 "开启或关闭自动降级功能。"
+ 
+#_[人口上限]
+ z_pf2.cntr_pop_cap_on:0 "帝国人口上限§G已开启§!/当前限制基数§Y[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_pop_cap_set_base]§!"
+ z_pf2.cntr_pop_cap_off:0 "帝国人口上限§H已关闭§!/当前限制基数§Y[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_pop_cap_set_base]§!"
+ z_pf2.cntr_pop_cap.tooltip:0 "开启人口上限后帝国的总人数将添加一个上限，按照你所拥有的星球数量限制你的最大人口。\n§R注意：若游戏本身的§Y增长需求倍率§!未设置为0，请不要开启此功能。§!\n计算公式：殖民地数量x限制基数。"
+ z_pf2.cntr_pop_cap_linear:0 "帝国人口上限模式§H已设为线性§!"
+ z_pf2.cntr_pop_cap_mode_100:0 "帝国人口上限模式§Y已设为100星衰减§!"
+ z_pf2.cntr_pop_cap_mode_50:0 "帝国人口上限模式§G已设为50星衰减§!"
+ z_pf2.cntr_pop_cap_mode_25:0 "帝国人口上限模式§B已设为25星衰减§!"
+ z_pf2.cntr_pop_cap_mode.tooltip:0 "决定殖民地数量提升人口总上限的方式。\n§R注意：若游戏本身的§Y增长需求倍率§!未设置为0，请不要开启此功能。§!\n§H线性§!无衰减，每增加一个殖民地，提升§Y限制基数§!数量的人口。\n§Y100星有效§!拥有较低的衰减，每增加一个殖民地，提升(100-殖民地总数)%x§Y限制基数§!的数量的人口，最多支持100殖民地，超过此数量的殖民地不再增加帝国人口上限。\n§G50星有效§!拥有适中的衰减，每增加一个殖民地，提升(2x(50-殖民地总数))%x§Y限制基数§!的数量的人口，最多支持50殖民地，超过此数量的殖民地不再增加帝国人口上限。\n§B25星有效§!拥有较高的衰减，每增加一个殖民地，提升(4x(25-殖民地总数))%x§Y限制基数§!的数量的人口，最多支持25殖民地，超过此数量的殖民地不再增加帝国人口上限。"
+ z_pf2.cntr_pop_cap_base_add_10:0 "限制基数：§G+10§!"
+ z_pf2.cntr_pop_cap_base_add_50:0 "限制基数：§G+50§!"
+ z_pf2.cntr_pop_cap_base_subtract_10:0 "限制基数：§B-10§!"
+ z_pf2.cntr_pop_cap_base_subtract_50:0 "限制基数：§B-50§!"
+ z_pf2_mod_plnt_pop_growth:0 "§B帝国人口上限：§!增长修正"
+ z_pf2_mod_plnt_pop_growth_desc:0 "如果开启了§B帝国人口上限§!功能，它将会按照你所拥有的星球数量调整你的人口增长率。"
+#_mod
+ z_pf2_mod_plnt_pop_decline:0 "$z_pf2_mod_plnt_pop_growth$"
+ z_pf2_mod_plnt_pop_decline_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+ z_pf2_mod_plnt_pop_clone:0 "§B帝国人口上限：§!克隆修正"
+ z_pf2_mod_plnt_pop_clone_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+ z_pf2_mod_plnt_pop_assembly:0 "§B帝国人口上限：§!组装修正"
+ z_pf2_mod_plnt_pop_assembly_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+
+
+
+ 
+###_动态人口限制
+ z_performance_misc.11.i0: "动态人口限制 §H已禁用§!"
+ z_performance_misc.11.i0.tooltip: "使用原版游戏设置，关闭动态人口限制，无业人口数量不会影响星球人口出生/装配/迁入速率。\n\n§Y注意：大量闲置人口增长将严重减少星球稳定性，而不受控制的人口增长会让后期人口过多，影响游戏流畅性。§!"
+ z_performance_misc.11.i1: "动态人口限制 §B极低§!"
+ z_performance_misc.11.i1.tooltip: "启用动态人口限制并设置为极低。越多的无业人口，星球人口出生/装配/迁入速率，从4无业人口开始限制人口增长，最多允许8无业人口存在。\n\n§Y这与游戏原本无限制的人口增长机制有所不同§!"
+ z_performance_misc.11.i2: "动态人口限制 §G低§!"
+ z_performance_misc.11.i2.tooltip: "启用动态人口限制并设置为低，越多的无业人口，星球人口出生/装配/迁入速率，从5无业人口开始限制人口增长，最多允许12无业人口存在。\n\n§Y这与游戏原本无限制的人口增长机制有所不同§!"
+ z_performance_misc.11.i3: "动态人口限制 §B高§!"
+ z_performance_misc.11.i3.tooltip: "使用无尽群星设置，启用动态人口限制并设置为高。越多的无业人口，星球人口出生/装配/迁入速率，从6无业人口开始限制人口增长，最多允许20无业人口存在。\n\n§Y这与游戏原本无限制的人口增长机制有所不同§!"
+#_[decision]
+ z_pf2_dec_extreme_pop_restrict_on:0 "严格人口限制§H已开启§!"
+ z_pf2_dec_extreme_pop_restrict_on_desc:0 "决定是否开启严格人口限制."
+ z_pf2_extreme_pop_restrict_on:0 "无业人口超过1将导致星球人口停止增长。"
+ z_pf2_dec_extreme_pop_restrict_off:0 "严格人口限制§G已关闭§!"
+ z_pf2_dec_extreme_pop_restrict_off_desc:0 "$z_pf2_dec_extreme_pop_restrict_on_desc$"
+ z_pf2_extreme_pop_restrict_off:0 "不开启严格人口限制."
+
+###_星球人口上限
+ z_performance_misc.11.h1: "星球人口上限 §G已启用§!"
+ z_performance_misc.11.h1.tooltip: "使用无尽群星设置，启用星球人口上限。按星球大小限制人口，越大的星球可以承载越多的人口。\n\n§Y注意：如果你安装有carrying capacity MOD，此功能无效。开启限制可能会一定程度影响游戏性，因为人口到达一定程度就会停止增长§!"
+ z_performance_misc.11.h2: "星球人口上限 §H已禁用§!"
+ z_performance_misc.11.h2.tooltip: "使用原版游戏设置，关闭星球人口上限，只要有可能，星球人口会无限增长。\n\n§Y注意：不受控制的人口增长会让后期人口过多，严重影响游戏流畅性。§!"
+ 
+ z_performance_misc.11.j1: "星球人口上限提升 §H无§!"
+ z_performance_misc.11.j1.tooltip: "没有额外提升。"
+ z_performance_misc.11.j2: "星球人口上限提升 §G30§!"
+ z_performance_misc.11.j2.tooltip: "所有星球人口上限获得额外提升。"
+ z_performance_misc.11.j3: "星球人口上限提升 §G60§!"
+ z_performance_misc.11.j3.tooltip: "$z_performance_misc.11.j2.tooltip$"
+ z_performance_misc.11.j4: "星球人口上限提升 §G90§!"
+ z_performance_misc.11.j4.tooltip: "$z_performance_misc.11.j2.tooltip$"
+ z_performance_misc.11.j5: "星球人口上限提升 §G120§!"
+ z_performance_misc.11.j5.tooltip: "$z_performance_misc.11.j2.tooltip$"
+#_[deposit]
+ z_trade_normal_energy: "§G无尽群星§!: 贸易收入补偿"
+ z_trade_normal_energy_desc: "补偿因贸易优化带来的贸易收入损失"
+ z_trade_megacorp_energy: "$z_trade_normal_energy$"
+ z_trade_megacorp_energy_desc: "$z_trade_normal_energy_desc$"
+ z_trade_normal_goods: "$z_trade_normal_energy$"
+ z_trade_normal_goods_desc: "$z_trade_normal_energy_desc$"
+ z_trade_megacorp_goods: "$z_trade_normal_energy$"
+ z_trade_megacorp_goods_desc: "$z_trade_normal_energy_desc$"
+ 
+ z_pf2_d_dynamic_cap_1: "§G无尽群星§!: 动态人口限制"
+ z_pf2_d_dynamic_cap_1_desc: "根据星球失业人数与拥堵程度决定人口增长率。"
+ z_pf2_d_dynamic_cap_2: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_2_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_3: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_3_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_4: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_4_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_5: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_5_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_6: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_6_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_7: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_7_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_8: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_8_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ 
+ z_pf2_ecoc_core: "§G优化补偿§!"
+ mod_z_pf2_ecoc_core_produces_mult: "$z_pf2_ecoc_core$产出"
+ z_pf2_d_trade_2c: "§G后期优化§!：贸易补偿"
+ z_pf2_d_trade_2c_desc: "星球的§B人力/人口§!与§Y国家政策§!将决定贸易产出。"
+ z_pf2_d_trade_ru: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_ru_desc: "$z_pf2_d_trade_2c_desc$"
+ z_pf2_d_trade_league: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_league_desc: "$z_pf2_d_trade_2c_desc$"
+ z_pf2_d_trade_normal: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_normal_desc: "$z_pf2_d_trade_2c_desc$"
+
+
+
+
+###_[ai建设限制]   栖息地/环世界/星门 ####################################
+#_[栖息地]
+ z_performance_misc.11.b1: "AI轨道栖息地建设 §G已限制§!"
+ z_performance_misc.11.b1.tooltip: "AI轨道栖息地数量将被限制，可通过次级设置手动调整AI栖息地建造上限。§YAI在被允许建造轨道栖息地的情况下会无节制地建造，增加系统压力。§!"
+ z_performance_misc.11.b2: "AI轨道栖息地建设 §H无改动§!"
+ z_performance_misc.11.b2.tooltip: "原版设置，AI可以随意建造栖息地。§YAI在被允许建造轨道栖息地的情况下会无节制地建造，增加系统压力。§!"
+ z_performance_misc.11.b3: "AI轨道栖息地建设 §B已禁止§!"
+ z_performance_misc.11.b3.tooltip: "禁止§Y虚空居者§!之外的AI建造轨道栖息地，§Y虚空居者§!的轨道栖息地数量将被限制，可通过次级设置手动调整AI栖息地建造上限。§YAI在被允许建造轨道栖息地的情况下会无节制地建造，增加系统压力。§!"
+
+ z_pf2.ai_habitat_details_on: "栖息地上限设置§H(已展开)§!：普通AI=§G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_common]§!/§Y虚空居者§!=§G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_vd]§!"
+ z_pf2.ai_habitat_details_off: "栖息地上限设置§G(已收起)§!：普通AI=§G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_common]§!/§Y虚空居者§!=§G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_vd]§!"
+ z_pf2.ai_habitat_details: "可分别设置普通AI和§Y虚空居者§!的轨道栖息地建造上限"
+ z_pf2.ai_habitat_var_common_add_1: "普通AI栖息地建造上限§G+1§!"
+ z_pf2.ai_habitat_var_common_add_5: "普通AI栖息地建造上限§G+5§!"
+ z_pf2.ai_habitat_var_common_subtract_1: "普通AI栖息地建造上限§B-1§!"
+ z_pf2.ai_habitat_var_common_subtract_5: "普通AI栖息地建造上限§B-5§!"
+ z_pf2.ai_habitat_var_vd_add_1: "§Y虚空居者§!栖息地建造上限§G+1§!"
+ z_pf2.ai_habitat_var_vd_add_5: "§Y虚空居者§!栖息地建造上限§G+5§!"
+ z_pf2.ai_habitat_var_vd_subtract_1: "§Y虚空居者§!栖息地建造上限§B-1§!"
+ z_pf2.ai_habitat_var_vd_subtract_5: "§Y虚空居者§!栖息地建造上限§B-5§!"
+
+#_[环世界]
+ z_performance_misc.11.g1: "AI环世界基址建设 §H已允许§!"
+ z_performance_misc.11.g1.tooltip: "原版设置，AI将随意建造环世界基址。§Y一旦资金和条件达标，AI将不遗余力地建设环世界，这可能会是使AI拥有大量人口并造成卡顿。§!"
+ z_performance_misc.11.g2: "AI环世界基址建设 §G已限制§!"
+ z_performance_misc.11.g2.tooltip: "如果已经拥有环世界殖民地，AI将不会建造环世界基址。§Y此项功能不会影响AI升级已有的环世界或修复损坏的环世界。§!"
+ z_performance_misc.11.g3: "AI环世界基址建设 §B已禁止§!"
+ z_performance_misc.11.g3.tooltip: "AI将不会在任何情况下建造环世界基址。§Y此项功能不会影响AI升级已有的环世界或修复损坏的环世界。§!"
+
+#_[星门]
+ z_performance_misc.limited_gateway_vanilla: "AI星门建设 §H已允许§!"
+ z_performance_misc.limited_gateway_ban: "AI星门建设 §B已禁止§!"
+ z_performance_misc.limited_gateway.tooltip: "一旦拥有资源，AI将不遗余力地到处建造星门，这可能造成路线统计方面的卡顿。§Y禁止建造星门不会影响AI修复损坏的星门或者升级星门基址。§!"
+
+
+
+
+###_[贸易优化]
+ z_performance_misc.11.a1: "贸易优化 §H已关闭§!"
+ z_performance_misc.11.a1.tooltip: "原版设置，开启AI贸易系统，§Y每日贸易路线检测§!在后期星门网络建成时将严重延缓游戏速度。§!"
+ z_performance_misc.11.a2: "贸易优化 §G仅作用于AI§!"
+ z_performance_misc.11.a2.tooltip: "关闭AI贸易系统，并增加产出补偿buff，减少§Y每日贸易路线检测§!产生的运算压力。\n玩家贸易系统未改动。\n\n§Y注意：贸易补偿将按照星球人口/人力(产业革命)和星球额外贸易值进行添加，每人口/人力=§G0.5贸易值§!。§!"
+ z_performance_misc.11.a3: "贸易优化 §B已全部启用§!"
+ z_performance_misc.11.a3.tooltip: "关闭所有贸易系统，并增加产出补偿buff，减少§Y每日贸易路线检测§!产生的运算压力。\n\n§Y注意：贸易补偿将按照星球贸易值进行添加，每人口/人力=§G0.5贸易值§!。§!"
+#_[weight]
+ z_pf2.trade_opt_weight_100: "贸易优化补偿权重 §G已设为100%§!"
+ z_pf2.trade_opt_weight_150: "贸易优化补偿权重 §B已设为150%§!"
+ z_pf2.trade_opt_weight_200: "贸易优化补偿权重 §Y已设为200%§!"
+ z_pf2.trade_opt_weight_250: "贸易优化补偿权重 §H已设为250%§!"
+ z_pf2_tips_trade_opt_weight: "默认150%，即1贸易获得1.5倍的收益补偿。\n最高250%，最低100%。\n因为贸易补偿无法精细模拟全部贸易收入，所以添加这个机制补充遗漏的贸易经济。"
+
+
+
+
+#_[pmod]
+ PF_mod_cntr_trade_opt_normal: "贸易补偿 §G默认§!"
+ PF_mod_cntr_trade_opt_normal_desc: "按照星球人口/人力(产业革命)和星球额外贸易值添加。"
+ PF_mod_cntr_trade_opt_goods: "贸易补偿 §H消费品§!"
+ PF_mod_cntr_trade_opt_goods_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_unity: "贸易补偿 §E凝聚力§!"
+ PF_mod_cntr_trade_opt_unity_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_league: "贸易补偿 §B贸易联盟§!"
+ PF_mod_cntr_trade_opt_league_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+#_[工整传统]
+ PF_mod_cntr_trade_opt_tt_1e: "贸易补偿 工整传统"
+ PF_mod_cntr_trade_opt_tt_1e_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_1m: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_1m_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_1f: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_1f_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_basic: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_basic_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_basic_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_basic_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_2a: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2a_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2c: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2c_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2ac: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2ac_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2ac_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2ac_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_rp: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rp_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rs: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rs_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_re: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_re_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rr: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rr_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rr_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rr_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_league: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_league_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+
+ PF_mod_cntr_trade_opt_tt_3vm: "贸易补偿 工整传统£volatile_motes£§P$volatile_motes$§!"
+ PF_mod_cntr_trade_opt_tt_3vm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3eg: "贸易补偿 工整传统£exotic_gases£§G$exotic_gases$§!"
+ PF_mod_cntr_trade_opt_tt_3eg_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3rc: "贸易补偿 工整传统£rare_crystals£§Y$rare_crystals$§!"
+ PF_mod_cntr_trade_opt_tt_3rc_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3all: "贸易补偿 工整传统§Y高级资源§!"
+ PF_mod_cntr_trade_opt_tt_3all_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srlm: "贸易补偿 工整传统£sr_living_metal£§E$sr_living_metal$§!"
+ PF_mod_cntr_trade_opt_tt_srlm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srzro: "贸易补偿 工整传统£sr_zro£§E$sr_zro$§!"
+ PF_mod_cntr_trade_opt_tt_srzro_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srdm: "贸易补偿 工整传统£sr_dark_matter£§E$sr_dark_matter$§!"
+ PF_mod_cntr_trade_opt_tt_srdm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+#_mod
+ mod_z_pf2_ecoc_core_energy_produces_add: "§G优化补偿§!产出 £energy£§Y$energy$§!"
+ mod_z_pf2_ecoc_core_energy_upkeep_add: "§G优化补偿§!维护 £energy£§Y$energy$§!"
+ mod_z_pf2_ecoc_core_unity_produces_add: "§G优化补偿§!产出 £unity£§E$unity$§!"
+ mod_z_pf2_ecoc_core_consumer_goods_produces_add: "§G优化补偿§!产出 £consumer_goods£§H$consumer_goods$§!"
+ mod_z_pf2_ecoc_core_minerals_produces_add: "§G优化补偿§!产出 £minerals£§R$minerals$§!"
+ mod_z_pf2_ecoc_core_food_produces_add: "§G优化补偿§!产出 £food£§G$food$§!"
+ mod_z_pf2_ecoc_core_physics_research_produces_add: "§G优化补偿§!产出 £physics_research£§B$physics_research$§!"
+ mod_z_pf2_ecoc_core_engineering_research_produces_add: "§G优化补偿§!产出 £engineering_research£§H$engineering_research$§!"
+ mod_z_pf2_ecoc_core_society_research_produces_add: "§G优化补偿§!产出 £society_research£§G$society_research$§!"
+ mod_z_pf2_ecoc_core_alloys_produces_add: "§G优化补偿§!产出 £alloys£§P$alloys$§!"
+ 
+ mod_z_pf2_ecoc_core_volatile_motes_produces_add: "§G优化补偿§!产出 £volatile_motes£§P$volatile_motes$§!"
+ mod_z_pf2_ecoc_core_exotic_gases_produces_add: "§G优化补偿§!产出 £exotic_gases£§G$exotic_gases$§!"
+ mod_z_pf2_ecoc_core_rare_crystals_produces_add: "§G优化补偿§!产出 £rare_crystals£§Y$rare_crystals$§!"
+ mod_z_pf2_ecoc_core_sr_living_metal_produces_add: "§G优化补偿§!产出 £sr_living_metal£§E$sr_living_metal$§!"
+ mod_z_pf2_ecoc_core_sr_zro_produces_add: "§G优化补偿§!产出 £sr_zro£§E$sr_zro$§!"
+ mod_z_pf2_ecoc_core_sr_dark_matter_produces_add: "§G优化补偿§!产出 £sr_dark_matter£§E$sr_dark_matter$§!"
+
+
+
+
+
+#_自我进化
+ z_performance_misc.11.c1: "环境适应性自我进化 §G已关闭§!"
+ z_performance_misc.11.c1.tooltip: "使用无尽群星优化方案，关闭自我进化。§Y为了适应环境进行自我进化，产生新物种，这会增加潜在的系统压力。§!"
+ z_performance_misc.11.c2: "环境适应性自我进化 §H已开启§!"
+ z_performance_misc.11.c2.tooltip: "使用原版游戏设置，开启自我进化。§Y为了适应环境进行自我进化，产生新物种，这会增加潜在的系统压力。§!"
+#_AI物种杂交
+ z_performance_misc.11.d1: "AI物种杂交 §G已禁止§!"
+ z_performance_misc.11.d1.tooltip: "使用无尽群星优化方案，禁止AI进行物种杂交。会对含有杂交特性的mod生效，如Unofficial Hive DLC: Forgotten Queens。§Y杂交飞升将产生大量子物种，这会严重地增加系统负担。§!"
+ z_performance_misc.11.d2: "AI物种杂交 §H已允许§!"
+ z_performance_misc.11.d2.tooltip: "使用原版游戏设置，允许AI进行物种杂交。会对含有杂交特性的mod生效，如Unofficial Hive DLC: Forgotten Queens。§Y杂交飞升将产生大量子物种，这会严重地增加系统负担。§!"
+#_AI基因飞升优化  [停用]
+ z_performance_misc.11.e1: "AI基因飞升 §G已禁止§!"
+ z_performance_misc.11.e1.tooltip: "使用无尽群星优化方案，使AI使用优化基因飞升。无法将已经开启的原版基因飞升替换为优化基因飞升，请在游戏开始时做好决定。§Y基因飞升的AI将不断创造子物种，严重增加系统负担。无尽群星优化的基因飞升禁止AI基因改造，并赋予AI补偿buff。§!"
+ z_performance_misc.11.e2: "AI基因飞升 §H已允许§!"
+ z_performance_misc.11.e2.tooltip: "使用原版游戏设置，使AI使用原版基因飞升。无法将已经开启的原版基因飞升替换为优化基因飞升，请在游戏开始时做好决定。§Y基因飞升的AI将不断创造子物种，严重增加系统负担。无尽群星优化的基因飞升禁止AI基因改造，并赋予AI补偿buff。§!"
+#_禁用物种改造
+ z_pf2_mod_cntr_no_ai_species_mod: "§G无尽群星§!: 禁用AI物种改造"
+ z_pf2_mod_cntr_no_ai_species_mod_desc: "无论有机还是智械, 统统保持原本的样子."
+ z_performance_misc.11.e3: "AI物种改造 §H已允许§!"
+ z_performance_misc.11.e3.tooltip: "使用原版游戏设置，AI的物种改造不受限制。只要条件允许，AI将不断创造子物种，严重增加系统负担。"
+ z_performance_misc.11.e5: "AI物种改造 §G已限制§!"
+ z_performance_misc.11.e5.tooltip: "使用无尽群星优化方案，AI的物种改造受到限制。每一个AI物种之下最多允许存在2个子物种，相对于原版更加优化。"
+ z_performance_misc.11.e4: "AI物种改造 §B已禁止§!"
+ z_performance_misc.11.e4.tooltip: "使用无尽群星优化方案，AI的物种改造将被禁用。不允许AI进行任何物种改良。"
+#_舰队合并
+ z_performance_misc.11.k1: "AI舰队优化效率 已设为§G较高§!"
+ z_performance_misc.11.k1.tooltip: "使用手动舰队优化或者自动舰队优化执行时将尽可能多地将小型舰船合并为大型舰船。"
+ z_performance_misc.11.k2: "AI舰队优化效率 已设为§B标准§!"
+ z_performance_misc.11.k2.tooltip: "使用手动舰队优化或者自动舰队优化执行时将保留少量小型舰船。"
+ z_performance_misc.11.k3: "AI舰队优化效率 已设为§H较低§!"
+ z_performance_misc.11.k3.tooltip: "使用手动舰队优化或者自动舰队优化执行时将保留大量小型舰船。"
+ z_performance_misc.11.k4: "AI舰队优化自动化 §G已开启§!"
+ z_performance_misc.11.k4.tooltip: "每年对所有可优化的舰队自动执行优化，优化效率遵循上一选项的设定。"
+ z_performance_misc.11.k5: "AI舰队优化自动化 §H已关闭§!"
+ z_performance_misc.11.k5.tooltip: "无自动舰队优化。"
+#_mod
+ z_pf2_mod_ship_opt: ""
+ z_pf2_mod_ship_opt_desc: ""
+ edict_PF_edict_AUTO_mig_on: "自动迁移 §G已激活§!"
+ edict_PF_edict_AUTO_mig_on_desc: "激活或关闭§B自动迁移§!功能，激活以后将自动迁移全国的失业人口，但是会降低3%的全国电力产出用于支出迁移费用。"
+ edict_PF_edict_AUTO_mig_off: "自动迁移 §H已关闭§!"
+ edict_PF_edict_AUTO_mig_off_desc: "$edict_PF_edict_AUTO_mig_on_desc$"
+ PF_mod_AUTO_mig: ""
+ PF_mod_AUTO_mig_desc: ""
+ edict_PF_edict_AUTO_downgrade_on: "自动降级 §G已激活§!"
+ edict_PF_edict_AUTO_downgrade_on_desc: "激活或关闭§B自动降级§!功能，激活后会自动将高阶层失业人口降级为低阶层失业人口，但是会降低2%的全国电力产出用于支出抚恤金。"
+ edict_PF_edict_AUTO_downgrade_off: "自动降级 §H已关闭§!"
+ edict_PF_edict_AUTO_downgrade_off_desc: "$edict_PF_edict_AUTO_downgrade_on_desc$"
+ PF_mod_AUTO_downgrade: ""
+ PF_mod_AUTO_downgrade_desc: ""
+
+#_物种整合
+ z_pf2_trait_core_species:0 "定向整合模板"
+ z_pf2_trait_core_species_desc: "合并物种时当前物种范畴下的合并模板，但是请注意，每个被定向整合的人口都将产生一定花费。"
+ z_pf2_trait_core_ignore:0 "忽略整合模板"
+ z_pf2_trait_core_ignore_desc: "所有玩家帝国进行物种整合时忽略含有此特性的人口。"
+ z_performance_misc.11.f1: "§G物种整合-AI帝国§!"
+ z_performance_misc.11.f1.tooltip: "将所有AI§Y普通帝国§!和§Y巅峰帝国§!中多余的物种进行整合，以加快人口统计速度。\n所有拥有§G完整公民权§!的pop将被替换为该帝国的§B主物种§!\n所有拥有§G居留权§!的pop将被替换为该帝国中随机拥有居留权的物种\n所有§G奴隶§!pop将被替换为该帝国中随机奴隶物种。"
+ z_performance_misc.11.f1b.tooltip: "将所有AI§Y普通帝国§!和§Y巅峰帝国§!中多余的物种进行整合，以加快人口统计速度。\n所有拥有§G完整公民权§!的pop将被替换为该帝国的§B主物种§!\n所有拥有§G居留权§!的pop将被替换为该帝国中随机拥有居留权的物种\n所有§G奴隶§!pop将被替换为该帝国中随机奴隶物种\n\n§Y注意：此功能可以直接通过mod面板顶部快捷按钮触发。§!"
+#_物种整合-国内
+ z_performance_misc.11.f2: "§G物种整合-自身§!"
+ z_performance_misc.11.f2.tooltip: "将所有帝国内多余的物种进行整合，以加快人口统计速度。\n所有拥有§G完整公民权§!的pop将被替换为§B主物种§!\n所有拥有§G居留权§!的pop将被替换为随机拥有居留权的物种\n所有§G奴隶§!pop将被替换为随机奴隶物种。"
+#_智械整合-国内
+ z_performance_misc.11.f4: "§G智械整合-自身§!"
+ z_performance_misc.11.f4.tooltip: "将所有帝国内多余的智械物种进行整合。\n所有拥有§G完整公民权§!的智械pop将被合并\n所有拥有§G居留权§!的智械pop将被合并为随机拥有居留权的智械\n所有§G机械仆役§!pop将被合并为随机机械仆役物种。"
+#_强制合并
+ z_pf2.forced_merge: "§G强制整合-自身§!"
+ z_pf2.forced_merge.tooltip: "将所有帝国物种强制合并为一个物种。\n如果某个物种存在$z_pf2_trait_core_species$，他将被视作模板。如果多个物种存在$z_pf2_trait_core_species$，将从其中随机选择一个作为模板。如果没有设定$z_pf2_trait_core_species$，则选择帝国主物种作为模板。\n合并无视物种类型和公民权差异，且每个被合并的人口消耗£energy£§Y$energy$§!=§G50§!"
+
+#_手动舰队合并
+ z_performance_misc.11.f5: "§GAI舰队优化§!"
+ z_performance_misc.11.f5.tooltip: "立即对所有可优化的AI舰队执行优化，按照AI的科技水平和优化效率设定合并AI舰队，使其尽可能多地使用大型船只以减少全局舰船数量。"
+#_清除轨道栖息地
+ z_performance_misc.11.f3: "§G实验性功能：清理轨道栖息地§!"
+ z_performance_misc.11.f3.tooltip: "摧毁所有非§B虚空居者§!帝国的轨道栖息地。§Y注意：慎用！§!"
+
+#_清除舰队模板
+# z_performance_misc.11.i1: "清除空舰队模板§G已启用§!/当前§H已禁用§!"
+# z_performance_misc.11.i1.tooltip: "使用无尽群星优化方案，清除空舰队模板。"
+# z_performance_misc.11.i2: "清除空舰队模板§H已禁用§!/当前§G已启用§!"
+# z_performance_misc.11.i2.tooltip: "使用原版游戏设置，不清除空舰队模板。"
+ 
+#_utility
+ z_performance_misc.11.x: "§B初始化设定§!"
+ z_performance_misc.11.x.tooltip: "采用无尽群星的设定"
+ z_performance_misc.11.x1: "§H原版游戏默认设定§!"
+ z_performance_misc.11.x1.tooltip: "采用原版游戏的设定"
+ z_performance_misc.11.x2: "退到ModMenu"
+ z_performance_misc.11.x2.tooltip: "退到主选单"
+ z_performance_misc.11.x3: "退出"
+ z_performance_misc.11.x3.tooltip: "退出设置"
+
+
+
+
+###_[手动迁出]
+ z_pf_tips_heup_ignore_migration_control: "此人口迁移功能为§B伞の优化§!独立功能，不受原版移民控制影响，也不会影响原版人口迁移。"
+ z_pf_tips_heup_mig_ignore: "已设置为§R禁止迁出§!"
+ z_pf_dec_plnt_heup_mig: "§B人口管理：§!手动迁出"
+ z_pf_dec_plnt_heup_mig_desc: "按照迁出设置迁出指定人口。"
+ z_pf_tips_heup_mig: "默认情况下只在其他星球拥有空岗位时迁出失业人口，若设置为§H强制迁出§!且存在可容纳人口的星球则迁出至只剩§G1人口§!为止。\n$z_pf_tips_heup_ignore_migration_control$\n注意：新殖民地将默认设置为§R禁止迁出§!。\n单星手动迁移每人口消耗§G50§!£energy£§Y$energy$§!，§Y$energy$§!不足的情况下不会执行迁移命令。"
+#_设置
+ z_pf_tips_heup_mig_set: "改变当前星球的迁出设置，可设置为§B默认§!/§G优先§!/§H强制§!/§R禁止§!。\n$z_pf_tips_heup_ignore_migration_control$"
+ z_pf_dec_plnt_heup_mig_set_default: "当前迁出设置为§B默认§!"
+ z_pf_dec_plnt_heup_mig_set_default_desc: "将只会迁出失业人口。"
+ z_pf_dec_plnt_heup_mig_set_prio: "当前迁出设置为§G优先§!"
+ z_pf_dec_plnt_heup_mig_set_prio_desc: "将优先迁出这颗星球的人口。"
+ z_pf_dec_plnt_heup_mig_set_forced: "当前迁出设置为§H强制§!"
+ z_pf_dec_plnt_heup_mig_set_forced_desc: "将强制迁出所有可迁出人口，直至只剩§G1人口§!为止。\n注意：此项内容对§Y国家迁移§!和§Y自动迁入§!无效。"
+ z_pf_dec_plnt_heup_mig_set_ignore: "当前迁出设置为§R禁止§!"
+ z_pf_dec_plnt_heup_mig_set_ignore_desc: "这颗星球的人口不会迁出。"
+
+###_[手动迁入]
+ z_pf_tips_heup_immig_ignore: "已设置为§R禁止迁入§!"
+ z_pf_dec_plnt_heup_immig: "§B人口管理：§!手动迁入"
+ z_pf_dec_plnt_heup_immig_desc: "按照迁入设置迁入可用人口。"
+ z_pf_tips_heup_immig: "默认情况下只在此星球存在空岗位时迁入人口，若设置为§H强制迁入§!则无视除宜居度以外的任何条件，无限迁入可用人口。\n$z_pf_tips_heup_ignore_migration_control$\n单星手动迁移每人口消耗§G50§!£energy£§Y$energy$§!，§Y$energy$§!不足的情况下不会执行迁移命令。"
+#_设置
+ z_pf_tips_heup_immig_set: "改变当前星球的迁入设置，可设置为§B默认§!/§G优先§!/§H强制§!/§R禁止§!。"
+ z_pf_dec_plnt_heup_immig_set_default: "当前迁入设置为§B默认§!"
+ z_pf_dec_plnt_heup_immig_set_default_desc: "当这颗星球的空岗位被填满，人口就不会再继续迁入。\n$z_pf_tips_heup_ignore_migration_control$"
+ z_pf_dec_plnt_heup_immig_set_prio: "当前迁入设置为§G优先§!"
+ z_pf_dec_plnt_heup_immig_set_prio_desc: "可用人口将优先迁入这颗星球。"
+ z_pf_dec_plnt_heup_immig_set_forced: "当前迁入设置为§H强制§!"
+ z_pf_dec_plnt_heup_immig_set_forced_desc: "将强制迁入所有帝国内可用人口，直至没有可用人口为止。\n注意：此项内容对§Y国家迁移§!和§Y自动迁入§!无效。"
+ z_pf_dec_plnt_heup_immig_set_ignore: "当前迁入设置为§R禁止§!"
+ z_pf_dec_plnt_heup_immig_set_ignore_desc: "这颗星球不会有人口迁入。"
+
+
+###_[mod_opt]
+ z_pf.mod_opt_weekly: "修正更新优化 §G当前频率为每周§!"
+ z_pf.mod_opt_monthly: "修正更新优化 §H当前频率为每月§!"
+ z_pf.mod_opt_none: "修正更新优化 §B当前关闭§!"
+ z_pf_tips_mod_opt: "群星的修正以每一刻（1日10刻）的频率进行更新，以确保修正及时更新。但是只会带来严重的延迟，越后期越多运算会用在修正更新上，游戏速度也越慢。\n你可以选择将更新频率修改为每周一次或每月一次，每次会用一日的时间进行更新。\n这是一个试验性功能，不清楚会带来什么影响，可能出现加成不及时，也可能破坏一些功能，如果不是很卡建议不要开启此项优化。"

@@ -1,0 +1,50 @@
+﻿l_simp_chinese:
+
+##################################################################################################################################################################################################################
+### TOOLTIPS ###
+################
+
+requires_no_existing_nsc_factory: "战略资源工厂仅可建造一座"
+requires_no_existing_mall: "银河购物中心仅可建造一座"
+requires_no_existing_hospital: "银河医院仅可建造一座。"
+
+TBA:0 "\n§g(- 待加入描述 -)§!\n"
+
+hq_limit: "§R每个帝国只允许一个§Y$sm_hq_annex$§!存在。§!"
+drydock_limit: "§R每个帝国只允许一个§Y$sm_drydock$§!存在。§!"
+starbase_management_limit: "§R每个帝国只允许五个§Y$sm_starbase_management$§!存在。§!"
+starbase_management_machine_limit: "§R每个帝国只允许五个§Y$sm_starbase_management_machine$§!存在。§!"
+starbase_management_hive_limit: "§R每个帝国只允许五个§Y$sm_starbase_management_hive$§!存在。§!"
+requires_colony: "需要已殖民行星"
+requires_stronghold: "需要恒星据点"
+
+requires_tech_hyperlane_generation:0 "$TRIGGER_FAIL$需要科技£物理§Y$tech_hyperlane_generation$§!."
+
+requires_no_existing_generator_emisor:0 "$TRIGGER_FAIL$帝国中已有§Y超空间航线产生器(发射端)§!所以无法建筑。"
+requires_existing_generator_receptor:0 "$TRIGGER_FAIL$需要帝国中存在§Y超空间航线产生器(接收端)§!。"
+requires_existing_generator_emisor:0 "$TRIGGER_FAIL$需要帝国中存在§Y超空间航线产生器(发射端)§!且不与§Y[Root.GetName]§!有超空间连结。"
+requires_no_existing_system_generator_emisor:0 "$TRIGGER_FAIL$星系中已有§Y超空间航线产生器(发射端)§!所以无法建筑。"
+requires_no_existing_generator_receptor:0 "$TRIGGER_FAIL$帝国中已有§Y超空间航线产生器(接收端)§!所以无法建筑。"
+
+requires_no_existing_remover_emisor:0 "$TRIGGER_FAIL$帝国中已有§Y超空间航线移除器(发射端)§!所以无法建筑。"
+requires_existing_remover_receptor:0 "$TRIGGER_FAIL$需要帝国中存在§Y超空间航线移除器(接收端)§!。"
+requires_existing_remover_emisor:0 "$TRIGGER_FAIL$需要帝国中存在§Y超空间航线移除器(发射端)§!且不与§Y[Root.GetName]§!有超空间连结。"
+requires_no_existing_system_remover_emisor:0 "$TRIGGER_FAIL$星系中已有§Y超空间航线移除器(发射端)§!所以无法建筑。"
+requires_no_existing_remover_receptor:0 "$TRIGGER_FAIL$帝国中已有§Y超空间航线移除器(接收端)§!所以无法建筑。" 
+
+nsc_headquarters_bonus: "海军司令部加成"
+
+requires_technology_exploration_cruiser:0 "R需要§H勘探舰(等级1)§!"
+requires_technology_automated_exploration:0 "需要§B自动探索协议§!"
+requires_discovery_tree:0 "需要完成§M探索传统§!"
+
+nsc_light_ship_focus_tooltip: "$mod_light_ship_focus$"
+nsc_versatility_focus_tooltip: "$mod_versatility_focus$"
+nsc_capital_focus_tooltip: "$mod_capital_focus$"
+nsc_carrier_focus_tooltip: "$mod_carrier_focus$"
+
+starbase_h_limit.tooltip.fail: "你最多只能在每个恒星基地兴建6个机库区块。"
+starbase_t_limit.tooltip.fail: "你最多只能在每個恆星基地興建2個泰坦級武器。"
+starbase_xl_limit.tooltip.fail: "你最多只能在每个恒星基地兴建6个XL级武器。"
+
+nsc.requires.asteroid: "需要星系中有小行星。"

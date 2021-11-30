@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+
+#_[轨道轰炸]
+#_[军队]
+
+
+
+
+###_[轨道轰炸]  #########################################################################################################
+
+#_[测试杀人]
+ bombardment_z_fw_bs_test_kill:0 "测试杀人"
+ bombardment_z_fw_bs_test_kill_desc:2 "$bombardment_z_fw_bs_test_kill$轰炸针对星球人口。\n-对§Y军团§!造成§Y中度§!伤害\n-对§Y星球§!造成§Y中度§!伤害\n-对§Y人口§!造成§E严重§!伤害\n-将会轰炸不设防的星球\n-§R不会§!消灭最后的§Y$MIN_POPS$§!个人口"
+ 
+ z_policy_bs_z_fw_bs_test_kill:0 "测试杀人"
+ z_policy_bs_z_fw_bs_test_kill_name:0 "测试杀人轨道轰炸"
+ z_policy_bs_z_fw_bs_test_kill_desc:1 "允许使用测试杀人的轨道轰炸武器，以完全消灭所有居民为目标。\n\n§E允许“无差别”和“末日审判”轰炸方式。§!"
+ 

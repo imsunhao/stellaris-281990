@@ -1,0 +1,42 @@
+﻿l_english:
+
+ tidy_tradition_active.3:0"Tidy Tradition's Tip"
+ tidy_tradition_active.3.name:0"Tidy Tradition's Tip"
+ tidy_tradition_active.3.desc:0"§RLow resolution comrades, please pay attention: §!\n§RLow resolution comrades, please pay attention: §!\n§RLow resolution comrades, please pay attention: §!\n\nAt present, the default UI is the high-resolution one. You can try to find the file in the following path: \n\n§RAnd delete the file:§!steam/steamapps/workshop/content/281990/2438313459/interface/zzzzzzzz_topbar_traditions_view_Z\n\nNext, restart the game to enable the exclusive UI §Rwith low resolution！§!"
+ tidy_tradition_active.3.a.tooltip:0"I said I would update it after the official update... As a result, I broke my promise again. This is some compensation I gave."
+ tidy_tradition_active.3.b:0"§RFuck off! §!"
+ tidy_tradition_active.3.b.tooltip:0"Damn it..."
+
+#Ascension Star
+ the_revival.1:0 "Ascension Star"
+ the_revival.1.name:0 "Ascension Star"
+ the_revival.1.desc:0"The height we are going to reach is unprecedented.\n\nWe must unite as one, because we will eventually become an empire standing at the top of the galaxy and making greater contributions to the "peace and development" of the universe."
+ the_revival.a:0 "Look at what we found!"
+ the_revival.a.tooltip:0 "We will never perish!"
+
+#Crack dark matter
+ crack_tech_dark_matter.1:0 "cracked successfully"
+ crack_tech_dark_matter.1.name:0 "Cracked successfully!"
+ crack_tech_dark_matter.1.desc:0"It succeeded! We finally succeeded!\n\nFinally, after spending a lot of manpower and material resources, we finally figured out the true face of this mysterious technology!\n\nIts name is " Dark matter deflector shields", these deflector shields use dark matter to deflect incoming artillery in a way that seems completely against the laws of nature.\n\nWe finally solved this technology by peaceful and autonomous means."
+ crack_tech_dark_matter.1.a:0 "Awesome!"
+ crack_tech_dark_matter.1.a.tooltip:0 "Those old antiques will marvel at our current achievements."
+
+ crack_tech_dark_matter.2:0 "cracked successfully"
+ crack_tech_dark_matter.2.name:0 "Cracked successfully!"
+ crack_tech_dark_matter.2.desc:0"Successful! We finally succeeded!\n\nFinally, after spending a lot of manpower and material resources, we finally figured out the true face of this mysterious technology!\n\nIts name is " Dark matter energy", in a way that violates the laws of physics, directly extracts huge amounts of energy from dark matter to power ships.\n\nWe finally solved this technology by peaceful and autonomous means."
+ crack_tech_dark_matter.2.a:0 "Awesome!"
+ crack_tech_dark_matter.2.a.tooltip:0 "I don't know what the former people would think?"
+
+ crack_tech_dark_matter.3:0 "cracked successfully"
+ crack_tech_dark_matter.3.name:0 "Cracked successfully!"
+ crack_tech_dark_matter.3.desc:0 "Successful! We finally succeeded!\n\nFinally, after spending a lot of manpower and material resources, we finally figured out the true face of this mysterious technology!\n\nIts name is " Dark matter advancement", $SHIP_THRUSTER_5_DESC$\n\nWe finally solved this technology by peaceful and independent means."
+ crack_tech_dark_matter.3.a:0 "Awesome!"
+ crack_tech_dark_matter.3.a.tooltip:0"I hope our empire can advance by leaps and bounds under the blessing of this thruster."
+
+
+ tt_courage.11:0"Courage Tradition : War Victory"
+ tt_courage.11.name:0"Courage Tradition : War Victory"
+ tt_courage.11.a.desc:0"After an arduous war, we finally defeated our enemies. Of course, this includes the fearless charging spirit and the fine tradition of permanent courage, which is essential to our civilization"
+ tt_courage.11.b.desc:0"After the arduous war, we finally defeated our enemies, but the war won in recent years has numbed our soldiers and people. We can't see the national celebration until at least some time."
+ tt_courage.11.a:0"Come and celebrate!"
+ tt_courage.11.b:0"Anyway, we have won. Let's have a good rest."

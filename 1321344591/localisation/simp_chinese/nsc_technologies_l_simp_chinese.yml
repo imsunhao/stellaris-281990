@@ -1,0 +1,295 @@
+﻿l_simp_chinese:
+
+####################
+### TECHNOLOGIES ###
+####################
+
+tech_pd_destroyer_1: "点防御驱逐舰升级"
+tech_pd_destroyer_1_desc: "先进的结构技术使驱逐舰可以装备大型的点防御阵列武器。"
+
+tech_StrikeCruiser_1: "打击巡洋舰"
+tech_StrikeCruiser_1_desc: "工厂与结构技术的发展使我们可以建造打击巡洋舰级别的军事船舰。"
+
+tech_Battlecruiser_1: "战列巡洋舰"
+tech_Battlecruiser_1_desc: "工厂与结构技术的发展使我们可以建造战列巡洋舰级别的军事船舰。"
+
+tech_escortcarrier_1: "护卫航母升级"
+tech_escortcarrier_1_desc: "工厂与结构技术的发展使我们可以建造护卫航母级别的军事船舰。"
+
+tech_Carrier_1: "航空母舰"
+tech_Carrier_1_desc: "工厂与结构技术的发展使我们可以建造航空母舰级别的军事船舰。"
+
+tech_heavycarrier_1: "重航母升级"
+tech_heavycarrier_1_desc: "随着我们的船舰建造技术发展,我们持续寻找新的船舰布局以改进现有船舰。这种特化的航空母舰升级会将其转化成重型航空母舰,大幅强化舰载机搭载量。"
+
+tech_supercarrier_1: "超级航空母舰升级"
+tech_supercarrier_1_desc: "随着我们的船舰建造技术发展,我们持续寻找新的船舰布局以改进现有船舰。这种特化的战列巡洋舰升级会将其转化成超级航空母舰,使其拥有搭载巨大的舰载机搭载量。"
+
+tech_spitfire_1: "喷火式战列舰特化"
+tech_spitfire_1_desc: "随着小型军事船舰的演进,它们逐渐拥有威胁主力舰的能力。我们的工程师有一些可以针对此问题改进的战列舰图纸,虽然会提高造价,但可以让战列舰追加反轻型护卫舰/驱逐舰模块。"
+
+tech_Dreadnought_1: "无畏舰"
+tech_Dreadnought_1_desc: "工厂与结构技术的发展使我们可以建造无畏舰级别的军事船舰。"
+
+tech_Flagship_1: "旗舰"
+tech_Flagship_1_desc: "经过数十年的战斗以及工程经验累积,我们现在有能力建造强大且独特的旗舰来作为我们的帝国象征。" 
+
+tech_supportcruiser_1:0 "舰队支援舰"
+tech_supportcruiser_1_desc:0 "随着我们的舰队数量成长的同时,舰队的活动区域离母星越来越远,势必要发展一种船舰来取代日益增长的补给线,舰队支援舰因应而生。" 
+
+tech_explorationship_1: "勘探舰(等级1)"
+tech_explorationship_1_desc: "一种具有战斗能力的大型科学船，用于大胆的前往未知之地探索新世界、寻求新生物和新文明。"
+
+tech_explorationship_2: "勘探舰(等级2)"
+tech_explorationship_2_desc: "一种具有战斗能力的大型科学船，用于大胆的前往未知之地探索新世界、寻求新生物和新文明。"
+
+tech_explorationship_3: "勘探舰(等级3)"
+tech_explorationship_3_desc: "一种具有战斗能力的大型科学船，用于大胆的前往未知之地探索新世界、寻求新生物和新文明。"
+
+tech_drydock_1: "恒星基地干船坞"
+tech_drydock_1_desc: "干船坞是一种恒星基地上的大型标准造船厂,可以一次建造两艘船舰。"
+
+tech_sensorstation_1: "预警站"
+tech_sensorstation_1_desc: "在恒星基地上建立一个预警站以便监控我们的边境。"
+
+tech_starbase_6:0 "城堡级恒星基地"
+tech_starbase_6_desc:0 "随着舰队的规模扩大和強化，我们的恆星基地和防御设施也必须变得越来越强大。 城堡級是功能强大且高度先进的系统防御站，是对现有恆星基地的大规模升级。 这些珍贵且高度发达且可以支持多种设施的星际基地对于我们的帝国而言是重要的據點。"
+
+tech_starbase_7:0 "星系要塞级恒星基地"
+tech_starbase_7_desc:0 "星系要塞是恆星基地的最后升级，它是終極的指挥和防御空間站，是帝國可以建造的最大型星空基地。 敌人的舰队将突破这些庞大的堡垒，而每一个星系要塞都是我们帝国的重要资产，捍卫了银河中最关键的位置。"
+
+tech_space_defense_station_2:0 "深空防御2"
+tech_space_defense_station_2_desc:0 "随着舰队的规模扩大和强化，我们的防御设施也必须具备更强大的实力。这些扩展的防御站是对基本防御平台的升级，可以更有效的防御敌人对我们领土的攻击。"
+
+tech_space_defense_station_3:0 "深空防御3"
+tech_space_defense_station_3_desc:0 "随着舰队的规模扩大和强化，我们的防御设施也必须具备更强大的实力。这些扩展的堡垒级防御站是对基本防御平台的升级，可以更有效的防御敌人对我们领土的攻击。"
+
+tech_specialcomponents_1:0 "先进船舰组件"
+tech_specialcomponents_1_desc:0 "我们的科学家提出了一系列功能强大的新模块，以增强我们的战舰并使其进一步专业化。现在我们只需要使它们小型化就可以安装到船舰上。"
+
+tech_ship_upkeep_1:0 "高效船舰补给线"
+tech_ship_upkeep_1_desc:0 "随着技术的进步，我们的补给线将可以更有效地提供船舰资源，进而减少维护费用。"
+
+tech_starbase_upkeep_1:0 "高效恒星基地维护"
+tech_starbase_upkeep_1_desc:0 "恒星基地的工作人员在经过专业的训练后可以用更高效的方法维护恒星基地，进而明显的减少恒星基地维护费用。"
+
+tech_singularity_power: "奇点动力"
+tech_singularity_power_desc: "由量子奇点供能的反应堆。"
+
+tech_bh_power_3: "先进旗舰反应堆"
+tech_bh_power_3_desc: "由人工黑洞供能的反应堆。"
+
+tech_bh_power_2: "改良旗舰反应堆"
+tech_bh_power_2_desc: "由人工黑洞供能的反应堆。"
+
+tech_optimized_enigmatic_power: "优化暗物质反应堆"
+tech_optimized_enigmatic_power_desc: "强化暗物质反应堆。"
+
+tech_graviton_power: "引力反应堆"
+tech_graviton_power_desc: "加入重力以及粒子重力来强化反物质反应,使反应堆可以产生更多能量。"
+
+tech_multidimensional_power: "多維反应堆"
+tech_multidimensional_power_desc: "多维反应堆是通过真空能量流实现供能的次世代反应堆,但是需要要在不同的维度以及现实之间建立一个物质桥接器来保持稳定。"
+
+tech_naquadria_power: "奎达反应堆"
+tech_naquadria_power_desc: "使用古老而稀有的水晶供能的特殊反应堆。"
+
+nsc_sec_power_core: "第二反应堆"
+nsc_sec_power_core_desc: "要塞和太空站的第二反应堆槽位。"
+
+tech_nsc_reactor_boosters_1: "引力反应堆助推器"
+tech_nsc_reactor_boosters_1_desc: "引力反应堆的发现可以应用在反应堆助推器上,使其更符合我们的船只需求。"
+tech_nsc_reactor_boosters_2: "奎达反应堆助推器"
+tech_nsc_reactor_boosters_2_desc: "奎达反应堆的发现可以应用在反应堆助推器上,使其更符合我们的船只需求。"
+tech_nsc_reactor_boosters_3: "奇点反应堆助推器"
+tech_nsc_reactor_boosters_3_desc: "奇点反应堆的发现可以应用在反应堆助推器上,使其更符合我们的船只需求。"
+
+tech_nsc_dlc_check: "现在是Apocalypse?"
+tech_nsc_dlc_check_desc: "用来侦测Apocalypse DLC的起始科技。"
+
+tech_strikecruiser_build_speed: "标准化打击巡洋舰模块"
+tech_strikecruiser_build_speed_desc: "藉由模块化打击巡洋舰结构可以更有效的改善船舰生产线效率。"
+tech_strikecruiser_hull_1: "改良打击巡洋舰船体"
+tech_strikecruiser_hull_1_desc: "先进的建造技术使打击巡洋舰的结构更加坚固且耐用。"
+tech_strikecruiser_hull_2: "先进打击巡洋舰船体"
+tech_strikecruiser_hull_2_desc: "新世代的打击巡洋舰船体技术包括了先进的结构完整性力场以及强化过的舱壁。"
+
+tech_battlecruiser_build_speed: "标准化战列巡洋舰模块"
+tech_battlecruiser_build_speed_desc: "藉由模块化战列巡洋舰结构可以更有效的改善船舰生产线效率。"
+tech_battlecruiser_hull_1: "改良战列巡洋舰船体"
+tech_battlecruiser_hull_1_desc: "先进的建造技术使战列巡洋舰的结构更加坚固且耐用。"
+tech_battlecruiser_hull_2: "先进战列巡洋舰船体"
+tech_battlecruiser_hull_2_desc: "新世代的战列巡洋舰船体技术包括了先进的结构完整性力场以及强化过的舱壁。"
+
+tech_carrier_build_speed: "标准化巡洋舰模块"
+tech_carrier_build_speed_desc: "藉由模块化巡洋舰结构可以更有效的改善船舰生产线效率。"
+tech_carrier_hull_1: "改良巡洋舰船体"
+tech_carrier_hull_1_desc: "先进的建造技术使巡洋舰的结构更加坚固且耐用。"
+tech_carrier_hull_2: "先进巡洋舰船体"
+tech_carrier_hull_2_desc: "新世代的巡洋舰船体技术包括了先进的结构完整性力场以及强化过的舱壁。"
+
+tech_dreadnought_build_speed: "标准化无畏舰模块"
+tech_dreadnought_build_speed_desc: "藉由模块化旗舰结构可以更有效的改善船舰生产线效率。"
+tech_dreadnought_hull_1: "改良无畏舰船体"
+tech_dreadnought_hull_1_desc: "先进的建造技术使无畏舰的结构更加坚固且耐用。"
+tech_dreadnought_hull_2: "先进无畏舰船体"
+tech_dreadnought_hull_2_desc: "新世代的无畏舰船体技术包括了先进的结构完整性力场以及强化过的舱壁。"
+
+tech_flagship_build_speed: "标准化旗舰模块"
+tech_flagship_build_speed_desc: "藉由模块化旗舰结构可以更有效的改善船舰生产线效率。"
+tech_flagship_hull_1: "改良旗舰船体"
+tech_flagship_hull_1_desc: "先进的建造技术使旗舰。"
+tech_flagship_hull_2: "先进旗舰船体"
+tech_flagship_hull_2_desc: "新世代的旗舰船体技术包括了先进的结构完整性力场以及强化过的舱壁。"
+
+tech_stronghold_upgrades: "改良恒星基地"
+tech_stronghold_upgrades_desc: "建立一种新的模组与建筑标准以改善所有恒星基地的生产效率。"
+
+tech_mining_base: "星系矿物处理中心"
+tech_mining_base_desc: "随着我们在星辰中扩展,我们需要更多资源供我们的人民使用。特化过的太空矿物精炼厂可以有效的集中矿物生产并提高矿物生产量。"
+
+tech_power_station: "星系能量网络"
+tech_power_station_desc: "随着我们的帝国在星辰中扩展,我们需要更多能源供我们的帝国使用。特化过的太空发电厂可以有效的集中能量生产,使我们在关键星系有更多的能量生产给我们的国家使用。"
+
+tech_defense_platforms_1: "防御平台增建 – 等级1"
+tech_defense_platforms_1_desc: "随着技术进步，我们可以在恒星据点旁建造更多的防御平台。"
+
+tech_defense_platforms_2: "防御平台增建 – 等级2"
+tech_defense_platforms_2_desc: "随着技术进步，我们可以在恒星据点旁建造更多的防御平台。"
+
+tech_defense_platforms_3: "防御平台增建 – 等级3"
+tech_defense_platforms_4_desc: "随着技术进步，我们可以在恒星据点旁建造更多的防御平台。"
+
+tech_defense_platforms_4: "防御平台增建 – 等级4"
+tech_defense_platforms_4_desc: "随着技术进步，我们可以在恒星据点旁建造更多的防御平台。"
+
+tech_nsc_ai_computer_1: "人工智能战斗系统"
+tech_nsc_ai_computer_1_desc: "最先进的电脑系统能够在无人操作船舰的状况下全面接管船舰,并运行所有的战斗系统。可运用在航空母舰、舰队支援舰以及旗舰上。"
+
+tech_tomahawk_cruise_missile_1: "先进战斧巡航飞弹"
+tech_tomahawk_cruise_missile_1_desc: "一种非常昂贵的反主力舰飞弹,拥有非常长的射程以及强大的火力。一般用在防御站或擅长长程打击的军事船舰上。"
+
+ech_nsc_disabled_sections: "关闭NSC船舰区块"
+tech_nsc_disabled_sections_desc: "如果你看到了这个科技代表了代表出了问题或者你使用了控制台。"
+
+tech_hospital: "银河综合医院"
+tech_hospital_desc: "这是一家庞大而先进的太空医院，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"
+
+tech_galactic_mall: "银河购物中心"
+tech_galactic_mall_desc: "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+
+tech_hyperlane_generation:0 "超空间产生器"
+tech_hyperlane_generation_desc:0 "随着超空间驱动器以及废弃星门修复的技术发展，我们发展出了新增或移除超空间网路的方法，使得我们可以根据需求恣意重塑银河地理。"
+
+
+####################
+### TECH UNLOCKS ###
+####################
+
+TECH_UNLOCK_HYPERLANE_GENERATION_TITLE:0 "§H解锁特质:§! 超空间产生器"
+TECH_UNLOCK_HYPERLANE_GENERATION_DESC:0 "§H超空间产生器§!\n可以新增或移除超空间网路。"
+
+TECH_UNLOCK_GRAVITON_POWER_TITLE: "§H解锁组件:§! $GRAVITON_REACTOR$"
+TECH_UNLOCK_GRAVITON_POWER_DESC: "§H$GRAVITON_REACTOR$§!\n$GRAVITON_REACTOR_DESC$"
+ 
+TECH_UNLOCK_NAQUADRIA_POWER_TITLE: "§H解锁组件:§! $NAQUADRIA_REACTOR$"
+TECH_UNLOCK_NAQUADRIA_POWER_DESC: "§H$NAQUADRIA_REACTOR$§!\n$NAQUADRIA_REACTOR_DESC$"
+
+TECH_UNLOCK_SINGULARITY_POWER_TITLE: "§H解锁组件:§! $SINGULARITY_REACTOR$"
+TECH_UNLOCK_SINGULARITY_POWER_DESC: "§H$SINGULARITY_REACTOR$§!\n$SINGULARITY_REACTOR_DESC$"
+
+TECH_UNLOCK_MULTIDIMENSIONAL_POWER_TITLE: "§H解锁组件:§! $MULTIDIMENSIONAL_REACTOR$"
+TECH_UNLOCK_MULTIDIMENSIONAL_POWER_DESC: "§H$MULTIDIMENSIONAL_REACTOR$§!\n$MULTIDIMENSIONAL_REACTOR_DESC$"
+
+TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_TITLE: "§H解锁组件:§! $OPTIMIZED_ENIGMATIC_REACTOR$"
+TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_DESC: "§H$OPTIMIZED_ENIGMATIC_REACTOR$§!\n$OPTIMIZED_ENIGMATIC_REACTOR_DESC$"
+
+TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_TITLE: "§H解锁组件:§! $OPTIMIZED_ENIGMATIC_REACTOR$"
+TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_DESC: "§H$OPTIMIZED_ENIGMATIC_REACTOR$§!\n$OPTIMIZED_ENIGMATIC_REACTOR_DESC$"
+
+TECH_UNLOCK_BH_POWER_TITLE: "§H解锁组件:§! $FLAGSHIP_BLACK_HOLE_REACTOR_1$"
+TECH_UNLOCK_BH_POWER_DESC: "§H$FLAGSHIP_BLACK_HOLE_REACTOR_1$§!\n$FLAGSHIP_BLACK_HOLE_REACTOR_1_DESC$"
+
+TECH_UNLOCK_PD_DESTROYER_CONSTRUCTION_TITLE: "§H解锁新模块:§! 点防御驱逐舰"
+TECH_UNLOCK_PD_DESTROYER_CONSTRUCTION_DESC:0 "§H点防御驱逐舰§!\n导弹、鱼雷和舰载机都对我们的舰队构成了严重威胁。我们的海军工程师建议重新设计我们的驱逐舰，以安装一系列无数的近防武器击落这些目标，达到保护我们船只的目的。"
+
+TECH_UNLOCK_STRIKECRUISER_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 打击巡洋舰"
+TECH_UNLOCK_STRIKECRUISER_CONSTRUCTION_DESC:0 "§H打击巡洋舰§!\n战斗经验和广泛的战争演习表明，舰队战斗往往不会产生决定性的结果，因为失败的一方会立即紧急启用FTL逃跑。我们的优修科学家将恒星基地上的亚空间陷阱微型化并装备到船舰上。这些船只将以极快的速度突进并用困住敌方舰队，其机动性足以阻止敌方舰队脱离战斗，此外拥有优秀的防御能力抵挡攻击，以确保尽可能长时间地压制敌人。"
+
+TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 战列巡洋舰"
+TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_DESC:0 "§H战列巡洋舰§!\n随着船舰的巨大化的同时船舰的战斗距离也不断地增加，进攻性的火力成为战斗中越来越重要的决定性因素。我们的海军理论学家建议建造一种新的舰船，该舰能够安装大型、中型以及最引人注目的制导武器，以专门在中远程战斗中尽可能地向敌人投射火力。"
+
+TECH_UNLOCK_ESCORTCARRIER_CONSTRUCTION_TITLE: "§H解锁船舰模块:§! 护卫航母"
+TECH_UNLOCK_ESCORTCARRIER_CONSTRUCTION_DESC:0 "§H护卫航母§!\n行星战斗长期以来一直包括制空权，战斗机和轰炸机都被证明对任何武装冲突都是必要的。现在使用基于巡洋舰的成功模块设计，我们可以建造太空航空母舰搭载这些强力的戰爭機器。"
+
+TECH_UNLOCK_CARRIER_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 航空母舰"
+TECH_UNLOCK_CARRIER_CONSTRUCTION_DESC:0 "§H航空母舰§!\n事实证明，舰载机是海战中非常成功的武器。现在是时候设计专门的战舰来搭载这些武器了，新型的船舰必须能够容纳舰载机所需的大量的后勤人员和维修区。得益于此，新型的航空母舰只比它们的前辈携带更多的舰载机。"
+
+TECH_UNLOCK_HEAVYCARRIER_CONSTRUCTION_TITLE: "§H解锁新模块:§! 重航母"
+TECH_UNLOCK_HEAVYCARRIER_CONSTRUCTION_DESC:0 "§H重航母§!\n随着我们造船能力的不断提高，我们继续寻找新的方法来改进当前的船级布局，结合使维护维舰载机所需的维护设施小型化，我们相信我们可以将现有的航空母舰修改为重型航母，使其能够搭载更多的机库。"
+
+TECH_UNLOCK_SUPERCARRIER_CONSTRUCTION_TITLE: "§H解锁新模块:§! 超级航母"
+TECH_UNLOCK_SUPERCARRIER_CONSTRUCTION_DESC:0 "§H超级航母§!\n随着船舶建造技术的进度和舰载机维护设施的小型化，我们可以将惊人数量的舰载机搭载到超级航母上。这些超级航母将能够投放大量的舰载机，更好地保护我们的舰队免受攻击，并以我们最好的飞行员压倒敌人。"
+
+TECH_UNLOCK_SPITFIRE_CONSTRUCTION_TITLE: "§H喷火式战列舰升级§!"
+TECH_UNLOCK_SPITFIRE_CONSTRUCTION_DESC:0 "虽然主力舰比以前的任何船舰都为强大，但它们的价格也更为昂贵，并且成为小型船舰的主要攻击目标，这些小型船舰的数量远超过主力舰。为了解决这个问题，我们的工程师正在研究一些设计，这些新设计让战舰在搭载了的新型武器后成反巡洋舰和驱逐舰的主力。这些新设计将使这些“喷火战列舰”的生产成本更高，但如果这能够保护我们脆弱的主力舰，这种牺牲是值得的。"
+
+TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 无畏舰"
+TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_DESC:0 "§H无畏舰§!\n这种战舰开创了船舰设计和海战的新纪元。能够在远距离提供和承受巨大伤害的能力以及毁灭性的XL武器出现彻底改变了战争的性质。我们的海军工程师认为，我们应该为这些强大的舰船开发出更好的版本。他们提出的“无畏舰”将能够装备更重的防御力，更多的火炮，甚至是令人难以置信的配置两种XL武器。"
+
+TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 旗舰"
+TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_DESC:0 "§H旗舰§!\n随着海军军备竞赛的进行，军舰的尺寸越来越大，而且看不到尽头。我们的海军工程师建议建造一艘巨大化极致的舰船作为巨大化的终点，这艘船的巨大​​将没有任何一个帝国能够同时维护超过一艘。拟议中的旗舰将是最终的军舰。为了最大程度地提高多功能性而设计，每个部分都有许多可能的配置，使我们可以调整旗舰设计以适应我们的目的。旗舰每吨安装的推进器勇超过其他任何船只，而且它都能在舰队中占据任何位置，从后方的火力支援到舰队先锋的突进。 \n\n但是，这些优势需要付出沉重的代价。光是建造旗舰就是一个巨大的挑战，需要大量的资源储备以及投入大量的时间和人力。完成后，将需要一个星际小国的整个GDP来维护；将需要大量的政治影响力才能获得对该项目的批准。"
+
+TECH_UNLOCK_SUPPORTSHIP_CONSTRUCTION_TITLE:0 "§H解锁船舰类型:§! 舰队支援舰"
+TECH_UNLOCK_SUPPORTSHIP_CONSTRUCTION_DESC:0 "§H舰队支援舰§!\n随着我们机队规模的扩大，以及战线的延长，有必要在直接在舰队进行支援，而不是试图维持远程补给线。支持巡洋舰是此问题的答案，它通过添加高级模块为巡洋舰增加了新的支持功能。" 
+
+TECH_UNLOCK_EXPLORATIONSHIP_CONSTRUCTION_TITLE: "§H解锁船舰类型:§! 探勘舰"
+TECH_UNLOCK_EXPLORATIONSHIP_CONSTRUCTION_DESC:0 "§H探勘舰§!\n我们的勇敢的科学人员在探索银河系并发现它秘密时往往面临巨大的危​​险。我们的海军工程师建议开发一艘大型，具有战斗力的科学船，致力于勇往直前的探索新世界，寻找新生命和新文明。"
+
+TECH_UNLOCK_EXPLORATIONSHIP2_CONSTRUCTION_TITLE: "§H解锁船舰升级:§! 探勘舰 - 等级2"
+TECH_UNLOCK_EXPLORATIONSHIP2_CONSTRUCTION_DESC:0 "§H探勘舰 - 等级2§!\n我们的勇敢的科学人员在探索银河系并发现它秘密时往往面临巨大的危​​险。我们的海军工程师对探索舰的性能感到满意，建议开发一种更强大的型号，以进一步保护我们最顶尖的科学人才。"
+
+TECH_UNLOCK_EXPLORATIONSHIP3_CONSTRUCTION_TITLE: "§H解锁船舰升级:§! 探勘舰 - 等级3"
+TECH_UNLOCK_EXPLORATIONSHIP3_CONSTRUCTION_DESC:0 "§H探勘舰 - 等级3§!\n我们的勇敢的科学人员在探索银河系并发现它祕密時往往面临巨大的危险。 我们的海军工程师对探索舰升级版的性能感到满意，建议开发一种更强大的型號，以进一步保護我们最頂尖的科学人才。 "
+
+TECH_UNLOCK_DRYDOCK_CONSTRUCTION_TITLE: "§H解锁恒星基地模块:§! 干船坞"
+TECH_UNLOCK_DRYDOCK_CONSTRUCTION_DESC: "§H干船坞§!\n干船坞是一种恒星基地上的大型标准造船厂,可以一次建造两艘船舰。"
+
+TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_TITLE: "§H解锁恒星基地建筑:§! 预警站"
+TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_DESC: "§H预警站§!\n一种可以增加侦测范围的恒星基地建筑,对于监测我们的边界大有帮助。"
+
+TECH_UNLOCK_STRONGHOLD_CONSTRUCTION_TITLE: "§H解锁恒星基地升级:§! 城堡级恒星基地"
+TECH_UNLOCK_STRONGHOLD_CONSTRUCTION_DESC:0 "§H城堡级恒星基地§!\n随着舰队的规模扩大和強化，我们的恆星基地和防御设施也必须变得越来越强大。 城堡級是功能强大且高度先进的系统防御站，是对现有恆星基地的大规模升级。 这些珍贵且高度发达且可以支持多种设施的星际基地对于我们的帝国而言是重要的據點。"
+
+TECH_UNLOCK_HEADQUARTERS_CONSTRUCTION_TITLE: "§H解锁恒星基地升级:§! 星系要塞级恒星基地"
+TECH_UNLOCK_HEADQUARTERS_CONSTRUCTION_DESC:0 "§H星系要塞级恒星基地§!\n星系要塞是恆星基地的最后升级，它是終極的指挥和防御空間站，是帝國可以建造的最大型星空基地。 敌人的舰队将突破这些庞大的堡垒，而每一个星系要塞都是我们帝国的重要资产，捍卫了银河中最关键的位置。"
+
+TECH_UNLOCK_DEFENSESTATION_CONSTRUCTION_TITLE: "§H解锁太空站:§! 恒星基地防御站"
+TECH_UNLOCK_DEFENSESTATION_CONSTRUCTION_DESC:0 "§H恒星基地防御站§!\n随着舰队的规模扩大和强化，我们的防御设施也必须具备更强大的实力。这些扩展的防御站是对基本防御平台的升级，可以更有效的防御敌人对我们领土的攻击。"
+
+TECH_UNLOCK_DEFENSEFORTRESS_CONSTRUCTION_TITLE:0 "§H解锁太空站:§! 恒星基地要塞"
+TECH_UNLOCK_DEFENSEFORTRESS_CONSTRUCTION_DESC:0 "§H恒星基地要塞§!\n随着舰队的规模扩大和强化，我们的防御设施也必须具备更强大的实力。这些扩展的堡垒级防御站是对基本防御平台的升级，可以更有效的防御敌人对我们领土的攻击。"
+
+TECH_UNLOCK_SPECIALCOMPONENTS_CONSTRUCTION_TITLE: "§H解锁船舰组件:§! 先进船舰组件"
+TECH_UNLOCK_SPECIALCOMPONENTS_CONSTRUCTION_DESC:0 "§H先进船舰组件§!\n我们的科学家提出了一系列功能强大的新模块，以增强我们的战舰并使其进一步专业化。现在我们只需要使它们小型化就可以安装到船舰上。"
+
+TECH_UNLOCK_NSC_DLC_CONSTRUCTION_TITLE: "用来侦测ApocalypseDLC的起始科技。"
+TECH_UNLOCK_NSC_DLC_CONSTRUCTION_DESC: "用来侦测ApocalypseDLC的起始科技。"
+
+TECH_UNLOCK_MINING_BASE_CONSTRUCTION_TITLE: "§H解锁恒星基地建筑:§! 星系矿物精炼厂"
+TECH_UNLOCK_MINING_BASE_CONSTRUCTION_DESC: "§H矿物基地§!\n星系中的矿物生产中心可以有效的强化整个星系的矿物生产量。"
+
+TECH_UNLOCK_POWER_STATON_CONSTRUCTION_TITLE: "§H解锁恒星基地建筑:§! 星系能量网络"
+TECH_UNLOCK_POWER_STATON_CONSTRUCTION_DESC: "§H发电站§!\n星系中的能量网络可以有效的强化整个星系的能量生产量。"
+
+TECH_UNLOCK_AICOMPUTER_CONSTRUCTION_TITLE: "§H解锁战斗电脑:§! 人工智能战斗系统"
+TECH_UNLOCK_AICOMPUTER_CONSTRUCTION_DESC: "§H人工智能战斗系统§!\n最先进的电脑系统能够在无人操作船舰的状况下全面接管船舰,并运行所有的战斗系统。可运用在航空母舰、舰队支援舰以及旗舰上。"
+
+TECH_UNLOCK_CRUISEMISSILE_CONSTRUCTION_TITLE: "§H解锁武器:§! 先进战斧巡航飞弹"
+TECH_UNLOCK_CRUISEMISSILE_CONSTRUCTION_DESC:0 "§H先进战斧巡航飞弹§!\n随着旨在能够部署大量导弹发射器的战列巡洋舰的问世，越来越远距离的作战发展，以及大型主力舰和防御装置的出现，显然我们的战列巡洋舰需要发射更强大的导弹应对这些新威胁。这些先进的巡航导弹就是对这一新兴需求的答案。"
+
+TECH_UNLOCK_GALACTIC_MALL_TITLE: "§H解锁巨构建筑:§! 银河购物中心"
+TECH_UNLOCK_GALACTIC_MALL_DESC:0 "全银河系最大的购物中心，能够生产大量的消费品，以及提供极致的消费体验。"
+
+TECH_UNLOCK_HOPSITAL_TITLE: "§H解锁巨构建筑:§! 银河综合医院"
+TECH_UNLOCK_HOSPITAL_DESC:0 "这是一家庞大而先进的太空医院，致力于研究银河系中的各种异星生物，並分析和治疗所有困扰它们的疾病和症状。"

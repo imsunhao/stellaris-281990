@@ -1,0 +1,26 @@
+﻿l_english:
+
+ edict_tt_reform_plane:0 "Reform Plan"
+ edict_tt_reform_plane_desc:0"Open the "Reform Plan" main interface, or communicate at £f1£."
+
+ edict_shared_by_the_whole_people:0 "Shared By All People"
+ edict_shared_by_the_whole_people_desc:0 "Let all people enjoy more benefits brought by the prosperity of the country! Only in this way can they work hard spontaneously."
+ edict_aristocratic_privilege:0 "Private for Nobles"
+ edict_aristocratic_privilege_desc:0"Only nobles are qualified to enjoy prosperity and wealth. Of course, when they have a good working environment, they will naturally produce more."
+ edict_deliver_comfort:0 "Deliver Comfort"
+ edict_deliver_comfort_desc:0 "Provide more comfort for sub-members to ensure the stability of the overall situation."
+
+ edict_tt_downstream_economic_assistance:0"Economic Aid: Downstream"
+ edict_tt_downstream_economic_assistance_desc:0"Provide assistance to the downstream industrial chain to improve the efficiency of the downstream industrial chain."
+ edict_tt_midstream_economic_assistance:0"Economic Aid: Midstream"
+ edict_tt_midstream_economic_assistance_desc:0"Provide assistance to the midstream industrial chain to improve the efficiency of the midstream industrial chain."
+ edict_tt_upstream_economic_assistance:0"Economic Aid: Upstream"
+ edict_tt_upstream_economic_assistance_desc:0"Provide assistance to the upstream industrial chain to improve the efficiency of the upstream industrial chain."
+
+ edict_tt_complex_economic_assistance:0"Economic Aid: Downstream"
+ edict_tt_complex_economic_assistance_desc:0"Provide assistance to the downstream industrial chain to improve the efficiency of the downstream industrial chain."
+ edict_tt_simple_economic_assistance:0"Economic Aid: Upstream"
+ edict_tt_simple_economic_assistance_desc:0"Provide assistance to the upstream industrial chain to improve the efficiency of the upstream industrial chain."
+
+ edict_outstanding_leader:0 "Outstanding Leader"
+ edict_outstanding_leader_desc:0"At the cost of spending a certain amount of resources, educating leaders, healing leaders, and caring leaders, to make them more outstanding!\n\n§EAt the moment of activation, remove the negative characteristics of all leaders once; When enabled, remove all negative traits of leaders once a month.§!"

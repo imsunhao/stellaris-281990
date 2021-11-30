@@ -1,0 +1,47 @@
+﻿l_english:
+
+ PR_var_show_MAN_growth:0 "§G[root.PR_var_plnt_GROWTH_rate]§!"
+ PR_var_show_MAN_natural:0 "§G[root.PR_var_plnt_GROWTH_natural]§!"
+ PR_var_show_MAN_assembly:0 "§B[root.PR_var_plnt_GROWTH_clone]§!/§H[root.PR_var_plnt_GROWTH_assembly]§!"
+ PR_tips_SHOW_converting:0 "Some §BPops§! have been converted into §GManpower§!."
+
+ PR_var_show_man:0 "[root.PR_var_plnt_MAN]"
+ PR_var_show_HC:0 "[root.PR_var_plnt_HC]"
+ PR_var_show_efficiency_low:0 "§H[root.PR_var_show_efficiency]%§!"
+ PR_var_show_efficiency_sufficient:0 "§E[root.PR_var_show_efficiency]%§!"
+ PR_var_show_growth_add:0 "§G+[root.PR_var_show_growth]§!"
+ PR_var_show_growth_minus:0 "§R[root.PR_var_show_growth]§!"
+
+ z_pr_var_show_0:0 "§E0§!"
+ z_pr_var_show_1:0 "§E1§!"
+ z_pr_var_show_2:0 "§E2§!"
+ z_pr_var_show_3:0 "§E3§!"
+ z_pr_var_show_4:0 "§E4§!"
+ z_pr_var_show_5:0 "§E5§!"
+ z_pr_var_show_6:0 "§E6§!"
+ z_pr_var_show_7:0 "§E7§!"
+ z_pr_var_show_8:0 "§E8§!"
+ z_pr_var_show_9:0 "§E9§!"
+ z_pr_var_show_perc:0 "§E%§!"
+ 
+ z_pr_var_show_growth_0:0 "§H0§!"
+ z_pr_var_show_growth_1:0 "§H1§!"
+ z_pr_var_show_growth_2:0 "§H2§!"
+ z_pr_var_show_growth_3:0 "§H3§!"
+ z_pr_var_show_growth_4:0 "§H4§!"
+ z_pr_var_show_growth_5:0 "§H5§!"
+ z_pr_var_show_growth_6:0 "§H6§!"
+ z_pr_var_show_growth_7:0 "§H7§!"
+ z_pr_var_show_growth_8:0 "§H8§!"
+ z_pr_var_show_growth_9:0 "§H9§!"
+ z_pr_var_show_growth_dot:0 "§H.§!"
+ z_pr_var_show_growth_add:0 "§H+§!"
+ z_pr_var_show_growth_minus:0 "§H-§!"
+ 
+ z_pr_man_show:0 "§HCurrent Manpower§!\nThe planetary pops that has been converted into manpower, which is one of the core indicators of the PR economic system."
+ z_pr_HC_show:0 "§HCurrent Headcounts§!\nRefers to the total amount of §Ycurrent pops§! and §Ycurrent manpower§!. It is used to unlock the necessary conditions for planetary construction and other pop-number based functions."
+ z_pr_bonus_show:0 "§HUltilization§!\nRepresents the current manpower efficiency rate of planetary production facilities"
+ z_pr_growth_show:0 "§HManpower Growth Rate§!\nConverted from Pops's §BNatural Growth/Assembly/Clone§!"
+ 
+ z_pr_growth_test:0 "[root.capital_scope.PR_var_show_growth_10][root.capital_scope.PR_var_show_growth_1].[root.capital_scope.PR_var_show_growth_01][root.capital_scope.PR_var_show_growth_001]"
+ 

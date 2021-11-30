@@ -1,0 +1,216 @@
+﻿l_simp_chinese:
+
+#_[星球面板]
+#_[开始通知]
+#_[全局设置_spcs]
+#_[兼容补丁检视]
+#_[星球设置_spcs]
+#_[星球参数检测/星球设置]
+#_[指南]
+#_[移民失败]
+
+
+
+
+###_[星球面板]  ############################################################
+ z_pr_tips_btn_pr_reg_no:0 "未完成产业革命。"
+ z_pr_tips_btn_pr_plnt_ignore:0 "当前星球§R忽略产业革命§!。"
+ z_pr_tips_btn_pr_mig_no:0 "不符合人力迁出条件，人力必须§G>5§!。"
+ z_pr_tips_btn_plnt_man_immig:0 "§B快速人力迁入§!\n如果当前星球の生产效率§G<1.0§!，则从人力过剩的星球§Y(生产效率§G>1.19§!)§!向这里转移人力直到生产效率§G>=1.0§!。\n如果当前星球の生产效率§G>1.0§!，则从人力过剩的星球§Y(生产效率§G>1.19§!)§!向这里转移§G5§!人力。"
+ z_pr_tips_btn_plnt_man_mig:0 "§B快速人力迁出§!\n如果存在可以接收人力的星球§Y(生产效率§G<1.0§!)§!，则向外迁出5人力。如果想要搬空星球，请开启$z_fw_plnt_ui_setting.name$，并使用§R$z_pr_opt_plnt_abandon$§!功能。"
+ z_pr_tips_btn_plnt_reserved_job_switch:0 "§B调整后补岗位§!\n$z_pr_tips_reserved_job$\n可设置的后补岗位数量分别为§G10/25/50/100§!。"
+ z_pr_tips_btn_plnt_debug_check:0 "§B星球人力经济统计§!\n当前星球，下个月将执行一次人力经济检测，对各项数据进行更新和订正。"
+ z_pr_tips_btn_plnt_debug_check_cntr:0 "§B国家人力经济统计§!\n全国所有殖民地，下个月将执行一次人力经济检测，对各项数据进行更新和订正。"
+ z_pr_tips_btn_job_ERROR:0 "§R岗位错误警告§!\n当前存在一个§B产业革命§!岗位兼容bug，很可能是出现了不存在的岗位统计。\n打开§YC:/Users/用户明/Documents/Paradox Interactive/Stellaris/logs/error.log§!，搜索§BPR_JOB_ERROR§!，你就可以在它的后面看到出问题的岗位id，请将其汇报给作者。"
+ 
+ z_pr_btn_plnt_man_cnvt_completion:0 "§G人力转化：§!补充空岗位"
+ z_pr_tips_plnt_man_cnvt_completion:0 "如果星球上存在空岗位，则转化§B全公民权人口§!补充空岗位，单次最多转化19人口。\n必须存在可用人力。"
+
+
+
+
+###_[开始通知]  ############################################################
+ z_pr_core.102_title:0 "$z_pr$MOD 激活"
+ z_pr_core.102_desc:0 "当你看到这个弹窗意味着§B$z_pr$§!已经成功安装了。\n\n由于采用了2.9版本将要推出的全新建筑槽解锁模式，人口将无法解锁建筑槽。建筑槽将由区划数量决定，你可以打开星球的地块列表找到$z_pr_d_36_building$查看细节。而§B首府建筑/$district_city$/$district_hive$/$district_nexus$"§!可以提供额外的建筑槽。\n\n§H注意：如果本MOD是中途加入游戏的，你会遭遇大规模建筑损毁，这无法避免。§!\n\n如果你还有其他不解之处，请在无尽群星设置面板中开启本MOD的独立面板，并点击右上角玩家指南寻求信息。"
+ z_pr_core.102_opt_false:0 "我还没看明白"
+ z_pr_core.102_opt_read:0 "我已经仔细阅读"
+
+
+
+###_[全局设置_spcs]    ############################################################
+ z_pr_evt_setting:0 "§B$z_pr$ $z_pr_version$：§!设置面板"
+ z_pr_evt_setting_desc:0 "帝国人力---§B[root.PR_var_cntr_MAN]§!\n可用帝国数量---§B[root.z_playable_country_var]§!\n殖民地数量---§B[root.z_colony_var]§!\n银河系人口总数---§B[root.z_total_pop_var]§!\n银河系失业人口总数---§B[root.z_total_pop_unemployed_var]§!\n"
+ z_pr_tips_setting:0 "设置全局检测频率，建议不要改动。\n每次全局检测都将刷新一个国家的产业基础参数，作为后续统计的准备，频率越高，产业变化生效越及时。"
+
+ z_pr_option_setting_rate_standard:0 "全局检测频率已设为§B标准§!/每4个月"
+ z_pr_option_setting_rate_high:0 "全局检测频率已设为§H高§!/每2个月"
+ z_pr_option_setting_rate_low:0 "全局检测频率已设为§G低§!/每6个月"
+ 
+ z_pr_option_setting_apmc_on:0 "自动人力转化§G开启§!"
+ z_pr_option_setting_apmc_off:0 "自动人力转化§H关闭§!"
+ z_pr_tips_setting_apmc:0 "如果不是测试状态，请不要动！如果此项功能关闭，AI和玩家将不会执行自动人力转化，这会破坏本mod的核心功能，但同时因为转化被禁用了，计算消耗将大幅度下降。"
+
+ z_pr_option_setting_spcs:0 "为帝国所有的殖民地设置物种控制倾向。请注意，你的调整只能控制帝国以后的物种倾向，不会立刻改变物种构成。\n§B默认§!：你的帝国将保持默认倾向，允许较多的非公民物种存在。\n§H排外§!：你的帝国允许非公民物种存在，但会控制他们的数量。\n§R纯血§!：你的帝国不允许非公民物种存在。"
+ z_pr_option_setting_spcs_normal:0 "帝国物种倾向调整为§B默认§!"
+ z_pr_option_setting_spcs_cliquy:0 "帝国物种倾向调整为§H排外§!"
+ z_pr_option_setting_spcs_pure:0 "帝国物种倾向调整为§R纯血§!"
+ 
+ z_pr_tips_setting_ai_construction:0 "一个辅助AI进行星球建造的系统，建议保持默认。关闭AI建设辅助系统可能导致AI无法及时对星球进行建设，进而降低AI的实力。"
+ z_pr_option_setting_ai_construction_on:0 "AI建设辅助§B已开启§!"
+ z_pr_option_setting_ai_construction_off:0 "AI建设辅助§H已关闭§!"
+ 
+ z_pr_opt_setting_cntr_auto_mig:0 "如果<国家自动人力迁移>时开启的，那么每隔一段时间系统都将检测各个星球人力，在保证每一个殖民地都拥有100%的生产效率的前提下，对所有殖民地的人力进行自动平衡。"
+ z_pr_opt_setting_cntr_auto_mig_on:0 "国家自动人力迁移§B已开启§!"
+ z_pr_opt_setting_cntr_auto_mig_off:0 "国家自动人力迁移§H已关闭§!"
+ 
+ z_pr_tips_cntr_man_mig:0 "在整个帝国执行一次人力迁移，使人力溢出的殖民地§Y(生产效率§G>1.19§!)§!向人力不足的殖民地§Y(生产效率§G<1.0§!)§!转移人力，无视住房条件。"
+ z_pr_opt_cntr_man_mig:0 "§B帝国人力迁移§!"
+ 
+ z_pr_tips_cntr_pop_cnvt:0 "在帝国的每一个殖民地执行一次多余人口转化，可以将失业人口等多与人口转化为人力。"
+ z_pr_opt_cntr_pop_cnvt:0 "§B帝国人口转化§!"
+ 
+ z_pr_opt_test_stop:0 "开发者自用调试功能，如果你不清楚自己在做什么请不要碰。\n选择§R禁用状态§!将停止全部产业革命功能并清理所有星球修正，这会造成各种意想不到的后果。"
+ z_pr_opt_test_ongo:0 "MOD调试：§G正常状态§!"
+ z_pr_opt_test_stop:0 "MOD调试：§R禁用状态§!"
+
+ z_pr_option_setting_manpower_growth:0 "以人力增长取代人口增长，如果没有明显的增长率差异问题（多半由于mod不兼容），建议保持开启。\n尽管人口可以很方便地与人力互相转化，但是每次转化都是一个计算消耗极高的effect，而这个功能开启后将在星球没有空岗位的时候智能地关闭人口增长并开启人力增长。\n\n§Y注意：只对你自己的帝国生效。§!"
+ z_pr_option_setting_manpower_growth_on:0 "帝国人力增长§B已开启§!"
+ z_pr_option_setting_manpower_growth_off:0 "帝国人力增长§H已关闭§!"
+ z_pr_tips_setting_manpower_growth_default:0 "使所有殖民地的§B人力增长§!恢复默认设置，即§B允许§!人力增长。\n\n尽管人口可以很方便地与人力互相转化，但是每次转化都是一个计算消耗极高的effect，而§B人力增长§!功能开启后将在星球空岗位§Y<5§!的时候智能地关闭§G人口增长§!并开启§B人力增长§!。"
+ z_pr_option_setting_manpower_growth_default:0 "全殖民地人力增长§B恢复默认§!"
+ 
+ z_pr_option_setting_manpower_buffer_standard:0 "人力缓存§G已提升§!提升量为§G+5§!"
+ z_pr_option_setting_manpower_buffer_more:0 "人力缓存§G已提升§!提升量为§G+10§!"
+ z_pr_option_setting_manpower_buffer_off:0 "人力缓存§H保持默认§!"
+ z_pr_option_setting_manpower_buffer:0 "为每个殖民地添加$job_z_pr_uep$，以提升人力缓存上限，可以将一部分失业者暂时储存为$job_z_pr_uep$。当其他可用职位出现就会进行填补，可以减少人力转化的计算消耗。\n注意，有些职位权重会有问题，导致永远无人入职，不是本mod的原因。"
+
+ z_pr_option_setting_ignore_all_on:0 "全部殖民地 §H忽略产业革命§!"
+ z_pr_option_setting_ignore_all_off:0 "全部殖民地 §B接受产业革命§!"
+ z_pr_tips_setting_ignore_all:0 "当一颗星球被设置为§H忽略产业革命§!时，产业革命的新功能将不会影响这颗星球。人口不会转化为人力，且经济和岗位系统将遵循原版。"
+
+
+###_[兼容补丁检视]    ############################################################
+ z_pr_comp:0 "§Y兼容补丁检测§!"
+ z_pr_comp_desc:0 "§B产业革命§!体系需要大量兼容补丁支持，这个菜单可以让你检视并手动激活或禁用某个MOD兼容。\n注意，有一些MOD如终极科技无法自动检测激活兼容补丁，必须手动激活，点击任意一个按钮手动激活或关闭一个兼容补丁。"
+ z_pr_mod_installed_automatic_on:0 "兼容补丁自检  §G已开启§!"
+ z_pr_mod_installed_automatic_off:0 "兼容补丁自检  §H已关闭§!"
+ z_pr_mod_installed_automatic_switch:0 "部分自带新增资源的MOD可以通过此项功能自动检测和安装兼容补丁，关闭此项功能可以允许你手动关闭此类MOD的兼容，以进行一些DEBUG测试。"
+ 
+ z_pr_mod_installed_switch:0 "点击这个选项，手动激活或关闭当前MOD的兼容补丁。"
+ z_pr_mod_installed_switch_no:0 "当前兼容补丁是一个综合兼容框架，无法手动关闭或激活，它只会自动进行检测。\n如果要关闭某项MOD的兼容补丁，请向下寻找对应项。"
+ z_pr_mod_installed_switch_manual:0 "$z_pr_mod_installed_switch$\n§Y注意：当前MOD没有任何兼容补丁自动检测功能，如果你安装了此MOD，请手动开启兼容补丁。§!"
+ 
+ z_pr_mod_installed_SAI_on:0 "§YSAI系列§! §G已激活§!"
+ z_pr_mod_installed_SAI_off:0 "§YSAI系列§! §H已禁用§!"
+ z_pr_patch_on:0 "§Y泛用兼容补丁§! §G已激活§!"
+ z_pr_patch_off:0 "§Y泛用兼容补丁§! §H已禁用§!"
+ 
+ z_pr_mod_installed_azl_on:0 "§B碧蓝航线§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_azl_off:0 "§B碧蓝航线§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_wsg_on:0 "§B舰R§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_wsg_off:0 "§B舰R§!兼容补丁 §H已禁用§!"
+ 
+ z_pr_mod_installed_swg_on:0 "§B星舰少女§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_swg_off:0 "§B星舰少女§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_adf_on:0 "§B灰烬战线§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_adf_off:0 "§B灰烬战线§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_AG_on:0 "§B古代帝国§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_AG_off:0 "§B古代帝国§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_NE_on:0 "§B涅槃圣权§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_NE_off:0 "§B涅槃圣权§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_ULT_on:0 "§B终极科技§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_ULT_off:0 "§B终极科技§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_NYTO_on:0 "§B涅托§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_NYTO_off:0 "§B涅托§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_DAL_on:0 "§B约会大作战种族§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_DAL_off:0 "§B约会大作战种族§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_ARP_on:0 "§B苍蓝钢铁§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_ARP_off:0 "§B苍蓝钢铁§!兼容补丁 §H已禁用§!"
+ 
+ z_pr_mod_installed_ACOT_on:0 "§BACOT§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_ACOT_off:0 "§BACOT§!兼容补丁 §H已禁用§!"
+ z_pr_mod_installed_GIGA_on:0 "§B更多巨构§!兼容补丁 §G已激活§!"
+ z_pr_mod_installed_GIGA_off:0 "§B更多巨构§!兼容补丁 §H已禁用§!"
+ 
+
+
+
+###_[星球设置_spcs]    ############################################################
+ z_pr_dec_spcs_desc:0 "显示当前的人力政策，整个星球的人力构成将按照政策缓慢地改变。"
+ z_pr_dec_spcs_standard:0 "$z_pr$：星球人力结构§B标准§!"
+ z_pr_dec_spcs_standard_desc:0 "$z_pr_dec_spcs_desc$\n均衡型构成，以拥有公民权的物种为核心，最普遍的人力构成模式。"
+ z_pr_dec_spcs_full:0 "$z_pr$：星球人力结构§R纯血§!"
+ z_pr_dec_spcs_full_desc:0 "$z_pr_dec_spcs_desc$\n只允许拥有公民权的物种，洁癖阵营的人力构成模式。"
+ z_pr_dec_spcs_limited:0 "$z_pr$：星球人力结构§G共荣§!"
+ z_pr_dec_spcs_limited_desc:0 "$z_pr_dec_spcs_desc$\n提升拥有居留权物种的比例，亲外阵营的人力构成模式。"
+ z_pr_dec_spcs_slaved:0 "$z_pr$：星球人力结构§Y奴役§!"
+ z_pr_dec_spcs_slaved_desc:0 "$z_pr_dec_spcs_desc$\n提升奴隶物种的比例，威权阵营的人力构成模式。"
+ z_pr_tips_dec_spcs:0 "改变星球的人力构成"
+
+
+
+
+###_[星球参数检测]    ############################################################
+ z_pr_dec_plnt_var_check:0 "$z_pr$：§B星球参数检测§!"
+ z_pr_dec_plnt_var_check_desc:0 "显示人力经济参数细节"
+ z_pr_tips_dec_plnt_var_check:0 "弹出一个新的窗口并显示所有与本星球相关的§B产业参数§!"
+ z_pr_plnt_check.name:0 "$z_pr_dec_plnt_var_check$"
+
+
+
+
+###_[星球设置]    ############################################################
+ z_pr_dec_plnt_setting:0 "$z_pr$：§B星球细节设置§!"
+ z_pr_dec_plnt_setting_desc:0 "可以对星球的各项产业细节进行设置。"
+ z_pr_tips_dec_plnt_setting:0 "弹出一个新的窗口并显示所有与本星球相关的§B产业设置§!"
+ #_evts
+ z_pr_plnt_setting.name:0 "$z_pr_dec_plnt_setting$"
+ z_pr_tips_selected: "当前设置"
+ 
+ z_pr_plnt_setting.manpower_growth_on:0 "星球人力增长§B已开启§!"
+ z_pr_plnt_setting.manpower_growth_off:0 "星球人力增长§H已关闭§!"
+ z_pr_plnt_setting.manpower_growth.tips:0 "以§B人力增长§!取代§G人口增长§!，如果没有明显的增长率差异问题（多半由于mod不兼容），建议保持开启。\n尽管人口可以很方便地与人力互相转化，但是每次转化都是一个计算消耗极高的effect，而这个功能开启后将在星球§Y空岗位<5§!的时候智能地关闭§G人口增长§!并开启§B人力增长§!。"
+ 
+ z_pr_plnt_setting.add_pop:0 "人力转化§B×5§!"
+ z_pr_plnt_setting.add_pop_full_5:0 "补充人口§B×5§!：全公民权物种"
+ z_pr_plnt_setting.add_pop_full_25:0 "补充人口§B×25§!：全公民权物种"
+ z_pr_plnt_setting.add_pop_main_5:0 "补充人口§B×5§!：主物种"
+ z_pr_plnt_setting.add_pop_main_25:0 "补充人口§B×25§!：主物种"
+ z_pr_plnt_setting.add_pop_limited_5:0 "补充人口§B×5§!：移民物种"
+ z_pr_plnt_setting.add_pop_limited_25:0 "补充人口§B×25§!：移民物种"
+ z_pr_plnt_setting.add_pop_slavery_5:0 "补充人口§B×5§!：有机奴隶"
+ z_pr_plnt_setting.add_pop_slavery_25:0 "补充人口§B×25§!：有机奴隶"
+ z_pr_plnt_setting.add_pop_servitude_5:0 "补充人口§B×5§!：机械侍从"
+ z_pr_plnt_setting.add_pop_servitude_25:0 "补充人口§B×25§!：机械侍从"
+ 
+ z_pr_plnt_setting.add_pop.tips:0 "选定随机符合指定公民权的物种作为模板，将指定数量的人力转化为当前模板的人口。注意：符合条件的物种若拥有$PR_trait_core_species$特性则会被优先作为模板。"
+ z_pr_tips_apmc_dec_locked:0 "自动人力转化正在执行中..."
+ z_pr_tips_insufficient_manpower:0 "人力不足"
+ z_pr_tips_no_available_spcs_model:0 "没有当前类别的物种"
+ 
+ z_pr_plnt_setting.clean_uep:0 "转化人力"
+ z_pr_plnt_setting.clean_uep.tips:0 "使星球上所有符合条件的人口（主要为失业人口）转化为人力"
+ z_pr_plnt_setting.job_check:0 "执行星球工作检测"
+ z_pr_plnt_setting.job_check.tips:0 "对当前星球上所有人口执行一次工作检测，如果存在可用岗位，可立刻使失业人口再就业。"
+
+ z_pr_plnt_setting.abandon_colony:0 "放弃殖民地"
+ z_pr_plnt_setting.abandon_colony.desc:0 "摧毁这个殖民地，人力和人口将随机分配在其他星球。"
+ z_pr_mod_plnt_colony:0 "$z_pr$: §Y繁荣昌盛§!"
+ z_pr_mod_plnt_colony_desc:0 "啊，一个新的世界，在这里开拓我们的未来吧！"
+
+
+
+
+###_[指南]    ############################################################
+ z_pr_tips_btn_guide_misc: "§Y<综合>§!\n\n§Bmod版本：§!\n1.注意本mod版本号，除了游戏大版本过度的情况，用新不用旧。\n2.如果没有安装<伞の星球界面>与<暗蓝科技UI>，你无法获得人力的检视和操作界面。\n\n\n\n\n£MOD_mui£+£MOD_mui_plnt£\n\n\n\n\n\n§B设置面板：§!\n1.在<伞の框架>设置面板中可以开启产业革命的专用设置面板，用于激活产业科技树，查看兼容或进行其他设置。\n2.通过星球决策或按钮开启星球上的产业革命设置面板，在这里你可以对星球与人力系统进行微调。\n\n§B开局选择：§!\n1.在框架的<开局设置>中你可以选择<历史模式>，可在游戏初期采用原版人口模式。\n2.当你完成一些科技后每年都会出现弹窗提示，这时候你就可以选择开启<产业革命模式>。"
+ z_pr_tips_btn_guide_manpower: "§Y<新增功能>§!\n\n§B特殊地块：§!\n1.核心地块---产业革命核心功能。\n2.区划地块---添加产业革命特殊区划。\n3.岗位地块---用来统计转化到人力系统中的岗位产出。\n\n§B特殊区划：§!\n1.地方产业---不同类型的星球环境将提供不同の新区划。\n2.地缘优势---不同的中心天体将提供不同の新区划。\n\n§B额外建筑槽：§!\n1.每2个区划解锁1个额外建筑槽，注意：这个解锁功能的统计有延后性。\n2.每25人力解锁1个企业建筑槽，注意：这个解锁功能的统计有延后性。\n\n§B人力迁移：§!\n1.人力也如同人口一样可以手动和自动迁移，自动迁移默认开启。\n2.人力迁移条件由<占用率>决定，人力只会从<占用率>1>的星球迁往<占用率<1>的星球。\n3.星球人力/工房=占用率。\n\n§B人数条件：§!\n1.需要到达一定人口数才能开启の功能，如首府升级，现在将统计人口+人力的总数，也就是<人数>。\n2.拥有<伞の星球界面>你就可以很方便地查看一个星球上的人口/人力/人数。\n3.如果一个MOD并没有兼容<人数条件>，那么你只能用候补岗位功能给一个星球增加额外的岗位来暂时实现这些功能。"
+ z_pr_tips_btn_guide_jobs: "§Y<人力系统>§!\n大部分游戏原版岗位和mod岗位可以导入人力系统，以新的方式进行经济生产。\n注意：人力如同原版一样使用舒适度，住房。\n\n§B人口转人力：§!\n1.失业人口会转化为人力，而人口岗位的产出也会转入人力系统进行计算。\n2.每隔一段时间星球都会自动进行人力转化，你也可以通过UI按钮进行快速手动转化。\n3.原版人口组装和自然生长完成后会立刻进行检测，如果新增人口未能就业则会在一天后转化，转化时人口增长面板会有UI提示。\n\n§B人力岗与岗位地块：§!\n1.建筑与区划依然会提供岗位，但是转入人力的岗位不会在岗位界面显示，自然你也没必要对其进行手动调控。\n2.人力系统和人口岗位是可以并存的，当前的新版本也不会影响速度优化。\n3.人力岗是一种特殊岗位，所有基础的$energy$/$minerals$/$food$/$alloys$/$consumer_goods$和科研岗位都将融入这些岗位进行统计。\n4.其他非基础岗位则融入岗位地块进行统计。\n\n§B生产效率：§!\n1.每一个导入人力系统的岗位都会让<工房+1>，用于效率计算。\n2.星球人力/工房=占用率。\n3.当占用率<1的时候，占用率=生产效率。当占用率>1的时候，占用率正相关于生产效率。\n4.人力系统产出=基础产出×生产效率×各种修正。"
+ z_pr_tips_btn_guide_growth: "§Y<玩法提示>§!\n1.确保人力岗有人，除非你要改变其物种，否则不要手动降低其优先度。因为每个人力岗，都代表一大堆原版基础岗位。\n2.通过建筑变动改变产业结构，建筑变动会触发生产效率和人力经济的统计，但是有时候会有几个月的延时。\n3.关注人口和工房の数值，以及生产效率，确保生产效率>0.5。\n4.生产效率越高越好，不过人力不增加的时候建造越多建筑会让生产效率越低，不过随着基础产出提升，总产量并不会有太多下降。\n5.生产效率的提升有边际效应，超过1以后边际效应越来越大。(未来可以通过特殊科技抵消边际效应。)\n6.一个刚刚增长的人口如果没有岗位就职，会立刻转化为人力。"
+
+
+
+
+###_[移民失败]    ############################################################
+ z_pr_evt_cntr_mig_failed: "未完成§B人力迁入/迁出§!"
+ z_pr_evt_cntr_mig_failed.desc: "目前没有符合§B迁入/迁出条件§!的星球，可通过§G人口管理器§!星球决策查看并修改星球条件或保持默认，比如设置为§H强制迁入/迁出§!。"
+

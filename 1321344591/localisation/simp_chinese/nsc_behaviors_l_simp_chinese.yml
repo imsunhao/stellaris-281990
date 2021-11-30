@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+
+
+##########################
+### ADVANCED BEHAVIORS ###
+##########################
+
+ai_behaviour: "AI战术"
+ai_behaviour_DESC: "AI战术槽。"
+
+ai_behaviour_default:0 "预设行动"
+ai_behaviour_default_DESC:1 "使用计算机中预设的战术行动。用于基本作战电脑。"
+
+ai_behaviour_follow:0 "护卫战术"
+ai_behaviour_follow_DESC:1 "船只将跟随船队的其他船舰。是较为平衡的行动模式。"
+
+ai_behaviour_charge:0 "冲锋战术"
+ai_behaviour_charge_DESC:1 "船只将尽可能直接靠近敌方舰队的距离以进入平射范围。"
+
+ai_behaviour_stationary_40:0 "炮击战术 (距离: 40)"
+ai_behaviour_stationary_40_DESC:1 "船舰会移动到特定距离(40)后在原地朝敌人开火。"
+ai_behaviour_stationary_50:0 "炮击战术 (距离: 50)"
+ai_behaviour_stationary_50_DESC:1 "船舰会移动到特定距离(50)后在原地朝敌人开火。"
+ai_behaviour_stationary_60:0 "炮击战术 (距离: 60)"
+ai_behaviour_stationary_60_DESC:1 "船舰会移动到特定距离(60)后在原地朝敌人开火。"
+ai_behaviour_stationary_70:0 "炮击战术 (距离: 70)"
+ai_behaviour_stationary_70_DESC:1 "船舰会移动到特定距离(70)后在原地朝敌人开火。"
+ai_behaviour_stationary_80:0 "炮击战术 (距离: 80)"
+ai_behaviour_stationary_80_DESC:1 "船舰会移动到特定距离(80)后在原地朝敌人开火。"
+ai_behaviour_stationary_90:0 "炮击战术 (距离: 90)"
+ai_behaviour_stationary_90_DESC:1 "船舰会移动到特定距离(90)后在原地朝敌人开火。"
+ai_behaviour_stationary_100:0 "炮击战术 (距离: 100)"
+ai_behaviour_stationary_100_DESC:1 "船舰会移动到特定距离(100)后在原地朝敌人开火。"
+ai_behaviour_stationary_110:0 "炮击战术 (距离: 110)"
+ai_behaviour_stationary_110_DESC:1 "船舰会移动到特定距离(110)后在原地朝敌人开火。"
+ai_behaviour_stationary_120:0 "炮击战术 (距离: 120)"
+ai_behaviour_stationary_120_DESC:1 "船舰会移动到特定距离(120)后在原地朝敌人开火。"
+
+ai_behaviour_stationary_200:0 "对峙 (距离: 200)"
+ai_behaviour_stationary_200_DESC:1 "船舰会移动到指定距离(200)后待在原地。\n注意：此设置将使船只远离常规武器的攻击范围，使它们免受大多数敌人的射击的同时也防止它们向敌人射击。非常适合您希望尽可能远离战斗的船只。"
+
+ai_behaviour_flank_40:0 "侧翼骚扰战术 (距离: 40)"
+ai_behaviour_flank_40_DESC:1 "船舰保持与敌人一定距离(40)的同时持续移动与开火。"
+ai_behaviour_flank_60:0 "侧翼骚扰战术 (距离: 60)"
+ai_behaviour_flank_60_DESC:1 "船舰保持与敌人一定距离(60)的同时持续移动与开火。"
+ai_behaviour_flank_80:0 "侧翼骚扰战术 (距离: 80)"
+ai_behaviour_flank_80_DESC:1 "船舰保持与敌人一定距离(80)的同时持续移动与开火。"
+ai_behaviour_flank_100:0 "侧翼骚扰战术 (距离: 100)"
+ai_behaviour_flank_100_DESC:1 "船舰保持与敌人一定距离(100)的同时持续移动与开火。"
+
+ai_behaviour_hitnrun_40:0 "打带跑战术 (距离: 40)"
+ai_behaviour_hitnrun_40_DESC:1 "船舰移动到离敌人特定距离(40)开火后立刻朝反方向移动直到下次攻击为止。"
+ai_behaviour_hitnrun_60:0 "打带跑战术 (距离: 60)"
+ai_behaviour_hitnrun_60_DESC:1 "船舰移动到离敌人特定距离(60)开火后立刻朝反方向移动直到下次攻击为止。"
+ai_behaviour_hitnrun_80:0 "打带跑战术 (距离: 80)"
+ai_behaviour_hitnrun_80_DESC:1 "船舰移动到离敌人特定距离(80)开火后立刻朝反方向移动直到下次攻击为止。"
+ai_behaviour_hitnrun_100:0 "打带跑战术 (距离: 100)"
+ai_behaviour_hitnrun_100_DESC:1 "船舰移动到离敌人特定距离(100)开火后立刻朝反方向移动直到下次攻击为止。"
+
+NOAI_COMBAT_COMPUTER_1:0 "基础作战电脑(非人工智能)"
+NOAI_COMBAT_COMPUTER_2:0 "标准作战电脑(非人工智能)"
+NOAI_COMBAT_COMPUTER_3:0 "先进作战电脑(非人工智能)"
+NOAI_COMBAT_COMPUTER_4:0 "智慧作战电脑(非人工智能)"
+NOAI_COMBAT_COMPUTER_5:0 "预知界面(非人工智能)"
+
+NOAI_COMBAT_COMPUTER_1_DESC:0 "基础作战电脑提供各种战术行为，战术行为可以在下面的插槽中选择。"
+NOAI_COMBAT_COMPUTER_2_DESC:0 "标准作战电脑提供各种战术行为，战术行为可以在下面的插槽中选择。"
+NOAI_COMBAT_COMPUTER_3_DESC:0 "先进作战电脑提供各种战术行为，战术行为可以在下面的插槽中选择。"
+NOAI_COMBAT_COMPUTER_4_DESC:0 "智慧作战电脑提供各种战术行为，战术行为可以在下面的插槽中选择。"
+NOAI_COMBAT_COMPUTER_5_DESC:0 "预知界面提供各种战术行为，战术行为可以在下面的插槽中选择。"

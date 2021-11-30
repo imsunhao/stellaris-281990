@@ -1,0 +1,89 @@
+﻿l_simp_chinese:
+###############################
+ civic_wgvictoria:0 "教官胜利号"
+ civic_wgvictoria_desc:0 "在胜利号的教导下，我们的军事力量得到极大的提升。\n\n解锁特殊建筑§H胜利军营§!"
+ civic_wgella:0 "执行官艾拉"
+ civic_wgella_desc:0 "在艾拉参与对集团的管理下，我们的行政，生产以及后勤支援的水平得到了极大的提升\n\n解锁特殊建筑§H艾拉总督府§!\n如果作为开局民政§H艾拉将成为总督§!"
+ civic_wgaurora:0 "首席科学家阿芙乐尔"
+ civic_wgaurora_desc:0 "在阿芙乐尔小姐领导下，我们的科研团队效率得到了非常大的提升。\n\n解锁特殊建筑§H阿芙乐尔大学城§!"
+ civic_wgelves:0 "港区建设妖精"
+ civic_wgelves_desc:0 "建设妖精能大幅度提高我们建筑的建造速度。\n\n解锁特殊建筑§H建造妖精宿舍§!"
+ auth_warshipgirls:0 "战舰少女联盟制"
+ auth_warshipgirls_desc:0 "由各个地区的战舰少女们选出地区代表，参与到联盟会议中，再进一步选出旗舰。舰装中的亚空间通信模块确保了这一流程的高效性。"
+ 
+ civic_sunflower:0 "向日葵神教"
+ civic_sunflower_desc:0 "向日葵在我们的文明中拥有极高的地位，千百年来向日葵一族与我们和平共处互利互惠。如今，祭司们可以通过焚烧与榨汁向日葵来取悦神明，为我们赐福。"
+ civic_tooltip_sunflower_effects:0 "开局拥有数个§H向日葵§!人口\n解锁特殊建筑§H向日葵神殿§!\n可以通过献祭向日葵人口来获得星球加成§G（最高10层）§!"
+ 
+ gov_wsg_country:0 "联盟委员制"
+ gov_wsg_country_desc:0 "每300年选举一次，不产生任何派系"
+ 
+ gov_wsg_country_spiritualist:0 "神圣港区制"
+ gov_wsg_country_spiritualist_desc:0 "信仰与精神力量便是该舰娘文明的装甲与强大的武器。"
+ 
+ gov_wsg_country_sunflower:0 "§Y向日葵神教§!"
+ gov_wsg_country_sunflower_desc:0 "该舰娘文明与向日葵一族的合作共赢已经持续了上千年，而这一和谐的合作模式则将会继续被发扬光大。"
+ 
+ gov_wsg_country_militarist:0 "战争港区制"
+ gov_wsg_country_militarist_desc:0 "全面军事化的舰娘政府，能用舰炮解决的问题就都不是问题。"
+ 
+ gov_wsg_country_authoritarian:0 "至上港区议会"
+ gov_wsg_country_authoritarian_desc:0 "一切以效率至上的舰娘政体。"
+ 
+ gov_wsg_country_xenophob:0 "纯净港区委员会"
+ gov_wsg_country_xenophob_desc:0 "以舰娘物种的纯净为第一要素，也许她们能容忍外族存在于她们的世界，但绝对处于受控状态。"
+ 
+ gov_wsg_country_egalitarian:0 "乌托邦港区"
+ gov_wsg_country_egalitarian_desc:0 "人人平等的乌托邦港区，完美地平衡了个人自由和社会责任。腐败基本根除。"
+ 
+ gov_wsg_country_xenophile:0 "银河灯塔"
+ gov_wsg_country_xenophile_desc:0 "拥有优秀外交经验的舰娘政府，愿意聆听一切声音。"
+ 
+ gov_wsg_country_pacifist:0 "和平港区制"
+ gov_wsg_country_pacifist_desc:0 "比起战火与喧嚣，这个舰娘文明更倾向于和平与安宁。"
+ 
+ gov_wsg_country_materialist:0 "真理港区制"
+ gov_wsg_country_materialist_desc:0 "追求真理与科学，该唯物主义舰娘政府将驱逐科学大厦上方的一切乌云。"
+ 
+ gov_wsg_country_communism:0 "§R共产港区§!"
+ gov_wsg_country_communism_desc:0 "一个没有阶级制度、没有剥削、没有压迫，实现自我解放的港区。"
+ ###########################################################
+ auth_shenhai:0 "深海舰队制度"
+ auth_shenhai_desc:0 "从深海高级成员中选拔，确保舰队始终处于最强大的深海舰娘的领导。"
+ 
+ gov_sh_country:0 "深海领主制"
+ gov_sh_country_desc:0 "每5000年选举一次，不产生任何派系"
+
+ 
+ gov_sh2_country:0 "§R湮灭舰队制§!"
+ gov_sh2_country_desc:0 "湮灭舰队的诞生，标志着这个深海舰队将彻底抛弃一切多余的情感，她们将以战争与死亡回报那些曾经伤害过她们的异端。"
+ 
+ civic_yamato:0 "舰队旗舰大和"
+ civic_yamato_desc:0 "大和作为深海舰队最强大的战列舰有着十分丰富的舰队作战指挥能力，同时她还乐于工作勤于加班，所有深海舰娘都以大和化为荣。"
+ civic_yaosai:0 "要塞姬"
+ civic_yaosai_desc:0 "要塞姬对于建造星际堡垒有十分丰富的经验，她在强化我们恒星基地的同时也优化了我们的舰队调度。（§H获得科技：超光速抑制器§!）"
+ civic_eat_and_drink:0 "赤城与加贺"
+ civic_eat_and_drink_desc:0 "赤城与加贺在与舰娘的最后战役中被击倒数次，但依然顽强的选择继续作战，她们的精神我们永不忘记。"
+ civic_BOSSAP:0 "大头目补给舰"
+ civic_BOSSAP_desc:0 "在深海舰队这样崇尚武力的社会中，像大头目这样能获得所有深海尊重的非战斗船只实属少数。" 
+ civic_CM:0 "湮灭舰队"
+ civic_CM_desc:0 "在漫长的漂泊中，深海舰队经历了数次外星异形威胁，舰队差点因此覆灭。深海舰队意识到只有彻底铲除一切能对舰队产生威胁的异端才能使获得深海生存的权利。\n\n§R外星帝国好感度将将至冰点§!\n\n§R无法使用：破冰 飞升§!\n\n§H可以使用全面战争：缄默§!\n\n如果选择净化有机£pop£ 人口将获得£sr_pantsu£ §Y胖次§!"  
+ 
+ gov_sh_country_spiritualist:0 "深海圣庭"
+ gov_sh_country_spiritualist_desc:0 "神圣的精神连接着每一位该国的深海舰娘，为了消灭与深海舰队理念不符的异端，她们将不惜一切代价。"
+ 
+ gov_sh_country_militarist:0 "战争舰队制"
+ gov_sh_country_militarist_desc:0 "深海舰队为战争而生，她们将以战争手段获取她们所需要的生存空间。"
+ 
+ gov_sh_country_authoritarian:0 "集权舰队制"
+ gov_sh_country_authoritarian_desc:0 "与其他深海舰队相比，该深海舰队的高级成员拥有更多的权利，对于外族的处置方法也往往更加残酷。"
+ 
+ gov_sh_country_xenophob:0 "血刃舰队制"
+ gov_sh_country_xenophob_desc:0 "极端排外的深海往往拥有一段极为血腥的历史，这样的经历让她们变的冷酷无情，生活在她们世界的外族人，也许死亡反而是一种解脱。"
+ 
+ 
+ gov_sh_country_xenophile:0 "团结舰队制"
+ gov_sh_country_xenophile_desc:0 "一种罕见思潮的深海舰队，但战争依然是她们的保有选项。"
+ 
+ gov_sh_country_materialist:0 "深海科技理事会"
+ gov_sh_country_materialist_desc:0 "战争推动了科技的发展，科技的发展也推进了军事领域的进步，该深海舰队一直在利用这两个元素壮大自生。"

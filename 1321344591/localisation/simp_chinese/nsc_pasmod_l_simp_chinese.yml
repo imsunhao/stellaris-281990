@@ -1,0 +1,88 @@
+﻿l_simp_chinese:
+
+
+
+##############
+### PASMOD ###
+##############
+
+### TIER I ###
+pasmod_orbital_drop_pod_default:0 "小型轨道吊仓"
+pasmod_orbital_drop_pod_default_DESC:0 "§H陆军类型: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_clone:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_clone_DESC:0 "§H陆军类型: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_gene:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_gene_DESC:0 "§H陆军类型: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_psionic_force:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_psionic_force_DESC:0 "§H陆军类型: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_slave_army:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_slave_army_DESC:0 "§H陆军类型: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_droid_army:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_droid_army_DESC:0 "§H陆军类型: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YSmall§! 轨道吊仓空投会一次空投§Y10§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_battle_frame:0 "战斗用外骨骼"
+pasmod_orbital_drop_pod_battle_frame_DESC:0 "$pasmod_assault_army_battle_frame$"
+
+### TIER II ###
+pasmod_orbital_drop_pod_default_2:0 "中型轨道吊仓"
+pasmod_orbital_drop_pod_default_2_DESC:0 "§H陆军类型: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_clone_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_clone_2_DESC:0 "§H陆军类型: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_gene_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_gene_2_DESC:0 "§H陆军类型: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_psionic_force_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_psionic_force_2_DESC:0 "§H陆军类型: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_slave_army_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_slave_army_2_DESC:0 "§H陆军类型: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_droid_army_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_droid_army_2_DESC:0 "§H陆军类型: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YMedium§! 轨道吊仓空投会一次空投§Y20§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_battle_frame_2:0 "战斗用外骨骼 II"
+pasmod_orbital_drop_pod_battle_frame_2_DESC:0 "$pasmod_assault_army_battle_frame$"
+
+### TIER III ###
+pasmod_orbital_drop_pod_default_3:0 "大型轨道吊仓"
+pasmod_orbital_drop_pod_default_3_DESC:0 "§H陆军类型: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_clone_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_clone_3_DESC:0 "§H陆军类型: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_gene_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_gene_3_DESC:0 "§H陆军类型: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_psionic_force_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_psionic_force_3_DESC:0 "§H陆军类型: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_slave_army_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_slave_army_3_DESC:0 "§H陆军类型: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+pasmod_orbital_drop_pod_droid_army_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_droid_army_3_DESC:0 "§H陆军类型: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YLarge§! 轨道吊仓空投会一次空投§Y40§!个陆军降落到地面。 只能在航空母舰或护卫空母的核心上搭载。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+
+pasmod_orbital_drop_pod_battle_frame_3:0 "战斗用外骨骼 III"
+pasmod_orbital_drop_pod_battle_frame_3_DESC:0 "$pasmod_assault_army_battle_frame$"
+
+### ARMIES ###
+pasmod_assault_army_default: "行星突击部队"
+pasmod_assault_army_default_plural: "行星突击部队"
+pasmod_assault_army_default_DESC: "能够使用的轨道吊舱的基础行星突击部队。"
+pasmod_assault_army_clone: "克隆突击部队"
+pasmod_assault_army_clone_plural: "克隆突击部队"
+pasmod_assault_army_clone_DESC: "一支由人造克隆组成的军队，旨在提高成本效益并避免士气受损。"
+pasmod_assault_army_gene: "轨道空降突击师"
+pasmod_assault_army_gene_plural: "轨道空降突击师"
+pasmod_assault_army_gene_DESC: "大规模突击师，包括基因改造生物部队。"
+
+pasmod_assault_army_psionic_force:0 "灵能特种部队" 
+pasmod_assault_army_psionic_force_DESC:0 "他们通常以自己非凡的意志力破坏敌人的思想及其士气。"
+pasmod_assault_army_slave_army:0 "奴隶部队"
+pasmod_assault_army_slave_army_DESC:0 "一支由非志愿者所组成的军队。他们即使战死也要履行自己的职责。"
+pasmod_assault_army_droid_army:0 "机器人陆军"
+pasmod_assault_army_droid_army_DESC:0 "这些无脑的锡罐总是毫不犹豫地听从任何命令。 \n§L"Roger, Roger" - 来自被摧毁前的机器人§!"
+
+pasmod_assault_army_battle_frame:0 "战斗用外骨骼"
+pasmod_assault_army_battle_frame_desc:0 ""
+
+### PASMOD TECHS ###
+tech_pasmod_basic_drop_pod:0 "新型轨道吊仓"
+tech_pasmod_basic_drop_pod_desc:0 "轨道投掷吊舱旨在将有限数量的入侵部队空投到敌方星球上。由于容纳和运输军队所需的空间，只能将其安装在航空母舰或护卫航母的入侵核心上。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"
+TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_TITLE:0 "§H解锁组件:§! $pasmod_orbital_drop_pod_default$"
+TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_DESC:0 "§H$pasmod_orbital_drop_pod_default$§!\n轨道投掷吊舱旨在将有限数量的入侵部队空投到敌方星球上。由于容纳和运输军队所需的空间，只能将其安装在航空母舰或护卫航母的入侵核心上。\n\n§B当行星破坏达到30%时吊仓将自动部署。§!"

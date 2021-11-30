@@ -1,0 +1,646 @@
+﻿l_english: 
+############################# 
+ ap_wg_crisis:0 "Burning the Galaxy" 
+ ap_wg_crisis_desc:0 "This is a great road that belongs to us. The incompetent and weak are not worthy of walking with us. We will use our hands to select the entire galaxy." 
+ ap_wg_crisis_effect_tooltip:0 "The new §Hincineration menu§! will be unlocked\nActivate the chain of events: § HIncineration Path§!\n§H Once completed, the ultimate goal in front of us will be revealed!§!" 
+ only_one_wg_crisis_country:0 "Only one country can activate §HBurn the Galaxy§! Ascend" 
+ requires_wg_complete_ascension_path:0 "$requires_complete_wsg_ascension_path$\nStarship Coalition Government (Starship Girl) government needs to have §HGalactic Empire§!Ascension"
+ requires_complete_wsg_ascension_path:0 "$TRIGGER_FAIL$ needs to complete any of the following two-stage ascension routes: \nThe ship girl government needs to have §H$ap_mist$§! Ascension or §H$ap_project_s$§! Ascension\nDeep sea government needs to have §H$ ap_shenhai_silent$§! Soaring or §H$ap_shenhai_icebreaking$§! Soaring" 
+ requires_ascension_perks_4:1 "$TRIGGER_FAIL$ needs to select four other ascension talents first." 
+ must_not_becoming_emperor:0 "cannot have any of the following$TRIGGER_FAIL$ ascension talents that can become the emperor of the Starship: \nWarship girl or deep sea government cannot have §H$ap_wsg_galactic_empire$§! Ascension\nStarship Coalition Government (Starship Girl) government cannot Own §HStar Sea Empire§! Ascension\n"
+
+ ap_wg_crisis.998.name:0 "Online stability warning"
+ ap_wg_crisis.998.desc:0 "The system has detected that you have installed §H Battleship Girl MOD§!, §H Starship Girl MOD§! and you are in an online multiplayer game, and some players have chosen to burn ascension, please be careful Read the following warning: \nBecause the dumb donkey failed to complete the Galatic Emperor related code, please be sure to start the Incineration Ascension after the Galatic Emperor Event Chain §R is completely ended§! or §R Make sure that there is no ai and the player becomes the emperor§! Related event chain. The conflict between the event chain related to the burning and ascension and the Galatic Emperor will be triggered after the construction of the giant building begins.\nIf the Galatic Emperor event chain has already started, §RDo not build the door of the dimension §! Giant buildings,to avoid game crashes or file damage due to repeated declarations of war, etc.!\nAny inconvenience to your game process caused by the above conflicts, please find a fool, thank you for your cooperation."
+
+ be_goooooood_girl:0 "$TRIGGER_FAIL$You fell mom said, you want to be a good boy~\n\t§H[wg_fallen_empire.GetName]§! When it exists, the origin of mommy cannot activate this ascension talent" 
+ has_our_colony:0 "\n£trigger_no£ There cannot be our colony in the star system" 
+
+ ap_wsg_galactic_empire:0 "Star Empire" 
+ ap_wsg_galactic_empire_desc:0 "The alliance has gradually cracked, and we will firmly believe that the galactic empire must stand in the galaxy. We are the symbol of order, security, and stability. We will not allow any existence of separatists, rebel scum, etc., Shake this stable and safe galaxy!" 
+
+ edict_ap_wg_crisis_window:0 "§HIncineration talent menu§!" 
+ edict_ap_wg_crisis_window_desc:0 "Open §HDestroying Talent Menu§!"
+ wg_crisis_window_tutorial_button_tooltip:0 "§YShow tutorial interface§!" 
+ ap_wg_crisis.1.name:0 "[this.GetWGCrisisPointLoc]"
+
+ ap_wg_crisis_window_title:0 "7 characters of interface title"
+ ap_wg_crisis.1.desc:0 "Reminder: Complete all §H Incineration Level Objectives§! to unlock the next §H Incineration Level§!. Click the button above to switch to view §H Incineration Level Objective List§!.\ n\nComplete the following incineration targets to obtain £sr_wg_crisis_point£ incineration value\n\nDestroy a £pop£ population\n —— £sr_wg_crisis_point£§H2§!\nDestroy a planet:\n —— £sr_wg_crisis_point£ §H50§! \nDestroying a star system:\n —— £sr_wg_crisis_point£§H150§!\nDestroying a colony:\n —— £sr_wg_crisis_point£§H35§!\nDestroying a country:\n —— £ sr_wg_crisis_point£§H150§!\nVillage a country:\n —— £sr_wg_crisis_point£§H100§!\nHave more than one vassal (added once a year):\n —— £sr_wg_crisis_point£§H10§!\nAnnihilate one Fleet (*see note 1 at the bottom):\n —— £sr_wg_crisis_point£§H15§!\nDestroy a large ship (*note 2,4):\n —— £sr_wg_crisis_point£§H10§!\n Destroying a Leviathan-class creature/battleship (*Note 3,4):\n —— £sr_wg_crisis_point£§H35§!\nDestroying a military base/space station:\n —— £sr_wg_crisis_point£§H5§!\n Destroy the star base;\n level is §H Outpost§!:\n —— £sr_wg_crisis_point£§H5§!\n Level is §H Starport§!:\n —— £sr_wg_crisis_point£§H8§!\n Other levels of stellar bases:\n —— £sr_wg_crisis_point£§H15§!\nviolation of the Galaxy Law (increased once a year)\n —— £sr_wg_crisis_point£§H50§!\n\n\nNote:\n(1) Annihilation fleet target determination: a fleet containing 5 or more large ships, or monster creatures (excluding pirates), or Leviathan-class creatures, or natural disaster ships (other mods such as NSC Quarter Starship Giant Luminous Man (2) Large ships: refers to large ships of the same level as battleships, but not Leviathan-class ships, including battleships, natural disasters or fallen battle cruisers, aircraft carriers, Large ships of natural disasters, etc. (other mods have been included as much as possible)\n\n(3) Leviathan-class creatures/battleships: refers to Leviathan or warships equivalent to Leviathan, such as arsenal ships, Dreadnought, Domination, Colossus, United Glory, Flagship, etc.\n\n(4) The score obtained when destroying a large ship or Leviathan can be superimposed with the score obtained by destroying a fleet, that is, a Leviathan can be obtained A total of 50 burning points"
+ ap_wg_crisis.1.tooltip:0 "Display the §HUnlocked incineration level targets§! list"
+ 
+ ap_wg_crisis.2.tooltip:0 "Display §HDestroy Targets§! List"
+
+ ap_wg_crisis.2.desc:0 "Prompt: Complete §HDestroy Target§! to obtain £sr_wg_crisis_point£Incineration value. Click the button above to switch to view §HDestroy Target List§!.\n\nAfter completing the following goals , You can unlock the next incineration level.\nIncineration level one unlock target:\n[ap_wg_crisis_country.WGCrisisLv1_Objective_Passed] Complete the special project: §HUnderstand our destiny§!\n\nIncineration level two unlock target:\n[ap_wg_crisis_country.IsWGCrisisPointLv2Passed] £sr_wg_crisis_point£ incineration value reached §H1000§!\n[ap_wg_crisis_country.WGCrisisLv2_Second_Objective_Passed] Owned technology: §H$tech_wg_fm_hyper_dimensional_theory$\nIncineration level three unlock target:\n £sr_wg_crisis_point£ Incineration value reaches §H2000§!\n[ap_wg_crisis_country.WGCrisisLv3_Second_Objective_Passed] Complete special project: §H Springboard Plan §!\n\nIncineration level four to unlock the target:\n[ap_wg_crisis_country.IsWGCrisisPointLv4Passed] Incineration value reaches §H5000§!\n[ap_wg_crisis_country.WGCrisisLv4_Second_Objective_Passed] owned technology: §H Psionic Energy Extraction§!\n\nIncineration Level Five Unlock target:\n[ap_wg_crisis_country.IsWGCrisisPointLv5Passed] Incineration alue reached §H10000§!\n[ap_wg_crisis_country.WGCrisisLv5_Second_Objective_Passed] Build a giant building §H Dimensional Gate Construction Platform§!"
+
+
+# Tutorial interface 
+ ap_wg_crisis.3.name:0 "The current cremation value will be displayed here" 
+ ap_wg_crisis.3.desc:0 "The §Hincineration level unlocked target list§! or §Hincineration target list§!\n\nClick the upper button to switch the display.\nMove the cursor to the incineration value Above the icon, you can display a brief introduction about the incineration value of £sr_wg_crisis_point£.\n\n§YClick on the Decree——Incineration Menu§! The incineration menu will be displayed\n§HClick the upper right corner to close the tutorial screen.§ !"
+
+ wg_crisis_perks_explaination:0 "Shown on the left is §HIncineration Talent§!. The incineration talent is obtained by unlocking §HIncineration Level§!.\n\nThe incineration talent can provide §H a lot of\nbuff§! and §H New ship types §! Unlocked.\n\nYou can click on the unlocked incineration talent to activate this talent to get a more powerful buff, but please note that §R can only activate one incineration talent at the same level.§ !" 
+
+ ap_wg_crisis.4.name:0 "Incineration of the talent interface prompt" 
+ ap_wg_crisis.4.desc:0 "You have unlocked the new incineration talent interface, do you want to view the tutorial?" 
+ ap_wg_crisis.4.a.tooltip:0 "Open the Incineration Talent Interface Tutorial" 
+ ap_wg_crisis.4.b.tooltip:0 "Open the cremation talent interface"
+
+ perk_levelup_tooltip:0 "Hint: You can choose one of the newly unlocked talents to activate, and you have obtained a stronger buff." 
+ ap_wg_crisis.5.name:0 "Incineration level has been upgraded" 
+ ap_wg_crisis.5.desc:0 "Congratulations on your incineration level has been upgraded to §HFirst level§!. Do you want to open the incineration talent interface to view?\n$perk_levelup_tooltip$" 
+ ap_wg_crisis.6.desc:0 "Congratulations on your incineration level has been upgraded to §H second level§!. Do you want to open the incineration talent interface to view?\n$perk_levelup_tooltip$"  
+ ap_wg_crisis.7.desc:0 "Congratulations on your incineration level has been upgraded to §H third level§!.Do you want to open the incineration talent interface to view?\n$perk_levelup_tooltip$"
+ ap_wg_crisis.8.desc:0 "Congratulations on your incineration level has been upgraded to §H fourth level§!.Do you want to open the incineration talent interface to view?\n$perk_levelup_tooltip$"
+ ap_wg_crisis.9.desc:0 "Congratulations on your incineration level has been upgraded to §H fifth level§!. Do you want to open the incineration talent interface to view?\n$perk_levelup_tooltip$" 
+
+ wg_crisis_points_desc:0 "Complete the incineration target to get $wg_crisis_points$. When $wg_crisis_points$ reaches the next level requirement, complete the incineration level task to unlock the next incineration level.\nEach level of incineration level is unlocked, You can get the corresponding incineration talents of this level. The incineration talents can provide §H a large number of buffs§! and §H new ship types§! to unlock.\nYou can choose to activate one of the incineration talents at each level to obtain the corresponding For a more powerful buff, only one incineration talent of the same level can be activated."
+ 
+ wg_crisis_perk_comfirmation_title:0 "Activate incineration talent" 
+ wg_crisis_perk_comfirmation_desc:0 "Do you want to activate the incineration talent?\n§RWarning§!:\nOnly one incineration talent can be activated at each level! After the incineration talent is activated, the incineration talent at the same level will be activated. Cannot be activated! "
+ wg_crisis_points:0 "£sr_wg_crisis_point£ incineration value" 
+ wg_crisis_point_show_lv1:0 "Incineration points: §H[ap_wg_crisis_country.wg_crisis_points]§! / §Y800§!"
+ wg_crisis_point_show_lv2:0 "Incineration points: §H[ap_wg_crisis_country.wg_crisis_points]§! / §Y1500§!"
+ wg_crisis_point_show_lv3:0 "Incineration points: §H[ap_wg_crisis_country.wg_crisis_points]§! / §Y3500§!" 
+ wg_crisis_point_show_lv4:0 "Incineration points: §H [ap_wg_crisis_country.wg_crisis_points ]§! / §Y7000§!" 
+ wg_crisis_point_show_lv5:0 "§HIncineration points max§!"
+
+############################# 
+# Burning Talent 
+################ ############# 
+ wg_crisis_perk_gain:0 "§E Effect: §!" 
+ wg_crisis_perk_gain_passive:0 "§E Get the effect: §!" 
+ wg_crisis_perk_gain_active:0 "§E Activation effect: §!" 
+ active_wg_crisis_perks:0 "\n§HClick to activate the incineration talent§!\n (Only one incineration talent can be activated per level) " 
+ 
+ wg_crisis_level_locked:0 "£trigger_no£ did not unlock the incineration level" 
+# Incineration level lv1 
+ wg_crisis_perk_lv1-1_name:0 "§HOne Heart§!"
+ wg_crisis_perk_lv1-1_desc:0 "All of us need to work together to gather enough strength to remove all threats in front of us." 
+ wg_crisis_perk_lv1-1_passive_effect:0 "§Y$mod_country_produces_mult$§!: §G+10%§!" 
+ wg_crisis_perk_lv1-1_active_effect:0 "§Y$mod_pop_category_specialists_produces_mult$§!: §G+5%§!" 
+
+ wg_crisis_perk_lv1-2_name:0 "§H Awesome at sight§!" 
+ wg_crisis_perk_lv1-2_desc:0 "Even if we don't emphasize ourselves, those inferior aliens will regard us as gods; worship us and fear us." 
+ wg_crisis_perk_lv1-2_passive_effect:0 "§Y$MOD_COUNTRY_SUBJECT_ACCEPTANCE_ADD$ :§G+30§!"
+ wg_crisis_perk_lv1-2_passive_effect:0 "§Y$MOD_COUNTRY_SUBJECT_INTEGRATION_SPEED_ADD$§!:§G+100%§!\n§Y$MOD_COUNTRY_SUBJECT_TRUST_CAP_ADD$§!:§G+100§!" 
+
+# Incineration level lv2 
+ wg_crisis_perk_lv2-1_name:0 "§HRaider Ship§!"
+ wg_crisis_perk_lv2-1_desc:0 "This new type of raiding ship has a faster speed than a frigate, heavier armor and more powerful firepower, and can destroy those fools who only know to escape faster."
+ wg_crisis_perk_lv2-1_passive_effect:0 "§YUnlock new ships§!: §HIncineration destroyer§!"
+ wg_crisis_perk_lv2-1_active_effect:0 "§HIncineration destroyer§!§YProbability of leaving the battle§!§G+30%§!"
+
+ wg_crisis_perk_lv2-2_name:0 "§HWar Beast§!"
+ wg_crisis_perk_lv2-2_desc:0 "War! War! War!\nOnly the blood of the enemy can extinguish the flames of our aggression!"
+ wg_crisis_perk_lv2-2_passive_effect:0 "§Y$MOD_COUNTRY_WAR_EXHAUSTION_MULT$§!: §G-50%§!"
+ wg_crisis_perk_lv2-2_active_effect:0 "§Y$MOD_COUNTRY_WAR_EXHAUSTION_MULT$§!: §G-25%§!"
+
+ wg_crisis_perk_lv2-3_name:0 "§HTrial§!"
+ wg_crisis_perk_lv2-3_desc:0 "Any stupid person who stands in front of our great path will be punished by heaven! Not in the name of God, but in our name!"
+ wg_crisis_perk_lv2-3_passive_effect:0 "§Y$MOD_SHIP_ORBITAL_BOMBARDMENT_MULT$§!: §G+30%§!"
+ wg_crisis_perk_lv2-3_active_effect:0 "§YUnlock Orbital Bombing Mode§!: §RJudgment§!"
+
+# Incineration level lv3
+ wg_crisis_perk_lv3-1_name:0 "§HBattlecruiser§!"
+ wg_crisis_perk_lv3-1_desc:0 "As we embark on this great road of conquest, we need a stronger escort force to ensure that our plan and the road ahead are unimpeded."
+ wg_crisis_perk_lv3-1_passive_effect:0 "§YUnlock new ship types§!: §HIncineration Battlecruisers§!"
+ wg_crisis_perk_lv3-1_active_effect:0 "§HIncineration Battlecruisers§!§YTracking§!§G+10%§!"
+
+ wg_crisis_perk_lv3-2_name:0 "§H Velociraptor§!"
+ wg_crisis_perk_lv3-2_desc:0 "So it is as fast as the wind, as fast as the forest, invading like fire, immovable like a mountain, hardly known as the yin, and moving like a thunderstorm."
+ wg_crisis_perk_lv3-2_passive_effect:0 "§HIncineration Battlecruisers§!§YDodge§!§G+20%§!"
+ wg_crisis_perk_lv3-2_active_effect:0 "§HIncineration Battlecruisers§!§YTracking§!§G+30%§!"
+
+ wg_crisis_perk_lv3-3_name:0 "§HWar Machine§!"
+ wg_crisis_perk_lv3-3_desc:0 "Smart people will surrender to our knees, and death will be the only choice for stupid people."
+ wg_crisis_perk_lv3-3_passive_effect:0 "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!: §G+50%§!"
+ wg_crisis_perk_lv3-3_active_effect:0 "§Y$MOD_PLANET_ARMY_BUILD_SPEED_MULT$§!: §G+100%§!"
+
+ wg_crisis_perk_lv3-4_name:0 "§HAll-Seeing Eye§!"
+ wg_crisis_perk_lv3-4_desc:0 "We will know everything. Distance will no longer be an obstacle, and the universe will be at your fingertips."
+ wg_crisis_perk_lv3-4_passive_effect:0 "§Y$MOD_SHIP_SENSOR_RANGE_ADD$§!: §G+2§!"
+ wg_crisis_perk_lv3-4_active_effect:0 "§Y$MOD_INTEL_DECRYPTION_ADD$§!: §G+10§!"
+
+# Incineration level lv4
+ wg_crisis_perk_lv4-1_name:0 "§HCapital Ship§!"
+ wg_crisis_perk_lv4-1_desc:0 "The truth of the galaxy is always only within the range of the cannon. The law of the galaxy has been the law of the weak and the strong. We will override everything and become the ruler of the galaxy."
+ wg_crisis_perk_lv4-1_passive_effect:0 "§YUnlock new ships§!: §HIncineration flagship§!"
+ wg_crisis_perk_lv4-1_active_effect:0 "§HIncineration flagship§!§Y Hull value§!§G+10%§!"
+
+ wg_crisis_perk_lv4-2_name:0 "§HDouble-headed snake§!"
+ wg_crisis_perk_lv4-2_desc:0 "We have become cunning and changeable, fast and ferocious; but our prey can't even choose the way of death."
+ wg_crisis_perk_lv4-2_passive_effect:0 "§YUnlock§!§HIncineration battlecruiser§!§YNew section§!: §HDouble-headed snake§!"
+ wg_crisis_perk_lv4-2_active_effect:0 "§HIncineration battlecruiser§!§YDodge§!§G+10%§!"
+
+ wg_crisis_perk_lv4-3_name:0 "§HLogistics support§!"
+ wg_crisis_perk_lv4-3_desc:0 "The old saying goes: the soldiers and horses have not moved, the food and grass go first. Logistics supplies are always the core of the war."
+ wg_crisis_perk_lv4-3_passive_effect:0 "§Y$mod_ships_upkeep_mult$§!: §G-15%§!"
+ wg_crisis_perk_lv4-3_active_effect:0 "§Y$mod_ships_upkeep_mult$§!: §G-5%§!"
+
+ wg_crisis_perk_lv4-4_name:0 "§HLoot Warehouse§!"
+ wg_crisis_perk_lv4-4_desc:0 "There is no gun, no cannon, the enemy made it for us. But where should I put these things? Clear the warehouse next door to have a place."
+ wg_crisis_perk_lv4-4_passive_effect:0 "§Y$MOD_COUNTRY_RESOURCE_MAX_ADD$§!: §G+30000§!"
+ wg_crisis_perk_lv4-4_active_effect:0 "§Y$MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD$§!: §G+2§!"
+
+# Incineration level lv5
+ wg_crisis_perk_lv5-1_name:0 "§H Burner§!"
+ wg_crisis_perk_lv5-1_desc:0 "The sun will burn under our will, turning into our sharp blade, and destroying everything in the galaxy."
+ wg_crisis_perk_lv5-1_passive_effect:0 "§YUnlock new ship types§!: §HDestroy giant soldiers§!"
+ wg_crisis_perk_lv5-1_passive_effect_extra:0 "§YGet Technology§!: §HSunbreaker§!"
+ wg_crisis_perk_lv5-1_active_effect:0 "§Y Acquired Technology§!: §H Burner §! (§Y Launch Speed ​​§!§G+50%§! Sunbreaker)"
+
+ wg_crisis_perk_lv5-2_name:0 "§H Strong Ship and Cannon§!"
+ wg_crisis_perk_lv5-2_desc:0 "Old undeads shrunken in a corner of the galaxy, cowards who are trying to hide and fight back, your castle will collapse, and your doomsday will finally come!"
+ wg_crisis_perk_lv5-2_passive_effect:0 "§HIncineration battlecruiser§!§Y Hull value§!§G+20%§!"
+ wg_crisis_perk_lv5-2_active_effect:0 "§HIncineration battlecruiser§!§YHull value§!§G+10%§!"
+
+ wg_crisis_perk_lv5-3_name:0 "§H Huge Battleship§!"
+ wg_crisis_perk_lv5-3_desc:0 "Critters have been in awe of giants since ancient times, because as long as they stand in front of them, no matter what they struggle, they will only turn into dust."
+ wg_crisis_perk_lv5-3_passive_effect:0 "§HIncineration flagship§!§Y Hull value§!§G+20%§!"
+ wg_crisis_perk_lv5-3_active_effect:0 "§HIncineration flagship§!§YTracking§!§G+20%§!"
+
+ wg_crisis_perk_lv5-4_name:0 "§HAll indestructible§!"
+ wg_crisis_perk_lv5-4_desc:0 "There are no shields in the world, and no castles that cannot be captured. Our cannons will explode all obstacles that stand in front of our great path, and those who dare to resist will only be buried behind us. ruins."
+ wg_crisis_perk_lv5-4_passive_effect:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§!: §G+50%§!"
+ wg_crisis_perk_lv5-4_active_effect:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§!: §G+30%§!"
+
+ wg_crisis_perk_lv5-5_name:0 "§Hcover the sky and cover the sun§!"
+ wg_crisis_perk_lv5-5_desc:0 "When our warships can cover up the sun's brilliance, those who dare to stand in front of them will realize their ignorance."
+ wg_crisis_perk_lv5-5_passive_effect:0 "§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!: §G+30%§!"
+ wg_crisis_perk_lv5-5_active_effect:0 "§Y$MOD_STARBASE_SHIPYARD_CAPACITY_ADD$§!: §G+30%§!"
+ wg_crisis_perk_lv1_1_passive_modifier:"$wg_crisis_perk_lv1-1_name$"
+ wg_crisis_perk_lv1_2_passive_modifier:"$wg_crisis_perk_lv1-2_name$"
+ wg_crisis_perk_lv2_2_passive_modifier:"$wg_crisis_perk_lv2-2_name$"
+ wg_crisis_perk_lv2_3_passive_modifier:"$wg_crisis_perk_lv2-3_name$"
+ wg_crisis_perk_lv3_2_passive_modifier:"$wg_crisis_perk_lv3-2_name$"
+ wg_crisis_perk_lv3_3_passive_modifier:"$wg_crisis_perk_lv3-3_name$"
+ wg_crisis_perk_lv3_4_passive_modifier:"$wg_crisis_perk_lv3-4_name$"
+ wg_crisis_perk_lv4_3_passive_modifier:"$wg_crisis_perk_lv4-3_name$"
+ wg_crisis_perk_lv4_4_passive_modifier:"$wg_crisis_perk_lv4-4_name$"
+ wg_crisis_perk_lv5_2_passive_modifier:"$wg_crisis_perk_lv5-2_name$"
+ wg_crisis_perk_lv5_3_passive_modifier:"$wg_crisis_perk_lv5-3_name$"
+ wg_crisis_perk_lv5_4_passive_modifier:"$wg_crisis_perk_lv5-4_name$"
+ wg_crisis_perk_lv5_5_passive_modifier:"$wg_crisis_perk_lv5-5_name$"
+ wg_crisis_perk_lv1_1_active_modifier:"$wg_crisis_perk_lv1-1_name$"
+ wg_crisis_perk_lv1_2_active_modifier:"$wg_crisis_perk_lv1-2_name$"
+ wg_crisis_perk_lv2_1_active_modifier:"$wg_crisis_perk_lv2-1_name$"
+ wg_crisis_perk_lv2_2_active_modifier:"$wg_crisis_perk_lv2-2_name$"
+ wg_crisis_perk_lv3_1_active_modifier:"$wg_crisis_perk_lv3-1_name$"
+ wg_crisis_perk_lv3_2_active_modifier:"$wg_crisis_perk_lv3-2_name$"
+ wg_crisis_perk_lv3_3_active_modifier:"$wg_crisis_perk_lv3-3_name$"
+ wg_crisis_perk_lv3_4_active_modifier:"$wg_crisis_perk_lv3-4_name$"
+ wg_crisis_perk_lv4_1_active_modifier:"$wg_crisis_perk_lv4-1_name$"
+ wg_crisis_perk_lv4_2_active_modifier:"$wg_crisis_perk_lv4-2_name$"
+ wg_crisis_perk_lv4_3_active_modifier:"$wg_crisis_perk_lv4-3_name$"
+ wg_crisis_perk_lv4_4_active_modifier:"$wg_crisis_perk_lv4-4_name$"
+ wg_crisis_perk_lv5_2_active_modifier:"$wg_crisis_perk_lv5-2_name$"
+ wg_crisis_perk_lv5_3_active_modifier:"$wg_crisis_perk_lv5-3_name$"
+ wg_crisis_perk_lv5_4_active_modifier:"$wg_crisis_perk_lv5-4_name$"
+ wg_crisis_perk_lv5_5_active_modifier:"$wg_crisis_perk_lv5-5_name$"
+
+ mod_country_produces_mult:0 "Empire Resource Production"
+ mod_pop_category_specialists_produces_mult:0 "$SPECIALISTS$ job output"
+
+ tech_fm_sunkiller:0 "Burner"
+ tech_fm_sunkiller_desc:0 "The sun will burn everything under our will"
+ PLANET_KILLER_SK_SE:0 "Sun Killer (Burning God Soldier)"
+ PLANET_KILLER_SK_SE_DESC:0 "Because it is installed on the Burning God Soldier, it has a more efficient performance than the Sunkiller installed on the Colossus."
+ PLANET_KILLER_SK_SE_EX:0 "Burner (Burning God Soldier)"
+ PLANET_KILLER_SK_SE_EX_DESC:0 "The launch of the Sun Killer against the Sun Killer. Due to its huge energy output, it can only be installed on the Burning God Soldier"
+ tech_wg_fm_psionic_energy_hypersiphon:0 "Psionic Energy Extraction"
+ tech_wg_fm_psionic_energy_hypersiphon_desc:0 "Extracting virtual energy is an extremely dangerous task. Even if any preventive work is done, the huge and violent energy cannot be completely controlled, not to mention the situation where psionic life forms are mixed in. But we can Guide it to where we want it to go, and then slowly dilute it and capture this force so that our extraction work can proceed smoothly."
+ tech_unlock_megastructure_wg_fm_gateway_01:0 "§HUnlock megastructures: §!§Y Dimensional Gate§! Phases 1 to 3"
+ megastructure_wg_fm_gateway_desc:0 "§H After completing this huge building, we will become a true multidimensional empire!§!"
+ tech_unlock_megastructure_wg_fm_gateway_03:0 "§HUnlock megastructures: §!The Gate of Dimensions§! Phases 4 to 5"
+ tech_wg_fm_dimensional_anchor:0 "Shroud Anchor Project"
+ tech_wg_fm_dimensional_anchor_desc:0 "The ultimate function of extracting energy from the Shroud is to open a dimensional door so that we can lead to other universes or dimensional worlds. This requires us to drill a large hole in the Shroud and accurately pass through the Shroud.Explore a 'tunnel' to other universes or dimensions. The preliminary measurement project is so important that it will affect the success or failure of the entire plan. We must not afford to lose here."
+ tech_wg_fm_hyper_dimensional_theory_repeatable:0 "High dimensional theory research"
+ tech_wg_fm_hyper_dimensional_theory_repeatable_desc:0 "The improvement of high-dimensional theory research will advance the progress of our plan."
+ tech_wg_fm_psionic_theory_repeatable:0 "Psionic Theory Research"
+ tech_wg_fm_psionic_theory_repeatable_desc:0 "The improvement of psionic theory research will advance the progress of our plan."
+ tech_wsg_fm_bc_2x:0 "Double-headed snake"
+ tech_wsg_fm_bc_2x_desc:0 "Unlock §HIncineration battlecruiser§!§HDouble-headed snake head§! section"
+ FM_BC_BOW_2X:0 "Two-Headed Snake"
+ tech_wg_fm_hyper_dimensional_theory:0 "High dimensional theory foundation"
+ tech_wg_fm_hyper_dimensional_theory_desc:0 "For a long time, high-dimensional theory has remained at the level of science fiction, and it is completely impossible to conduct physical research on it. But now, we have opened a small part of the door."
+
+ opinion_has_wg_fm_gateway_03:0 "Deadly Giant Building"
+ opinion_tried_to_destroy_galaxy:0 "Try to destroy the galaxy"
+
+ war_goal_wg_fm_war:0 "Total War"
+ war_goal_wg_fm_war_desc:0 "This country will cause an indelible disaster to the entire universe. It must be destroyed."
+ casus_belli_wg_fm_war:0 "Eliminate the threat"
+ war_goal_wg_fm_war2:0 "$war_goal_wg_fm_war$"
+ war_goal_wg_fm_war2_desc:0 "Anyone who tries to obstruct our great plan must be eradicated"
+ casus_belli_wg_fm_war2:0 "Burn and Destroy"
+ war_goal_wg_fm_war3:0 "$war_goal_wg_fm_war$"
+ war_goal_wg_fm_war3_desc:0 "They will all be defeated!"
+ casus_belli_wg_fm_war2:0 "Destroy everything"
+ wg_shroud_crisis_colony_debuff:0 "Psionic Wave"
+ wg_shroud_crisis_colony_debuff_desc:0 "This colony is under powerful psychic fluctuations. The minds of the residents have been invaded by a wide range of psychic energy, resulting in hallucinations of varying degrees, even symptoms of physical discomfort, and unable to continue a normal life."
+ wg_shroud_crisis_country_debuff:0 "The Whispers of the Shroud"
+ wg_shroud_crisis_country_debuff_desc:0 "Weird whispers keep lingering in every resident's mind..."
+
+#########################################
+# Incident
+########################################
+ ap_wg_crisis_chain_title:0 "Road to Destruction"
+ ap_wg_crisis_chain_desc:0 "The Milky Way is not infinite. At the speed of our expansion, we must face the dilemma of getting out of the Milky Way sooner or later. Either conquer the Milky Way or stay alone.\nThe great road has already been revealed before our eyes. The end of the road is our eternal goal."
+ ap_wg_crisis_active:0 "Understand our destiny"
+ ap_wg_crisis_active_DESC:0 "The higher dimensions used to portray the illusory concept in the novel, but now it has been confirmed and discovered by the scientific community that §PShroud§! may become a breakthrough. But even so, we are The world is still very little known. Now, we have chosen this §RCan’t look back§! The only thing waiting for us is a complete victory or a complete fall."
+
+ ap_wg_crisis.999.name:0 "[root.GetName]'s Destiny Path"
+ ap_wg_crisis.999.desc:0 "The Milky Way is boundless. All living creatures were convinced of this before they mastered the method of interstellar travel. But when our country has become a great interstellar empire, it was discovered that this is not the case.\n The galaxy is indeed only that big, and with our expansion rate, the entire galaxy will sooner or later be thoroughly conquered and explored by us, and then after dozens of generations, we will once again face the predicament of the development of interstellar travel-the lack of intergalactic space Means of travel.\nOur desire to expand is endless, so we need to develop ways to grow into a cosmic empire, and one of the ways is to move towards a higher-dimensional world.\nIn [root.GetRulerTitle] After [root.GetRulerName] announced our great plan to all [Root.GetSpeciesNamePlural], all the people boiled over. We all firmly believe that this road will lead us to greatness and eternity. Our family is destined to complete this greatness. Career.\nFor now, we still know very little about the high-dimensional world, §PThe Shroud§! Maybe it will be a breakthrough, but there are still too many obstacles waiting for us to remove."
+ ap_wg_crisis.999.a:0 "We must succeed. This is our destiny."
+
+ ap_wg_crisis.1001.name:0 "Preliminary Ascertained Road"
+ ap_wg_crisis.1001.desc:0 "After our initial exploration of the Shroud, the scientists concluded that it is indeed a higher dimension, and it is related to psionic energy, but it is obvious that the environment of the Shroud is extremely chaotic , And also full of a large number of unknown threats. However, the existence of the Shroud may be connected to a higher dimensional universe, which makes the Shroud itself a springboard\nbut before that, the scientists and other generals agreed that we It is necessary to plan a §H huge project§! to build a device that can stabilize the Shroud or extract energy from the Shroud. This will be a §R extremely dangerous §! and extremely challenging century engineering project, because Absorbing energy from the chaotic Shroud or trying to stabilize the Shroud will cause significant fluctuations in the real world, and other countries will not just stand by."
+ ap_wg_crisis.1001.tooltip:0 "§HIncineration level+1§!"
+
+ ap_wg_crisis.1002.name:0 "Preliminary Ascertained Road"
+ ap_wg_crisis.1002.desc:0 "After a period of exploration, we found an expert who has a deeper understanding of the Shroud-the former §H Bellerophon Saint Shougang §! Ship mothers, but even they, They have not been able to fully explore the Shroud. Their former secretary ship——§H Saint George§! Hope to contact you to explain what has been done so far."
+
+ ap_wg_crisis.1003.name:0 "St. George"
+ ap_wg_crisis.1003.desc:0 "Thank you for giving me permission to contact me this time. Without further ado, I will briefly explain our understanding of the Shroud.\n\nFirst of all, the Shroud should be in this universe It exists widely outside, similar to the plane of the subspace between the universe. Our next research will use this theory as a hypothesis.\nBecause of its particularity, the Shroud is full of huge energy, and there is a certain probability that the accumulation of these energy will be Cause the big bang and form new universes. Finding the flow laws of these energy can find other universes and even higher-dimensional planes through the Shroud. Therefore, the Shroud is the most suitable medium as a springboard to other universes and dimensions. , We can also sip the energy needed to travel to other universes or dimensions from it. To achieve this goal, it is expected that a huge project will be required, but the current excessive and violent energy to control the Shroud is almost §R Impossible§! We still need to conduct further research on this."
+ ap_wg_crisis.1003.a:0 "Are there any risks after extracting energy from the Shroud"
+ ap_wg_crisis.1003.a.response:0 "As mentioned earlier, the energy of the Shroud is extremely large and difficult to control. After the energy is extracted, it will inevitably produce fluctuations in the real universe, including those residing in the energy. Psionic creatures or beings, they may attack any creature indiscriminately.\nIn addition, if such a dangerous move is carried out, other countries may not sit idly by, and react like a nuclear bomb was invented in the primitive age. The more A country with advanced technology is more likely to understand what we are doing. In this regard, §H necessary military preparations are inevitable§!."
+ ap_wg_crisis.1003.b:0 "How are we going to other universes or dimensions?"
+ ap_wg_crisis.1003.b.response:0 "I'm sorry, I still don't have a unified conclusion, but I personally recommend that the current high-dimensional theory should be improved. With the deepening of research, we expect that there will be a certain amount of energy extraction in the Shroud. s help."
+ ap_wg_crisis.1003.c:0 "Very good, continue to study."
+ ap_wg_crisis.1003.c.response:0 "Thank you for your patience. It is my honor to be helpful to you."
+
+ ap_wg_crisis.1004.name:0 "Springboard Plan"
+ ap_wg_crisis.1004.desc:0 "Since we began to study the theory of high-dimensional research and worked hard, we finally put forward a bold and substantial plan on how to carry out dimensional travel. §PShroud§! It is indeed us An important tool for dimensional shuttle. To shuttle between dimensions, we need a huge amount of energy, and the huge energy contained in the Shroud itself is the ideal fuel. But these Shrouds are also extremely dangerous at the same time, we need to build a The safe "tunnel" leading to the high-dimensional world is a §P Dimensional Door§!, so that our ships can shuttle between dimensions. Before building such a tunnel, we also need a huge amount of energy to open the Shroud. Circumstances, we estimate that the energy required is the sum of dozens or even hundreds of stars. This is obviously a near-impossible task.\nTherefore, before embarking on the project of digging the "dimensional tunnel", we need to find a way to absorb the §P virtual The energy of the environment §! to assist in the completion of our project. In other words, the research and utilization of the §P virtual environment §! will be an important springboard in our plan."
+ ap_wg_crisis.1004.a:0 "Very good, continue to study"
+
+ ap_wg_crisis_shortcut_plan:0 "Springboard Plan"
+ ap_wg_crisis_shortcut_plan_DESC:0 "$wg_crisis_shortcut_plan_main_desc$\n\nNote: The time required for this special project is the maximum research time and does not represent the actual research progress. For the actual research progress, please see §H Springboard Plan Event Chain§!. Start researching this item Special project research can increase the research progress steadily over time."
+ wg_crisis_shortcut_plan_main_desc:0 "We already have a preliminary understanding of high dimensions, but how to make the Shroud the key to our next stage still needs to be studied in depth."
+ ap_wg_crisis_shortcut_plan_chain_title:0 "$ap_wg_crisis_shortcut_plan$"
+ ap_wg_crisis_shortcut_plan_chain_desc:0 "$wg_crisis_shortcut_plan_main_desc$\n\nReminder: Research Circulation Technology §H High-dimensional Theory Research§! or §H Psionic Theory Research§! Research progress can be increased.\nIn addition, carry out §H Springboard Plan§!Special Projects can also increase the research progress over time."
+ wg_shortcut_plan_complete_counter:0 "Research Progress"
+ ap_wg_crisis_shortcut_plan_main_event_chain:0 "$ap_wg_crisis_shortcut_plan$"
+ ap_wg_crisis_shortcut_plan_main_event_chain_DESC:0 "$wg_crisis_shortcut_plan_main_desc$"
+
+ ap_wg_crisis.1010.name:0 "A closer plan"
+ ap_wg_crisis.1010.desc:0 "Through long-term research, we have gained a general understanding of the composition of the Shroud. The conclusion is as we had previously expected, the energy contained in the Shroud, even if it is only a drop of water from the ocean. , Can provide tens of thousands of years of energy for a fully loaded industrial world. Unfortunately, all the methods proposed by the scientific research team to extract resources from the Shroud have proved to be devastating, and further open up the Shroud space Behavior may even lead to the destruction of advanced intelligence across the galaxy. But if we can master the energy of the Shroud, we can use this as a §Y springboard§! to help us go to higher dimensions. Therefore, we need to find a way to be safe It’s safe enough to extract the energy of the Shroud, at least not to kill us.\nOther civilizations are not fools, they will definitely try their best to hinder us. In order to implement the plan, we must establish a deterrent."
+ ap_wg_crisis.1010.a:0 "Establish corresponding military networks and countermeasures"
+
+ ap_wg_crisis.1011.name:0 "Shroud Energy Extractor"
+ ap_wg_crisis.1011.desc:0 "Our scientific research team has perfected the method of extracting energy safely from the Shroud, at least for ourselves...\nFor this reason, the scientific research team designed a huge building that can Let us make a small hole in the Shroud, extract the energy in the Shroud, and transfer the risk. Now we only need to find a suitable place to start the project."
+ ap_wg_crisis.1011.a:0 "The entire universe will be readily available soon"
+ 
+ ap_wg_crisis.1012.name:0 "Psionic Energy Extraction Construction Base"
+ ap_wg_crisis.1012.desc:0 "We have completed the construction of the Shroud energy extraction machine construction base in the [FROMFROM.GetName] galaxy. As long as the resources are sufficient, we can start the next phase of construction.\n\nAt the same time, our The general said that the completion of this construction base and the advancement of construction projects will make all countries in the galaxy feel threatened. Because in their view, we are building a galaxy-level big bomb.\n§H we should do All military preparations are made to protect our construction base in the [FROMFROM.GetName] galaxy§! to prevent other countries from trying to undermine our plan."
+ ap_wg_crisis.1012.a:0 "This will be a milestone in the history of [ROOT.GetSpeciesNamePlural]"
+ ap_wg_crisis.1012.tooltip:0 "$wg_crisis_points$§G+300§!"
+
+ ap_wg_crisis.1013.name:0 "Shroud Energy Extractor Framework"
+ ap_wg_crisis.1013.desc:0 "We have successfully built the framework of the Shroud energy extraction machine. Next, we need to drill a hole in the Shroud and build a tunnel that is fixed and opened by the dimensional anchor. The secret to opening the Shroud is Compress the star to the black hole artificially, and accurately use the huge gravitational force of the black hole to penetrate the real space and directly connect to the virtual dimension. This requires us to use a lot of £energy£ §H$energy$§! and £sr_dark_matter£§H$sr_dark_matter$ §! Compress the stars and build anchors that can fix the tunnel's dimensions. This step will be the key to the entire project.\n\nIn order to ensure that the project is foolproof, we need to pre-calculate the timing of the artificial black hole and the adjustment of the space coordinates to avoid it completely The situation of "making the wrong hole", and eliminating the danger that may arise from "making a hole" in the Shroud."
+ ap_wg_crisis.1013.a:0 "Safety points are always good. Approve the commissioning plan."
+ ap_wg_crisis.1013.tooltip:0 "$wg_crisis_points$§G+500§!"
+
+ adjust_psionic_energy_hypersiphon:0 "Start debugging of the virtual environment energy extractor"
+ adjust_psionic_energy_hypersiphon_DESC:0 "Everything is ready, but it takes a lot of time to start up for final debugging to eliminate possible errors and prevent any potential threats."
+
+ ap_wg_crisis.1020.name:0 "Commissioning of the Psionic Energy Extractor is completed"
+ ap_wg_crisis.1020.desc:0 "We have completed the debugging of the Psionic Energy Extractor, and now we can start the project of the Psionic Energy Extractor with peace of mind.\nEven if the completion of the commissioning work means that the project will not go wrong, but Scientists still warn us that turning on the Psionic Energy Extractor will be accompanied by an unpreventable invasion of psionic creatures, §R we must be prepared to fight against these biological invasions!§!"
+ NOT_FINISH_PEH_SPECIAL_PROJECT:0 "$TRIGGER_FAIL$ is unable to start the next project because we have not completed the debugging of the virtual energy extractor!"
+
+ ap_wg_crisis.1014.name:0 "Shroud Energy Extractor"
+ ap_wg_crisis.1014.desc:0 "We finally succeeded in opening the tunnel to the Shroud through an artificial black hole. Now the Shroud energy extractor can produce a lot of energy for us to use.\nAs evidence, [FROMFROM.GetName] is now A considerable degree of fluctuations in the Shroud, the psionic creatures from the Shroud will also invade the world through this!\nWe need to build a dimensional anchor as soon as possible to stabilize the Shroud tunnel and prevent the psionic creatures from invading. After the completion of the Anchor, the Psionic Energy Extractor will provide energy for the operation of the Anchor of Dimension, so its output will gradually decrease."
+ ap_wg_crisis.1014.a:0 "Hurry up and advance the plan"
+ ap_wg_crisis.1014.tooltip:0 "$wg_crisis_points$§G+700§!"
+
+ ap_wg_crisis.1015.name:0 "Anchor of Dimension"
+ ap_wg_crisis.1015.desc:0 "We have successfully activated the Dimensional Anchor, and the entire virtual tunnel has been expanded and stabilized to the extent that ships can pass. The psionic creatures that ravage our world have lost their connection with the Shroud. Withered, we can no longer appear in our world. We can open the door of dimensionality with just one step!\nBut then we will probably face the anger of the entire galaxy. Because opening the door of dimensionality will be one pass The violent imaginary energy suppressed by the anchor of dimensionality so far is released to the entire galaxy. By then, planets without planet-level neutron wave shield protection will be completely baptized by this neutron flood! In other words, §R in the galaxy All intelligent creatures that are not protected, including silicon-based creatures, will be destroyed directly§!. Therefore, before opening the door of dimensions, §H we need to install neutron wave shields for us and all of our allies’ colonies to resist The neutron shock released when the door is opened.§!"
+ ap_wg_crisis.1015.a:0 "Just the last step left"
+ ap_wg_crisis.1015.tooltip:0 "$wg_crisis_points$§G+1000§!"
+
+ active_neutron_impact_shielder:0 "Building a neutron wave defense shield"
+ active_neutron_impact_shielder_DESC:0 "In order to resist the huge negative effects of activating the Psionic Energy Extractor, we must deploy defensive shields within our forces.\nBecause of the huge amount of space and human and material resources needed to build such a shield device, When all planets are building their shields, the population output of £pop£ on their planets will be §R-10%§!"
+ building_neutron_impact_shielder_modifier:0 "Neutron Wave Defense Shield is being built"
+ building_neutron_impact_shielder_modifier_desc:0 "Because of the huge amount of space, manpower and material resources required to build such a shield device, it is necessary to give up a part of the production capacity and land for the construction of shield facilities on this planet."
+ neutron_impact_shielder_modifier:0 "Neutron Wave Defense Shield"
+ neutron_impact_shielder_modifier_desc:0 "The huge neutron wave shield covers the planet, which can effectively protect the planet from the catastrophe caused by the impact of the galaxy neutron current."
+
+ ap_wg_crisis.1022.name:0 "The construction of the neutron wave defense shield is completed"
+ ap_wg_crisis.1022.desc:0 "After consuming a lot of materials and manpower to mobilize work, we finally built neutron wave defense shields on all colonial planets in our territory. We can now prepare to open the door of dimension. Up!"
+ NOT_FINISH_NEUTRON_SHIELDER_SPECIAL_PROJECT:0 "$TRIGGER_FAIL$A neutron wave defense shield has not been deployed in our territory to defend against the neutron wave impact that opens the gate of dimension. A shield must be deployed first!"
+
+ ap_wg_crisis.1016.name:0 "The Gate of Dimensions"
+ ap_wg_crisis.1016.desc:0 "We made it! The energy of the Psionic Energy Extractor is now connected to the Gate of Dimension, and the Gate of Dimension that has been built through the tribulations of blood and fire finally begins to operate!\n\nDimensions The gate has anchored us a dimension of security that belongs only to us. The new world can be freely designed by us and made it a paradise suitable for our survival.\n\nWe have finally achieved our greatness, and now [root.GetName] ] I can proudly announce that we have become a multidimensional empire across dimensions!!!"
+ ap_wg_crisis.1016.a:0 "Long live [root.GetName]! Long live [root.GetSpeciesNamePlural] people!"
+
+ ap_wg_crisis.1025.name:0 "[wg_fallen_empire.GetName]’s communication request"
+ ap_wg_crisis.1025.desc:0 "We suddenly received a communication request from [wg_fallen_empire.GetName], would you like to connect?"
+ ap_wg_crisis.1025.desc.b:0 "Following [sh_fallen_empire.GetName], we also received a communication request from [wg_fallen_empire.GetName], would you like to access it?"
+ ap_wg_crisis.1025.a:0 "Even fools know what these old guys want to say, refuse."
+
+ ap_wg_crisis.1026.desc:0 "What are you doing? Do you know how dangerous what you are doing now? Hurry up and stop before it becomes a galaxy catastrophe!"
+ ap_wg_crisis.1026.a:0 "Our plan doesn't need you to point out indiscriminately"
+ ap_wg_crisis.1026.a.response:0 "Power should not be obtained in this way, you will only become another §Hher§!..."
+ ap_wg_crisis.1026.b:0 "Stubborn old woman, you will never understand us"
+ ap_wg_crisis.1026.b.response:0 "You...enough! You guys can do it yourself!"
+ ap_wg_crisis.1026.c:0 "It's so noisy, disappear before our eyes."
+
+ ap_wg_crisis.1027.name:0 "[sh_fallen_empire.GetName]’s message"
+ ap_wg_crisis.1027.desc:0 "When we started the construction of the post-dimensional gate, even [sh_fallen_empire.GetName], who has always been irrelevant, sent us a high-profile video that they called a warning. "
+ ap_wg_crisis.1028.desc:0 "[Root.GetName], you must stop building...this evil...the §H Dimension Gate§ that endangers the entire galaxy!\n\n§R this is an ultimatum! Don’t stop, you will be silent...§!\n\n————This image will be destroyed in 5 seconds————"
+ ap_wg_crisis.1028.desc.b:0 "You are trying to blaspheme your ancestors!! Stop the evil machine immediately. This is an ultimatum!!!"
+ ap_wg_crisis.1028.a:0 "It seems it is time to sweep the old guy into the trash can of history"
+ ap_wg_crisis.1028.b:0 "There is no old antique ship carrying you in the new era"
+ ap_wg_crisis.1028.c:0 "It is you who should be silent"
+
+ ap_wg_crisis.1031.desc:0 "There are too many cunning people in this galaxy, we can't stay here to breathe, see you again!"
+ ap_wg_crisis.1031.a:0 "???"
+
+ ap_wg_crisis.1032.name:0 "The Disappeared Broken Chair Clan"
+ ap_wg_crisis.1032.desc:0 "According to our follow-up intelligence, the Broken Chair clan seems to be afraid of the dimensional gate we built, so after receiving the news that we started construction, they began to pack all their luggage and plan to leave the universe. "
+ ap_wg_crisis.1032.a:0 "Just leave, timid guy"
+
+ ap_wg_crisis.1034.desc:0 "[Root.GetName]...you did not listen to the warning...just like hundreds of thousands of years ago...the stupid people...choose this depraved path again! ! We... can stop them... and we can stop you as well!"
+ ap_wg_crisis.1034.desc.b:0 "The fallen ants, you have betrayed your ancestors, betrayed your vows, and betrayed your glory!! We will completely destroy you and use your blood to wash away the unclear Crime!"
+ ap_wg_crisis.1034.a:0 "Stubborn antiques, go back to your museum!"
+
+ ap_wg_crisis.1035.desc:0 "Information————The galactic races:\nThe cruel [ap_wg_crisis_country.GetName]...Ignore the safety of all galactic creatures...Plan to build a §H Dimension Gate§ that will endanger the entire galaxy! Because of forcibly instilling the power of the Shroud...when the door is opened...the power of the Shroud running away...will make all the creatures of the galaxy §H annihilate§!\nThere are still people with conscience, pick up the weapon , Join me to stop the evil conspiracy of [ap_wg_crisis_country.GetSpeciesNamePlural]!"
+ ap_wg_crisis.1035.a:0 "It is urgent to eradicate the galaxy's evil!"
+ ap_wg_crisis.1035.a.tooltip:0 "We will stand on [sh_fallen_empire.GetName] and join the war against [ap_wg_crisis_country.GetName]"
+ ap_wg_crisis.1035.b:0 "We are not interested in mixing this up."
+ ap_wg_crisis.1035.c:0 "[ap_wg_crisis_country.GetName]’s great plan should not be blocked!"
+ ap_wg_crisis.1035.c.tooltip:0 "We will stand on [ap_wg_crisis_country.GetName] and join the war against [sh_fallen_empire.GetName]"
+
+ ap_wg_crisis.1037.name:0 "Wanderer who flees in a hurry"
+ ap_wg_crisis.1037.desc:0 "According to our intelligence, after our Dimension Gate project has made further progress, the fallen empire that was once isolated in the past §Hphantom embers§! chose to escape this galaxy. They left. It has to be so hurried that there is no message left."
+ ap_wg_crisis.1037.a:0 "The young ones are not afraid to be afraid"
+ ap_wg_crisis.1037.b:0 "wise choice"
+
+ ap_wg_crisis.1039.name:0 "An inexplicably aborted war"
+ ap_wg_crisis.1039.desc:0 "It is reported that [sh_fallen_empire.GetName] suddenly came forward to stop the war between [wg_stopped_war_attacker.GetName] and [wg_stopped_war_defender.GetName]. We can’t get more details about the negotiation at the moment, but it’s clear that [sh_fallen_empire.GetName] used its force far superior to the two countries to deter all participants in this war, and seems to be plotting something..."
+
+ ap_wg_crisis.1039.a:0 "[sh_fallen_empire.GetName] is such a country...?"
+ ap_wg_crisis.1039.b:0 "What the hell [sh_fallen_empire.GetName] wants to do..."
+ ap_wg_crisis.1039.c:0 "Cannot understand"
+
+
+########################################
+# Declaration of war
+########################################
+ ap_wg_crisis.1047.name:0 "The Galactic Empire declared us a natural disaster"
+ ap_wg_crisis.1047.desc:0 "Recently, it may be due to the threats that we have shown. We learned that the Emperor Galatic of [gal_emperor.GetName] used his power to pass a war emergency bill, which declared that we are "natural disasters." "Is "a threat to all intellectual life forms", which means that we are about to officially go to war with the Galactic Empire!"
+ ap_wg_crisis.1047.a:0 "They will all defeat us!"
+
+ ap_wg_crisis.1048.name:0 "The Superintendent of Galatic declared us a natural disaster"
+ ap_wg_crisis.1048.desc:0 "Recently, Galatic’s corrupt idiots used an unknown power to pass a wartime emergency bill, which declared that we are "natural disasters" and "a threat to all intellectual life." "This will mean that all countries under the Galatic Community will join the war against us!"
+
+# ap_wg_crisis.1049.name:0 "Anti-crisis Alliance"
+# ap_wg_crisis.1049.desc:0 "Recently, we learned that [wg_anti_crisis_leader.GetName] has formed a so-called "anti-crisis alliance" against us. They quickly gathered a large number of poor bugs in the galaxy and began to organize military expenditures. Fight against us!"
+ ap_wg_crisis.1049.a:0 "No matter how many weak bugs gather, it is not enough to be afraid"
+
+ ap_wg_crisis.1050.name:0 "Anti-crisis Alliance"
+ ap_wg_crisis.1050.desc:0 "Recently, we learned that [wg_anti_crisis_leader.GetName] has formed a so-called "anti-crisis alliance" against us. They quickly gathered a large part of the poor worms in the Star and Sea Community in the galaxy, and began to raise money. Set up military expenses to fight us!"
+
+ ap_wg_crisis.1044.desc.a:0 "[ROOT.GetRulerTitle][ROOT.GetRulerName]... Now the tyrannical [ap_wg_crisis_country.GetName]... is planning to build a §H Dimensional Gate that will endanger the entire galaxy!... When the door is opened...the power of the violent world...will kill the creatures of the entire galaxy§H!\nYou, as the emperor who rules the entire galaxy...should join me... The threat of the galaxy, if you delay again and again, after the door is fully opened...§H the entire galaxy will no longer exist!§!"
+ ap_wg_crisis.1044.desc.b:0 "[ROOT.GetRulerTitle][ROOT.GetRulerName]... Now the tyrannical [ap_wg_crisis_country.GetName]... is planning to build a §H Dimensional Gate that will endanger the entire galaxy!... When the door is opened...the power of the raging Shroud...will kill all the creatures in the galaxy§H§!!\nYou live in the galaxy guardian...you should join me...to conquer the whole galaxy If you procrastinate again and again, after the door is fully opened...§H The whole galaxy will no longer exist!§!"
+# ap_wg_crisis.1044.desc.c:0 "[ROOT.GetRulerTitle][ROOT.GetRulerName]...Now the tyrannical [ap_wg_crisis_country.GetName]... is planning to build a §H Dimensional Gate that will endanger the entire galaxy!.. .When the door is opened...the power of the violent world...will kill all the creatures in the galaxy §H!!\nNow you are the leader of one party...you should join me... The threat of the galaxy, if you delay again and again, after the door is fully opened...§H the entire galaxy will no longer exist!§!"
+ ap_wg_crisis.1044.desc.d:0 "[ROOT.GetRulerTitle][ROOT.GetRulerName]... Now the tyrannical [ap_wg_crisis_country.GetName]... is planning to build a §H-dimensional gate that will endanger the entire galaxy!... When the door is opened...the power of the raging Shroud...will kill all the creatures in the galaxy§H!\n...If you promise to lead the galaxy against this evil, I can help you and call The rest of the river system...to fight with you...to defeat this threat that belongs to the entire galaxy..."
+
+ ap_wg_crisis.1044.desc.e:0 "Dear [ROOT.GetRulerTitle][ROOT.GetRulerName], now the evil [ap_wg_crisis_country.GetName] is planning to build an evil machine that may destroy the entire galaxy. I only represent the rest of the empire , I implore you, as the emperor who rules the entire galaxy, and lead the entire galaxy to fight against this crisis that belongs to the entire galaxy!"
+ ap_wg_crisis.1044.desc.f:0 "Dear [ROOT.GetRulerTitle][ROOT.GetRulerName], now the evil [ap_wg_crisis_country.GetName] is planning to build an evil machine that may destroy the entire galaxy. I only represent the rest of the Star Sea Community Country, please, as the custodian of the stars, lead the entire galaxy to fight against this crisis that belongs to the entire galaxy!"
+ ap_wg_crisis.1044.desc.g:0 "Dear [ROOT.GetRulerTitle][ROOT.GetRulerName], now the evil [ap_wg_crisis_country.GetName] is planning to build an evil machine that may destroy the entire galaxy. We hope you can lead the galaxy , Fight against this crisis that belongs to the whole galaxy!"
+
+ ap_wg_crisis.1044.a:0 "Indeed, you are not unreasonable, I can consider accepting your suggestion"
+ ap_wg_crisis.1044.aa:0 "The plan is judged to be feasible and has been taken into consideration"
+ ap_wg_crisis.1044.ab:0 "The plan is executable and has been submitted to the empire mastermind for analysis"
+ ap_wg_crisis.1044.b:0 "As the custodian of Galatic Community, I accept your suggestion"
+ ap_wg_crisis.1044.c:0 "We are obliged to take on this important task and fight for the galaxy!"
+ ap_wg_crisis.1044.d:0 "In that case... please let me contribute my meager strength to fight for the future of the galaxy!"
+ ap_wg_crisis.1044.e:0 "What if...we don't have this plan?"
+ ap_wg_crisis.1044.e.response:0 "I will not interfere with you too much...but if you stand in front of us, it means...you are also the accomplices of natural disasters across the galaxy...you will be silenced!"
+ ap_wg_crisis.1044.f:0 "Please find another wiser"
+ 
+ ap_wg_crisis.1051.name:0 "Enemy of the Empire"
+ ap_wg_crisis.1051.desc:0 "Perhaps the threat shown by [ap_wg_crisis_country.GetName] is imminent. The entire empire and its affiliated member states reached an agreement with incredible speed, declaring [ap_wg_crisis_country.GetName] as the public enemy of omniscient creatures. From this moment on, [ap_wg_crisis_country.GetName] can only completely crush the ending under the empire’s iron cavalry!"
+ ap_wg_crisis.1051.a:0 "Long live the empire! May glory coexist with the empire!"
+ ap_wg_crisis.1051.b:0 "This should be the end of the fight against my empire!"
+ ap_wg_crisis.1051.c:0 "The entire galaxy is in a mess..."
+
+ ap_wg_crisis.1052.name:0 "The Enemy of All Star Sea Community"
+ ap_wg_crisis.1052.desc:0 "Perhaps the threat shown by [ap_wg_crisis_country.GetName] is imminent. All member states of the entire Galatic Community have abandoned their previous prejudices and reached an agreement with incredible speed, announcing [ap_wg_crisis_country.GetName] The public enemy of omniscient creatures. In this way, [ap_wg_crisis_country.GetName] has actually become the enemy of the entire galaxy!"
+ ap_wg_crisis.1052.a:0 "We will fight for the galaxy!"
+ ap_wg_crisis.1052.b:0 "The current Galatic Community must be an indestructible alliance"
+
+ ap_wg_crisis.1053.name:0 "Unbreakable Alliance"
+ ap_wg_crisis.1053.desc:0 "The threat from [ap_wg_crisis_country.GetName] made the Alliance show a high degree of unity and confidence more than ever to fight the greatest survival crisis before the entire galaxy. Now, [anti_wg_fm_crisis_fed. GetName] has officially announced its confrontation with [ap_wg_crisis_country.GetName] until either party becomes a fan!"
+ ap_wg_crisis.1053.a:0 "The future of the entire galaxy will depend on the success or failure of this battle!"
+ ap_wg_crisis.1053.b:0 "Let's see who is the winner"
+
+ ap_wg_crisis.1054.name:0 "The establishment of the anti-crisis alliance"
+ ap_wg_crisis.1054.desc:0 "The threat from [ap_wg_crisis_country.GetName] has brought many countries together, demonstrating greater confidence than ever to fight the greatest survival crisis before the entire galaxy. Now, [wg_anti_crisis_leader. GetName] has officially announced that they have formed an anti-crisis alliance across the galaxy to fight [ap_wg_crisis_country.GetName] until either party turns into powder!"
+
+ ap_wg_crisis.1056.desc:0 "Huge threat detected... Restart Total War Agreement... Eliminate potential threats..."
+ ap_wg_crisis.1056.a:0 "A bunch of old dead ship women"
+ ap_wg_crisis.1061.name:0 "Psionic Wave"
+ ap_wg_crisis.1061.desc.a:0 "After we successfully activated the §HVoid Energy Extractor§!, more and more colonies reported inexplicable auditory hallucinations and hallucinations, and many people claimed that they heard strange whispers. \nOur scientists have not yet been able to explain the cause of this phenomenon, but what is certain is that this phenomenon must be related to §HVoidland§!"
+ ap_wg_crisis.1061.desc.b:0 "After we successfully activated the §HVoid Energy Extractor§!, more and more colonies reported inexplicable auditory hallucinations and hallucinations. Many people claimed that they heard strange whispers. \nThe psychics from the Sacred Port told us that this is the Shroud that affects the real world, and we can cancel these sounds through the psionic barrier, but they also urge us to be prepared because they foresee a new crisis ..."
+ ap_wg_crisis.1061.desc.c:0 "Recently, we have continuously received reports of inexplicable auditory hallucinations and hallucinations from various colonies, and many people claimed that they heard strange whispers.\nFrom the Sacred Guard The psychics in Hong Kong told us that this is the Shroud that affects the real world, and that we can offset these sounds through the psionic barrier, but they also urge us to be prepared because they foresee a new crisis..."
+ ap_wg_crisis.1061.desc.d:0 "Recently, we have received reports of inexplicable auditory hallucinations and hallucinations from various colonies, and many people claimed that they heard strange whispers.\nOur scientists The reason for this phenomenon cannot be explained for the time being."
+ ap_wg_crisis.1061.desc.e:0 "Recently, we have been receiving reports of inexplicable auditory hallucinations and hallucinations from various colonies, and many people claimed that they heard strange whispers.\nAmong us Some powerful psychics tell us that this is the Shroud affecting the real world, and we can cancel these sounds through the psionic barrier, but they also urge us to be prepared because they foresee a new crisis..."
+
+ ap_wg_crisis.1061.a:0 "Quickly get this voice out of my head!"
+ ap_wg_crisis.1061.b:0 "Where is our fleet? Get them ready!"
+
+ ap_wg_crisis.1062.name:0 "Psionic Creature Invasion"
+ ap_wg_crisis.1062.desc.a:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity was attacking everything in the galaxy indiscriminately! This must be our §HPsionic Energy Extractor§! that attracts the creatures from the Shroud to here!"
+ ap_wg_crisis.1062.desc.b:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity was attacking everything in the galaxy indiscriminately! This must be our §HVoid Energy Extractor§! that attracts the creatures from the Shroud to here!\nWhat’s worse is that our colony in this galaxy is now exposed to huge fluctuations of psionic energy, and all the inhabitants of the colony are starting §H produces strong hallucinations and physical discomfort§! Unless the out-of-control psionic creature is eradicated, the residents of the colony will be unable to maintain a normal life after about §Htwo months§!"
+ ap_wg_crisis.1062.desc.c:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity was attacking everything in the galaxy indiscriminately! This It must be our §HVoid Energy Extractor§! that attracts the creatures from the Shroud to here!\nWhat’s worse is that our colony in this galaxy is now exposed to huge fluctuations of psionic energy, and all the inhabitants of the colony are starting §HVarious levels of hallucinations and physical discomforts§! It is reported that local psychics are using their power to resist this psionic fluctuation, but unless the out-of-control psionic creature is eradicated, the residents of the colony will be around§ H Five months later§! I cannot maintain a normal life!"
+
+ ap_wg_crisis.1062.desc.d:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity was attacking everything in the galaxy indiscriminately!\ n Our scientists cannot explain what caused this situation, but nine out of ten reasons come from the strange machine being built by [ap_wg_crisis_country.GetName]!"
+ ap_wg_crisis.1062.desc.e:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity is attacking everything in the galaxy indiscriminately!\ n Our scientists cannot explain what caused this situation, but nine out of ten reasons are due to the strange machine being built by [ap_wg_crisis_country.GetName]!\n What’s worse is that our colony in this galaxy is now being exposed In the huge fluctuation of psionic energy, all the residents of the colony began to §H have hallucinations and physical discomforts to varying degrees§! Unless the out-of-control psionic creature is eradicated, the residents of the colony will be about §H two months later§! It will not be able to maintain a normal life!"
+ ap_wg_crisis.1062.desc.f:0 "Our sensors at the star base of [wg_psi_crisis_invaded_system.GetName] showed that a huge psionic entity suddenly appeared in the galaxy, and the entity is attacking everything in the galaxy indiscriminately!\ n Our scientists cannot explain what caused this situation, but nine out of ten reasons are due to the strange machine being built by [ap_wg_crisis_country.GetName]!\n What’s worse is that our colony in this galaxy is now being exposed In the huge fluctuation of psionic energy, all the residents of the colony began to §H have hallucinations and physical discomforts to varying degrees§! It is reported that local psychics are using their power to resist this psychic fluctuation, but unless the out-of-control is eliminated Psionic creatures, otherwise the inhabitants of the colony will not be able to maintain a normal life after about §H5 months§!"
+
+ ap_wg_crisis.1063.name:0 "Psionic fluctuation is seriously affecting [Root.GetName]"
+ ap_wg_crisis.1063.desc:0 "Due to long-term exposure to huge spiritual power, residents on [Root.GetName] began to experience §Hextremely severe hallucinations and diseases§!, which seriously affected the colony’s production and daily work. We must eradicate the psionic entity above the colony as soon as possible, otherwise we will not be able to eliminate this phenomenon!"
+ ap_wg_crisis.1064.name:0 "Psionic entity has been destroyed"
+ ap_wg_crisis.1064.desc.a:0 "Our fleet has successfully eradicated the psionic entity located in [wg_psi_entity_defeated_system.GetName], and now the galaxy has temporarily recovered its tranquility."
+ ap_wg_crisis.1064.desc.b:0 "Our fleet has successfully eradicated the psionic entities located in [wg_psi_entity_defeated_system.GetName], and the colonies located there no longer have to worry about their lives being affected by psychic fluctuations."
+ ap_wg_crisis.1064.tooltip:0 "All colonies located in the [wg_psi_entity_defeated_system.GetName] galaxy have returned to normal"
+
+ ap_wg_crisis.1065.name:0 "Shroud Invaders"
+ ap_wg_crisis.1065.desc.a:0 "Our sensors show that there are a large number of psionic creatures clusters from the §HShroud Energy Extractor§!! The systems which closer to the §HThe psionic energy extractor§! are more likely they are going to break through the gap in the Shroud and spawn in the system. we must prepare all our fleets!"
+ ap_wg_crisis.1065.desc.b:0 "Our sensors suddenly show that there are a large number of psionic creatures clusters appearing all over the galaxy! And the closer the strange machine [ap_wg_crisis_country.GetName] is building, the psionic energy returned by the sensors The higher the energy index, this is obviously the evil machine's trouble! We must prepare all our fleets!"
+ ap_wg_crisis.1065.a:0 "Quickly, kill these ghosts!"
+
+ ap_wg_crisis.1068.name:0 "The connection to the Shroud is severed"
+ ap_wg_crisis.1068.desc.a:0 "After we finished building the anchor of dimensionality, all the psionic creatures that invaded from the Shroud were cut off from the Shroud, so they could no longer do anything to the world here. It is affected. But since their spirits have arrived in this galaxy, we still need to destroy them by physical means to get rid of them once and for all."
+ ap_wg_crisis.1068.desc.b:0 "The strange machine built by [ap_wg_crisis_country.GetName] seems to have reached the final stage. The connection between all psionic creatures and the Shroud has been severed, and they have lost the powerful power from the Shroud. They can no longer perform their psionic tricks on this galaxy. But our scientists pointed out that since their spirits have already arrived in this galaxy, we still need to destroy them by physical means in order to get rid of them once and for all."
+ ap_wg_crisis.1068.a:0 "There is one less thing to worry about temporarily"
+ ap_wg_crisis.1068.b:0 "This is our last chance"
+
+ ap_wg_crisis.1069.desc:0 "[ap_wg_crisis_country.GetName], your evil deeds of destroying the galaxy are from the center of the galaxy to the far end of the universe, and no one knows it! Feel glorious! At this moment, the entire galaxy is twisted As a rope, just to eradicate you, the country of evil that covers the bright future of the entire galaxy, the enemy of omniscient creatures! Get ready to accept the anger of the galaxy!"
+ ap_wg_crisis.1068.a:0 "No matter how many mobs come, they are also mobs"
+ ap_wg_crisis.1068.b:0 "It's time for us to act"
+
+ ap_wg_crisis.1072.name:0 "The Gate of Dimensions is Occupied"
+ ap_wg_crisis.1072.desc:0 "Our Dimension Gate construction galaxy located in [wg_gateway_construction_system.GetName] is occupied by [capture_wg_fm_gate_victim.GetName]! We must capture it as soon as possible!\nOur engineers expect us to have only 180 days at most To prevent [capture_wg_fm_gate_victim.GetName] from completely dismantling the gate of dimension!"
+
+ ap_wg_crisis.1073.name:0 "§RThe Gate of Dimension is dismantled§!"
+ ap_wg_crisis.1073.desc:0 "§R is over...\nIt's all over...\nOur plans are all over...§!"
+ ap_wg_crisis.1073.a:0 "This group of bastards who don't know the height of the sky!"
+
+ ap_wg_crisis.1075.desc:0 "The Gate of Dimensions has been destroyed... The mission is completed... There is no need to continue... The war agreement is offline..."
+ ap_wg_crisis.1076.desc.a:0 "We have occupied the evil machine that is about to destroy the entire galaxy, located at the gate of dimension of the [wg_gateway_construction_system.GetName] galaxy. The engineering team has already set out to carry out the demolition work there. It only takes half a year. We can completely scrap this machine!"
+ ap_wg_crisis.1076.desc.b:0 "It is reported that the Gate of Dimension in the [wg_gateway_construction_system.GetName] galaxy has been occupied by [capture_wg_fm_gate_victim.GetName]. They are working on dismantling the machine.\nTheir engineers revealed that it will only take half a year Time can complete the homework."
+ ap_wg_crisis.1076.a:0 "This is a great opportunity! We must stick to the spot!"
+
+ ap_wg_crisis.1077.desc.a:0 "Our engineering team has successfully demolished the evil machine that endangers the entire galaxy. There is one less thing to worry about in the galaxy! The only thing left is [ap_wg_crisis_country.GetName]. Evil country!"
+ ap_wg_crisis.1077.desc.b:0 "The Gate of Dimension that harms the entire galaxy has been demolished by [capture_wg_fm_gate_victim.GetName]! There is one less thing to worry about in the galaxy! The rest is how to deal with [ap_wg_crisis_country.GetName] Up"
+ 
+ ap_wg_crisis.1077.a:0 "The war must be carried to the end!"
+ ap_wg_crisis.1077.b:0 "[ap_wg_crisis_country.GetName] has been punished"
+ ap_wg_crisis.1077.b.tooltip:0 "We will quit the war with [ap_wg_crisis_country.GetName]"
+
+ ap_wg_crisis.1080.name:0 "The Gate of Dimension Has Been Retaken"
+ ap_wg_crisis.1080.desc:0 "We succeeded in rushing to take back the construction galaxy of the Gate of Dimensionality before the bastards destroy our great plan. Although they have caused some damage to the facilities of the Gate of Dimensionality, as long as we do After it is repaired, we can continue to build the Gate of Dimension according to the original plan."
+
+ ap_wg_crisis.1081.desc:0 "[ap_wg_crisis_country.GetName] once again regained the evil machine that endangered the entire galaxy. The shadow that once hung the entire galaxy once again appeared before our eyes. We must organize the attack again and occupy [wg_gateway_construction_system.GetName] ] The galaxy destroys their evil attempt to bury the entire galaxy!"
+ WG_FM_GATEWAY_NEED_TO_REPAIR:0 "The $TRIGGER_FAIL$ facility is damaged! The production capacity has been halved! Repairs are required to upgrade!"
+ WG_FM_GATEWAY_NEED_TO_REPAIR2:0 "The $TRIGGER_FAIL$ facility is damaged! The production capacity has been halved! Repairs are required for upgrades!"
+
+ ap_wg_crisis.1082.name:0 "The Gate of Dimensions has been repaired"
+ ap_wg_crisis.1082.desc:0 "Our engineering team has successfully repaired all the damaged facilities in the Dimension Gate construction base, and now we can continue to advance the construction plan."
+
+ repair_wg_fm_gate:0 "Repair the Gate of Dimensions"
+ repair_wg_fm_gate_DESC:0 "Several facilities in our Gate of Dimension construction base were destroyed by a group of hybrids that do not know the height and height of the ground. Before proceeding to the next construction plan, we need to repair the damaged facilities."
+
+ ap_wg_crisis.1084.name:0 "crisis resolved"
+ ap_wg_crisis.1084.desc.a:0 "$ap_wg_crisis.1084.desc.b$\nAfter the war, the anti-crisis alliance formed in response to the huge threat that enveloped the galaxy disappeared and the entire galaxy seemed to be back before the war. Looks like...\nOr has it changed a little...?"
+ ap_wg_crisis.1084.desc.b:0 "The giant that was once enemies of the entire galaxy, after being encircled by almost the entire galaxy, the entire country has officially declared its extinction, and she has built the intellectual creature that can destroy the entire galaxy. The dangerous giants are buried together among the stars."
+
+ ap_wg_crisis.1084.a:0 "What will happen to this galaxy next"
+
+ ap_wg_crisis.1086.name:0 "Communication from §H[wgfm_war_awakened_fallen_empire.GetName]§!"
+ ap_wg_crisis.1086.desc.a:0 "The ignorant [Root.GetSpeciesName], your behavior is to the tens of thousands of ancestors, as well as the entire galaxy and its history! You must be destroyed here, otherwise the entire galaxy There will never be a peaceful day!"
+ ap_wg_crisis.1086.desc.b:0 "Stupid [Root.GetSpeciesName], you will never know how the dangerous machine you are building will poison the entire galaxy! You §H[Root.GetName]§! are the entire galaxy The malignant tumor! Now we come to remove this malignant tumor with our own hands!"
+ ap_wg_crisis.1086.desc.c:0 "§H[Root.GetName]§! Your actions have plunged the entire universe into crisis! Now that you have decided to become enemies of all intellectual creatures, you must be fully enlightened Right! War is not our first choice, but for the safety of the entire universe, we must stand up for this universe!"
+ ap_wg_crisis.1086.desc.d:0 "[Root.GetSpeciesName] Barbarians, the crimes you have committed are endless! This galaxy does not have any place where you should be, get out of this galaxy!"
+
+ ap_wg_crisis.1086.a:0 "Old immortals, have you chosen where your grave is?"
+ ap_wg_crisis.1086.b:0 "This Milky Way is not yours tens of thousands of years ago!"
+ ap_wg_crisis.1086.tooltip:0 "§H[wgfm_war_awakened_fallen_empire.GetName]§! Joined the war against us!"
+
+ ap_wg_crisis.1087.name:0 "Awake Giant"
+ ap_wg_crisis.1087.desc:0 "In the face of §H[ap_wg_crisis_country.GetName]§! Seeing the safety of the entire galaxy as a child’s play, §H[FROM.GetName]§! who has always been hiding in the corner is also aware of this crisis. Spreading.\n\nFor the first time in hundreds of years, §H[From.GetName]§! began to focus their attention on the vast galaxies beyond the border.\n\n[From.GetSpeciesName] is ready to go. Dilapidated The shipyard was repaired and adjusted again, and the once-quiet Titan Foundry was back online. They restored the data link of the survey beacons and reactivated the reconnaissance outposts that were abandoned when they retreated to the current border.\n \nAlthough there is only sporadic information, their goal is clearly pointing to §H[ap_wg_crisis_country.GetName]§!, whether it is for the galaxy or for their own survival, they have invested all of their own."
+ ap_wg_crisis.1087.desc.b:0 "When §H[ap_wg_crisis_country.GetName]§! was caught in the deep flames of war, another ancestral empire §H[FROM.GetName]§! also ceased to remain silent. Maybe it was Perceived that they have been threatened, or that the war in the entire galaxy has fallen into a disadvantage, they have once again plunged into the chessboard of this galaxy after hundreds of years. The dilapidated warship has been refurbished again, and the broken factory has been refurbished again. With a roar, [From.GetSpeciesName] carried out an unprecedented mobilization and pointed the sword straight at §H[ap_wg_crisis_country.GetName]§!."
+ ap_wg_crisis.1087.a:0 "[ap_wg_crisis_country.GetName] is about to face disaster"
+
+ ap_wg_crisis.1088.desc:0 "Perhaps our strength is far superior to the past, making the entire galaxy tremble. §H[FROM.GetName]§! who has always been hiding in the corner seems to have also noticed the spread of this crisis. \n\nFor the first time in hundreds of years, §H[From.GetName]§! began to focus their attention on the vast galaxy beyond the border.\n\n[From.GetSpeciesName] is ready to go. Dilapidated dock Once again repaired and adjusted, the once-quiet Titan Foundry was back online. They restored the data link of the investigation beacon and reactivated the reconnaissance outposts that were abandoned when they retreated to the current border.\n\n Although there is only sporadic information, their goals are clearly directed at us, and we should be prepared to face the ancestral empire's army."
+ ap_wg_crisis.1088.desc.b:0 "While our war with other countries in the galaxy is in full swing, another ancestral empire §H[FROM.GetName]§! has also ceased to remain silent one after another, miraculously intending to unite with other lingering Power against us together. They refurbished dilapidated ships and dilapidated factories, planning to use their museum antiques to pebble stones."
+ ap_wg_crisis.1088.a:0 "What's the use of a bunch of old guys here"
+ 
+ ap_wg_crisis.1090.name:0 "The Falling Alliance"
+ ap_wg_crisis.1090.desc:0 "Perhaps it is the amazing military power displayed by the fallen empire. We have received some intelligence that shows that §H[FROM.GetName]§! is plotting a military coup, attempting to start from the war §H[ ap_wg_crisis_country.GetName]§! Separated and independent."
+ ap_wg_crisis.1090.desc.b:0 "After §H[ap_wg_crisis_country.GetName]§! A vassal country tried to use military means to separate from its rule, more and more vassal countries in §H[ap_wg_crisis_country.GetName]§! They are also seriously considering this option, including §H[FROM.GetName]§!. They hope to take advantage of the precious time §H[ap_wg_crisis_country.GetName]§! is deep in the war to implement a military coup to seek independent."
+
+ ap_wg_crisis.1091.name:0 "Communication from §H[wg_rebellious_subject_country.GetName]§!"
+ ap_wg_crisis.1091.desc:0 "[ap_wg_crisis_country.GetName], you are now public enemies of the entire galaxy! Look around you, no one wants to stand with you, no one! Your names will be inscribed Shame on the Milky Way, and we won’t!"
+ ap_wg_crisis.1091.a:0 "Only you?"
+ ap_wg_crisis.1091.tooltip:0 "§H[wg_rebellious_subject_country.GetName]§! Joined the war against us!"
+
+ ap_wg_crisis.1092.name:0 "Storm Brewing"
+ ap_wg_crisis.1092.desc:0 "Recently, the intelligence networks set up by our side in various countries have spread some news from the same place. The galactic countries seem to have begun to take actions against us, taking a series of measures, and uniting them as closely as ever before. It is obvious that a large-scale secret operation cannot completely cover the eyes of our intelligence personnel. Therefore, all countries have tacitly released some intelligence mixed with false news in an attempt to delay our investigation.\n\nBut in any case, they The goal must be related to confronting our country, and we should prepare for the worst."
+ ap_wg_crisis.1092.a:0 "At any cost, find out as soon as possible what they want to do"
+
+ ap_wg_crisis.1093.name:0 "Power is emptied"
+ ap_wg_crisis.1093.desc:0 "Since we started investigating the suspicious little actions behind the scenes of various countries, they seem to be unable to conceal the truth that gradually surfaced, and reached an agreement early. According to our intelligence, they seem to have secretly established one Alliance, and most of the treaties and conferences we participated in have been emptied from us. Our power in various alliances and even communities is in a vacuum now, which means that we have actually been emptied!\n\nIn our acquisition After reaching this fact, the entire galaxy unanimously announced that it would isolate the country that has been emptied from the alliances and the star-sea community!\n\nAfter things have reached this point, the galaxy countries are likely to announce to us further Sanctions, or even worse, may use this established pan-galactic alliance to declare war on us!"
+ ap_wg_crisis.1093.a:0 "The enemy comes with a shotgun, come, come, who is afraid of whom!"
+
+ ap_wg_crisis.1094.name:0 "Pan Galactic Secret Meeting"
+ ap_wg_crisis.1094.desc:0 "It is reported that in response to the recent unscrupulous actions of [ap_wg_crisis_country.GetName], most of the countries in the galaxy felt threatened and secretly prepared several meetings. The agreement signed after the meeting seems to be to implement the §H[ ap_wg_crisis_country.GetName]§! The act of evading its power from the various alliances and the Galatic Community. We were also invited to listen to this meeting from the sidelines.\n\nBut regardless of whether we agree or not, the participating countries seem to be determined To drive §H[ap_wg_crisis_country.GetName]§! from the alliance of galaxy nations."
+ ap_wg_crisis.1094.a:0 "The great change that has not been seen in a century is about to begin"
+
+ ap_wg_crisis.1095.name:0 "§H[ap_wg_crisis_country.GetName]§! was emptied"
+ ap_wg_crisis.1095.desc:0 "The action we have previously inquired about in the secret meeting with the Galaxy countries about the power of §H[ap_wg_crisis_country.GetName]§! seems to have been carried out early.\nThe reason for the earlier action seems to be because §H[ap_wg_crisis_country.GetName]§! also conducted a certain amount of intelligence collection on this operation. In order to prevent the plan from being exposed, the countries of the galaxy showed a high degree of consistency and completed the plan excellently. Although the operation was executed early, but In fact, the plan was successfully carried out in the expected direction without any hindrance. §H[ap_wg_crisis_country.GetName]§! has actually been kicked out of the Galatic Community and its alliance."
+ ap_wg_crisis.1095.a:0 "What will happen next?"
+
+ ap_wg_crisis.1096.name:0 "Get Dark Matter"
+ ap_wg_crisis.1096.desc:0 "After we turned the entire galaxy into a black hole with the sun destroyer, we found that most of the star’s matter in the course of the action was transformed into £sr_dark_matter£ $sr_dark_matter$, and we used it from the incineration plan The new technology developed has successfully obtained these dark matter transformed from stellar matter. These dark matter will be used in the §H Dimensional Gate§ that we will build in the future!"
+
+ ap_wg_crisis.1097.name:0 "Alliance of the Great Plan"
+ ap_wg_crisis.1097.desc:0 "Our great plan to conquer the universe has already begun. Some countries may think that what we do is a threat, but we can communicate with them. If we succeed in getting them to support us, in the end The expected resistance to us can obviously be weakened."
+# Remaining text (spy operation)
+# \n\nIn front of us, we can try to convince us to be in the same alliance or our vassal, but other independent countries need us §H to send special envoys§! to secretly contact their leaders in the spy network.
+ ap_wg_crisis.1097.a:0 "We must unite all the forces that can be united to complete our great plan"
+ ap_wg_crisis.1097.b:0 "Just that group of waste? They will all be defeated!"
+
+ ap_wg_crisis.1099.name:0 "§H[join_wgfm_alliance_country.GetName]§! Willing to join us"
+ ap_wg_crisis.1099.desc:0 "After the efforts of our diplomats, §H[join_wgfm_alliance_country.GetName]§! has shown a keen interest in our plan, and they are willing to stand with us and join us in the greatness of conquering the world plan!"
+
+ ap_wg_crisis.1100.name:0 "§H[join_wgfm_alliance_country.GetName]§! rejected us"
+ ap_wg_crisis.1100.desc:0 "Even though our diplomats have a lot of tongues and continue to show the feasibility of our great plan to §H[join_wgfm_alliance_country.GetName]§! dignitaries, the other party still can’t hear a word. And they showed a lot of hostility towards our next actions. They angrily drove our negotiating personnel out roughly!"
+ ap_wg_crisis.1100.a:0 "This is what they chose, ravage them!"
+
+ wg_fm_alliance_plan:0 "Assemble the alliance of the great plan"
+ wg_fm_alliance_plan_DESC:0 "The road to our great plan is destined to have many ignorant people who will hinder us, but if we can find a way to make them understand our way, they can also turn into our help through a certain degree of temptation.\n We will send diplomats to our allies, our vassals and other countries to explain to them the feasibility of our great plan, so as to attract them to join our forces."
+
+ ap_wg_crisis.1101.name:0 "Destroy the Alliance"
+ ap_wg_crisis.1101.desc:0 "After other countries in the galaxy began to establish a siege on us, we united all the countries that agreed to join our plan, and let them advance and retreat with us!\nThe entire galaxy has now completely evolved into The confrontation between the two forces!"
+ ap_wg_crisis.1101.a:0 "They will eventually be defeated by us!"
+ ap_wg_crisis.1102.desc:0 "After other countries in the galaxy began to establish a siege against §H[ap_wg_crisis_country.GetName]§!, §H[ap_wg_crisis_country.GetName]§! also mobilized many countries willing to stand on his side , Formed a powerful alliance to oppose the §HAnti-Crisis Alliance§ established by the forces of Galactic Adventure. The entire galaxy has now completely evolved into a confrontation between two forces.\nThe only question now is, who should we support? Or... .... Let us make the situation more chaotic, maybe..."
+ ap_wg_crisis.1102.a:0 "We must eradicate the threat of [ap_wg_crisis_country.GetName]"
+ ap_wg_crisis.1102.b:0 "Join the faction of [ap_wg_crisis_country.GetName]"
+ ap_wg_crisis.1102.c:0 "Joining this war is not good for us"
+ ap_wg_crisis.1102.d:0 "§R They will all be defeated!§!"
+ ap_wg_crisis.1102.a.tooltip:0 "We will join the war against [ap_wg_crisis_country.GetName]"
+ ap_wg_crisis.1102.b.tooltip:0 "We will assist [ap_wg_crisis_country.GetName] and join the war."
+ ap_wg_crisis.1102.d.tooltip:0 "§R Enemies with the two alliances§!"
+
+ ap_wg_crisis.1103.name:0 "Faithful Ally"
+ ap_wg_crisis.1103.desc:0 "Since we started the construction of the Dimension Gate. The forces of the galaxy against us have gradually united, and the war is imminent. Due to the scale of this campaign, many of our officers have been right to win this The war against the entire galaxy is pessimistic. At the same time, they also hope to draw in all the forces that can be drawn to help us in the current distress situation.\nIn fact, we do have allies who can help us, and they are the ones who were released by us. The vassal §H[wg_psi_country.GetName]§!\nAs long as we ask, they will do their best to assist us in the war, but the question is... do you want them to help?"
+ ap_wg_crisis.1103.a:0 "There is no way, let them help."
+ ap_wg_crisis.1103.b:0 "We can no longer put them in danger"
+
+ ap_wg_crisis.1104.name:0 "[wg_psi_country.GetName]"
+ ap_wg_crisis.1104.desc:0 "Saving grace is nothing in return. Even if many years have passed, we will definitely abide by this promise.\n\n[wg_psi_country.GetName] All ship ladies, it’s time to pay back! , Will always advance and retreat with our benefactor! May the ancient gods bless us and be invincible!"
+ ap_wg_crisis.1104.a:0 "Thank you very much for your support"
+
+ ap_wg_crisis.1107.name:0 "A peaceful intruder"
+ ap_wg_crisis.1107.desc:0 "After opening the dimension gate, we originally expected that the huge stream of neutrons could destroy all living things in the entire galaxy except us...it is true, with one exception...§R United Fleet§ ! They continued their actions like a lonely person."
+ ap_wg_crisis.1107.a:0 "It seems that they came from another universe, which is true..."
+
+ ap_wg_crisis.1108.name:0 "Tracks of the Combined Fleet"
+ ap_wg_crisis.1108.desc:0 "Not long after we opened the dimension door, there was bad news! Our expedition fleet sent to another dimension once again found the traces of §H United Fleet§!, and the United Fleet in other dimensions , Seems to have more terrifying technology!\nThe space wherever they go will collapse, like a paper box is forcibly compressed into a sheet of paper. Our scientists speculate that they have mastered it to some extent Technology to change the rules of physics!\n\nBy now, the situation is very clear. Their invasion is obviously just a smokescreen. They must be plotting for other purposes, otherwise they will only change the physics in other dimensions. The regular weapons are applied here, and they can destroy the entire galaxy as easily as a snap of a finger!"
+ ap_wg_crisis.1108.a:0 "We must be clear about what they are doing"
+
+ ap_wg_crisis.1109.name:0 "Combined Fleet Contact"
+ ap_wg_crisis.1109.desc:0 "Just as we were worried about the combined fleet that appeared on the other side of the dimension gate, the consciousness of all our leaders was suddenly pulled into a space of different dimensions by a terrifying force.\nWeird energy The group eventually converged into another image that we will never forget-§YCabot§!"
+ ap_wg_crisis.1109.a:0 "This may be a good opportunity to understand their purpose"
+
+ ap_wg_crisis.1110.desc:0 "What a remarkable feat... You actually completed the construction of §Hmen§! with the offensive of our troops... Then you must have met our colleagues on the other side. .\N\nPlease allow me to introduce myself: Senior Star Supervisor Cabot of the Joint Fleet, Commander of the N05209102 Front Fleet, welcome you. This is Universe Zero, our birthplace, our hometown.\n \nAlthough according to the standard procedure, you still failed our test, your performance is commendable. According to the strength of your just becoming the fifth type of civilization, we can determine that you have passed the test according to the special handling method and stop the attack. Or adjust your level to the fifth civilization and continue to test on the other side, what do you think?"
+ ap_wg_crisis.1110.a:0 "The fifth type of civilization...?"
+ ap_wg_crisis.1110.a.response:0 "Generally speaking, after possessing the ability of interstellar navigation, civilizations can be roughly divided into three levels according to the energy they dominate, namely the first to third types of civilizations, which can be controlled respectively. The planet, the star system, and the galaxy’s energy, but if there is no physical law to control technology or dimensional cross-technology, then this civilization can only develop to the fourth type of civilization at most, that is, a transgalactic empire that can shuttle through the entire universe. The fifth type civilization is on top of the fourth type civilization, which can traverse between dimensions and colonize different parallel universes.\n\nBy the way, there are also civilizations that transform themselves into pure energy creatures, wandering in Asia Type 4.5 civilization in space. Of course, this civilization has completely choked its own development opportunities.\n\nYou have now opened the door and can shuttle between the different dimensions of the universe on both sides of the door, so you can Recognized as the fifth type of civilization."
+ ap_wg_crisis.1110.b:0 "What do you mean by special treatment?"
+ ap_wg_crisis.1110.b.response:0 "When a civilization is in the process of testing and the civilization level changes, it can invoke the special disposal method, change the test level, or stop the test. The civilization targeted by the special disposal method has the right to choose."
+ ap_wg_crisis.1110.c:0 "The test you are talking about...is it an intrusion?"
+ ap_wg_crisis.1110.c.response:0 "Yes, our invading fleet is our honor guard, which is specially set up according to the level of civilization of different ship women. Although it may be very powerful for you, it is still within your understanding. Within.\nIf you can defeat them, it means that you have the ability to protect your civilization, and your thinking is advanced enough that you will not easily perish yourself.\nOur purpose is to test your self-defense ability."
+ ap_wg_crisis.1110.d:0 "Why do you do this?"
+ ap_wg_crisis.1111.desc:0 "Thanks for your hard work, Cabot, you can retreat. Let me explain the next thing. (Understand, madam)\n\nI am the highest flagship of the combined fleet. Just call me Miss Zhang. The previous question: \nOur combined fleet once hoped to lead all the ship’s civilizations to escape the fate of reincarnation. However, we failed... the combined power is not enough to protect everyone, even Many civilizations are still withered under our protection and interference.\nIf only one universe is not big for us, but there are countless parallel universes with various dimensions of battlefields, so we must choose more efficient ones. The method, which is the test mentioned by Cabot earlier.\n\nIf they pass the test, then they can have enough ability to stand on their own...\nNow in the era of civilization upgrade, technology must usher in another A wave of blowout, and the invasion can also make you aware of the cruelty of the outside world. As long as a little time, you will surely pass our test. This is the meaning of the special treatment method.\nBack to the topic, If you choose an armistice, I hope you can join the combined fleet and join us in fighting for the sake of getting rid of the reincarnation and for the other ships."
+ ap_wg_crisis.1112.b.response:0 "Perhaps, all civilizations are struggling in this game. From birth to destruction, in the eyes of the beholder, it is meaningless. But trying to end this cycle is what we give Your own meaning is the value of our existence.\n\nThen, your choice is to continue testing in Gaowei...Since you have just entered the fifth type of civilization, we will give you a grace period. Please Use this time to prepare yourself, my sister. When you have exhausted all the possibilities like us, I believe you will come to the same conclusions as us.\n\nThen, goodbye."
+ ap_wg_crisis.1112.c:0 "We will not join you, nor will we fight against you"
+ ap_wg_crisis.1112.c.response:0 "Is this...well, years, it will eventually swallow your civilization. But until you disappear completely, we will not come back to disturb you, this is what you do The rights that I have won.\n\nIn short: we will meet with your reincarnation again, §H sisters§!"
+
+ ap_wg_crisis.1113.name:0 "The Vanishing United Fleet"
+ ap_wg_crisis.1113.desc:0 "After ending the conversation with Cabot and Miss Zhang, our consciousness was able to return to where we were.\n\nAccording to the reports from various sensors, the combined fleet suddenly disappeared like snowflakes. The combined fleet found on the other side of the Dimension Gate also stopped attacking our expeditionary fleet and left. Miss Zhang seems to have kept her promise. The question is, what should we do next..."
+ ap_wg_crisis.1113.a:0 "It's our turn to fulfill our promise"
+ ap_wg_crisis.1113.b:0 "We should pack up, they will come again, on the other side..."
+ ap_wg_crisis.1113.c:0 "Just continue our plan"
+
+ ap_wg_crisis.1114.desc:0 "The fleet is carrying all of our civilization to the unknown. We will pass through the dimension gate to another dimension world that the expeditionary fleet has reached, and continue to fight against the combined fleet.\n\n The planet below will be left to other civilizations, and our stories and legends will be passed on between the galaxies.\n\nWe don’t know how powerful the mother civilization of the United Fleet is, but we still choose fearless. No matter the final result, the ship Where does the mother's history lead, we decided to choose hope."
+ resistance_uf_study_wg_fm:0 "$join_uf_study_normal$"
+ resistance_uf_study_wg_fm_DESC:0 "We have now completed our plan, but the joint fleet will be waiting for us on the other side of the door. In order to get it done once and for all, we need to do everything we can to go to another dimension world that the expedition fleet has reached, and continue with Combine the fleet to fight.\n\n§!§RAttention! This is a file deletion ceremony!! §!\n\n\nThe code of the combined fleet in purgatory difficulty: §R add_relic r_uf §!"
+
+ ap_wg_crisis.1115.desc:0 "Eh??? What did you do? Why did all the joint signals disappear??\n\nIs this a special treatment in the legend?\nWe have only heard of it at best There is only this kind of thing...\n\nAnyway, since they are gone, then you must be safe. I wish you all the best! Sisters! Later...I will try not to see you, Unless you want to join us...bye bye!"
+ ap_wg_crisis.1115.a:0 "Anyway, thanks for your help..."
+
+ ap_wg_crisis.1116.desc:0 "When we opened the dimensional gate and sent the expeditionary fleet to the unknown dimension world, our expeditionary fleet suddenly heard the news that they were attacked!\nThe attacker claimed to be §H United Fleet §! and mentioned the esoteric theories such as our reincarnation, but the other party did not mention the reason for attacking us, as if it was only attacking us to destroy us.\n\nOur expeditionary fleet is fighting hard, but the other party seems They have more advanced technology than ours. Their warships can collapse the space-time near them. This seems to be a technology that manipulates the laws of physics. If we do not continue to reinforce the expeditionary fleet, their destruction will be only a matter of time."
+ ap_wg_crisis.1116.a:0 "We have come here, we must resist!"
+ ap_wg_crisis.1116.b:0 "Damn...Close the dimension door, now is not the time."
+ ap_wg_crisis.1116.tooltip:0 "§R Combined fleet natural disasters will not trigger§!"

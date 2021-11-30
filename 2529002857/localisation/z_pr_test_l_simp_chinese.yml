@@ -1,0 +1,20 @@
+﻿l_simp_chinese:
+
+#_[测试数据]
+#_[母星test_3]
+
+
+
+###_[测试数据]  ############################################################
+ z_pr_plnt_test_check_title:0 "测试数据"
+ z_pr_plnt_test_check_desc:0 "<空岗位>=[root.capital_scope.TEMP_var_plnt_free_jobs]"
+ TEST_plnt_free_jobs:0 "<空岗位>=[root.TEMP_free_jobs]"
+
+
+
+###_[母星test_3]  ############################################################
+ z_pr_bldn_test_capital:0 "测试"
+ z_pr_bldn_test_capital_desc:0 "test"
+ 
+ z_pr_test_cntr:0 "var检测"
+ z_pr_test_cntr.desc:0 "极端平权[root.z_pr_var_cntr_test_mod_specialist]\n电站2[root.z_pr_var_cntr_test_mod_technician]\n巨强壮[root.z_pr_var_cntr_test_mod_worker]\n传统[root.z_pr_var_cntr_test_mod_tr_adaptability]"

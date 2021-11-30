@@ -1,0 +1,110 @@
+﻿l_english:
+
+ mod_rivalries_influence_produces_mult:0"£influence£Influence From Rivalries"
+
+ leader_trait_admiral_ard:0 "All-round development"
+ leader_trait_admiral_ard_desc:0 "With the completion of the comprehensive and deepening reforms for leaders, our leaders have unique insights in most aspects."
+
+ leader_trait_general_ard:0 "All-round development"
+ leader_trait_general_ard_desc:0 "With the completion of the comprehensive and deepening reforms for leaders, our leaders have unique insights in most aspects."
+
+ leader_trait_ruler_ard:0 "All-round development"
+ leader_trait_ruler_ard_desc:0 "With the completion of the comprehensive and deepening reforms for leaders, our leaders have unique insights in most aspects."
+
+ leader_trait_scientist_ard:0 "All-round development"
+ leader_trait_scientist_ard_desc:0 "With the completion of the comprehensive and deepening reforms for leaders, our leaders have unique insights in most aspects."
+
+ leader_trait_governor_ard:0 "All-round development"
+ leader_trait_governor_ard_desc:0 "With the completion of the comprehensive and deepening reforms for leaders, our leaders have unique insights in most aspects."
+ #############
+
+ mod_country_consumer_goods_produces_mult:0"Monthly £consumer_goods£consumer goods"
+
+ emperor.2.a.tooltip:1 "$emperor.2.a.tooltip.start$—We now have §Y$civic_galactic_sovereign$§! National Concept\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.gestalt:0 "$emperor.2.a.tooltip.start$—We now have §Y$civic_galactic_sovereign$§! National Concept\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.megacorp:0 "$emperor.2.a.tooltip.start$—We now have §Y$civic_galactic_sovereign_megacorp$§! National Concept\n$emperor.2.a.tooltip.end$"
+
+ PERDITION_BEAM_TITAN_TT:0 "Under Deterrence"
+
+#colossus
+ colossus_tidy_traditions_t4_l6:0 "Industry·Cannon Section"
+ colossus_tidy_traditions_x8_l6:0 "Industry·Heavy Artillery Section"
+
+#Juggernaut
+ juggernaut_core_tidy_traditions_t1x2l5_l21a4:0"Industry·Annihilation Section"
+ juggernaut_core_tidy_traditions_t1x2h5_l21a4:0"Industry·Storm Section"
+
+#ION CANNON
+ ion_cannon_tidy_traditions_x2_l6:0 "Industry·Dual Barrel Core"
+
+#Titan
+ titan_bow_tidy_traditions_x2_l6:0 "Industry·Heavy Gunship Bow"
+ titan_mid_tidy_traditions_x4_l6:0 "Industry·Heavy Artillery Core"
+ titan_mid_tidy_traditions_m4h4_l6:0 "Industry·Aircraft Carrier Core"
+ titan_mid_tidy_traditions_g4h4_l6:0 "Industry·Command Core"
+ titan_stern_tidy_traditions_x1_a3:0 "Industry·Heavy Gunship Tail"
+ titan_stern_tidy_traditions_p2_a9:0 "Industry·Auxiliary Stern"
+
+#Battleship
+ battleship_bow_tidy_traditions_t1_nothing:0"Industry·Fearless Bow"
+ battleship_mid_tidy_traditions_x1l1_a3:0 "Industry·Heavy Artillery Core"
+ battleship_mid_tidy_traditions_x1h1_a3:0"Industry·Storm Core"
+ battleship_mid_tidy_traditions_nothing:0"Industry·Void Core"
+ battleship_stern_tidy_traditions_nothing:0"Industry·Void Stern"
+ battleship_stern_tidy_traditions_nothing_a6:0 "Industry·Auxiliary Stern"
+
+#cruiser
+ cruiser_stern_tidy_traditions_nothing_a4:0 "Industry·Auxiliary Stern"
+
+#Destroyer
+ destroyer_stern_tidy_traditions_nothing_a3:0 "Industry·Auxiliary Stern"
+
+#Corvette
+ corvette_mid_tidy_traditions_p1_s3a3:0 "Industry·Auxiliary Core"
+
+
+#Scourge frigate
+ crisis_corvette_mid_tidy_traditions_p3_s3a2:0 "Industry·Counter Core"
+ crisis_corvette_mid_tidy_traditions_g1s1_s3a2:0 "Industry·Missile Core"
+
+#Scourge destroyer
+ crisis_destroyer_mid_tidy_traditions_h1p2_m3a3:0 "Industry·Aircraft Carrier Core"
+
+#Scourge Cruiser
+ crisis_cruiser_mid_tidy_traditions_x1s2_m6a2:0 "Industry·Heavy Artillery Core"
+
+# Burning God Soldier
+ star_eater_mid_tidy_traditions_w1t1x2l5p5_l20a4:0 "Industry·Annihilation Core"
+
+ open_the_wg_crisis_here:0"§RYou can open the wg crisis here§!"
+ the_wg_crisis_is_cooling:0"§RThe wg crisis is cooling§!"
+ the_reform_plane_is_cooling:0"$TRIGGER_FAIL$You are looking at the interface of the reform plan"
+
+ mission_record_civilization:0 "Record Civilization"
+ mission_record_civilization_desc:0"Facts have proved that all intelligent creatures have more or less peculiar imagination. We believe that we should quietly observe the differences in technology, culture, history, etc. caused by their different imaginations. It will bring us higher-value benefits."
+
+ tidy_tradition_need_500_sr_dark_matter:0"$TRIGGER_FAIL$Need 500 £sr_dark_matter£Dark Matter"
+ tidy_tradition_need_100_minor_artifacts:0"$TRIGGER_FAIL$Need 100 £minor_artifacts£Minor Artifacts"
+
+ artifact_crack_tech_dark_matter_deflector:0 "Initiated the Dark Matter Shield Cracking Project"
+ artifact_crack_tech_dark_matter_deflector_desc:0" Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient rare cultural relics. After preliminary investigation, this technology may belong to the shield technology, and its complete form will be much better than ours. The "Super Shield" technology is powerful, and they strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our shield will be stronger than other ordinary civilizations. Of course, they need more information and resources to initiate special Research projects.\nIf we have no other way to obtain this technology, then this method will be the safest choice."
+ CRACK_TECH_DARK_MATTER_DEFLECTOR:0 "Crack Dark Matter Shield"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_DESC:0 "All kinds of resources have been prepared, and you can start to crack and develop this dark matter shield technology at any time."
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_no_ancrel:0 "Cracking Dark Matter Shield"
+ CRACK_TECH_DARK_MATTER_DEFLECTOR_no_ancrel_DESC:0"Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient relics. After preliminary investigation, this technology may belong to the shield technology, and its complete form will be much better than our current The "Super Shield" technology is powerful, and they strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our shield will be stronger than other ordinary civilizations. Of course, they need more time and energy to study this project.\ n If we have no other way to obtain this technology, then this method will be the safest choice."
+
+ artifact_crack_tech_dark_matter_power_core:0 "Initiate the Dark Matter Energy Cracking Project"
+ artifact_crack_tech_dark_matter_power_core_desc:0"Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient rare cultural relics. After preliminary investigation, this technology may belong to energy technology, and its complete form will be much better than our current "Zero Energy" is a powerful technology, and they strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our ships will be able to carry more powerful weapons and greatly enhance combat effectiveness. Of course, they need more information and resources to initiate special Research project.\nIf we have no other way to obtain this technology, then this method will be the safest choice."
+ CRACK_TECH_DARK_MATTER_POWER_CORE:0 "Crack Dark Matter Energy"
+ CRACK_TECH_DARK_MATTER_POWER_CORE_DESC:0 "Various resources have been prepared, and you can start to crack and develop this dark matter energy technology at any time."
+ CRACK_TECH_DARK_MATTER_POWER_CORE_no_ancrel:0 "Cracking Dark Matter Energy"
+ CRACK_TECH_DARK_MATTER_POWER_CORE_no_ancrel_DESC:0 "Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient relics. After preliminary investigation, this technology may belong to energy technology, and its complete form will be much better than our current" "Zero Energy" is a powerful technology. They strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our ships will be able to carry more powerful weapons and greatly enhance their combat effectiveness. Of course, they need more time and energy to study this project. \nIf we have no other way to obtain this technology, then this method will be the safest choice."
+
+ artifact_crack_tech_dark_matter_propulsion:0 "Initiated the Dark Matter Thruster Cracking Project"
+ artifact_crack_tech_dark_matter_propulsion_desc:0"Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient rare cultural relics. After preliminary investigation, this technology may belong to the propeller technology, and its complete form will be much better than ours. The "Pulse Thruster" technology is powerful, and they strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our fleet will have a faster speed and reach the battlefield more quickly. Of course, they need more information. And resources to initiate specialized research projects.\nIf we have no other way to obtain this technology, then this method will be the safest choice."
+ CRACK_TECH_DARK_MATTER_PROPULSION:0 "Crack Dark Matter Thruster"
+ CRACK_TECH_DARK_MATTER_PROPULSION_DESC:0 "Various resources have been prepared, and you can start to crack and develop this dark matter thruster technology at any time."
+ CRACK_TECH_DARK_MATTER_PROPULSION_no_ancrel:0 "Crack the dark matter thruster"
+ CRACK_TECH_DARK_MATTER_PROPULSION_no_ancrel_DESC:0" Our scientific research and archaeologists have discovered a mysterious technology closely related to dark matter in some ancient relics. After preliminary investigation, this technology may belong to the propeller technology, and its complete form will be much better than our current The "Pulse Thruster" technology is powerful, and they strongly recommend that we should start researching and cracking this technology as soon as possible. If successful, our fleet will have a faster speed and be able to reach the battlefield more quickly. Of course, they need more time and energy. To study this project.\nIf we have no other way to obtain this technology, then this method will be the safest choice."
+
+ tidy_traditions_tip_desc:0"§RLow resolution players, please pay attention!§!\n\nIf the UI exceeds the screen, perform the following steps to adjust the UI to fit the low resolution screen:\n\n1.Please search for the "§YTidy Tradition: Low Resolution Patch§!" mod in the creative workshop\n\n2.Load Order：\nN：§YTidy Tradition!\nN+1：§YTidy Tradition: Low Resolution Patch§!"

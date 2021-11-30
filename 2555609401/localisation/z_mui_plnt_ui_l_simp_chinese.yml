@@ -1,0 +1,53 @@
+﻿l_simp_chinese:
+
+# 测试
+ TEST_pr_btn_UEP:0 "UEP月检=§R[root.TEST_num_UEP]§!"
+ TEST_pr_btn_UEP_before:0 "UEP转人力前=§R[root.TEST_num_unemployed_before]§!"
+ TEST_pr_btn_UEP_after:0 "UEP转人力后=§R[root.TEST_num_unemployed_after]§!"
+
+# 参数显示
+ PR_var_show_MAN_growth:0 "§G[root.PR_var_plnt_GROWTH_rate]§!"
+ PR_var_show_MAN_natural:0 "§G[root.PR_var_plnt_GROWTH_natural]§!"
+ PR_var_show_MAN_assembly:0 "§B[root.PR_var_plnt_GROWTH_clone]§!/§H[root.PR_var_plnt_GROWTH_assembly]§!"
+ PR_tips_SHOW_converting:0 "部分§B人口§!已转化为§P人力§!"
+
+ PR_var_show_man:0 "[root.PR_var_plnt_MAN]"
+ PR_var_show_HC:0 "[root.PR_var_plnt_HC]"
+ PR_var_show_efficiency_low:0 "§H[root.PR_var_show_efficiency]%§!"
+ PR_var_show_efficiency_sufficient:0 "§E[root.PR_var_show_efficiency]%§!"
+ PR_var_show_growth_add:0 "§G+[root.PR_var_show_growth]§!"
+ PR_var_show_growth_minus:0 "§R[root.PR_var_show_growth]§!"
+ 
+ z_pr_var_show_0:0 "§E0§!"
+ z_pr_var_show_1:0 "§E1§!"
+ z_pr_var_show_2:0 "§E2§!"
+ z_pr_var_show_3:0 "§E3§!"
+ z_pr_var_show_4:0 "§E4§!"
+ z_pr_var_show_5:0 "§E5§!"
+ z_pr_var_show_6:0 "§E6§!"
+ z_pr_var_show_7:0 "§E7§!"
+ z_pr_var_show_8:0 "§E8§!"
+ z_pr_var_show_9:0 "§E9§!"
+ z_pr_var_show_perc:0 "§E%§!"
+ 
+ z_pr_var_show_growth_0:0 "§H0§!"
+ z_pr_var_show_growth_1:0 "§H1§!"
+ z_pr_var_show_growth_2:0 "§H2§!"
+ z_pr_var_show_growth_3:0 "§H3§!"
+ z_pr_var_show_growth_4:0 "§H4§!"
+ z_pr_var_show_growth_5:0 "§H5§!"
+ z_pr_var_show_growth_6:0 "§H6§!"
+ z_pr_var_show_growth_7:0 "§H7§!"
+ z_pr_var_show_growth_8:0 "§H8§!"
+ z_pr_var_show_growth_9:0 "§H9§!"
+ z_pr_var_show_growth_dot:0 "§H.§!"
+ z_pr_var_show_growth_add:0 "§H+§!"
+ z_pr_var_show_growth_minus:0 "§H-§!"
+ 
+ z_pr_man_show:0 "§H现有人力§!\n已经转化为人力的星球人口，人力经济系统核心指标之一。"
+ z_pr_HC_show:0 "§H现有人数§!\n指§Y现有人口§!和§Y现有人力§!的总量，用于解锁首府升级和其他基于人口数功能的必要条件。"
+ z_pr_bonus_show:0 "§H生产效率§!\n表示当前人力对星球生产资料的利用率"
+ z_pr_growth_show:0 "§H人力增长率§!\n转化自人口§B自然生长/组装/克隆§!的人力增长率"
+ 
+ z_pr_growth_test:0 "[root.capital_scope.PR_var_show_growth_10][root.capital_scope.PR_var_show_growth_1].[root.capital_scope.PR_var_show_growth_01][root.capital_scope.PR_var_show_growth_001]"
+ 

@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ leader_trait_cell_activated: "细胞活化"
+ leader_trait_cell_activated_desc: "这位领袖已经在§H$building_stellarite_clone_vats$§!完成了复活程序。每一个细胞都已经注入£acot_sr_stellarite£星核能，使得这位领袖实际上是不死的。"

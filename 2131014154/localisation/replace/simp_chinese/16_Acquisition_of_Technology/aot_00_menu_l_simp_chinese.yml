@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ acot_mod_options.0.a: "行星护盾特效已§G启用§!。§R关闭§!？"
+ acot_mod_options.0.a.tooltip: "禁用§E暗物质§!、§B暗能量§!和§H星核§!行星护盾的特效。如果你在使用调整行星大小的mod时遇到问题，请使用此项。"
+ acot_mod_options.0.b: "行星护盾特效已§G关闭§!。§R启用§!？"
+ acot_mod_options.0.b.tooltip: "启用§E暗物质§!、§B暗能量§!和§H星核§!行星护盾的特效。向那些平民帝国展示你优越的技术，让他们知道谁才是老大！"

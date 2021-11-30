@@ -1,0 +1,132 @@
+﻿l_english:
+#_[V_REGULAR]
+#_[V_GESTALT]
+#_[V_FALLEN]
+
+
+
+
+###_[V_REGULAR]     01_ruler/02_specialist/03_worker
+
+# 01_ruler
+ PR_D_head_researcher:0 "$job_head_researcher$"
+ PR_D_head_researcher_desc:0 "$job_head_researcher_desc$"
+ PR_D_high_priest:0 "$job_high_priest$"
+ PR_D_high_priest_desc:0 "$job_high_priest_desc$"
+ PR_D_administrator:0 "$job_administrator$"
+ PR_D_administrator_desc:0 "$job_administrator_desc$"
+ PR_D_noble:0 "$job_noble$"
+ PR_D_noble_desc:0 "$job_noble_desc$"
+ PR_D_merchant:0 "$job_merchant$"
+ PR_D_merchant_desc:0 "$job_merchant_desc$"
+ PR_D_executive:0 "$job_executive$"
+ PR_D_executive_desc:0 "$job_executive_desc$"
+
+# 02_specialist
+ PR_D_priest:0 "$job_priest$"
+ PR_D_priest_desc:0 "$job_priest_desc$"
+ PR_D_death_priest:0 "$job_death_priest$"
+ PR_D_death_priest_desc:0 "$job_death_priest_desc$"
+ PR_D_enforcer:0 "$job_enforcer$"
+ PR_D_enforcer_desc:0 "$job_enforcer_desc$"
+ PR_D_telepath:0 "$job_telepath$"
+ PR_D_telepath_desc:0 "$job_telepath_desc$"
+ PR_D_entertainer:0 "$job_entertainer$"
+ PR_D_entertainer_desc:0 "$job_entertainer_desc$"
+ PR_D_duelist:0 "$job_duelist$"
+ PR_D_duelist_desc:0 "$job_duelist_desc$"
+ PR_D_culture_worker:0 "$job_culture_worker$"
+ PR_D_culture_worker_desc:0 "$job_culture_worker_desc$"
+ PR_D_bureaucrat:0 "$job_bureaucrat$"
+ PR_D_bureaucrat_desc:0 "$job_bureaucrat_desc$"
+ PR_D_chemist:0 "$job_chemist$"
+ PR_D_chemist_desc:0 "$job_chemist_desc$"
+ PR_D_translucer:0 "$job_translucer$"
+ PR_D_translucer_desc:0 "$job_translucer_desc$"
+ PR_D_gas_refiner:0 "$job_gas_refiner$"
+ PR_D_gas_refiner_desc:0 "$job_gas_refiner_desc$"
+
+ PR_D_roboticist:0 "$job_roboticist$"
+ PR_D_roboticist_desc:0 "$job_roboticist_desc$"
+ PR_D_healthcare:0 "$job_healthcare$"
+ PR_D_healthcare_desc:0 "$job_healthcare_desc$"
+ PR_D_manager:0 "$job_manager$"
+ PR_D_manager_desc:0 "$job_manager_desc$"
+ PR_D_necromancer:0 "$job_necromancer$"
+ PR_D_necromancer_desc:0 "$job_necromancer_desc$"
+ PR_D_bluelotus_technician:0 "$job_bluelotus_technician$"
+ PR_D_bluelotus_technician_desc:0 "$job_bluelotus_technician_desc$"
+ PR_D_death_chronicler:0 "$job_death_chronicler$"
+ PR_D_death_chronicler_desc:0 "$job_death_chronicler_desc$"
+ PR_D_necro_apprentice:0 "$job_necro_apprentice$"
+ PR_D_necro_apprentice_desc:0 "$job_necro_apprentice_desc$"
+ PR_D_pearl_diver:0 "$job_pearl_diver$"
+ PR_D_pearl_diver_desc:0 "$job_pearl_diver_desc$"
+
+# 03_worker
+ PR_D_crystal_miner:0 "$job_crystal_miner$"
+ PR_D_crystal_miner_desc:0 "$job_crystal_miner_desc$"
+ PR_D_gas_extractor:0 "$job_gas_extractor$"
+ PR_D_gas_extractor_desc:0 "$job_gas_extractor_desc$"
+ PR_D_mote_harvester:0 "$job_mote_harvester$"
+ PR_D_mote_harvester_desc:0 "$job_mote_harvester_desc$"
+ PR_D_soldier:0 "$job_soldier$"
+ PR_D_soldier_desc:0 "$job_soldier_desc$"
+ PR_D_preacher:0 "$job_preacher$"
+ PR_D_preacher_desc:0 "$job_preacher_desc$"
+ PR_D_mortal_initiate:0 "$job_mortal_initiate$"
+ PR_D_mortal_initiate_desc:0 "$job_mortal_initiate_desc$"
+ PR_D_scrap_miner:0 "$job_scrap_miner$"
+ PR_D_scrap_miner_desc:0 "$job_scrap_miner_desc$"
+
+
+###_[V_GESTALT]     00_other/04_gestalt_cd/04_gestalt_sd
+
+# 04_gestalt_cd
+ PR_D_spawning_drone:0 "$job_spawning_drone$"
+ PR_D_spawning_drone_desc:0 "$job_spawning_drone_desc$"
+ PR_D_replicator:0 "$job_replicator$"
+ PR_D_replicator_desc:0 "$job_replicator_desc$"
+ PR_D_coordinator:0 "$job_coordinator$"
+ PR_D_coordinator_desc:0 "$job_coordinator_desc$"
+ PR_D_evaluator:0 "$job_evaluator$"
+ PR_D_evaluator_desc:0 "$job_evaluator_desc$"
+ PR_D_synapse_drone:0 "$job_synapse_drone$"
+ PR_D_synapse_drone_desc:0 "$job_synapse_drone_desc$"
+ PR_D_chemist_drone:0 "$job_chemist_drone$"
+ PR_D_chemist_drone_desc:0 "$job_chemist_drone_desc$"
+ PR_D_translucer_drone:0 "$job_translucer_drone$"
+ PR_D_translucer_drone_desc:0 "$job_translucer_drone_desc$"
+ PR_D_gas_refiner_drone:0 "$job_gas_refiner_drone$"
+ PR_D_gas_refiner_drone_desc:0 "$job_gas_refiner_drone_desc$"
+ PR_D_patrol_drone:0 "$job_patrol_drone$"
+ PR_D_patrol_drone_desc:0 "$job_patrol_drone_desc$"
+ PR_D_crystal_mining_drone:0 "$job_crystal_mining_drone$"
+ PR_D_crystal_mining_drone_desc:0 "$job_crystal_mining_drone_desc$"
+ PR_D_mote_harvesting_drone:0 "$job_mote_harvesting_drone$"
+ PR_D_mote_harvesting_drone_desc:0 "$job_mote_harvesting_drone_desc$"
+ PR_D_gas_extraction_drone:0 "$job_gas_extraction_drone$"
+ PR_D_gas_extraction_drone_desc:0 "$job_gas_extraction_drone_desc$"
+
+ PR_D_maintenance_drone:0 "$job_maintenance_drone$"
+ PR_D_maintenance_drone_desc:0 "$job_maintenance_drone_desc$"
+ PR_D_bluelotus_drone:0 "$job_bluelotus_drone$"
+ PR_D_bluelotus_drone_desc:0 "$job_bluelotus_drone_desc$"
+ PR_D_chronicle_drone:0 "$job_chronicle_drone$"
+ PR_D_chronicle_drone_desc:0 "$job_chronicle_drone_desc$"
+ PR_D_scrap_miner_drone:0 "$job_scrap_miner_drone$"
+ PR_D_scrap_miner_drone_desc:0 "$job_scrap_miner_drone_desc$"
+
+
+###_[V_FALLEN]
+ PR_D_fe_archivist:0 "$job_fe_archivist$"
+ PR_D_fe_archivist_desc:0 "$job_fe_archivist_desc$"
+ PR_D_fe_acolyte_farm:0 "$job_fe_acolyte_farm$"
+ PR_D_fe_acolyte_farm_desc:0 "$job_fe_acolyte_farm_desc$"
+ PR_D_fe_acolyte_mine:0 "$job_fe_acolyte_mine$"
+ PR_D_fe_acolyte_mine_desc:0 "$job_fe_acolyte_mine_desc$"
+ PR_D_fe_acolyte_generator:0 "$job_fe_acolyte_generator$"
+ PR_D_fe_acolyte_generator_desc:0 "$job_fe_acolyte_generator_desc$"
+ PR_D_fe_augur:0 "$job_fe_augur$"
+ PR_D_fe_augur_desc:0 "$job_fe_augur_desc$"
+

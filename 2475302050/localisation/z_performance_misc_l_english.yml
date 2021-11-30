@@ -1,0 +1,462 @@
+﻿l_english:
+#_[指南/状态检视/换页]
+#_[人口管理/ai建设限制/贸易优化]
+#_[ai物种合并/国内物种合并/国内机械合并/ai舰队合并/ai栖息地摧毁]
+#_[手动迁出/手动迁入]
+#_[贸易优化/pmod/工整传统]
+#_[mod_opt]
+
+
+
+
+#_[指南]
+ z_mm_tips_pf2_btn_misc_guide: "§GBetter Performance§!\nNote: All optimization functions can be adjusted at any time. Read the instructions carefully and choose the optimization method that suits you. \n\n§BEmpire population limit:§! Your population growth rate will be changed according to a special mathematical model. \nThis model will refer to the current §Y Empire’s total population cap§!. When your total population is less than 50% of the total upper limit, the population growth gains a positive bonus. The closer to the 25% of the total upper limit, the higher the growth rate. When your total population is higher than 50% of the total upper limit, the population growth will receive a negative bonus. The closer to 100% of the total upper limit, the lower the growth rate. \n§Y Maximum population of the empire§!=Number of colonies x Limit base x Attenuation(depend on the mode you selected). The default base number is 240, and the population limit of more than 25 planets will not be increased. In the end, the maximum population limit is 3000. \n\nAutomatic downgrade/migration: It can be set separately for each planet and spend a certain amount of maintenance fee to make the unemployed automatically move out or lower the social class. \n\nTrade calculation optimization: The trade route is one of the reasons for the lag. This function can close the trade route and count your trade output in a low-energy way. \n\nAI megastructure limitation: Too many orbital habitats and circles around the world will make AI have a terrifying population, while too many star gates will greatly increase the amount of pathfinding calculations. This feature will limit the AI's construction of these three megastructures, but will not affect them to repair damaged megastructures. \n\nSpecies optimization: Too many species are also the culprit of Caton. Here, the number of species in the entire galaxy is limited by restricting self-evolution, hybridization and AI species transformation. \n\nManual function: The orange buttons are all manual functions. You can merge species, optimize the fleet, and perform other quick operations. \nNote: You can add tag characteristics to a species, use them as a template for combined species or make them ignore the species combined."
+
+#_main
+ z_modmenu_performance2: "§GBetter Performance§!"
+ z_performance2_title: "§GBetter Performance:§! Setting"
+ z_performance2_var: "§GBetter Performance:§! Stats"
+ z_performance2_title_desc: "Set various functions provided by §GBetter Performance§! \n§YNote:§! Such optimization will have a slight impact on the gameplay. If you don't know what you are doing, it is recommended to keep the default status and do not adjust."
+ z_mm_performance2_desc: "$z_performance2_title_desc$"
+#_[状态检视]
+ z_performance2_title_desc.a1: "\nTrade route optimization §HDeactivated§!"
+ z_performance2_title_desc.a2: "\nTrade route optimization §GActivated§!"
+ z_performance2_title_desc.i1: "Dynamic Population Restriction §HDeactivated§!"
+ z_performance2_title_desc.i2: "Dynamic Population Restriction §GLow§!"
+ z_performance2_title_desc.i3: "Dynamic Population Restriction §GHigh§!"
+ z_performance2_title_desc.h1: "Planet population capacity §GActivated§!"
+ z_performance2_title_desc.h2: "Planet population capacity §HDeactivated§!"
+ z_performance2_title_desc.b1: "AI build Habitats §HVanilla§!"
+ z_performance2_title_desc.b2: "AI build Habitats §RDisallowed§!"
+ z_performance2_title_desc.b3: "AI build Habitats §GOptimized§!"
+ z_performance2_title_desc.c1: "Self evolution §HActivited§!"
+ z_performance2_title_desc.c2: "Self evolution §GDeactivated§!"
+ z_performance2_title_desc.d1: "AI xeno compatibility §HAllowed§!"
+ z_performance2_title_desc.d2: "AI xeno compatibility §GDisallowed§!"
+ z_performance2_title_desc.e1: "AI gene path §HAllowed§!"
+ z_performance2_title_desc.e2: "AI gene path §GDisallowed§!"
+ z_performance2_title_desc.e3: "AI Species Modification §HAllowed§!"
+ z_performance2_title_desc.e4: "AI Species Modification §GDisallowed§!"
+ 
+ z_performance2_title_desc.x1: "Total ships in Galaxy §G[root.z_global_ships_var]§!"
+ z_performance2_title_desc.x1b: "Total ships in Galaxy §R0§!"
+ z_performance2_title_desc.x2: "Total population of Galaxy §G[root.z_galaxy_pop_var]§!"
+ z_performance2_title_desc.x2b: "Total population of Galaxy  §R0§!"
+ z_performance2_title_desc.x3: "Total unemployed pops in Galaxy §G[root.z_galaxy_pop_unemployed_var]§!"
+
+
+###_[换页]
+ z_pf2.pop_species: "Page 1: Population and Species Optimization"
+ z_pf2.other: "Page 2: other optimizations."
+ z_pf2.utility: "Page 3: Manual Utilities"
+ z_pf2.page: "Click to switch the setting page."
+
+
+
+ 
+###_[人口管理]  vam/宜居条件/自动移民/自动降级/人口上限
+ z_pf2.pop_management_auto_immig_on: "All colonies §Genable§! Automatic Population Migration"
+ z_pf2.pop_management_auto_immig_off: "All colonies §Gdisable§! Automatic Population Migration"
+ z_pf2.pop_management_auto_immig_tips: "All colonies automatically move domestic unemployed pops in, which will only take effect when there are vacant jobs on the planet. When it takes effect, a monthly £energy£§Y$energy$§! Maintenance fee §G3§! will be added."
+ z_pf2.pop_management_auto_demote: "All colonies toggle §BAutomatic population demotion§!"
+ z_pf2.pop_management_auto_demote_tips: "The unemployed high-class population will be quickly demoted to the low-class, and the monthly £energy£§Y$energy$§! Maintenance fee §G2§! will be added when it becomes effective."
+ z_pf2.pop_management_mig_ignore: "All colonies move out settings are changed to §Hprohibited§!"
+ z_pf2.pop_management_mig_default: "All colonies move out settings are changed to §Gdefault§!"
+ z_pf2.pop_management_mig_cntr: "It will take effect for all colonies, prohibiting their population from emigrating, and will take effect for both automatic immigration and manual migration."
+ z_pf2_d_core: "§GBetter Performance:§! Core module"
+ z_pf2_d_core_desc: "Achieve various core functions of Better Performance, including §GAutomatic Population Migration§!/§BAutomatic Population Downgrading§!/§HTrade Subsidy§!"
+#_vam
+ z_pf2.pop_management_vam_on: "Vanilla Automatic Migration §GEnabled§!"
+ z_pf2.pop_management_vam_off: "Vanilla Automatic Migration §HDisabled§!"
+ z_pf2.pop_management_vam_tips: "If the pops number is higher than the total number of jobs in the late game, a large number of unemployed people will migrate meaninglessly to consume additional calculations. This function will close the vanilla automatic population migration function. \nNote: This is a change to the game mechanics. The unemployed population will not be affected by the vanilla automatic migration. You can turn on the new automatic migration mechanism that comes with this mod. It is more optimized than the vanilla mechanism, but this mechanism only affects players."
+#_宜居条件
+ z_pf_tips_heup_habit_set:0 "Set the habitility conditions for pop when pop migration function is executed. \nIf set to Lowest, only the pops with a habitility >15% will be migrated. \nIf set to Habitable, only the pops with habitility >35% will be migrated. \nIf set to Ignore, the pop habitility will be ignored and all available pop will be migrated. Note that Ignoring the habitility is invalid for National pop migration and Automatic pop migration. In these two cases, the minimum habitility must be above 15%."
+ z_pf.heup_habit_default:0 "Pop Migration Habitility setting: §GNow Lowest§!"
+ z_pf.heup_habit_ignore:0 "Pop Migration Habitility setting: §HNow Ignore§!"
+ z_pf.heup_habit_high:0 "Pop Migration Habitility setting: §YNow Habitable§!"
+#_自动移民
+ z_pf2_dec_plnt_auto_mig_on:0 "Automatic immigration is §Gon§!"
+ z_pf2_dec_plnt_auto_mig_on_desc:0 "If there are vacant jobs, the domestic unemployed pops will automatically migrate to this planet and take these positions. The maintenance fee for this function is £energy£§Y$energy$§! Maintenance fee §G3§!."
+ z_pf2_dec_plnt_auto_mig_off:0 "Automatic immigration is §Hdisabled§!"
+ z_pf2_dec_plnt_auto_mig_off_desc:0 "The function is closed, but it will not prevent the automatic immigration of the game itself."
+ z_pf2_tips_auto_mig_toggle:0 "Turn on or off the automatic immigration function."
+#_自动降级
+ z_pf2_dec_plnt_auto_demote_on:0 "Automatic downgrade is §Gon§!"
+ z_pf2_dec_plnt_auto_demote_on_desc:0 "The unemployed high-class population will be demoted and re-employed in a very short time when there are available jobs. The maintenance fee for this function is £energy£§Y$energy$§! Maintenance fee §G2§!."
+ z_pf2_dec_plnt_auto_demote_off:0 "Automatic downgrade is §Hdisabled§!"
+ z_pf2_dec_plnt_auto_demote_off_desc:0 "With the function closed, the downgrade of the unemployed population will be very slow."
+ z_pf2_tips_auto_demote_toggle:0 "Turn on or off the automatic downgrade function."
+ 
+#_[人口上限]
+ z_pf2.cntr_pop_cap_on:0 "Empire population cap §G is on§!/Current limit base §Y[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_pop_cap_set_base]§!"
+ z_pf2.cntr_pop_cap_off:0 "Empire population cap §H is disabled§!/Current limit base §Y[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_pop_cap_set_base]§!"
+ z_pf2.cntr_pop_cap.tooltip:0 "After opening the population limit, the total number of people in the empire will add an upper limit, limiting your maximum population according to the number of planets you own.\n§RNote: If the §YGrowth Demand Ratio§! of the vanilla game itself is not set to 0, please do not turn this function on.§! \nCalculation formula: Number of colonies x limit base."
+ z_pf2.cntr_pop_cap_linear:0 "Empire population cap mode §Hhas been set to linear§!"
+ z_pf2.cntr_pop_cap_mode_100:0 "Empire population cap mode §Yhas been set to 100 colonies with attenuation§!"
+ z_pf2.cntr_pop_cap_mode_50:0 "Empire population cap mode §Ghas been set to 50 colonies with attenuation§!"
+ z_pf2.cntr_pop_cap_mode_25:0 "Empire population cap mode §Bhas been set to 25 colonies with attenuation§!"
+ z_pf2.cntr_pop_cap_mode.tooltip:0 "Determine how the number of colonies will increase the total population cap.\n§RNote: If the §YGrowth Demand Ratio§! of the vanilla game itself is not set to 0, please do not turn this function on.§!\n§HLinear§! No decay, every time a colony is added, §YLimited Base§! the number of pop cap will be increased.\n§Y100 colonies§! With a low attenuation, each additional colony increases (100-total number of colonies)% x §YLimited base§! the number of empire's pop cap will increased. Supports a maximum of 100 colonies, and new colony will no longer increase the empire’s pop cap. \n§G50 colonies§! With a higher attenuation, each additional colony increases (2 x (50-total number of colonies))% x §YLimited base§! the number of empire's pop cap will increased. Supports a maximum of 50 colonies, and new colony will no longer increase the empire’s pop cap. \n§B25 colonies§! With a higher attenuation, each additional colony increases (4 x (25-total number of colonies))% x §YLimited base§! the number of empire's pop cap will increased. Supports a maximum of 25 colonies, and new colony will no longer increase the empire’s pop cap."
+ z_pf2.cntr_pop_cap_base_add_10:0 "Base cap: §G+10§!"
+ z_pf2.cntr_pop_cap_base_add_50:0 "Base cap: §G+50§!"
+ z_pf2.cntr_pop_cap_base_subtract_10:0 "Base cap: §B-10§!"
+ z_pf2.cntr_pop_cap_base_subtract_50:0 "Base cap: §B-50§!"
+ z_pf2_mod_plnt_pop_growth:0 "§BPop cap of the empire:§! Setting up for growth"
+ z_pf2_mod_plnt_pop_growth_desc:0 "If you turn on the §BLimiting Empire Population§! feature, it will adjust your population growth rate based on the number of planets you own."
+
+#_mod
+ z_pf2_mod_plnt_pop_decline:0 "$z_pf2_mod_plnt_pop_growth$"
+ z_pf2_mod_plnt_pop_decline_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+ z_pf2_mod_plnt_pop_clone:0 "§BEmpire population limit:§! Clone correction"
+ z_pf2_mod_plnt_pop_clone_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+ z_pf2_mod_plnt_pop_assembly:0 "§BEmpire population limit:§! A correction"
+ z_pf2_mod_plnt_pop_assembly_desc:0 "$z_pf2_mod_plnt_pop_decline$"
+
+
+
+
+###_动态人口限制
+ z_performance_misc.11.i0: "Dynamic Population Restriction §HDeactivated§!"
+ z_performance_misc.11.i0.tooltip: "Vanilla game default, deactivate Dynamic Population Restriction, unemployed pops will not affect the population growth /assembly /immigration rate.\n\n§YAttention: a large number of unemployed population will seriously reduce the stability of a planet, and unrestricted population growth cause serious lag in the late game, for there are too many pops will be checked everyday.§!"
+ z_performance_misc.11.i1: "Dynamic Population Restriction §BVery Low§!"
+ z_performance_misc.11.i1.tooltip: "Dynamic Population Restriction set to Very Low. The more unemployed pops on a planet, the lower population growth /assembly /immigration rate is. Starting from 4 unemployed pops to limit population increase, up to 8 unemployed pops at most.\n\n§YThis is different from the unrestricted population growth mechanism of the game.§!"
+ z_performance_misc.11.i2: "Dynamic Population Restriction §GLow§!"
+ z_performance_misc.11.i2.tooltip: "Dynamic Population Restriction set to Low. The more unemployed pops on a planet, the lower population growth /assembly /immigration rate is. Starting from 5 unemployed pops to limit population increase, up to 12 unemployed pops at most.\n\n§YThis is different from the unrestricted population growth mechanism of the game.§!"
+ z_performance_misc.11.i3: "Dynamic Population Restriction §BHigh§!"
+ z_performance_misc.11.i3.tooltip: "Infinite Stellaris default, Dynamic Population Restriction set to High. Starting from 6 unemployed pops to limit population increase, up to 20 unemployed pops at most.\n\n§YThis is different from the unrestricted population growth mechanism of the game.§!"
+#_[decision]
+ z_pf2_dec_extreme_pop_restrict_on:0 "Strict Population Control §HOn§!"
+ z_pf2_dec_extreme_pop_restrict_on_desc:0 "Determine whether to toggle strict population restrictions."
+ z_pf2_extreme_pop_restrict_on:0 "The planet will only allow up to 1 unemployed pop and 1 houseless pop."
+ z_pf2_dec_extreme_pop_restrict_off:0 "Strict Population Control §GOff§!"
+ z_pf2_dec_extreme_pop_restrict_off_desc:0 "$z_pf2_dec_extreme_pop_restrict_on_desc$"
+ z_pf2_extreme_pop_restrict_off:0 "Toggle off strict population restrictions."
+
+###_Planet population capacity 
+ z_performance_misc.11.h1: "Planet population capacity §GActivated§!"
+ z_performance_misc.11.h1.tooltip: "Using Infinite Stellaris optimization setting, activate Planet population capacity. Total population of a planet will be restricted by planet size and planet class.\n\n§YAttention: If you have subscribed Carrying Capacity MOD, this function will be automatically disabled. Activited Planet population capacity will make some differences in game machenics, for there will be no unrestricted population growth any more.§!"
+ z_performance_misc.11.h2: "Planet population capacity §HDeactivated§!"
+ z_performance_misc.11.h2.tooltip: "Using vanilla game default, deactivate Planet population capacity. If possible, the population of a planet will continue increasing.\n\n§YAttention: unrestricted population growth cause serious lag in the late game, for there are too many pops will be checked everyday.§!"
+ 
+ z_performance_misc.11.j1: "Extra planet pops capacity §HNone§!"
+ z_performance_misc.11.j1.tooltip: "No additional population capacity."
+ z_performance_misc.11.j2: "Extra planet pops capacity §G30§!"
+ z_performance_misc.11.j2.tooltip: "All planets get additonal population capacity."
+ z_performance_misc.11.j3: "Extra planet pops capacity §G60§!"
+ z_performance_misc.11.j3.tooltip: "$z_performance_misc.11.j2.tooltip$"
+ z_performance_misc.11.j4: "Extra planet pops capacity §G90§!"
+ z_performance_misc.11.j4.tooltip: "$z_performance_misc.11.j2.tooltip$"
+ z_performance_misc.11.j5: "Extra planet pops capacity §G120§!"
+ z_performance_misc.11.j5.tooltip: "$z_performance_misc.11.j2.tooltip$"
+#_[deposit]
+ z_trade_normal_energy: "AI Trade Subsidy"
+ z_trade_normal_energy_desc: "Subsidy for the loss of trade income caused by trade route optimization"
+ z_trade_megacorp_energy: "$z_trade_normal_energy$"
+ z_trade_megacorp_energy_desc: "$z_trade_normal_energy_desc$"
+ z_trade_normal_goods: "$z_trade_normal_energy$"
+ z_trade_normal_goods_desc: "$z_trade_normal_energy_desc$"
+ z_trade_megacorp_goods: "$z_trade_normal_energy$"
+ z_trade_megacorp_goods_desc: "$z_trade_normal_energy_desc$"
+ 
+ z_pf2_d_dynamic_cap_1: "§GDynamic Population Restriction§!"
+ z_pf2_d_dynamic_cap_1_desc: "The population growth/ assembly/ immigration rate is determined by the number of unemployed pops and houseless pops on a planet."
+ z_pf2_d_dynamic_cap_2: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_2_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_3: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_3_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_4: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_4_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_5: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_5_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_6: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_6_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_7: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_7_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ z_pf2_d_dynamic_cap_8: "$z_pf2_d_dynamic_cap_1$"
+ z_pf2_d_dynamic_cap_8_desc: "$z_pf2_d_dynamic_cap_1_desc$"
+ 
+ z_pf2_ecoc_core: "§GPerformance Subsidy§!"
+ mod_z_pf2_ecoc_core_produces_mult: "$z_pf2_ecoc_core$ Production"
+ z_pf2_d_trade_2c: "§GLate Game Booster§!: Trade Subsidy"
+ z_pf2_d_trade_2c_desc: "The §BManpower/Pops§! on this planet and §YEmpire Trade Policy§! will determine the trade output."
+ z_pf2_d_trade_ru: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_ru_desc: "$z_pf2_d_trade_2c_desc$"
+ z_pf2_d_trade_league: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_league_desc: "$z_pf2_d_trade_2c_desc$"
+ z_pf2_d_trade_normal: "$z_pf2_d_trade_2c$"
+ z_pf2_d_trade_normal_desc: "$z_pf2_d_trade_2c_desc$"
+
+
+
+
+###_[ai建设限制]   栖息地/环世界/星门 ####################################
+#_[栖息地]
+ z_performance_misc.11.b1: "AI Habitat Construction §GLimited§!"
+ z_performance_misc.11.b1.tooltip: "The number of AI orbital habitats will be limited, and the upper limit of AI habitat construction can be manually adjusted through secondary settings. §YAI will build unrestrainedly when it is allowed to build orbital habitats, increasing system pressure.§!"
+ z_performance_misc.11.b2: "AI Habitat Construction §HNo changed§!"
+ z_performance_misc.11.b2.tooltip: "With the original setting, AI can build habitats at will. §YAI will build unrestrainedly when it is allowed to build orbital habitats, increasing system pressure.§!"
+ z_performance_misc.11.b3: "AI Habitat Construction §BBanned§!"
+ z_performance_misc.11.b3.tooltip: "AIs other than §YVoid Dweller§! are forbidden to construct orbital habitats. The number of orbital habitats for §YVoid Dweller§! will be limited, and the upper limit of AI habitat construction can be manually adjusted through secondary settings. §YAI will build unrestrainedly when it is allowed to build orbital habitats, increasing system pressure. §!"
+
+ z_pf2.ai_habitat_details_on: "Habitat cap setting §H(Expanded)§!：common AI = §G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_common]§! / §YVoid Dweller§! = §G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_vd]§!"
+ z_pf2.ai_habitat_details_off: "Habitat cap setting §G(Folded)§!：common AI = §G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_common]§! / §YVoid Dweller§! = §G[event_target:z_fw_tgt_global_event.z_pf2_var_cntr_ai_habitat_cap_set_vd]§!"
+ z_pf2.ai_habitat_details: "The upper limit of the orbital habitat construction can be set separately for ordinary AI and §YVoid Dweller§!."
+ z_pf2.ai_habitat_var_common_add_1: "Common AI habitat construction Cap §G+1§!"
+ z_pf2.ai_habitat_var_common_add_5: "Common AI habitat construction Cap §G+5§!"
+ z_pf2.ai_habitat_var_common_subtract_1: "Common AI habitat construction Cap §B-1§!"
+ z_pf2.ai_habitat_var_common_subtract_5: "Common AI habitat construction Cap §B-5§!"
+ z_pf2.ai_habitat_var_vd_add_1: "§YVoid Dweller§! habitat construction Cap §G+1§!"
+ z_pf2.ai_habitat_var_vd_add_5: "§YVoid Dweller§! habitat construction Cap §G+5§!"
+ z_pf2.ai_habitat_var_vd_subtract_1: "§YVoid Dweller§! habitat construction Cap §B-1§!"
+ z_pf2.ai_habitat_var_vd_subtract_5: "§YVoid Dweller§! habitat construction Cap §B-5§!"
+
+#_[环世界]
+ z_performance_misc.11.g1: "AI ring world base site construction §HAllowed§!"
+ z_performance_misc.11.g1.tooltip: "In the original version, AI will construct the base of the world at will. §YOnce the funds and conditions meet the standards, AI will spare no effort to build the world around the world, which may cause AI to have a large population and cause stagnation.§!"
+ z_performance_misc.11.g2: "AI ring world base site construction §GLimited§!"
+ z_performance_misc.11.g2.tooltip: "If you already have a colony around the world, the AI will not build a base site around the world. §YThis function will not affect the AI to upgrade the existing ring world or repair the damaged ring world.§!"
+ z_performance_misc.11.g3: "AI ring world base site construction §BBanned§!"
+ z_performance_misc.11.g3.tooltip: "AI will not build a base site around the world under any circumstances. §YThis function will not affect the AI to upgrade the existing ring world or repair the damaged ring world.§!"
+
+#_[星门]
+ z_performance_misc.limited_gateway_vanilla: "AI stargate building §HAllowed§!"
+ z_performance_misc.limited_gateway_ban: "AI stargate building §BBanned§!"
+ z_performance_misc.limited_gateway.tooltip: "Once the resources are available, AI will spare no effort to build star gates everywhere, which may cause a stutter in route statistics. §YProhibiting the construction of star gates will not affect the AI repairing damaged star gates or upgrading the star gate base address.§!"
+
+
+
+
+###_[贸易优化]
+ z_performance_misc.11.a1: "Trade Optimization §HDisabled§!"
+ z_performance_misc.11.a1.tooltip: "The original setting, open the AI trade system, §Ydaily trade route detection§! Later, when the Stargate network is built, it will seriously slow down the game speed.§!"
+ z_performance_misc.11.a2: "Trade Optimization §GEnabled to AI§!"
+ z_performance_misc.11.a2.tooltip: "Disable the AI trade system and increase the trade subsidy buff, reducing the computational pressure generated by §YDaily Trade Route Inspection§! \nThe player's trade system has not changed. \n\n§YNote: Trade Subsidy will be added according to the planet’s population/manpower (industrial revolution) and planet’s extra trade value, each population/manpower = §G0.5 trade value§!.§!"
+ z_performance_misc.11.a3: "Trade Optimization §BEnabled to All§!"
+ z_performance_misc.11.a3.tooltip: "Shut down all trading systems, and increase the trade subsidy buff, reducing the computational pressure of §Y Daily Trade Route Inspection§! \n\n§YNote: Trade Subsidy will be added according to the planet’s trade value, each population/manpower = §G0.5 trade value§!.§!"
+#_[weight]
+ z_pf2.trade_opt_weight_100: "Trade Subsidy Weight §GNow 100%§!"
+ z_pf2.trade_opt_weight_150: "Trade Subsidy Weight §BNow 150%§!"
+ z_pf2.trade_opt_weight_200: "Trade Subsidy Weight §YNow 200%§!"
+ z_pf2.trade_opt_weight_250: "Trade Subsidy Weight §HNow 250%§!"
+ z_pf2_tips_trade_opt_weight: "Default 150%, which means 1 trade value optimized will give you 1.5 times trade income as subsidy.\nMax 250%, Min 100%.\nBecause trade subsidy cannot precisely simulate all trade income, this mechanism is added to supplement the missing trade economy."
+
+
+
+
+#_[pmod]
+ PF_mod_cntr_trade_opt_normal: "Trade subsidy §GDefault§!"
+ PF_mod_cntr_trade_opt_normal_desc: "Added according to planet population/manpower (industrial revolution) and planet extra trade value."
+ PF_mod_cntr_trade_opt_goods: "Trade subsidy §HConsumer Goods§!"
+ PF_mod_cntr_trade_opt_goods_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_unity: "Trade subsidy §EUnity§!"
+ PF_mod_cntr_trade_opt_unity_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_league: "Trade subsidy §BLeague§!"
+ PF_mod_cntr_trade_opt_league_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+#_[工整传统]
+ PF_mod_cntr_trade_opt_tt_1e: "Trade subsidy: Tidy Traditions"
+ PF_mod_cntr_trade_opt_tt_1e_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_1m: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_1m_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_1f: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_1f_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_basic: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_basic_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_basic_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_basic_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_2a: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2a_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2c: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2c_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2ac: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2ac_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_2ac_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_2ac_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_rp: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rp_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rs: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rs_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_re: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_re_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rr: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rr_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_rr_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_rr_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+ PF_mod_cntr_trade_opt_tt_ru: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_ru_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_league: "$PF_mod_cntr_trade_opt_tt_1e$"
+ PF_mod_cntr_trade_opt_tt_league_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+
+ PF_mod_cntr_trade_opt_tt_3vm: "Trade subsidy Tidy Traditions: £volatile_motes£§P$volatile_motes$§!"
+ PF_mod_cntr_trade_opt_tt_3vm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3eg: "Trade subsidy Tidy Traditions: £exotic_gases£§G$exotic_gases$§!"
+ PF_mod_cntr_trade_opt_tt_3eg_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3rc: "Trade subsidy Tidy Traditions: £rare_crystals£§Y$rare_crystals$§!"
+ PF_mod_cntr_trade_opt_tt_3rc_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_3all: "Trade subsidy Tidy Traditions: §Advanced Resources§!"
+ PF_mod_cntr_trade_opt_tt_3all_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srlm: "Trade subsidy Tidy Traditions: £sr_living_metal£§E$sr_living_metal$§!"
+ PF_mod_cntr_trade_opt_tt_srlm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srzro: "Trade subsidy Tidy Traditions: £sr_zro£§E$sr_zro$§!"
+ PF_mod_cntr_trade_opt_tt_srzro_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ PF_mod_cntr_trade_opt_tt_srdm: "Trade subsidy Tidy Traditions: £sr_dark_matter£§E$sr_dark_matter$§!"
+ PF_mod_cntr_trade_opt_tt_srdm_desc: "$PF_mod_cntr_trade_opt_normal_desc$"
+ 
+#_mod
+ mod_z_pf2_ecoc_core_energy_produces_add: "§GPerformance Subsidy§! Produce £energy£§Y$energy$§!"
+ mod_z_pf2_ecoc_core_energy_upkeep_add: "§GPerformance Subsidy§! Upkeep £energy£§Y$energy$§!"
+ mod_z_pf2_ecoc_core_unity_produces_add: "§GPerformance Subsidy§! Produce £unity£§E$unity$§!"
+ mod_z_pf2_ecoc_core_consumer_goods_produces_add: "§GPerformance Subsidy§! Produce £consumer_goods£§H$consumer_goods$§!"
+ mod_z_pf2_ecoc_core_minerals_produces_add: "§GPerformance Subsidy§! Produce £minerals£§R$minerals$§!"
+ mod_z_pf2_ecoc_core_food_produces_add: "§GPerformance Subsidy§! Produce £food£§G$food$§!"
+ mod_z_pf2_ecoc_core_physics_research_produces_add: "§GPerformance Subsidy§! Produce £physics_research£§B$physics_research$§!"
+ mod_z_pf2_ecoc_core_engineering_research_produces_add: "§GPerformance Subsidy§! Produce £engineering_research£§H$engineering_research$§!"
+ mod_z_pf2_ecoc_core_society_research_produces_add: "§GPerformance Subsidy§! Produce £society_research£§G$society_research$§!"
+ mod_z_pf2_ecoc_core_alloys_produces_add: "§GPerformance Subsidy§! Produce £alloys£§P$alloys$§!"
+ 
+ mod_z_pf2_ecoc_core_volatile_motes_produces_add: "§GPerformance Subsidy§! Produce £volatile_motes£§P$volatile_motes$§!"
+ mod_z_pf2_ecoc_core_exotic_gases_produces_add: "§GPerformance Subsidy§! Produce £exotic_gases£§G$exotic_gases$§!"
+ mod_z_pf2_ecoc_core_rare_crystals_produces_add: "§GPerformance Subsidy§! Produce £rare_crystals£§Y$rare_crystals$§!"
+ mod_z_pf2_ecoc_core_sr_living_metal_produces_add: "§GPerformance Subsidy§! Produce £sr_living_metal£§E$sr_living_metal$§!"
+ mod_z_pf2_ecoc_core_sr_zro_produces_add: "§GPerformance Subsidy§! Produce £sr_zro£§E$sr_zro$§!"
+ mod_z_pf2_ecoc_core_sr_dark_matter_produces_add: "§GPerformance Subsidy§! Produce £sr_dark_matter£§E$sr_dark_matter$§!"
+
+
+
+
+
+#_自我进化
+ z_performance_misc.11.c1: "Self evolution event §GDeactivated§!"
+ z_performance_misc.11.c1.tooltip: "Using Infinite Stellaris optimization setting, DeactivateSelf evolution. §YIn order to adapt to the environment, self evolution will generate new species, which will increase the potential system pressure.§!"
+ z_performance_misc.11.c2: "Self evolution event §HActivited§!"
+ z_performance_misc.11.c2.tooltip: "Using vanilla game default, Activite Self evolution. §YIn order to adapt to the environment, self evolution will generate new species, which will increase the potential system pressure.§!"
+#_AI物种杂交
+ z_performance_misc.11.d1: "AI Hybrid Species §GDisallowed§!"
+ z_performance_misc.11.d1.tooltip: "Using Infinite Stellaris optimization setting, AI will not create hybrid specis. Will also take effect on mods with hybrid function, such as Unofficial Hive DLC: Forgotten Queens. §YXeno Compatibility will produce a large number of subspecies, which will seriously increase the system burden.§!"
+ z_performance_misc.11.d2: "AI Hybrid Species §HAllowed§!"
+ z_performance_misc.11.d2.tooltip: "Using vanilla game default, AI is allowed to create hybrid specis. Will also take effect on mods with hybrid function, such as Unofficial Hive DLC: Forgotten Queens. §YXeno Compatibility will produce a large number of subspecies, which will seriously increase the system burden.§!"
+#_[AI gene ascension patch Disallowed]
+ z_performance_misc.11.e1: "AI gene ascension patch §GDisallowed§!"
+ z_performance_misc.11.e1.tooltip: "Using Infinite Stellaris optimization setting, disallow AI to use gene ascension path. It is not possible to remove gene ascension path that AI has taken. Please make a decision at the beginning of the game. §YAI with gene ascension path will continue to create subspecies and increase the system burden seriously.§!"
+ z_performance_misc.11.e2: "AI gene ascension patch §HAllowed§!"
+ z_performance_misc.11.e2.tooltip: "Using vanilla game default, allow AI to use gene ascension path. It is not possible to remove gene ascension path that AI has taken. Please make a decision at the beginning of the game. §YAI with gene ascension path will continue to create subspecies and increase the system burden seriously.§!"
+#_禁用物种改造
+ z_pf2_mod_cntr_no_ai_species_mod: "§GInfinite Collection§!: AI Species Modification Disabled"
+ z_pf2_mod_cntr_no_ai_species_mod_desc: "Whether organic or robotic, they will all remain the way they are from the beginning."
+ z_performance_misc.11.e3: "AI Species Modification §HAllowed§!"
+ z_performance_misc.11.e3.tooltip: "Using vanilla game default, AI's species modification is allowed. As long as the conditions meet, AI will continue to create subspecies, seriously increasing the system burden."
+ z_performance_misc.11.e5: "AI Species Modification §BLimited§!"
+ z_performance_misc.11.e5.tooltip: "Using Infinite Stellaris optimization setting, an AI's species can only have 2 sub-species at most."
+ z_performance_misc.11.e4: "AI Species Modification §BDisallowed§!"
+ z_performance_misc.11.e4.tooltip: "Using Infinite Stellaris optimization setting, AI's species modification is disallowed."
+#_舰队合并
+ z_performance_misc.11.k1: "AI Fleet Optimization Efficiency §GHigh§!"
+ z_performance_misc.11.k1.tooltip: "When using manual fleet optimization or automatic fleet optimization, small ships will be merged into large ships as many as possible."
+ z_performance_misc.11.k2: "AI Fleet Optimization Efficiency §BStandard§!"
+ z_performance_misc.11.k2.tooltip: "When using manual fleet optimization or automatic fleet optimization, few small ships will be reserved."
+ z_performance_misc.11.k3: "AI Fleet Optimization Efficiency §HLow§!"
+ z_performance_misc.11.k3.tooltip: "When using manual fleet optimization or automatic fleet optimization, many small ships will be reserved."
+ z_performance_misc.11.k4: "AI Fleet Optimization Automatic §GEnabled§!"
+ z_performance_misc.11.k4.tooltip: "The optimization is automatically performed on all optimizable fleets every year, and the optimization efficiency follows the setting of the previous option."
+ z_performance_misc.11.k5: "AI Fleet Optimization Automatic §HDisabled§!"
+ z_performance_misc.11.k5.tooltip: "No automatic fleet optimization."
+#_mod
+ z_pf2_mod_ship_opt: ""
+ z_pf2_mod_ship_opt_desc: ""
+ edict_PF_edict_AUTO_mig_on: "Automaic Migration §GActivated§!"
+ edict_PF_edict_AUTO_mig_on_desc: "Activate or deactivate the §BAutomatic Migration§! function. After activated, the unemployed pops across the country will be automatically migrated to where they are needed, but the national energy output will be reduced by 3% for the expenditure of migration costs."
+ edict_PF_edict_AUTO_mig_off: "Automaic Migration §HDisabled§!"
+ edict_PF_edict_AUTO_mig_off_desc: "$edict_PF_edict_AUTO_mig_on_desc$"
+ PF_mod_AUTO_mig: ""
+ PF_mod_AUTO_mig_desc: ""
+ edict_PF_edict_AUTO_downgrade_on: "Automaic Downgrade §GActivated§!"
+ edict_PF_edict_AUTO_downgrade_on_desc: "Activate or deactivate the §BAutomatic Downgrade§! function. After activated, the high-level unemployed pops will be automatically downgraded to low-level, but the national energy output will be reduced by 2% for the expenditure of pensions."
+ edict_PF_edict_AUTO_downgrade_off: "Automaic Downgrade §HDisabled§!"
+ edict_PF_edict_AUTO_downgrade_off_desc: "$edict_PF_edict_AUTO_downgrade_on_desc$"
+ PF_mod_AUTO_downgrade: ""
+ PF_mod_AUTO_downgrade_desc: ""
+
+#_物种整合
+ z_pf2_trait_core_species:0 "Directed Merging Template"
+ z_pf2_trait_core_species_desc: "The template species of the current category it belongs to, all other species will be merged into this. Note that each pop merged by this template will cost some resources."
+ z_pf2_trait_core_ignore:0 "Ignore integration templates"
+ z_pf2_trait_core_ignore_desc: "All player empires ignore populations with this trait when performing species integration."
+ z_performance_misc.11.f1: "§GExperimental Function: Merge all species - AI Empires§!"
+ z_performance_misc.11.f1.tooltip: "Merge all species of §YNormal AI empires§! and §YAscended empires§! to get rid of too many species. This will increase game performance in the late game.\nAll pops that have §GFull citizenship§! will be merged into the §Boriginal species of this empire§!\nAll pops that have §GLimited citizenship§! will be merged into one species.\nAll §Gslaves§! will be merged into one species."
+ z_performance_misc.11.f1b.tooltip: "Merge all species of §YNormal AI empires§! and §YAscended empires§! to get rid of too many species. This will increase game performance in the late game.\nAll pops that have §GFull citizenship§! will be merged into the §Boriginal species of this empire§!\nAll pops that have §GLimited citizenship§! will be merged into one species.\nAll §Gslaves§! will be merged into one species.\n\n§YNote: This function can be triggered directly through the shortcut button at the top of the mod setting panel.§!"
+#_物种整合-国内
+ z_performance_misc.11.f2: "§GExperimental Function: Merge all species - Your own empire§!"
+ z_performance_misc.11.f2.tooltip: "Merge all species of §Yyour own empire§.\nAll pops that have §GFull citizenship§! will be merged into the §Boriginal species of this empire§!\nAll pops that have §GLimited citizenship§! will be merged into one species.\nAll §Gslaves§! will be merged into one species."
+#_智械整合-国内
+ z_performance_misc.11.f4: "§GExperimental Function: Merge all robotic species - Your own empire§!"
+ z_performance_misc.11.f4.tooltip: "Merge all robotic species of §Yyour own empire§.\nAll robotic pops that have §GFull citizenship§! will be merged.\nAll robotic pops that have §GLimited citizenship§! will be merged into one robotic species.\nAll §GRobotic Servitor§! will be merged into one robotic species."
+#_强制合并
+ z_pf2.forced_merge: "§G强制整合-自身§!"
+ z_pf2.forced_merge.tooltip: "将所有帝国物种强制合并为一个物种。\n如果某个物种存在$z_pf2_trait_core_species$，他将被视作模板。如果多个物种存在$z_pf2_trait_core_species$，将从其中随机选择一个作为模板。如果没有设定$z_pf2_trait_core_species$，则选择帝国主物种作为模板。\n合并无视物种类型和公民权差异，且每个被合并的人口消耗£energy£§Y$energy$§!=§G50§!"
+
+#_手动舰队合并
+ z_performance_misc.11.f5: "§GAI Fleets Optimization§!"
+ z_performance_misc.11.f5.tooltip: "Immediately perform optimization on all optimizable AI fleets, merge the AI fleet according to AI's tech level and optimization efficiency settings. And then AI will use as many large ships as possible to reduce the total number of global ships."
+#_清除轨道栖息地
+ z_performance_misc.11.f3: "§GExperimental Function: Clear Habitat Structures§!"
+ z_performance_misc.11.f3.tooltip: "Destroy all the habitats of the Empire which is not §BVoid Dwellers§!. §YUse this with caution!§!"
+
+#_清除舰队模板
+# z_performance_misc.11.i1: "清除空舰队模板§G已启用§!/当前§H已禁用§!"
+# z_performance_misc.11.i1.tooltip: "使用无尽群星优化方案，清除空舰队模板。"
+# z_performance_misc.11.i2: "清除空舰队模板§H已禁用§!/当前§G已启用§!"
+# z_performance_misc.11.i2.tooltip: "使用原版游戏设置，不清除空舰队模板。"
+ 
+#_utility
+ z_performance_misc.11.x: "§BReset to Default§!"
+ z_performance_misc.11.x.tooltip: "Using Infinite Stellaris default setting, enable all optimization."
+ z_performance_misc.11.x1: "§HReset to Vanilla game setting§!"
+ z_performance_misc.11.x1.tooltip: "Using Vanilla game setting, disable all optimization."
+ z_performance_misc.11.x2: "Back to ICModMenu"
+ z_performance_misc.11.x2.tooltip: "Go back to the main menu of Infinite Collection"
+ z_performance_misc.11.x3: "Exit"
+ z_performance_misc.11.x3.tooltip: "Close this dialog."
+
+
+
+
+###_[手动迁出]
+ z_pf_tips_heup_ignore_migration_control: "This pop migration mechanic is a standalone function from §BBetter Performance§!. It is not affected by vanilla migration control, and it won't affect vanilla migration system."
+ z_pf_tips_heup_mig_ignore: "Has been set to §RMigration Ignored§!"
+ z_pf_dec_plnt_heup_mig: "§BPops management:§! Manual move out"
+ z_pf_dec_plnt_heup_mig_desc: "Move out poops according to the emigration setting."
+ z_pf_tips_heup_mig: "By default, the unemployed will only move out when other planets have vacant jobs. If it is set to §HForced migration§! and there is a planet that can accommodate population, it will move out until there is only §G1 pop§!.\n$z_pf_tips_heup_ignore_migration_control$\nNote: The new colony will default to §RForbidden to move out§!.\n$z_pf_tips_heup_ignore_migration_control$\nSingle planet manual migration consumes §G50§!£energy£§Y$energy$§! per pop, and the migration command will not be executed when §Y$energy$§! is insufficient."
+#_设置
+ z_pf_tips_heup_mig_set: "Change the current planet's migration settings, which can be set to §BDefault§!/§GPriority§!/§HForced§!/§RIgnored§!.\n$z_pf_tips_heup_ignore_migration_control$"
+ z_pf_dec_plnt_heup_mig_set_default: "Current migration setting §BDefault§!"
+ z_pf_dec_plnt_heup_mig_set_default_desc: "Only the unemployed will be moved out."
+ z_pf_dec_plnt_heup_mig_set_prio: "Current migration setting §GPriority§!"
+ z_pf_dec_plnt_heup_mig_set_prio_desc: "The pops of this planet will be given priority to move out."
+ z_pf_dec_plnt_heup_mig_set_forced: "Current migration setting §HForced§!"
+ z_pf_dec_plnt_heup_mig_set_forced_desc: "All the pops can be moved out will be forced to move out until only §G1 pop§! is left. \nNote: This item is invalid for §YEmpire Migration§! and §YAutomatic Immigration§!""
+ z_pf_dec_plnt_heup_mig_set_ignore: "Current migration setting §RIgnored§!"
+ z_pf_dec_plnt_heup_mig_set_ignore_desc: "The pops of this planet will not move out."
+
+###_[手动迁入]
+ z_pf_tips_heup_immig_ignore: "Has been set to §RImmigration Ignored§!"
+ z_pf_dec_plnt_heup_immig: "§BPops management:§! Manual move in"
+ z_pf_dec_plnt_heup_immig_desc: "Move in poops according to the emigration setting."
+ z_pf_tips_heup_immig: "By default, the pops will only move in when there are vacant positions on this planet. If it is set to §HForced immigration§!, any conditions other than livability will be ignored, and the available pops will be moved indefinitely.\n$z_pf_tips_heup_ignore_migration_control$\nSingle planet manual migration consumes §G50§!£energy£§Y$energy$§! per pop, and the migration command will not be executed when §Y$energy$§! is insufficient."
+#_设置
+ z_pf_tips_heup_immig_set: "Change the current planet's immigration settings, which can be set to §BDefault§!/§GPriority§!/§HForced§!/§RIgnored§!.\n$z_pf_tips_heup_ignore_migration_control$"
+ z_pf_dec_plnt_heup_immig_set_default: "Current immigration setting §BDefault§!"
+ z_pf_dec_plnt_heup_immig_set_default_desc: "When the vacant jobs on this planet are filled, the pops will no longer move in."
+ z_pf_dec_plnt_heup_immig_set_prio: "Current immigration setting §GPriority§!"
+ z_pf_dec_plnt_heup_immig_set_prio_desc: "The unemployed pops will move into this planet first."
+ z_pf_dec_plnt_heup_immig_set_forced: "Current immigration setting §HForced§!"
+ z_pf_dec_plnt_heup_immig_set_forced_desc: "All unemployed pops will be forced to move into this planet regardless of vacant jobs. \nNote: This item is invalid for §YEmpire Migration§! and §YAutomatic Immigration§!"
+ z_pf_dec_plnt_heup_immig_set_ignore: "Current immigration setting §RIgnored§!"
+ z_pf_dec_plnt_heup_immig_set_ignore_desc: "No pop will move in."
+
+
+###_[mod_opt]
+ z_pf.mod_opt_weekly: "Modifier Update Optimization §GNow Weekly§!"
+ z_pf.mod_opt_monthly: "Modifier Update Optimization §HNow Monthly§!"
+ z_pf.mod_opt_none: "Modifier Update Optimization §BNow Disabled§!"
+ z_pf_tips_mod_opt: "The modifiers of Stellaris are updated every tick (10 tick a day) to ensure that the modifiers are updated in time. But it will bring a serious delay, the later the more calculations will be used in the modifier update, the slower the game speed. \nYou can choose to modify the update frequency to once a week or once a month, each time it will be updated in one day. \nThis is an experimental feature. It is not clear what impact it will bring. It may happen that the bonus is not timely, or some functions may be damaged. If it is not very stuck, do not turn on this optimization."
