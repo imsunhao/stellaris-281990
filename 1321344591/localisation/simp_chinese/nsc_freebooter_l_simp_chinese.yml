@@ -3,9 +3,7 @@
 ### 디시인사이드 스텔라리스 갤러리 '어ㅅㅂ' 제작 ###
 
 ### ETC ###
-nsc_freebooter_forced_border_open_no_rival_empire_modifier:0 "看到这个修正效果请回报，我们可没打算让你看到这个。"
-#this is added to avoid "[20:20:10][localization_util.cpp:25]: Missing localization key [effect_random_war_participant] for effect tooltip" error in the error log
-effect_random_war_participant:0 ""
+nsc_freebooter_forced_border_open_no_rival_empire_modifier:0 "Tell me (XVCV) if you saw this modifier, as it shouldn't be seen"
 
 ### Message Types ###
 NSC_FREEBOOTERS_PIRATE_RAID_MESSAGE_TITLE:0 "星盗突袭完成"
@@ -14,13 +12,14 @@ NSC_FREEBOOTERS_PIRATE_RAID_MESSAGE_TITLE:0 "星盗突袭完成"
 CORE_NSC_FREEBOOTER_FLAGSHIP:0 "核心"
 nsc_freebooter_flagship:0 "天可汗的旗舰"
 nsc_freebooter_flagship_plural:0 "天可汗的旗舰"
+NSC_Freebooters_Flagship_Vengeance:0 "复仇"
 
 ### Origins ###
 origin_nsc_freebooter:0 "星盗"
 origin_nsc_freebooter_desc:0 "一群松散的雇佣兵以及海盗，他们即使不造成麻烦也是过着毫无法律且颓废的生活。"
 origin_nsc_freebooter_effect_tooltip:0 "- 初始具有§Y$nsc_freebooter_habitat$§!，并拥有对应的技术进行扩建\n- §Y$nsc_freebooter_habitat$§!具有独特的£building£，但§R无法§!被扩展。 \n- 可以使用独特的§Y飞升§!和§Y法令§!\n- 初始具有§Y$tech_nsc_freebooter_boarding_pod_1$§!技术可以在战斗后夺取敌人的船舰。 \n- 与一般帝国§R-50§! £opinion£关系\n- §Y一般世界§!的适宜度为§R0%§!\n- §Y$pc_nsc_freebooter_habitat$§!、§Y$pc_habitat$ §!、§Y$pc_city$§!、§Y盖亚§!, §Y环§!, and §Y遗迹§!世界的适宜度为§G100%§!。"
 
-### Megastructures / Planet Types ###
+### Megastructures / Planet Classes ###
 nsc_freebooter_habitat:0 "星盗居住地"
 nsc_freebooter_habitat_DESC:0 "$habitat_0_DESC$"
 nsc_freebooter_habitat_MEGASTRUCTURE_DETAILS:0 "$habitat_0_MEGASTRUCTURE_DETAILS$"
@@ -102,30 +101,10 @@ trait_pc_nsc_freebooter_habitat_preference_desc:0 "$trait_pc_habitat_preference_
 mod_pc_nsc_freebooter_habitat_habitability:0 "$nsc_freebooter_habitat$ Habitability"
 trait_pc_nsc_freebooter_habitat_preference_warning:0 "$mod_pc_habitat_habitability$: §G+100%§!\n$mod_pc_nsc_freebooter_habitat_habitability$: §G+100%§!\n\n§Y一般世界§!的适宜度为§R0%§!\ny§Y$pc_nsc_freebooter_habitat$§!、§Y$pc_habitat$ §!、§Y$pc_city$§!、§Y盖亚§!, §Y环§!, and §Y遗迹§!世界的适宜度为§G100%§!。"
 
-trait_nsc_freebooter_1:0 "星盗"
-trait_nsc_freebooter_1_desc:0 "YAR HAR FIDDLE DEE DEE!"
-trait_nsc_freebooter_1_tooltip:0 "这个物种在§Y栖息地§!世界。\n--------------\n§Y栖息地§!世界效果:\n$mod_planet_jobs_produces_mult$: §G+20%§!\n$mod_planet_jobs_upkeep_mult$: §R+10%§!\n\n§Y普通§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-50%§!\n$mod_planet_jobs_slave_produces_mult$: §G+50%§!\n$mod_planet_jobs_upkeep_mult$: §G-20%§!\n\n§Y$pc_city§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-20%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+40%§!\n\n§Y盖亚§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$MOD_POP_GROWTH_SPEED$: §G+20%§!\n\n§Y环§!世界效果:\n$mod_planet_jobs_produces_mult$: §G+10%§!\n$MOD_POP_GROWTH_SPEED$: §G+10%§!\n\n§Y遗迹§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+20%§!\n$mod_planet_researchers_produces_mult$: §G+10%§!"
-trait_nsc_freebooter_1_alt:0 "星盗"
-trait_nsc_freebooter_1_alt_desc:0 "YAR HAR FIDDLE DEE DEE!"
-trait_nsc_freebooter_1_alt_tooltip:0 "这个物种在§Y栖息地§!世界。\n--------------\n§Y栖息地§!世界效果:\n$mod_planet_jobs_produces_mult$: §G+20%§!\n$mod_planet_jobs_upkeep_mult$: §R+10%§!\n\n§Y普通§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-50%§!\n$mod_planet_jobs_slave_produces_mult$: §G+50%§!\n$mod_planet_jobs_upkeep_mult$: §G-20%§!\n\n§Y$pc_city§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-20%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+40%§!\n\n§Y盖亚§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$MOD_POP_GROWTH_SPEED$: §G+20%§!\n\n§Y环§!世界效果:\n$mod_planet_jobs_produces_mult$: §G+10%§!\n$MOD_POP_GROWTH_SPEED$: §G+10%§!\n\n§Y遗迹§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+20%§!\n$mod_planet_researchers_produces_mult$: §G+10%§!"
-trait_nsc_freebooter_2:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_2_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_2_tooltip:0 "这个物种在§Y普通§!世界。\n--------------\n§Y普通§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-50%§!\n$mod_planet_jobs_slave_produces_mult$: §G+50%§!\n$mod_planet_jobs_upkeep_mult$: §G-20%§!\n"
-trait_nsc_freebooter_2_alt:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_2_alt_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_2_alt_tooltip:0 "这个物种在§Y普通§!世界。\n--------------\n§Y普通§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-50%§!\n$mod_planet_jobs_slave_produces_mult$: §G+50%§!\n$mod_planet_jobs_upkeep_mult$: §G-20%§!\n"
-trait_nsc_freebooter_3:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_3_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_3_tooltip:0 "这个物种在§Y$pc_city§!世界。\n--------------\n§Y$pc_city§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-20%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+40%§!\n"
-trait_nsc_freebooter_4:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_4_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_4_tooltip:0 "这个物种在§Y盖亚§!世界。\n--------------\n§Y盖亚§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$MOD_POP_GROWTH_SPEED$: §G+20%§!\n"
-trait_nsc_freebooter_5:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_5_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_5_tooltip:0 "这个物种在§Y环§!世界。\n--------------\n§Y环§!世界效果:\n$mod_planet_jobs_produces_mult$: §G+10%§!\n$MOD_POP_GROWTH_SPEED$: §G+10%§!\n"
-trait_nsc_freebooter_6:0 "$trait_nsc_freebooter_1$"
-trait_nsc_freebooter_6_desc:0 "$trait_nsc_freebooter_1_desc$"
-trait_nsc_freebooter_6_tooltip:0 "这个物种在§Y遗迹§!世界。\n--------------\n§Y遗迹§!世界效果:\n$mod_planet_jobs_produces_mult$: §R-10%§!\n$mod_planet_metallurgists_alloys_produces_mult$: §G+20%§!\nmod_planet_researchers_produces_mult$: §G+10%§!"
+trait_nsc_freebooter:0 "星盗"
+trait_nsc_freebooter_desc:0 "YAR HAR FIDDLE DEE DEE!"
+trait_nsc_freebooter_alt:0 "$trait_nsc_freebooter$"
+trait_nsc_freebooter_alt_desc:0 "$trait_nsc_freebooter_desc$"
 
 nsc_freebooter_leader_trait_ruler_great_khan:0 "$leader_trait_ruler_great_khan$"
 nsc_freebooter_leader_trait_ruler_great_khan_desc:0 "$leader_trait_ruler_great_khan_desc$"
@@ -164,7 +143,9 @@ war_goal_wg_nsc_freebooter_forced_border_open_desc:0 "通过我们的狂暴外�
 SUBJECT_nsc_freebooter_satrapy:0 "总督府"
 SUBJECT_DESC_nsc_freebooter_satrapy:0 "银河霸权并不要求我们直接统治那些弱小的帝国。只要他们服从我们，让他们统治自己也不是不可以。"
 
-### Empire /星球Modifiers ###
+### Empire / Planet Modifiers ###
+nsc_freebooter_satrapy_owner_naval_cap_bonus:0 "太守领地的主人"
+
 nsc_freebooter_death_of_khan_empire_modifier:0 "天可汗之死"
 nsc_freebooter_death_of_khan_empire_modifier_desc:0 "我们的大汗死了，随之而来的是一连串的政治斗争。在各个派系争相填补权力真空时，适当的政治诡计可以在派系斗争中开出一条路。 \n\n在一连串的战斗、刺杀与贿赂后，继任者诞生了！"
 nsc_freebooter_market_cooldown_empire_modifier:0 "黑市休市"
@@ -177,7 +158,7 @@ nsc_freebooter_the_duel_opponent_won_empire_modifier_desc:0 "人民在庆祝他�
 nsc_freebooter_the_duel_both_lost_empire_modifier:0 "现在谁是我们的领导者？"
 nsc_freebooter_the_duel_both_lost_empire_modifier_desc:0 "人民对阿格里可汗的结果感到不满意，因为它没有结论。"
 
-#Raiding Bombardment星球Modifiers
+#Raiding Bombardment Planet Modifiers
 nsc_freebooter_world_currently_under_raiding_planet_modifier_1:0 "海盗入侵: 阶段§Y1§!"
 nsc_freebooter_world_currently_under_raiding_planet_modifier_1_desc:0 "这个星球正在遭受星盗的无情攻击。"
 nsc_freebooter_world_currently_under_raiding_planet_modifier_1_tooltip:0 "资源已§R被掠夺§!\ n行星拥有者对我们的评价§R降低§。"
@@ -275,64 +256,64 @@ nsc_freebooter_pirate_raiding_control_tooltip:0 "如果此命令为§G勾起§!�
 ### Event Custom Messages ###
 
 #Pirate Raid Effect: 1
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y50§! £energy£ $energy$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y50§! £energy£ $energy$和绑架§Y1§! £pops£ 人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R50§! £minerals£ $minerals$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R50§! £minerals£ $minerals$和绑架§Y1§! £pops£ 人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £food£ $food$和绑架§Y1§! £pops£ 人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H50§! £consumer_goods£ $consumer_goods$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H50§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £physics_research£ $physics_research$, §G50§! £society_research£ $society_research$, §H50§! £engineering_research£ $engineering_research$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £physics_research£ $physics_research$, §G50§! £society_research£ $society_research$, §H50§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £exotic_gases£ $exotic_gases$, §L50§! £rare_crystals£ $rare_crystals$, §P50§! £volatile_motes£ $volatile_motes$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £exotic_gases£ $exotic_gases$, §L50§! £rare_crystals£ $rare_crystals$, §P50§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$, §H50§! £consumer_goods£ $consumer_goods$, §M10§! £influence£ $influence$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$, §H50§! £consumer_goods£ $consumer_goods$, §M10§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y20§! £energy£ $energy$, §R20§! £minerals£ $minerals$, §G10§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y20§! £energy£ $energy$, §R20§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y50§! £energy£ $energy$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y50§! £energy£ $energy$和绑架§Y1§! £pops£ 人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R50§! £minerals£ $minerals$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R50§! £minerals£ $minerals$和绑架§Y1§! £pops£ 人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £food£ $food$和绑架§Y1§! £pops£ 人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H50§! £consumer_goods£ $consumer_goods$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H50§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £physics_research£ $physics_research$, §G50§! £society_research£ $society_research$, §H50§! £engineering_research£ $engineering_research$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £physics_research£ $physics_research$, §G50§! £society_research£ $society_research$, §H50§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £exotic_gases£ $exotic_gases$, §L50§! £rare_crystals£ $rare_crystals$, §P50§! £volatile_motes£ $volatile_motes$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G50§! £exotic_gases£ $exotic_gases$, §L50§! £rare_crystals£ $rare_crystals$, §P50§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$, §H50§! £consumer_goods£ $consumer_goods$, §M10§! £influence£ $influence$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B50§! £alloys£ $alloys$, §H50§! £consumer_goods£ $consumer_goods$, §M10§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y20§! £energy£ $energy$, §R20§! £minerals£ $minerals$, §G10§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y20§! £energy£ $energy$, §R20§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
 
 #Pirate Raid Effect: 2
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y80§! £energy£ $energy$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y80§! £energy£ $energy$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R80§! £minerals£ $minerals$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R80§! £minerals£ $minerals$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £food£ $food$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H80§! £consumer_goods£ $consumer_goods$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H80§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £physics_research£ $physics_research$, §G80§! £society_research£ $society_research$, §H80§! £engineering_research£ $engineering_research$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £physics_research£ $physics_research$, §G80§! £society_research£ $society_research$, §H80§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £exotic_gases£ $exotic_gases$, §L80§! £rare_crystals£ $rare_crystals$, §P80§! £volatile_motes£ $volatile_motes$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £exotic_gases£ $exotic_gases$, §L80§! £rare_crystals£ $rare_crystals$, §P80§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$, §H80§! £consumer_goods£ $consumer_goods$, §M20§! £influence£ $influence$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$, §H80§! £consumer_goods£ $consumer_goods$, §M20§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y35§! £energy£ $energy$, §R35§! £minerals£ $minerals$, §G10§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT_2:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y35§! £energy£ $energy$, §R35§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y80§! £energy£ $energy$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y80§! £energy£ $energy$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R80§! £minerals£ $minerals$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R80§! £minerals£ $minerals$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £food£ $food$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H80§! £consumer_goods£ $consumer_goods$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H80§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £physics_research£ $physics_research$, §G80§! £society_research£ $society_research$, §H80§! £engineering_research£ $engineering_research$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £physics_research£ $physics_research$, §G80§! £society_research£ $society_research$, §H80§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £exotic_gases£ $exotic_gases$, §L80§! £rare_crystals£ $rare_crystals$, §P80§! £volatile_motes£ $volatile_motes$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G80§! £exotic_gases£ $exotic_gases$, §L80§! £rare_crystals£ $rare_crystals$, §P80§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$, §H80§! £consumer_goods£ $consumer_goods$, §M20§! £influence£ $influence$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B80§! £alloys£ $alloys$, §H80§! £consumer_goods£ $consumer_goods$, §M20§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y35§! £energy£ $energy$, §R35§! £minerals£ $minerals$, §G10§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT_2:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y35§! £energy£ $energy$, §R35§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
 
 #Pirate Raid Effect: 3
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y100§! £energy£ $energy$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y100§! £energy£ $energy$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R100§! £minerals£ $minerals$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R100§! £minerals£ $minerals$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £food£ $food$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H100§! £consumer_goods£ $consumer_goods$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H100§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £physics_research£ $physics_research$, §G100§! £society_research£ $society_research$, §H100§! £engineering_research£ $engineering_research$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £physics_research£ $physics_research$, §G100§! £society_research£ $society_research$, §H100§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £exotic_gases£ $exotic_gases$, §L100§! £rare_crystals£ $rare_crystals$, §P100§! £volatile_motes£ $volatile_motes$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £exotic_gases£ $exotic_gases$, §L100§! £rare_crystals£ $rare_crystals$, §P100§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$, §H100§! £consumer_goods£ $consumer_goods$, §M30§! £influence£ $influence$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$, §H100§! £consumer_goods£ $consumer_goods$, §M30§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y45§! £energy£ $energy$, §R45§! £minerals£ $minerals$, §G10§! £food£ $food$。"
-NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT_3:0 "我们從§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y45§! £energy£ $energy$, §R45§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y100§! £energy£ $energy$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ENERGIES_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y100§! £energy£ $energy$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R100§! £minerals£ $minerals$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_MINERALS_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§R100§! £minerals£ $minerals$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_FOOD_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £food£ $food$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ALLOYS_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H100§! £consumer_goods£ $consumer_goods$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_GOODS_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§H100§! £consumer_goods£ $consumer_goods$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £physics_research£ $physics_research$, §G100§! £society_research£ $society_research$, §H100§! £engineering_research£ $engineering_research$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RESEARCH_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £physics_research£ $physics_research$, §G100§! £society_research£ $society_research$, §H100§! £engineering_research£ $engineering_research$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £exotic_gases£ $exotic_gases$, §L100§! £rare_crystals£ $rare_crystals$, §P100§! £volatile_motes£ $volatile_motes$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_RARES_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§G100§! £exotic_gases£ $exotic_gases$, §L100§! £rare_crystals£ $rare_crystals$, §P100§! £volatile_motes£ $volatile_motes$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$, §H100§! £consumer_goods£ $consumer_goods$, §M30§! £influence£ $influence$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_CAPITAL_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§B100§! £alloys£ $alloys$, §H100§! £consumer_goods£ $consumer_goods$, §M30§! £influence£ $influence$和绑架§Y1§! £pops£人口。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y45§! £energy£ $energy$, §R45§! £minerals£ $minerals$, §G10§! £food£ $food$。"
+NSC_FREEBOOTER_PIRATE_RAIDING_DONE_ETC_ALT_3:0 "我们从§Y$NSC_FREEBOOTER_PIRATE_RAIDING_TARGET_PLANET$§!星球抢了§Y45§! £energy£ $energy$, §R45§! £minerals£ $minerals$, §G10§! £food£ $food$和绑架§Y1§! £pops£人口。"
 
 ### Events ###
 nsc_freebooter.4.name:0 "帝国投降！"

@@ -1,21 +1,21 @@
 ﻿l_simp_chinese:
 
 
-####################################
+##################################################################################################################################################################################################################
 ### STARBASE MODULES & BUILDINGS ###
 ####################################
 
-stb_shipyard: "造船厂"
-stb_shipyard_desc: "专门用来建造船舰的恒星基地。"
+stb_shipyard:0 "造船厂"
+stb_shipyard_desc:0 "专门用来建造船舰的恒星基地。"
 
-sm_drydock: "干船坞"
-sm_drydock_desc: "这个专门设计的设施利用先进技术来维持造船厂内的大气压力，使工人能够更轻松地建造、维护、升级和维修战舰。\ n"
+sm_drydock:0 "干船坞"
+sm_drydock_desc:0 "这个专门设计的设施利用先进技术来维持造船厂内的大气压力，使工人能够更轻松地建造、维护、升级和维修战舰。\ n"
 
-sm_sensor_station: "预警站"
-sm_sensor_station_desc: "在恒星基地上建立一个预警站以便监控我们的边境。"
+sm_sensor_station:0 "预警站"
+sm_sensor_station_desc:0 "在恒星基地上建立一个预警站以便监控我们的边境。"
 
-sm_solar_panel_01: "太阳能面板网络"
-sm_solar_panel_01_desc: "小型太阳能板网络不但可以分担恒星基地的维护费用，还可以产生多余的能量。"
+sm_solar_panel_01:0 "太阳能面板网络"
+sm_solar_panel_01_desc:0 "小型太阳能板网络不但可以分担恒星基地的维护费用，还可以产生多余的能量。"
 sm_solar_panel_02:0 "中型太阳能面板网络"
 sm_solar_panel_02_desc:0 "中型太阳能板网络不但可以分担恒星基地的维护费用，还可以产生多余的能量。"
 sm_solar_panel_03:0 "大型太阳能面板网络"
@@ -23,34 +23,34 @@ sm_solar_panel_03_desc:0 "大型太阳能板网络不但可以分担恒星基地
 sm_solar_panel_04:0 "巨型太阳能面板网络"
 sm_solar_panel_04_desc:0 "巨型太阳能板网络不但可以分担恒星基地的维护费用，还可以产生多余的能量。"
 
-sm_hq_annex: "海军总部"
-sm_hq_annex_desc: "一个建立在星堡上的先进指挥中心,为我们帝国的舰队提供可观的加成。"
+sm_hq_annex:0 "海军总部"
+sm_hq_annex_desc:0 "一个建立在星堡上的先进指挥中心,为我们帝国的舰队提供可观的加成。"
 
-sm_starbase_management: "恒星基地管理中心"
-starbase_management_desc: "先进的微观管理使大量作业更有效率。"
+sm_starbase_management:0 "恒星基地管理中心"
+starbase_management_desc:0 "先进的微观管理使大量作业更有效率。"
 
-sm_customs_office: "恒星基地海关"
-sm_customs_office_desc: "星系移民的管理中心。"
+sm_customs_office:0 "恒星基地海关"
+sm_customs_office_desc:0 "星系移民的管理中心。"
 
-mod_pop_category_bio_trophy_unity_produces_mult: "生物奖杯"
+mod_pop_category_bio_trophy_unity_produces_mult:0 "生物奖杯"
 
-sm_starbase_management_machine: "恒星基地网络枢纽"
-starbase_management_machine_desc: "01000101 01110010 01110010 01101111 01110010 00100000 00110100 00110000 00110100 0001010\n(譯者註:即为Error 404, 最后一组数字由于少一码因此无法判读。)"
+sm_starbase_management_machine:0 "恒星基地网络枢纽"
+starbase_management_machine_desc:0 "01000101 01110010 01110010 01101111 01110010 00100000 00110100 00110000 00110100 0001010"
 
-sm_starbase_management_hive: "恒星基地巢穴"
-starbase_management_hive_desc: "我们是一个整体。"
+sm_starbase_management_hive:0 "恒星基地巢穴"
+starbase_management_hive_desc:0 "我们是一个整体。"
 
-sm_mining_base: "星系矿物精炼厂"
-sm_mining_base_desc: "增加星系的矿物产量。"
+sm_mining_base:0 "星系矿物精炼厂"
+sm_mining_base_desc:0 "增加星系的矿物产量。"
 
-sm_farming_base: "星系农业终端"
-sm_farming_base_desc: "有些星系专门生产大量食物以维持我们不断增长的人口。 一个星系农业终端协调星系中所有农业企业的工作，提高所有受影响星球上的农作物产量。"
+sm_farming_base:0 "星系农业终端"
+sm_farming_base_desc:0 "有些星系专门生产大量食物以维持我们不断增长的人口。 一个星系农业终端协调星系中所有农业企业的工作，提高所有受影响星球上的农作物产量。"
 
-sm_power_station: "星系能量网络"
-sm_power_station_desc: "增加星系的能量产量。"
+sm_power_station:0 "星系能量网络"
+sm_power_station_desc:0 "增加星系的能量产量。"
 
-sm_orbital_housing: "轨道住宅"
-sm_orbital_housing_desc: "在恒星基地上提供市民居住的地方。"
+sm_orbital_housing:0 "轨道住宅"
+sm_orbital_housing_desc:0 "在恒星基地上提供市民居住的地方。"
 
 
 
@@ -64,31 +64,31 @@ mod_station_researchers_society_research_produces_mult: "社会研究站 £socie
 mod_station_researchers_engineering_research_produces_mult: "工程研究站 £engineering 产出"
 
 sm_shield_module: "护盾产生器"
-sm_shield_module_desc: "在恒星基地上追加额外的护盾。" 
+sm_shield_module_desc: "在恒星基地上追加额外的护盾。"
 
 sm_armor_module: "装甲保护"
-sm_armor_module_desc: "在恒星基地上追加额外的装甲。" 
+sm_armor_module_desc: "在恒星基地上追加额外的装甲。"
 
 sm_pd_battery: "点防系统"
-sm_pd_battery_desc: "在恒星基地上追加两个点防槽位。" 
+sm_pd_battery_desc: "在恒星基地上追加两个点防槽位。"
 
 sm_large_battery: "大型电池"
-sm_large_battery_desc: "在恒星基地上追加一个L武器槽。" 
+sm_large_battery_desc: "在恒星基地上追加一个L武器槽。"
 
 sm_xl_battery: "超大型电池"
-sm_xl_battery_desc: "在恒星基地上追加一个XL武器槽。" 
+sm_xl_battery_desc: "在恒星基地上追加一个XL武器槽。"
 
 sm_titanic_battery: "巨型电池"
-sm_titanic_battery_desc: "在恒星基地上追加一个T武器槽。"  
+sm_titanic_battery_desc: "在恒星基地上追加一个T武器槽。"
 
 sm_adv_space_engineers: "恒星基地建设办公室"
-sm_adv_space_engineers_desc: "提升恒星基地建设建筑与模块的效率。" 
+sm_adv_space_engineers_desc: "提升恒星基地建设建筑与模块的效率。"
 
 sm_asteroid_mining: "小行星采矿队"
-sm_asteroid_mining_desc: "发射一个矿工团队来开采星系中那些因为太小而无法被采矿站采集的小行星。拥有§G小行星采矿专家§!产量将提高§Y2矿物§!£minerals 。" 
+sm_asteroid_mining_desc: "发射一个矿工团队来开采星系中那些因为太小而无法被采矿站采集的小行星。拥有§G小行星采矿专家§!产量将提高§Y2矿物§!£minerals 。"
 
 sm_mining_experts: "小行星采矿专家"
-sm_mining_experts_desc: "招聘专家协助小行星的开采，進而提高每个小行星开采团队的产量。 将讓每个§G小行星采矿小组§!額外產出§Y2礦物§!£minerals 。" 
+sm_mining_experts_desc: "招聘专家协助小行星的开采，進而提高每个小行星开采团队的产量。 将讓每个§G小行星采矿小组§!額外產出§Y2礦物§!£minerals 。"
 
 sm_reinforced_defenses: "恒星基地强化防御"
 sm_reinforced_defenses_desc: "改善恒星基地上的装甲与护盾。"
@@ -120,9 +120,6 @@ sm_space_power_plant_desc: "在轨道上围绕恒星基地运行的发电厂。"
 sm_repair_module: "维修设施"
 sm_repair_module_desc: "在恒星基地周围追加维修平台以加速船舰维修。"
 
-sm_tile_blocker_cleaner: "行星建造营"
-sm_tile_blocker_cleaner_desc: "一个专门负责清除行星表面障碍物的工程师大队。"
-
 sm_space_foundry: "太空铸造厂"
 sm_space_foundry_desc: "太空铸造厂将矿物精炼成合金，拥有§G制造链§!将提高§Y1合金§!£alloys的产量."
 
@@ -148,7 +145,7 @@ sm_orbital_assembly: "机器人组装场"
 sm_orbital_assembly_desc: "在恒星基地中建立机器人人口并将其转移到星系中殖民地。"
 
 sm_chain_manufacturing: "流水线制造"
-sm_chain_manufacturing_desc: "协助太空和行星上生产合金和消费品，将提每个§G太空铸造厂§!§Y1合金§!£alloys以及每个§G太空工厂§!§Y2消费品§!£consumer_goods的产出。" 
+sm_chain_manufacturing_desc: "协助太空和行星上生产合金和消费品，将提每个§G太空铸造厂§!§Y1合金§!£alloys以及每个§G太空工厂§!§Y2消费品§!£consumer_goods的产出。"
 
 sm_construction_planificator: "行星工程办公室"
 sm_construction_planificator_desc: "创建建筑方案以加快在系统行星上构建建筑物，地区和项目的速度。"
@@ -178,13 +175,13 @@ sm_research_computers: "研究分析系统"
 sm_research_computers_desc: "先进的研究计算机阵列可以与系统中的所有其他研究设备链接，从而增加工作产生的研究点数。"
 
 POINT_DEFENCE_STARBASE: "自动防御系统"
-POINT_DEFENCE_STARBASE_DESC: "" 
+POINT_DEFENCE_STARBASE_DESC: "自动防御系统"
 CITADEL_DARK_MATTER_REACTOR: "暗物质反应堆"
-CITADEL_DARK_MATTER_REACTOR_DESC: ""
+CITADEL_DARK_MATTER_REACTOR_DESC: "暗物质反应堆"
 STARBASE_AURA_SHIP_DISRUPTOR: "船舰干扰"
 STARBASE_AURA_SHIP_AMPLIFIER: "船舰輔助"
-aura_starbase_ship_disruptor:0 "$offensive_aura$ - $sm_ship_disruptor$"
-aura_starbase_ship_amplifier:0 "$defensive_aura$ - $sm_ship_amplifier$"
+ aura_starbase_ship_disruptor:0 "$offensive_aura$ - $STARBASE_AURA_SHIP_DISRUPTOR$"
+ aura_starbase_ship_amplifier:0 "$defensive_aura$ - $STARBASE_AURA_SHIP_AMPLIFIER$"
 
 TITANIC_STARBASE_SECTION: "巨型区块"
 EXTRA_LARGE_STARBASE_SECTION: "超大型区块"

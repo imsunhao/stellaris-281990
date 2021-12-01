@@ -3,6 +3,6 @@ tags={
 	"Translation"
 }
 picture="thumbnail.png"
-supported_version="3.1.*"
+supported_version="3.2.*"
 path="C:/Users/Liyea/OneDrive/Documents/Paradox Interactive/Stellaris/mod/nsc2cn"
 remote_file_id="1321344591"

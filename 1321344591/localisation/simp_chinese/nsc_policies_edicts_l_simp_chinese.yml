@@ -101,16 +101,16 @@ standard_operations_name:0 "标准"
 standard_operations:0 "标准"
 standard_operations_desc:0 "我们不应该过度专业化我们的舰队运营。我们必须时刻准备好承担所有职责，并且永远不要忽略海军计划的任何一个方面。"
 
-blue_sky:0 "蓝天"
-blue_sky_name:0 "蓝天"
+blue_sky:0 "蓝天行动"
+blue_sky_name:0 "蓝天行动"
 blue_sky_desc:0 "没有什么比捍卫我们的星球和我们的人民更重要的了。我们的海军纯粹是为了捍卫我们的国家而存在，我们应该计划将战役限制在我们控制的领土内，并利用强大的星际基地支持我们的舰队作战。"
 
-black_sky:0 "黑天"
-black_sky_name:0 "黑天"
+black_sky:0 "黑天行动"
+black_sky_name:0 "黑天行动"
 black_sky_desc:0 "我们的海军必须能够在远离家乡的地方投射力量-保护我们的盟友，惩罚我们的敌人并应对可能发生的危机。我们不能依靠恒星基地支持我们的舰队。我们必须能够在任何地方战斗，甚至跨越银河系。就像其他任何一支舰队一样，“黑天”舰队是一种外交工具。"
 
-privateer_operation:0 "反海盗"
-privateer_operation_name:0 "反海盗"
+privateer_operation:0 "反海盗行动"
+privateer_operation_name:0 "反海盗行动"
 privateer_operation_desc:0 "我们的船队足以捍卫我们和我们的生活方式，但它们也有助于保护我们的内部贸易。贸易是帝国的命脉，我们必须尽一切努力保护它。"
 
 policy_crew_doctrine:0 "船员培训学说"
@@ -156,12 +156,16 @@ swarm_protocol_desc:0 "我们的无人机只需要很少的培训。我们的船
 
 
 
-##############
+##################################################################################################################################################################################################################
 ### EDICTS ###
 ##############
 
 edict_nsc_flagship_repair:0 "旗舰重建"
 edict_nsc_flagship_repair_desc:0 "我们光荣的旗舰是我们帝国的骄傲，但却在在战斗中被摧毁了。虽然我们无法一次负担一艘以上的旗舰的维护费用，但既然我们的旗舰已经被摧毁，我们就有空余预算来制造一艘新的旗舰。"
+edict_nsc_flagship_repair_possible_check_tooltip:0 "只要点击这条法令。如果旗舰重建法令可用，它将自动进行检查。"
+
+edict_nsc_flagship_repair:0 "旗舰式重建"
+edict_nsc_flagship_repair_desc:0 "我们光荣的旗舰，我们帝国的骄傲，在战斗中被摧毁了。虽然一次支持多个旗舰的成本高得让人望而却步，但现在我们的旗舰已经被摧毁，我们在预算中有空间制造一个新的旗舰。"
 
 edict_nsc_emergency_defenses:0 "紧急防卫协议"
 edict_nsc_emergency_defenses_desc:0 "我们现有的防御面对即将来临的猛攻不值一提，但是我们仍然有时间来准备。 \n\n我们能用比平常快好几倍的速度来强化我们的防御，虽然也要为此付出代价，但总好过输给敌人。"

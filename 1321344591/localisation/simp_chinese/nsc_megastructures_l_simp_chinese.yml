@@ -1,13 +1,13 @@
 ﻿l_simp_chinese:
 
-######################
+##################################################################################################################################################################################################################
 ### MEGASTRUCTURES ###
 ######################
 
 hyperlane_creator_emisor_0:0 "超空间航线产生器(发射端)施工现场"
 hyperlane_creator_emisor_0_DESC:0 "创建新的超空间航线-步骤1：在新超空间航线的起点星系中建造此结构。"
 hyperlane_creator_emisor_0_MEGASTRUCTURE_DETAILS:0 "创建新的超空间航线-步骤1：在新超空间航线的起点星系中建造此建筑。"
-                                  
+
 hyperlane_creator_receptor_0:0 "超空间航线产生器(接收端)施工现场"
 hyperlane_creator_receptor_0_DESC:0 "创建新的超空间航线-步骤2：在新超空间航线的终点星系中建造此结构。"
 hyperlane_creator_receptor_0_MEGASTRUCTURE_DETAILS:0 "创建新的超空间航线-步骤2：在新超空间航线的终点星系中建造此建筑。"
@@ -67,7 +67,7 @@ nsc_galactic_mall_1_MEGASTRUCTURE_DETAILS:0 "全银河系最大的购物中心�
 
 
 nsc_hospital_0_MEGASTRUCTURE_DETAILS: "这是一所致力于研究银河系中的各种异星生物并分析、治疗影响这些物种的各种疾病的大型医院。"
-				       
+
 nsc_hospital_0:0 "银河综合医院预定地"
 nsc_hospital_0_DESC:0 "这是一所致力于研究银河系中的各种异星生物并分析和治疗影响这些物种的各种疾病与症状的大型医院。"
 nsc_hospital_0_CONSTRUCTION_INFO_DELAYED:0 "这是一所致力于研究银河系中的各种异星生物并分析、治疗影响这些物种的各种疾病的大型医院。"
@@ -95,37 +95,37 @@ triggered_opinion_of_nsc_hopsital_3:0 "$triggered_opinion_of_nsc_hopsital_1$"
 
 
 
-##################################
+##################################################################################################################################################################################################################
 ### HYPERLANE CREATION/REMOVAL ###
 ##################################
 
-hyperlane_generation.1.name:0 "超空间航线生成"
-hyperlane_generation.1.desc:0 "我们成功的在§Y[hyperlane_creator_emisor.GetName]§!和§Y[hyperlane_creator_receptor.GetName]§!之间产生了一个超空间航线。"
-hyperlane_generation.a:0 "非常好"
+nsc_events_hyperlane_gen.1.name:0 "超空间航线生成"
+nsc_events_hyperlane_gen.1.desc:0 "我们成功的在§Y[hyperlane_creator_emisor.GetName]§!和§Y[hyperlane_creator_receptor.GetName]§!之间产生了一个超空间航线。"
+nsc_events_hyperlane_gen.a:0 "非常好"
 
-hyperlane_generation.3.name:0 "超空间航线移除"
-hyperlane_generation.3.desc:0 "我们成功的移除§Y[hyperlane_remover_emisor.GetName]§!和§Y[hyperlane_remover_receptor.GetName]§!之间的超空间航线。"
+nsc_events_hyperlane_gen.3.name:0 "超空间航线移除"
+nsc_events_hyperlane_gen.3.desc:0 "我们成功的移除§Y[hyperlane_remover_emisor.GetName]§!和§Y[hyperlane_remover_receptor.GetName]§!之间的超空间航线。"
 
-hyperlane_generation.5.name:0 "超空间航线产生器(发射端)施工"
-hyperlane_generation.5.desc:0 "我们在§Y[hyperlane_generator_1.GetName]§!完成了超空间航线产生器(发射端)的初步架构。"
+nsc_events_hyperlane_gen.5.name:0 "超空间航线产生器(发射端)施工"
+nsc_events_hyperlane_gen.5.desc:0 "我们在§Y[hyperlane_generator_1.GetName]§!完成了超空间航线产生器(发射端)的初步架构。"
 
-hyperlane_generation.7.name:0 "超空间航线产生器(接收端)施工"
-hyperlane_generation.7.desc:0 "我们在§Y[hyperlane_generator_2.GetName]§!完成了超空间航线产生器(接收端)的初步架构。"
+nsc_events_hyperlane_gen.7.name:0 "超空间航线产生器(接收端)施工"
+nsc_events_hyperlane_gen.7.desc:0 "我们在§Y[hyperlane_generator_2.GetName]§!完成了超空间航线产生器(接收端)的初步架构。"
 
-hyperlane_generation.9.name:0 "超空间航线移除器(发射端)施工"
-hyperlane_generation.9.desc:0 "我们在§Y[hyperlane_generator_3.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
+nsc_events_hyperlane_gen.9.name:0 "超空间航线移除器(发射端)施工"
+nsc_events_hyperlane_gen.9.desc:0 "我们在§Y[hyperlane_generator_3.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
 
-hyperlane_generation.11.name:0 "超空间航线移除器(接收端)施工"
-hyperlane_generation.11.desc:0 "我们在§Y[hyperlane_generator_4.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
+nsc_events_hyperlane_gen.11.name:0 "超空间航线移除器(接收端)施工"
+nsc_events_hyperlane_gen.11.desc:0 "我们在§Y[hyperlane_generator_4.GetName]§!完成了超空间航线移除器(发射端)的初步架构。"
 
-hyperlane_generation.6.name:0 "超空间航线产生器(发射端)完工"
-hyperlane_generation.6.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+nsc_events_hyperlane_gen.6.name:0 "超空间航线产生器(发射端)完工"
+nsc_events_hyperlane_gen.6.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
 
-hyperlane_generation.8.name:0 "超空间航线产生器(接收端)完工"
-hyperlane_generation.8.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+nsc_events_hyperlane_gen.8.name:0 "超空间航线产生器(接收端)完工"
+nsc_events_hyperlane_gen.8.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
 
-hyperlane_generation.10.name:0 "超空间航线移除器(发射端)完工"
-hyperlane_generation.10.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
+nsc_events_hyperlane_gen.10.name:0 "超空间航线移除器(发射端)完工"
+nsc_events_hyperlane_gen.10.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(发射端)的最终阶段。"
 
-hyperlane_generation.12.name:0 "超空间航线移除器(接收端)完工"
-hyperlane_generation.12.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(接收端)的最终阶段。"
+nsc_events_hyperlane_gen.12.name:0 "超空间航线移除器(接收端)完工"
+nsc_events_hyperlane_gen.12.desc:0 "我们在§Y[From.From.GetName]§!完成了超空间航线移除器(接收端)的最终阶段。"

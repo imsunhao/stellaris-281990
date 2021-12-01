@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
 
-##################################
+##################################################################################################################################################################################################################
 ### EXPLORATION CRUISER EVENTS ###
 ##################################
 
@@ -22,21 +22,21 @@ expcruiser.02.desc: "我们的工程师们成功了!全新的原型勘探舰已�
 expcruiser.03.name: "科研船升级"
 expcruiser.03.desc:0 "现在我们已经完成了探勘舰的完整设计，我们的舰队后勤团队想知道您是否要将我们的科学舰队升级到这种新的优秀设计。为每艘船执行升级大约需要§G250天§!并且每艘船需要§B400合金§!和§Y50能源§!的投资，但将为我们先进的探勘舰在日益危险的宇宙中位科学家提供更多的生存机会。我们最多可以将8艘科研船升级成探勘舰。每艘船都会产生一个特殊计画，要命令科研船回到我们的母星才能开始升级项目，我们等候您的决定。"
 
-expcruiser.03.1:0 "選擇以升級§Y1§!艘船。(需要§B400合金§!與§Y50能源§!)"
-expcruiser.03.2:0 "選擇以升級§Y2§!艘船。(需要§B800合金§!與§Y100能源§!)"
-expcruiser.03.3:0 "選擇以升級§Y3§!艘船。(需要§B1200合金§!與§Y150能源§!)"
-expcruiser.03.4:0 "選擇以升級§Y4§!艘船。(需要§B1600合金§!與§Y200能源§!)"
-expcruiser.03.5:0 "選擇以升級§Y5§!艘船。(需要§B2000合金§!與§Y250能源§!)"
-expcruiser.03.6:0 "選擇以升級§Y6§!艘船。(需要§B2400合金§!與§Y300能源§!)"
-expcruiser.03.7:0 "選擇以升級§Y7§!艘船。(需要§B2800合金§!與§Y350能源§!)"
-expcruiser.03.8:0 "選擇以升級§Y8§!艘船。(需要§B3200合金§!與§Y400能源§!)"
-expcruiser.03.end: "選擇並不會升級任何船艦。(§+25影響力/月§!)"
+expcruiser.03.1:0 "升級§Y1§!艘船。(需要§B400合金§!與§Y50能源§!)"
+expcruiser.03.2:0 "升級§Y2§!艘船。(需要§B800合金§!與§Y100能源§!)"
+expcruiser.03.3:0 "升級§Y3§!艘船。(需要§B1200合金§!與§Y150能源§!)"
+expcruiser.03.4:0 "升級§Y4§!艘船。(需要§B1600合金§!與§Y200能源§!)"
+expcruiser.03.5:0 "升級§Y5§!艘船。(需要§B2000合金§!與§Y250能源§!)"
+expcruiser.03.6:0 "升級§Y6§!艘船。(需要§B2400合金§!與§Y300能源§!)"
+expcruiser.03.7:0 "升級§Y7§!艘船。(需要§B2800合金§!與§Y350能源§!)"
+expcruiser.03.8:0 "升級§Y8§!艘船。(需要§B3200合金§!與§Y400能源§!)"
+expcruiser.03.end: "不升级任何船。(§+25影響力/月§!)"
 
 expcruiser.04.name: "科研船升级完成"
 expcruiser.04.desc: "我们已经完成了科学飞船升级项目，科学家已上任且新船正在等待您的命令。"
 
 
-############################
+##################################################################################################################################################################################################################
 ### FLAGSHIP EVENT CHAIN ###
 ############################
 
@@ -73,38 +73,38 @@ nsc_flagship_complete_DESC:0 "这个庞大的造船厂是我们帝国强大的�
 NSC_FLAGSHIP_REBUILD_PROJECT:0 "旗舰重建"
 NSC_FLAGSHIP_REBUILD_PROJECT_DESC:0 "我们光荣的旗舰是我们帝国的骄傲，但却在在战斗中被摧毁了。虽然我们无法一次负担一艘以上的旗舰的维护费用，但既然我们的旗舰已经被摧毁，我们就有空余预算来制造一艘新的旗舰。"
 
-nsc_events.10.name:0 "旗舰建造厂准备建设"
-nsc_events.10.desc:0 "我们为建造旗舰所需的大型造船厂的设计已经完成。我们可以开始组装工厂的建设，但是我们的海军工程师需要确定将要建造的一艘—也仅一艘—旗舰的最终设计。我们将只能建造一个旗舰。虽然我们可以在建造完成后对船舶进行改造和升级，但在建造期间我们只能提出一种设计。"
-nsc_events.10.a:0 "一艘改变潮流的战舰..."
+nsc_events_flagship.1.name:0 "旗舰建造厂准备建设"
+nsc_events_flagship.1.desc:0 "我们为建造旗舰所需的大型造船厂的设计已经完成。我们可以开始组装工厂的建设，但是我们的海军工程师需要确定将要建造的一艘—也仅一艘—旗舰的最终设计。我们将只能建造一个旗舰。虽然我们可以在建造完成后对船舶进行改造和升级，但在建造期间我们只能提出一种设计。"
+nsc_events_flagship.1.a:0 "一艘改变潮流的战舰..."
 
-nsc_events.11.name:0 "旗舰设计定稿"
-nsc_events.11.desc:0 "我们的旗舰船已经开始建造，但是既然旗舰的骨架已经开始建造，我们就必须避免在旗舰完成度太高前决定我们旗舰的最终设计以避免无法修改的窘况。"
-nsc_events.11.a:0 "了解，我们会立刻完成设计。"
+nsc_events_flagship.2.name:0 "旗舰设计定稿"
+nsc_events_flagship.2.desc:0 "我们的旗舰船已经开始建造，但是既然旗舰的骨架已经开始建造，我们就必须避免在旗舰完成度太高前决定我们旗舰的最终设计以避免无法修改的窘况。"
+nsc_events_flagship.2.a:0 "了解，我们会立刻完成设计。"
 
-nsc_events.12.name:0 "无法再继续保密"
-nsc_events.12.desc:0 "我们强大的旗舰船的建造自然是我们的最高机密。为此我们花费了大量的时间、精力和资源来掩盖该项目的存在。 \n\n尽管我们做出了极大的努力来保持其建造的机密性，但如此庞大的工程几乎是无法掩盖的，而且银河系的外国势力已经开始意识到这是一种全新的军事型态。而且当我们一手改变星际战争的面貌时，它们并没有袖手旁观。我们的情报人员回报，许多帝国已经开始建造自己的旗舰，希望维持银河系的力量平衡。 \n\n一场新的军备竞赛正在进行中。"
-nsc_events.12.a:0 "令人失望，但并不意外。"
+nsc_events_flagship.3.name:0 "无法再继续保密"
+nsc_events_flagship.3.desc:0 "我们强大的旗舰船的建造自然是我们的最高机密。为此我们花费了大量的时间、精力和资源来掩盖该项目的存在。 \n\n尽管我们做出了极大的努力来保持其建造的机密性，但如此庞大的工程几乎是无法掩盖的，而且银河系的外国势力已经开始意识到这是一种全新的军事型态。而且当我们一手改变星际战争的面貌时，它们并没有袖手旁观。我们的情报人员回报，许多帝国已经开始建造自己的旗舰，希望维持银河系的力量平衡。 \n\n一场新的军备竞赛正在进行中。"
+nsc_events_flagship.3.a:0 "令人失望，但并不意外。"
 
-nsc_events.13.name:0 "宇宙中的终极力量"
-nsc_events.13.desc:0 "经过多年的努力、大量资源的投入、令人难以置信的造船厂的建设以及大量政治资本的支出，旗舰终于完成并全面投入运转。它是能够歼灭敌方舰队并扭转整个战争浪潮的终极军舰。 \n\n这种庞大的新军舰的问世震惊了我们帝国的公民，也震惊了外国的异族。但是正如先前的情报报告所示，他们的政府并没有感到惊讶，而是一直在准备对付我们强力武器。情报表明，有好几个帝国正在努力将自己的旗舰产品投入生产。"
-nsc_events.13.a:0 "太好了，我们将在30天内启航。"
+nsc_events_flagship.4.name:0 "宇宙中的终极力量"
+nsc_events_flagship.4.desc:0 "经过多年的努力、大量资源的投入、令人难以置信的造船厂的建设以及大量政治资本的支出，旗舰终于完成并全面投入运转。它是能够歼灭敌方舰队并扭转整个战争浪潮的终极军舰。 \n\n这种庞大的新军舰的问世震惊了我们帝国的公民，也震惊了外国的异族。但是正如先前的情报报告所示，他们的政府并没有感到惊讶，而是一直在准备对付我们强力武器。情报表明，有好几个帝国正在努力将自己的旗舰产品投入生产。"
+nsc_events_flagship.4.a:0 "太好了，我们将在30天内启航。"
 
-nsc_events.14.name:0 "旗舰正在进行中"
-nsc_events.14.desc:0 "我们刚刚完成了新旗舰的下水仪式。巨大的船只从封闭的泊位滑出，它的船体在我们家乡的明媚阳光下闪闪发光，帝国周围的数十亿人敬畏地看着。一个新时代已经开始。旗舰设计为能够独立运行，但作为舰队的分子她将会有更佳的表现。该船现正在等待您指派新的海军上将。"
-nsc_events.14.a:0 "太棒了。"
+nsc_events_flagship.5.name:0 "旗舰正在进行中"
+nsc_events_flagship.5.desc:0 "我们刚刚完成了新旗舰的下水仪式。巨大的船只从封闭的泊位滑出，它的船体在我们家乡的明媚阳光下闪闪发光，帝国周围的数十亿人敬畏地看着。一个新时代已经开始。旗舰设计为能够独立运行，但作为舰队的分子她将会有更佳的表现。该船现正在等待您指派新的海军上将。"
+nsc_events_flagship.5.a:0 "太棒了。"
 
-nsc_events.15.name:0 "公平竞争"
-nsc_events.15.desc:0 "我们的特工现在报告说，有多个外国大国建造了自己的全面作战旗舰，试图跟上军备竞赛。现在，银河系是其中这些巨大的军舰的游乐场，每艘军舰都拥有足够的火力来压碎整个舰队。尽管建造和维护这些船只的巨额费用将使任何国家都不能建造一个以上的旗舰，但它们令人难以置信的力量肯定会影响他们将来参与的任何武装冲突。"
-nsc_events.15.a:0 "了解。"
+nsc_events_flagship.6.name:0 "公平竞争"
+nsc_events_flagship.6.desc:0 "我们的特工现在报告说，有多个外国大国建造了自己的全面作战旗舰，试图跟上军备竞赛。现在，银河系是其中这些巨大的军舰的游乐场，每艘军舰都拥有足够的火力来压碎整个舰队。尽管建造和维护这些船只的巨额费用将使任何国家都不能建造一个以上的旗舰，但它们令人难以置信的力量肯定会影响他们将来参与的任何武装冲突。"
+nsc_events_flagship.6.a:0 "了解。"
 
-nsc_events.16.name:0 "史诗般的灾难"
-nsc_events.16.desc:0 "我们的旗舰，海军的骄傲，帝国威力的光彩象征已被摧毁！ \n\n如此惨重的灾难所带来的冲击不可低估。公众对我们的旗舰捍卫我们的能力抱有极大的信心，我们花了很多功夫在宣传我们的旗舰，以激励我们的公民。在未来的很长一段时间中，许多人肯定会质疑导致我们帝国骄傲被摧毁的指挥决策。 \n\n现在，我们不再需要花费大量的资源来维护旗舰，尽管有必要像以前一样进行深入的特殊项目建设，但有我们仍有能力建造一艘新的旗舰。 \n我们必须注意不要失去我们的下一艘旗舰。一定要对我们的海军战略进行检讨。"
-nsc_events.16.a:0 "很好，立即开始施工。"
-nsc_events.16.b:0 "了解，我们会立刻开始此项目。"
+nsc_events_flagship.7.name:0 "史诗般的灾难"
+nsc_events_flagship.7.desc:0 "我们的旗舰，海军的骄傲，帝国威力的光彩象征已被摧毁！ \n\n如此惨重的灾难所带来的冲击不可低估。公众对我们的旗舰捍卫我们的能力抱有极大的信心，我们花了很多功夫在宣传我们的旗舰，以激励我们的公民。在未来的很长一段时间中，许多人肯定会质疑导致我们帝国骄傲被摧毁的指挥决策。 \n\n现在，我们不再需要花费大量的资源来维护旗舰，尽管有必要像以前一样进行深入的特殊项目建设，但有我们仍有能力建造一艘新的旗舰。 \n我们必须注意不要失去我们的下一艘旗舰。一定要对我们的海军战略进行检讨。"
+nsc_events_flagship.7.a:0 "很好，立即开始施工。"
+nsc_events_flagship.7.a.tooltip:0 "了解，我们会立刻开始此项目。"
 
-nsc_events.17.name:0 "新旗舰完成"
-nsc_events.17.desc:0 "我们的新旗舰终于完成，可以开始下水了。希望这艘船不会遇到与上一艘旗舰相同的严峻命运，毕竟这些船并不便宜，也不能迅速更换，失去它们对我们的士气和军事力量造成了巨大打击。旗舰是我们军械库中最强大的武器，应该谨慎对待。 \n\n我们必须尽量不要让我们的人民失望。"
-nsc_events.17.a:0 "我们不会再失败。"
+nsc_events_flagship.9.name:0 "新旗舰完成"
+nsc_events_flagship.9.desc:0 "我们的新旗舰终于完成，可以开始下水了。希望这艘船不会遇到与上一艘旗舰相同的严峻命运，毕竟这些船并不便宜，也不能迅速更换，失去它们对我们的士气和军事力量造成了巨大打击。旗舰是我们军械库中最强大的武器，应该谨慎对待。 \n\n我们必须尽量不要让我们的人民失望。"
+nsc_events_flagship.9.a:0 "我们不会再失败。"
 
 nsc_flagship_admiral_selection_tooltip.1:0 "消耗: £energy£200"
 nsc_flagship_admiral_selection_tooltip.2:0 "消耗: £energy£400"
@@ -117,17 +117,17 @@ nsc_flagship_admiral_selection_tooltip.8:0 "消耗: £energy£1600"
 nsc_flagship_admiral_selection_tooltip.9:0 "消耗: £energy£1800"
 nsc_flagship_admiral_selection_tooltip.10:0 "消耗: £energy£2000"
 
-nsc_events.31.name:0 "自愿裁军"
-nsc_events.31.desc:0 "强大的超级武器（例如旗舰）的存在会产生强大的连锁反应。如此令人难以置信的军舰的维护成本非常可观，它们的存在本身就象征着一个国家的军事部署-并可能加剧国际紧张局势并加速海军军备竞赛。 \n\n无论是出于经济还是政治因素，你与我们都已决定拆除旗舰。尽管该船厂仍在运营。尽管要保留如此庞大的项目非常艰难，但至少这次很容易，因为大型造船厂本身已经存在，我们可以立刻投入大量资源开始建造新的旗舰。虽然拆除然后再重建如此庞大的项目行为非常可疑。无论如何，这样做都将需要一个特殊项目。 \n\n另一方面，如果我们之后才有重新建造旗舰的需求，那就要透过旗舰重建法令来重建一艘新的旗舰。"
-nsc_events.31.a:0 "我们准备立即开始建造新的旗舰。"
+nsc_events_flagship.11.name:0 "自愿裁军"
+nsc_events_flagship.11.desc:0 "强大的超级武器（例如旗舰）的存在会产生强大的连锁反应。如此令人难以置信的军舰的维护成本非常可观，它们的存在本身就象征着一个国家的军事部署-并可能加剧国际紧张局势并加速海军军备竞赛。 \n\n无论是出于经济还是政治因素，你与我们都已决定拆除旗舰。尽管该船厂仍在运营。尽管要保留如此庞大的项目非常艰难，但至少这次很容易，因为大型造船厂本身已经存在，我们可以立刻投入大量资源开始建造新的旗舰。虽然拆除然后再重建如此庞大的项目行为非常可疑。无论如何，这样做都将需要一个特殊项目。 \n\n另一方面，如果我们之后才有重新建造旗舰的需求，那就要透过旗舰重建法令来重建一艘新的旗舰。"
+nsc_events_flagship.11.a:0 "我们准备立即开始建造新的旗舰。"
 
 ##################################################################################################################################################################################################################
 ### FLAGSHIP DUEL EVENT ###
 ###########################
 
-nsc_events.30.name:0 "传奇之战"
-nsc_events.30.desc:0 "自旗舰项目开始以来，甚至在建造巨大的造船厂之前，许多海军理论家就认为，就像以前的发展导致人们关注资本战的冲突一样，海军军备竞赛的新阶段迟早会演变成不同旗舰的对抗。甚至有人认为，对抗旗舰的唯一可行方法是与另一旗舰竞争，这样的冲突是不可避免的。 \n\n这一天终于到了。我们的旗舰号即将与敌方旗舰号交战，这场战斗将震撼整个宇宙。两国都投入了大量资源发展其旗舰以及以其为中心的战斗学说。现在整个银河系都将看到结果：银河系力量的新平衡以及海军作战思想的未来。"
-nsc_events.30.a:0 "走向荣耀！"
+nsc_events_flagship.10.name:0 "传奇之战"
+nsc_events_flagship.10.desc:0 "自旗舰项目开始以来，甚至在建造巨大的造船厂之前，许多海军理论家就认为，就像以前的发展导致人们关注资本战的冲突一样，海军军备竞赛的新阶段迟早会演变成不同旗舰的对抗。甚至有人认为，对抗旗舰的唯一可行方法是与另一旗舰竞争，这样的冲突是不可避免的。 \n\n这一天终于到了。我们的旗舰号即将与敌方旗舰号交战，这场战斗将震撼整个宇宙。两国都投入了大量资源发展其旗舰以及以其为中心的战斗学说。现在整个银河系都将看到结果：银河系力量的新平衡以及海军作战思想的未来。"
+nsc_events_flagship.10.a:0 "走向荣耀！"
 
 ###########################
 ### MOTHBALL EVENT ###
@@ -136,70 +136,48 @@ nsc_events.30.a:0 "走向荣耀！"
 decision_nsc_mothball_menu:0 "选择后备舰队目标"
 decision_nsc_mothball_menu_desc:0 "REPLACE_ME"
 decision_nsc_mothball_menu_trigger.fail:0 "£trigger_no£ §R轨道上应该有一支军事舰队。§!"
-decision_nsc_mothball_menu_trigger_2.fail:0 "£trigger_no£ §R关闭$decision_nsc_mothball_menu$之后再重启该视窗。§!"
 decision_nsc_mothball_menu_tooltip:0 "REPLACE_ME"
 
-nsc_events.32.name:0 "$decision_nsc_mothball_menu$"
-nsc_events.32.desc:0 "REPLACE_ME"
-nsc_events.32.close:0 "关闭"
-nsc_events.32.fleet_mothball_start.tooltip:0 "REPLACE_ME"
-nsc_events.32.fleet_mothball_stop.tooltip:0 "REPLACE_ME"
+nsc_events_mothball.1.name:0 "$decision_nsc_mothball_menu$"
+nsc_events_mothball.1.desc:0 "REPLACE_ME"
+nsc_events_mothball.1.close:0 "关闭"
+nsc_events_mothball.1.fleet_mothball_start.tooltip:0 "REPLACE_ME"
+nsc_events_mothball.1.fleet_mothball_stop.tooltip:0 "REPLACE_ME"
 nsc_mothball_stop_trigger.fail:0 "此舰队已被修复。"
+nsc_events_mothball.1.fleet_1_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_1.GetName]§!"
+nsc_events_mothball.1.fleet_1_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_1.GetName]§!"
+nsc_events_mothball.1.fleet_1_mothball_restoration_in_progress:0 "$nsc_events_mothball.1.fleet_1_mothball_stop$"
+nsc_events_mothball.1.fleet_1_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_1.nsc_fleet_in_mothball_repair_timer_var]§! days left to finish repairing."
 
-nsc_events.32.fleet_1_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_1.GetName]§!"
-nsc_events.32.fleet_1_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_1.GetName]§!"
-nsc_events.32.fleet_1_mothball_restoration_in_progress:0 "$nsc_events.32.fleet_1_mothball_stop$"
-nsc_events.32.fleet_1_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_1.nsc_fleet_in_mothball_repair_timer_var]§!天后完成修理。"
-nsc_events.32.fleet_2_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_2.GetName]§!"
-nsc_events.32.fleet_2_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_2.GetName]§!"
-nsc_events.32.fleet_2_mothball_restoration_in_progress:0 "$nsc_events.32.fleet_2_mothball_stop$"
-nsc_events.32.fleet_2_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§!天后完成修理。"
+nsc_events_mothball.1.fleet_2_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_2.GetName]§!"
+nsc_events_mothball.1.fleet_2_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_2.GetName]§!"
+nsc_events_mothball.1.fleet_2_mothball_restoration_in_progress:0 "$nsc_events_mothball.1.fleet_2_mothball_stop$"
+nsc_events_mothball.1.fleet_2_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! days left to finish repairing."
 
-##################################################################################################################################################################################################################
-### FLAGSHIP FOR FEDERATIONS ###
-################################
+nsc_events_mothball.1.fleet_3_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_3.GetName]§!"
+nsc_events_mothball.1.fleet_3_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_3.GetName]§!"
+nsc_events_mothball.1.fleet_3_mothball_restoration_in_progress:0 "$nsc_events_mothball.1.fleet_3_mothball_stop$"
+nsc_events_mothball.1.fleet_3_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_3.nsc_fleet_in_mothball_repair_timer_var]§! days left to finish repairing."
 
-nsc_federation_flagship_project_must_be_finished.tooltip.fail:0 "§R$TRIGGER_FAIL$ 需要完成一个联邦项目，以建立联邦舰队的旗舰。§!"
-nsc_non_federation_flagship_must_be_acquired_by_completing_megastructure.tooltip.fail:0 "§R$TRIGGER_FAIL$ 您必须完成旗舰船厂巨型结构的建造才能获得自己的旗舰。§!"
+nsc_events_mothball.1.fleet_4_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_4.GetName]§!"
+nsc_events_mothball.1.fleet_4_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_4.GetName]§!"
+nsc_events_mothball.1.fleet_4_mothball_restoration_in_progress:0 "$nsc_events_mothball.1.fleet_4_mothball_stop$"
+nsc_events_mothball.1.fleet_4_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_4.nsc_fleet_in_mothball_repair_timer_var]§! days left to finish repairing."
 
-nsc_federation_flagship_project:0 "联邦舰队旗舰预算"
-nsc_federation_flagship_project_desc:0 "我们的国家提供合金和影响力给我们的联邦舰队建造旗舰。"
-nsc_federation_flagship_project_done:0 "联邦舰队旗舰项目完成"
-nsc_federation_flagship_project_done_desc:0 "REPLACE_ME"
+nsc_events_mothball.1.fleet_5_mothball_start:0 "开始封存: §Y[nsc_mothball_target_fleet_5.GetName]§!"
+nsc_events_mothball.1.fleet_5_mothball_stop:0 "停止封存: §Y[nsc_mothball_target_fleet_5.GetName]§!"
+nsc_events_mothball.1.fleet_5_mothball_restoration_in_progress:0 "$nsc_events_mothball.1.fleet_5_mothball_stop$"
+nsc_events_mothball.1.fleet_5_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_5.nsc_fleet_in_mothball_repair_timer_var]§! days left to finish repairing."
 
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1:0 "联邦舰队旗舰舰艏"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1_DESC:0 "REPLACE_ME"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2:0 "联邦舰队旗舰舰艏中段 A"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2_DESC:0 "REPLACE_ME"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3:0 "联邦舰队旗舰舰艏中段 B"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3_DESC:0 "REPLACE_ME"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4:0 "联邦舰队旗舰舰艏中段 C"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4_DESC:0 "REPLACE_ME"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5:0 "联邦舰队旗舰舰艏中段 D"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5_DESC:0 "REPLACE_ME"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6:0 "联邦舰队旗舰舰艏舰尾"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6_DESC:0 "REPLACE_ME"
+nsc_events_mothball.5.name:0 "REPLACE_ME"
+nsc_events_mothball.5.desc:0 "REPLACE_ME"
+nsc_events_mothball.5.a:0 "REPLACE_ME"
 
-law_category_nsc_flagship_for_federation_fleet:0 "联邦舰队旗舰"
-law_category_nsc_flagship_for_federation_fleet_desc:0 "通过该联邦法律将启动一个联邦项目，为联邦舰队建造旗舰。"
-nsc_flagship_for_federation_fleet_yes:0 "法律通过"
-nsc_flagship_for_federation_fleet_yes_desc:0 "REPLACE_ME"
-nsc_flagship_for_federation_fleet_yes_tooltip.fail:0 "§R需要较低或较高的舰队贡献。§!"
-nsc_flagship_for_federation_fleet_no:0 "法律未通过"
-nsc_flagship_for_federation_fleet_no_desc:0 "REPLACE_ME"
-nsc_flagship_for_federation_fleet_no_tooltip.fail:0 "§R您已经通过了法律。§!"
-federation_law_category_nsc_flagship_for_federation_fleet_cooldown:0 "-"
+nsc_events_mothball.6.name:0 "REPLACE_ME"
+nsc_events_mothball.6.desc:0 "REPLACE_ME"
+nsc_events_mothball.6.a:0 "REPLACE_ME"
 
-nsc_events.23.name:0 "联邦舰队旗舰"
-nsc_events.23.desc:0 "REPLACE_ME I need desc that telling the player that the vote for building a flagship for the federation fleet is now possible"
-nsc_events.23.a:0 "很好。"
-nsc_events.24.name:0 "距离旗舰更近一步"
-nsc_events.24.desc:0 "REPLACE_ME I need desc that telling the player that a federation project for the federation fleet's flagship is now possible"
-nsc_events.24.a:0 "Commence Construction."
-nsc_events.24.a.tooltip:0 "为联邦舰队旗舰奠定基础的联邦项目将开始。\n§Y$nsc_federation_flagship_project$§! 添加了修饰符，具有以下效果:\n$mod_country_alloys_produces_mult$: §R-5%§!\n$mod_country_base_influence_produces_add$: §R-0.50§!"
-nsc_events.26.name:0 "联邦舰队旗舰已完成"
-nsc_events.26.desc:0 "REPLACE_ME I need desc telling that the project is finished so the player should make a new design for the federation flagship in the federation ship designer ui and build one at a shipyard (any shipyard is fine). I also need desc that the federation fleet's flagship cost is free since the players already paid the cost via 'nsc_federation_flagship_project' empire modifier. (build time too, since the players spent the time by researching 'NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT' special projects) (only one time, they will have to pay all and wait 1500 days when they build the flagship again)"
-nsc_events.26.a:0 "壮观。"
-nsc_events.28.name:0 "§R警告§!"
-nsc_events.28.desc:0 "您现在不能从普通造船厂建造旗舰。 （如果不是联邦旗舰。）您必须完成旗舰造船厂巨型结构的建造才能获得自己的旗舰。"
-nsc_events.28.a:0 "好。"
+nsc_events_mothball.8.name:0 "REPLACE_ME"
+nsc_events_mothball.8.desc:0 "REPLACE_ME"
+nsc_events_mothball.8.a:0 "REPLACE_ME"
+

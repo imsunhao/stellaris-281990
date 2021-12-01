@@ -1,56 +1,56 @@
 ﻿l_simp_chinese:
 
 
-##################
+##################################################################################################################################################################################################################
 ### HULL SIZES ###
 ##################
 
-STRIKECRUISER: "打击巡洋舰"
-BATTLECRUISER: "战列巡洋舰"
-CARRIER: "航空母舰"
-DREADNOUGHT: "无畏舰"
-FLAGSHIP: "旗舰"
-SUPPORTSHIP: "舰队支援舰"
-EXPLORATIONSHIP: "勘探舰"
+STRIKECRUISER:0 "打击巡洋舰"
+BATTLECRUISER:0 "战列巡洋舰"
+CARRIER:0 "航空母舰"
+DREADNOUGHT:0 "无畏舰"
+FLAGSHIP:0 "旗舰"
+SUPPORTSHIP:0 "舰队支援舰"
+EXPLORATIONSHIP:0 "勘探舰"
 
-StrikeCruiser: "打击巡洋舰"
-StrikeCruiser_plural: "打击巡洋舰"
-Battlecruiser: "战列巡洋舰"
-Battlecruiser_plural: "战列巡洋舰" 
-Carrier: "航空母舰"
-Carrier_plural: "航空母舰"
-Dreadnought: "无畏舰"
-Dreadnought_plural: "无畏舰"
-Flagship: "旗舰"
-Flagship_plural: "旗舰"
-supportship: "舰队支援舰"
-supportship_plural: "舰队支援舰"
-explorationship: "勘探舰"
-explorationship_plural: "勘探舰"
-escortcarrier: "护卫航母"
-escortcarrier_plural: "护卫航母"
+StrikeCruiser:0 "打击巡洋舰"
+StrikeCruiser_plural:0 "打击巡洋舰"
+Battlecruiser:0 "战列巡洋舰"
+Battlecruiser_plural:0 "战列巡洋舰"
+Carrier:0 "航空母舰"
+Carrier_plural:0 "航空母舰"
+Dreadnought:0 "无畏舰"
+Dreadnought_plural:0 "无畏舰"
+Flagship:0 "旗舰"
+Flagship_plural:0 "旗舰"
+supportship:0 "舰队支援舰"
+supportship_plural:0 "舰队支援舰"
+explorationship:0 "勘探舰"
+explorationship_plural:0 "勘探舰"
+escortcarrier:0 "护卫航母"
+escortcarrier_plural:0 "护卫航母"
 
-starbase_stronghold: "大型要塞"
-starbase_stronghold_plural: "大型要塞"
+starbase_stronghold:0 "大型要塞"
+starbase_stronghold_plural:0 "大型要塞"
 
-starbase_stronghold: "恒星据点"
-starbase_stronghold_plural: "恒星据点"
+starbase_stronghold:0 "恒星据点"
+starbase_stronghold_plural:0 "恒星据点"
 
-headquarters: "司令部"
-headquarters_plural: "恒星基地司令部"
-headquarters_desc:0 "提供§G司令部§!帝国增益。"
+headquarters:0 "司令部"
+headquarters_plural:0 "恒星基地司令部"
+headquarters_desc:00 "提供§G司令部§!帝国增益。"
 
-xl_cannon: "歼灭者加农炮"
-xl_cannon_plural: "歼灭者加农炮"
-
-
+xl_cannon:0 "歼灭者加农炮"
+xl_cannon_plural:0 "歼灭者加农炮"
 
 
-#####################
+
+
+##################################################################################################################################################################################################################
 ### SECTION NAMES ###
 #####################
 
-CORVETTE_MID_T1PD1: "飞弹艇"
+CORVETTE_MID_T1PD1: "导弹艇 2"
 CORVETTE_MID_S3: "拦截者"
 CORVETTE_MID_S2PD1: "巡逻舰"
 #-------------------------------------------------------------------#
